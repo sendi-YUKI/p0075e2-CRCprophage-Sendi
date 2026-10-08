@@ -1,0 +1,58 @@
+{
+  "status": "completed",
+  "fact_summary": {
+    "rows_measurement": 4730,
+    "votus": 473,
+    "fisher_tests": 342,
+    "abundance_tests": 473,
+    "fisher_nominal": 1,
+    "abundance_nominal": 19,
+    "global_BH_min": 1.0,
+    "endpoint_BH_abundance_min": 0.9384920634920635,
+    "p_floor_5v5": 0.007936507936507936,
+    "BH_counterexample_n_tests": 815,
+    "BH_counterexample_n_floor_p": 130,
+    "BH_counterexample_min_q": 0.04975579975579975,
+    "measurement_status_counts": {
+      "not_detected": 3213,
+      "detected": 457,
+      "not_detected_at_resolved_signal": 551,
+      "not_resolvable": 509
+    },
+    "reference_taxa": {
+      "Bacteroides fragilis (division I)": 123,
+      "Bacteroides hominis / historical B. fragilis division II": 19,
+      "Fusobacterium animalis": 93,
+      "Parvimonas micra": 23
+    },
+    "eligible_isolate_comparison": 0,
+    "unknown_clinical": 196,
+    "predicted_provirus_total": 923,
+    "meta_provirus": 382,
+    "two_flanks_total": 834,
+    "two_flanks_meta": 321,
+    "two_1kb_flanks_meta": 101,
+    "two_hostmarkers_meta": 51,
+    "n_detected_donor_distribution": {
+      "1": 236,
+      "8": 1,
+      "0": 161,
+      "2": 44,
+      "3": 16,
+      "7": 2,
+      "4": 5,
+      "5": 5,
+      "6": 3
+    }
+  },
+  "ambiguity_classes": {
+    "multiple_targets": 254062,
+    "host_only": 1851498,
+    "target_host": 44038,
+    "same_target_locations_or_saturation": 932
+  },
+  "threshold_policy": "retain_0.75_primary;0.30_sensitivity_only_until_specificity_supported",
+  "known_negative_control_assessed": false,
+  "new_read_allocation": false,
+  "analysis_scope": "measurement_diagnostics_not_new_association_discovery"
+}

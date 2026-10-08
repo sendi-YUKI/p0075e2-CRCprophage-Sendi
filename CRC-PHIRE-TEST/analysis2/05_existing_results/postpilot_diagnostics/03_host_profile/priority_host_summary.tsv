@@ -1,0 +1,17 @@
+taxon	group	n_donors	n_profile_signal	minimum_percent	maximum_percent	database_resolution
+Bacteroides_fragilis	CRC	5	3	0	0.680257	species_label_available
+Bacteroides_fragilis	control	5	3	0	0.028185	species_label_available
+Bacteroides_hominis	CRC	5	NA	NA	NA	exact_label_unresolved_not_biological_zero
+Bacteroides_hominis	control	5	NA	NA	NA	exact_label_unresolved_not_biological_zero
+Fusobacterium_animalis	CRC	5	1	0	0.023475	species_label_available
+Fusobacterium_animalis	control	5	0	0	0	species_label_available
+Fusobacterium_nucleatum	CRC	5	1	0	0.022531	species_label_available
+Fusobacterium_nucleatum	control	5	0	0	0	species_label_available
+Parvimonas_micra	CRC	5	4	0	0.052913	species_label_available
+Parvimonas_micra	control	5	0	0	0	species_label_available
+Peptostreptococcus_anaerobius	CRC	5	0	0	0	species_label_available
+Peptostreptococcus_anaerobius	control	5	0	0	0	species_label_available
+Faecalibacterium_prausnitzii	CRC	5	5	0.332314	6.69497	species_label_available
+Faecalibacterium_prausnitzii	control	5	5	0.514352	3.6149	species_label_available
+Roseburia_intestinalis	CRC	5	4	0	0.69376	species_label_available
+Roseburia_intestinalis	control	5	5	0.000506	0.450153	species_label_available

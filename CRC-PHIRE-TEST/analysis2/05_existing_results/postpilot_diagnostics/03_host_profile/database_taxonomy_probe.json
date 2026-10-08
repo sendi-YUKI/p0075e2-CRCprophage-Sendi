@@ -1,0 +1,62 @@
+{
+  "database": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.pkl",
+  "database_sha256": "e7d23a73a7959b4f41af0bbe403f4b5bbb7c1879528d376d146ee5294515df9a",
+  "taxonomy_records": 58331,
+  "marker_records": 11367073,
+  "marker_example": [
+    "UniClust90_IIEHMEEL00672|1__29|SGB146063",
+    {
+      "clade": "t__SGB146063",
+      "ext": [],
+      "len": 4350,
+      "taxon": "k__Bacteria|p__Mycoplasmatota|c__CFGB13750|o__OFGB13750|f__FGB13750|g__GGB101308|s__GGB101308_SGB146063|t__SGB146063"
+    }
+  ],
+  "keys": [
+    "taxonomy",
+    "markers",
+    "merged_taxon"
+  ],
+  "requested_matches": [
+    {
+      "requested_taxon": "Bacteroides_fragilis",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 3
+    },
+    {
+      "requested_taxon": "Bacteroides_hominis",
+      "exact_species_in_database": false,
+      "SGB_taxonomy_records": 0
+    },
+    {
+      "requested_taxon": "Fusobacterium_animalis",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 1
+    },
+    {
+      "requested_taxon": "Fusobacterium_nucleatum",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 2
+    },
+    {
+      "requested_taxon": "Parvimonas_micra",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 2
+    },
+    {
+      "requested_taxon": "Peptostreptococcus_anaerobius",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 1
+    },
+    {
+      "requested_taxon": "Faecalibacterium_prausnitzii",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 7
+    },
+    {
+      "requested_taxon": "Roseburia_intestinalis",
+      "exact_species_in_database": true,
+      "SGB_taxonomy_records": 1
+    }
+  ]
+}

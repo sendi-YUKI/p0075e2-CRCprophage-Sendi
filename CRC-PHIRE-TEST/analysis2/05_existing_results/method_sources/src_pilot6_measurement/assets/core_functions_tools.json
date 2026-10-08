@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "container": "sha256:5bcc494406a8137d2103870fa7d3e71e46ec357c3b9af6b2e6ff770090b603f4",
+  "local_tag": "crc-phage/core-functions:df3.0.0-pyhmmer0.12.0-locked",
+  "distribution": "locally_built_no_remote_publication",
+  "tools": {
+    "DefenseFinder": "3.0.0",
+    "AntiDefenseFinder": "DefenseFinder3.0.0 --antidefensefinder",
+    "MacSyFinder": "2.1.4",
+    "HMMER": "3.4",
+    "PyHMMER": "0.12.0",
+    "pandas": "2.3.3",
+    "numpy": "2.3.4"
+  },
+  "databases": {
+    "root": "~/databases/core/functions",
+    "DefenseFinder_AntiDefenseFinder": "3.1.0",
+    "CasFinder": "3.1.0",
+    "PHROGs": "v4_profiles_38880_Pharokka1.8.0_mirror",
+    "manifest": "database_manifest.json",
+    "phrogs_hmms": "phrogs_pharokka_1.8.0/pharokka_v1.8.0_databases/all_phrogs.h3m",
+    "consumed_files_manifest": "consumed_files_manifest.json",
+    "consumed_files_manifest_sha256": "e9cdfcec819f0c21ea0a5abaa2005fa8a5a457b4af6ae8979e362469966a82b6"
+  },
+  "sources": [
+    "https://github.com/mdmparis/defense-finder/tree/v3.0.0",
+    "https://github.com/mdmparis/defense-finder-models/releases/tag/3.1.0",
+    "https://github.com/macsy-models/CasFinder/tree/ad7096548a814788ca04538602d71f85115b4c71",
+    "https://phrogs.lmge.uca.fr/",
+    "https://zenodo.org/records/17110247"
+  ],
+  "rules": {
+    "phrog_evalue": 1e-05,
+    "phrog_domain_i_evalue": 1e-05,
+    "phrog_model_coverage": 0.4,
+    "system_detection": "per_contig_ordered_replicon_full_genome_all_contigs",
+    "replicon_topology": "linear_no_circular_origin_bridge_in_v0.2",
+    "system_localization": "model_mandatory_exchangeables_quorum_plus_separate_all_detected_relation",
+    "scientific_freeze": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "positive_targets": [
+    "target_006b9e3394d67d979f91",
+    "target_04f15b677bbeadbf8eb2",
+    "target_067a4b9cc1350ce06cf1",
+    "target_17974c9b850ee74152d9",
+    "target_18abe46a43971c369859",
+    "target_1c664525285ebfeeda2e",
+    "target_22300a27ffab294b13dc",
+    "target_5631bd81c1ae0b7e3041",
+    "target_9c44e9b7e86c7c177a3a",
+    "target_a6402221032935bdc8ac",
+    "target_adabb5403bee053d1511"
+  ],
+  "negative_sources_for_selected_targets": [
+    "target_25c80be4c5d2b4ab617d",
+    "target_88364266ade794c965f9",
+    "target_b4e46c791b0511459a4b",
+    "target_7a252c273ae5ad4d61cf",
+    "target_85325c70793e619ea229",
+    "target_bc49652cb1a5e7b733a6",
+    "host_00bff6c7025dc2431fce",
+    "host_c2a824ed6217882c2c7d",
+    "host_f86d6afa0a51daad8709",
+    "host_b68e3f7689298bad8cc2",
+    "host_b4ad74e5604c20d4674c",
+    "host_4d87aba1698ba7adf809"
+  ],
+  "negative_scope": "selected_targets_absent;other_catalog_viruses_and_masked_host_background_present",
+  "synthetic": true,
+  "read_length": 100,
+  "PE_fragment_length": 300,
+  "substitution_rate": 0.005,
+  "seed": 20261008
+}

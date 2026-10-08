@@ -1,0 +1,230 @@
+{
+  "curation_commit": "70d713802f8959e03eb7944b69e8fd5a4ea3da8c",
+  "files": [
+    {
+      "file": "FengQ_2015_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/FengQ_2015/FengQ_2015_sample.tsv",
+      "bytes": 88887,
+      "sha256": "41004ea5e9865ac70a23dde92a7815e207a5281fdc68d959d7302c2628f0b6fb",
+      "rows": 154,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:06.776300+00:00"
+    },
+    {
+      "file": "FengQ_2015_sra_meta.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/FengQ_2015/FengQ_2015_sra_meta.tsv",
+      "bytes": 157090,
+      "sha256": "6c0e16322564d90f8d909cae794133c36e92538799d141f637dbe8a756d083bf",
+      "rows": 312,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:06.806980+00:00"
+    },
+    {
+      "file": "FengQ_2015_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/FengQ_2015/FengQ_2015_study.tsv",
+      "bytes": 79,
+      "sha256": "a90102c816824a613252cb243371a948532a69709c54fb7fc0834769c1215f67",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:06.741663+00:00"
+    },
+    {
+      "file": "ThomasAM_2019_a_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ThomasAM_2019_a/ThomasAM_2019_a_sample.tsv",
+      "bytes": 35071,
+      "sha256": "30c026873ac8ce032c6defef16e96b540b4cf3f3509ade3b792c6f354801d5f1",
+      "rows": 80,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:06.787675+00:00"
+    },
+    {
+      "file": "ThomasAM_2019_a_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ThomasAM_2019_a/ThomasAM_2019_a_study.tsv",
+      "bytes": 89,
+      "sha256": "115e403bb7f4f66b1fd996b1da61c91b86803ff162a4941502f44fdbcd702b72",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:06.981954+00:00"
+    },
+    {
+      "file": "ThomasAM_2019_b_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ThomasAM_2019_b/ThomasAM_2019_b_sample.tsv",
+      "bytes": 17964,
+      "sha256": "340e161a1171325231cc99a6e7eb221481aa61ae33c4670eea9e26283d45fddc",
+      "rows": 60,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.008546+00:00"
+    },
+    {
+      "file": "ThomasAM_2019_b_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ThomasAM_2019_b/ThomasAM_2019_b_study.tsv",
+      "bytes": 66,
+      "sha256": "f21d262b2239c3a175979d5d1423e55a0c4840c6cfe3c3abbb3ba80a5002b5c0",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.009652+00:00"
+    },
+    {
+      "file": "VogtmannE_2016_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/VogtmannE_2016/VogtmannE_2016_sample.tsv",
+      "bytes": 44433,
+      "sha256": "cd55d38acf5b6c3377986ff13180af87e255a80bfb8758e69256d17f72913ca1",
+      "rows": 110,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.230314+00:00"
+    },
+    {
+      "file": "VogtmannE_2016_sra_meta.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/VogtmannE_2016/VogtmannE_2016_sra_meta.tsv",
+      "bytes": 487991,
+      "sha256": "15e0b92ccc8378165117a918416fd224c2a0ff0ece7bbaa30959a83777c7905d",
+      "rows": 882,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.292411+00:00"
+    },
+    {
+      "file": "VogtmannE_2016_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/VogtmannE_2016/VogtmannE_2016_study.tsv",
+      "bytes": 65,
+      "sha256": "958e3f93787f49f50e005107f46e7ca4e0f9b8d52489c27f0482f6848554507b",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.281536+00:00"
+    },
+    {
+      "file": "WirbelJ_2018_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/WirbelJ_2018/WirbelJ_2018_sample.tsv",
+      "bytes": 41936,
+      "sha256": "a98f9cb6ce5f70c44576c5ff9c1c8ad25f47ab6a00e16195b1cec64ae875e56b",
+      "rows": 125,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.263939+00:00"
+    },
+    {
+      "file": "WirbelJ_2018_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/WirbelJ_2018/WirbelJ_2018_study.tsv",
+      "bytes": 63,
+      "sha256": "b9755f3024e4a6c2fbbd544a9b98a470650c38b2272a680211229652051d5576",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.458153+00:00"
+    },
+    {
+      "file": "YachidaS_2019_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YachidaS_2019/YachidaS_2019_sample.tsv",
+      "bytes": 196746,
+      "sha256": "fc93862cbb743ade51bc12b9961d864ee3b5c748e92920396bf4f13273f88c8f",
+      "rows": 616,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.547201+00:00"
+    },
+    {
+      "file": "YachidaS_2019_sra_meta.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YachidaS_2019/YachidaS_2019_sra_meta.tsv",
+      "bytes": 3610,
+      "sha256": "fe45c7b1872b95afb0d873156a2779186e6488d3a7721b9fd048523761b541e8",
+      "rows": 6,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.502385+00:00"
+    },
+    {
+      "file": "YachidaS_2019_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YachidaS_2019/YachidaS_2019_study.tsv",
+      "bytes": 82,
+      "sha256": "5253ad3e1aca1dea478ee1b05c1ee5248b05f22e7680146488300c93eaf7eb57",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.485977+00:00"
+    },
+    {
+      "file": "ZellerG_2014_sample.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ZellerG_2014/ZellerG_2014_sample.tsv",
+      "bytes": 65858,
+      "sha256": "37f62443f8f94dd5948855e3899bd30bb5eb273e881c74c0dbc62f1c148b3294",
+      "rows": 156,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.722103+00:00"
+    },
+    {
+      "file": "ZellerG_2014_study.tsv",
+      "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/ZellerG_2014/ZellerG_2014_study.tsv",
+      "bytes": 81,
+      "sha256": "d12965adaa1b952a99d56222f86e6cf31d736ec17132d71b8fe54323637d9a88",
+      "rows": 1,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:07.701248+00:00"
+    },
+    {
+      "file": "PRJEB6070_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB6070&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 561397,
+      "sha256": "bad31d7ed53992788e8dea6d70c339845c7ee309b313f57c4f65d210985b262a",
+      "rows": 1515,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:17.059494+00:00"
+    },
+    {
+      "file": "PRJEB7774_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB7774&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 106810,
+      "sha256": "6a96d1ee433235c35f40cb6f4e4481c980c1a73af7342c89e3771cd9cfacccac",
+      "rows": 312,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:14.039294+00:00"
+    },
+    {
+      "file": "PRJEB10878_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB10878&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 53917,
+      "sha256": "d415b41f0f348889c87c12b9883f2e698945552b1e2586cf9687cb2c8a2ad5b7",
+      "rows": 128,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:14.342928+00:00"
+    },
+    {
+      "file": "PRJEB12449_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB12449&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 306554,
+      "sha256": "6f2d4be07f273038b7b109a002c73c51a06d9727e81744c2a64c74e7238e7f2f",
+      "rows": 882,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:14.197048+00:00"
+    },
+    {
+      "file": "PRJNA447983_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA447983&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 61842,
+      "sha256": "814c147997aea33588d643911e58d3ddb353c26863649741471adbcb845d3f63",
+      "rows": 140,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:14.932472+00:00"
+    },
+    {
+      "file": "PRJEB27928_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB27928&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 113866,
+      "sha256": "3ce102d88a12fee56a8e3d99371cd19b51575ccf2f9bc89690cff4bf31f701b3",
+      "rows": 260,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:14.910447+00:00"
+    },
+    {
+      "file": "PRJDB4176_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJDB4176&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 314798,
+      "sha256": "b4e8afe9f6b7fd3f5dff71b6ca51d6645954899557d6ac10513d27fc249a3e97",
+      "rows": 645,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:17.532791+00:00"
+    },
+    {
+      "file": "PRJNA763023_ena.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA763023&result=read_run&fields=run_accession,study_accession,sample_accession,secondary_sample_accession,sample_alias,experiment_accession,library_name,library_layout,library_strategy,library_source,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_md5,fastq_bytes,sra_ftp,sample_title&format=tsv&download=true",
+      "bytes": 469808,
+      "sha256": "712d2083ecb9d535d5666c5e9eb3122cf7e3fec24a15749a30e514f59922590c",
+      "rows": 1238,
+      "status": "fetched",
+      "retrieved_utc": "2026-10-05T18:04:16.136452+00:00"
+    }
+  ]
+}

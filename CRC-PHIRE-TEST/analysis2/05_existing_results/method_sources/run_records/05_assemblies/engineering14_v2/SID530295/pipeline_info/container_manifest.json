@@ -1,0 +1,12 @@
+[
+  {
+    "container_executed": false,
+    "environment": "reads-assembly",
+    "legacy_container_reference": "sha256:fdb03ccc10358addd9704974425c12ebda6ac2f9cb67e7dcba0775b351d49912",
+    "lock_sha256": "d2370adcbd21b75c50f21f58fb1b4fc70e0a048747ce6c4243d4a258124a04ab",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-assembly/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  }
+]

@@ -1,0 +1,11 @@
+biological_sample_id	group	readset_units	clean_reads	clean_fragments	status
+SID31160	control	4	48231860	24799220	completed_donor_union
+SID31512	control	4	47740494	24612910	completed_donor_union
+SID31866	CRC	4	62158031	32300739	completed_donor_union
+SID530295	control	4	57273399	29619283	completed_donor_union
+SID530368	control	4	41131235	21266039	completed_donor_union
+SID530373	CRC	4	50489099	26183990	completed_donor_union
+SID531248	CRC	4	59830020	30760978	completed_donor_union
+SID531361	CRC	4	49050958	25221451	completed_donor_union
+SID531469	CRC	4	49534577	25444048	completed_donor_union
+SID532796	control	4	50144651	25623618	completed_donor_union

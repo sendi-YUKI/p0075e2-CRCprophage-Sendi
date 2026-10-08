@@ -1,0 +1,133 @@
+{
+  "status": "audit_only_not_final_eligibility",
+  "cohorts": {
+    "FengQ_2015": {
+      "author_samples": 154,
+      "curated_samples": 154,
+      "exact_sample_id_matches": 154,
+      "author_only": [],
+      "curation_only": [],
+      "group_disagreements": []
+    },
+    "YuJ_2015": {
+      "author_samples": 128,
+      "curated_samples": 128,
+      "exact_sample_id_matches": 128,
+      "author_only": [],
+      "curation_only": [],
+      "group_disagreements": [
+        {
+          "sample_id": "SZAXPI003427-1",
+          "author_group": "CRC",
+          "curation_group_derived": "control",
+          "curation_control": "Study Control",
+          "curation_disease": "Healthy"
+        }
+      ]
+    },
+    "ZellerG_2014": {
+      "author_samples": 156,
+      "curated_samples": 156,
+      "exact_sample_id_matches": 156,
+      "author_only": [],
+      "curation_only": [],
+      "group_disagreements": []
+    },
+    "VogtmannE_2016": {
+      "author_samples": 104,
+      "curated_samples": 110,
+      "exact_sample_id_matches": 104,
+      "author_only": [],
+      "curation_only": [
+        "MMRS11664448ST-27-0-0",
+        "MMRS42570301ST-27-0-0",
+        "MMRS48639115ST-27-0-0",
+        "MMRS67690541ST-27-0-0",
+        "MMRS71238091ST-27-0-0",
+        "MMRS92727331ST-27-0-0"
+      ],
+      "group_disagreements": []
+    },
+    "WirbelJ_2018": {
+      "author_samples": 125,
+      "curated_samples": 125,
+      "exact_sample_id_matches": 125,
+      "author_only": [],
+      "curation_only": [],
+      "group_disagreements": []
+    },
+    "ThomasAM_2019_a": {
+      "author_samples": 93,
+      "curated_samples": 80,
+      "exact_sample_id_matches": 80,
+      "author_only": [
+        {
+          "sample_id": "LILT_GF10_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_GF13_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF09_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF101_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF115_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF15_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF17_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF20_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF26_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF36_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF61_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF67_16",
+          "group": "IBD"
+        },
+        {
+          "sample_id": "LILT_VF72_16",
+          "group": "IBD"
+        }
+      ],
+      "curation_only": [],
+      "group_disagreements": []
+    },
+    "ThomasAM_2019_b": {
+      "author_samples": 60,
+      "curated_samples": 60,
+      "exact_sample_id_matches": 60,
+      "author_only": [],
+      "curation_only": [],
+      "group_disagreements": []
+    }
+  },
+  "limitations": [
+    "Exact sample IDs only; unmatched IDs must be reconciled via BioSample/run identity, not fuzzy matching.",
+    "No source fields or current engineering inputs modified."
+  ]
+}

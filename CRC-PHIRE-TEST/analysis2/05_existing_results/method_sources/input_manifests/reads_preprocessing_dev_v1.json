@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "profile_id": "reads_preprocessing_dev_v1",
+  "status": "provisional",
+  "min_length": 50,
+  "quality_phred": 20,
+  "unqualified_percent_limit": 40,
+  "duplicates": "retained",
+  "singletons": "separate_not_in_main_fragment_denominator",
+  "human": {
+    "profile_id": "human_removal_v1",
+    "aligner": "bowtie2",
+    "mode": "very-sensitive-local",
+    "reported_alignments": 10,
+    "min_mapq": 0,
+    "min_identity": 0.95,
+    "min_aligned_query_fraction": 0.9,
+    "pair_policy": "remove_pair_if_either_mate_credible",
+    "allow_ambiguous_human_matches": true,
+    "mapq_zero_means": "no_MAPQ_filter; unknown_255_requires_identity_and_aligned_fraction"
+  },
+  "vlp": {
+    "tool": "ViromeQC",
+    "interpretation": "enrichment_diagnostic_not_caller_accuracy",
+    "enrichment_preset": "human",
+    "minlen": 75,
+    "minqual": 20,
+    "diagnostic_filter_only": true
+  },
+  "quality_encoding": "phred33",
+  "quality_encoding_basis": "explicit_contract_not_inferred_from_characters"
+}

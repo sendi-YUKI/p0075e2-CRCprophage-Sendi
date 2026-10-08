@@ -1,0 +1,26 @@
+{
+  "status": "computationally_complete_pending_visual_review",
+  "synthetic_preview": false,
+  "utc": "2026-10-08T08:03:29.198507+00:00",
+  "job_id": "1106",
+  "donors": 10,
+  "figures": 7,
+  "source_occurrences": 11495,
+  "predicted_provirus_occurrences": 923,
+  "votu_rows": 473,
+  "valid_tests": 815,
+  "input_sha256": {
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/pilot10_final_acceptance.json": "682a319f7a51714257bc6bb73fe0f0bbec9c2bbbd279d285c410fdfbec65bbc2",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/prophage_evidence/evidence_manifest.json": "1b82e9bff71c8aa24debd792fc356f6a9c487e88550cdae9d771fa1ad01d5024",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/exploratory/exploratory_manifest.json": "229d5cdec6fcd2051aa6f6cee052883c976e3a2629391304f66beed167081c97",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/candidate_review_manifest.json": "d5e8bd56b3f61fdceaba3d5c61975a1b571fed32c1ce43a51a087def3df939b7",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/figures/figure_manifest.json": "7ba1fba8edecbb425d37c2e8293b7da3cd7f72703898adaaeeaa1c8aa1e14c5a",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/extended_figures/figure_manifest.json": "6d861d2e732845928e8601f77e3e5cc657fefa9f9e04fb34c14ca36164923ced"
+  },
+  "script_sha256": "e17299c9d05e7205dd4582edf8e585ea12d1e2d62da9584668dc90936733ac13",
+  "limitations": "这是单队列、小样本、探索性先导。预测位点、完整性、患者reads检出与可诱导性是不同证据；现有计算不能证明真实完整可诱导的噬菌体。功能注释连接不是患者中的功能表达或功能差异检验。原五图描述模块与新增差异模块共同构成本次报告。",
+  "output_sha256": {
+    "完整先导结果报告.md": "11129c48fef71c9feb0e73e3b1d7ad6211ad65862b2243125585776e04753f3c",
+    "完整先导结果报告.html": "33cf1c7af33bc7c47473a06ac688c9837f587624def3219558d268c7da86b281"
+  }
+}

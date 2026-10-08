@@ -1,0 +1,8 @@
+{
+  "assembly_memory_gib": 40,
+  "assembly_threads": 16,
+  "cohort_enable_metaphlan": false,
+  "cohort_prepared": "/srv/CRC-PHIRE/analysis1/09_measurement/pilot10/prepared",
+  "database_manifest": "/srv/CRC-PHIRE/databases/reads_database_manifest.spark.json",
+  "outdir": "/srv/CRC-PHIRE/analysis1/09_measurement/pilot10"
+}

@@ -1,0 +1,60 @@
+{
+  "command": [
+    "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-metaphlan/.pixi/envs/default/bin/metaphlan",
+    "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710419/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_2.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_0/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_1/clean_1.fastq.gz",
+    "--input_type",
+    "fastq",
+    "--db_dir",
+    "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--index",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--offline",
+    "--nproc",
+    "14",
+    "--bt2_ps",
+    "very-sensitive",
+    "--min_mapq_val",
+    "5",
+    "--mapout",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/host_tail/SID532796/markers.mapout.bz2",
+    "-t",
+    "rel_ab",
+    "-o",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/host_tail/SID532796/profile.tsv"
+  ],
+  "input_checks": [
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710419/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710419/dehuman/clean_1.fastq.gz",
+      "sha256": "6371eab6a7d897d7968c290167b86a7f1844ce41f4ab74b853768311054fe068",
+      "bytes": 53706440
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_1.fastq.gz",
+      "sha256": "affbdce044067840725de26a1f3b6ae5259e608cfa2134d027fa9937b3a5f608",
+      "bytes": 2307327697
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_2.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman/clean_2.fastq.gz",
+      "sha256": "13232e3eb55d12603495111de922c2d67da274b409870a0d2406257bf318fe90",
+      "bytes": 2393458190
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_0/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_0/clean_1.fastq.gz",
+      "sha256": "25460ab22d8d3638c5f9db2a290320bec47657607f078123943119a287d31c0f",
+      "bytes": 48781246
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_1/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID532796/clean/units/ERR710428/dehuman_singleton_1/clean_1.fastq.gz",
+      "sha256": "9952022e4d2c0b6c724990531b8411214d6b6c2282016ae5afad616d4514b71b",
+      "bytes": 12935743
+    }
+  ],
+  "started_epoch": 1791465087.0936792,
+  "job_id": "1139",
+  "worker": "isolated_tail"
+}

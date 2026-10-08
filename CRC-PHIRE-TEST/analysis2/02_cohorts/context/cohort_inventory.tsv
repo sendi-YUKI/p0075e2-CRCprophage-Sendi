@@ -1,0 +1,10 @@
+cohort_id	project_accessions	partition	ena_project_runs	ena_project_WGS_ILLUMINA_runs	ena_project_WGS_bytes	curated_source_rows	final_eligible_subjects	status	notes
+ZELLER_FR_2014	PRJEB6070	discovery	1515	1290	901150055518	156	pending	source_metadata_fetched_not_final_cohort_manifest	Restrict French F samples; German CRC subset belongs to German holdout; project contains other samples and amplicons.
+FENG_AT_2015	PRJEB7774	discovery	312	312	718463002005	154	pending	source_metadata_fetched_not_final_cohort_manifest	Curation yields 46 CRC/61 study controls/47 other; original clinical reconciliation pending; engineering16 selected.
+YU_CN_2015	PRJEB10878	discovery	128	128	655361914538	128	pending	source_metadata_fetched_not_final_cohort_manifest	Sample metadata fetched; disease and run identity reconciliation pending.
+VOGTMANN_US_2016	PRJEB12449	discovery	882	882	492041306252	110	pending	source_metadata_fetched_not_final_cohort_manifest	Multiple runs per sample; audit repeat specimens and technical runs before donor counting.
+THOMAS_IT_A_2019	PRJNA447983	discovery	140	140	409492968163	80	pending	source_metadata_fetched_not_final_cohort_manifest	Shared BioProject with IT_B; resolve original Vercelli metadata and malignancy/control labels.
+THOMAS_IT_B_2019	PRJNA447983	discovery	140	140	409492968163	60	pending	source_metadata_fetched_not_final_cohort_manifest	Shared BioProject with IT_A; resolve original Milan metadata; do not double count project runs.
+WIRBEL_DE_2019	PRJEB27928;PRJEB6070	holdout	1775	1550	1124881100489	125	pending	source_metadata_fetched_not_final_cohort_manifest	Use original Supplementary Table 6 to reconcile PRaevent plus 38 German CRC; holdout must not enter catalog discovery.
+YACHIDA_JP_2019	PRJDB4176	discovery	645	645	3052916338677	616	pending	source_metadata_fetched_not_final_cohort_manifest	Reconcile DRA006684/DRA008156, stage0/adenoma/postsurgery and any repeated specimens.
+YANG_CN_2021	PRJNA763023	holdout	1238	200	985918251879	NA	pending	source_metadata_fetched_not_final_cohort_manifest	Project has 200 WGS and 1038 AMPLICON runs; clinical mapping from original Supplementary Data 3 still required.

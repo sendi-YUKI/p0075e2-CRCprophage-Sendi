@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "donors": 10,
+  "rows": 4730,
+  "method": "Exact per-base depth union over PE/SE/orphans; no sum or average of breadth fractions.",
+  "inference": "Descriptive 5 vs 5 only; these ten donors also contributed to discovery. No significance testing or independent validation.",
+  "sha256": {
+    "donor_votu_measurement.tsv": "fbdff3dd721a194ebc09d322679087ba5ce74c2c69bb609318115d38612ffda9",
+    "donor_measurement_status.tsv": "2df59cf86acfabe1fe9b9ba7e4d3578e055f83bc0757a1710b43759a6405bfb7"
+  }
+}

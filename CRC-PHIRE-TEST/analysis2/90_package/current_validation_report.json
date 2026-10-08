@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08T17:39:05.595226+00:00",
+  "candidate_count_checks": "passed",
+  "old258_reconciliation": "passed",
+  "pilot_key_table_assertions": "passed",
+  "current_markdown_links_checked": 100,
+  "broken_current_links": [],
+  "HTML_rendering": "18 current documents generated; structural checks pass",
+  "visual_QA": "isolated headless document rendering: global plan and pilot report screenshots visually inspected; new PNG redraw visually inspected; source snapshots in local html_qa",
+  "sequence_QC": "not_performed_here",
+  "new_pilot_required": false
+}

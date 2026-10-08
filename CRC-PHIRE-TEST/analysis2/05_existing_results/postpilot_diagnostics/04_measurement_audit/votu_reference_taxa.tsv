@@ -1,0 +1,474 @@
+votu_id	reference_taxa	has_metagenome_predicted_provirus	has_reference_predicted_provirus
+votu_011487de8532cdaf28fd		false	false
+votu_01295f2763cffaa11197		false	false
+votu_025b2fbb38fd3037238f		false	false
+votu_0265981852b1a695c65a		false	false
+votu_0297babf55283d516960	Fusobacterium animalis	false	true
+votu_02d0c5ebc48a57874e6c		true	false
+votu_0334bfe34a2a0e21910d		true	false
+votu_0346bca9db701fd5c23f		false	false
+votu_0423aa4bc50c4d4be42b	Bacteroides fragilis (division I)	false	true
+votu_05adc84c1f6bc545db3a		true	false
+votu_05f4050ef5b53c980d93	Bacteroides fragilis (division I)	false	true
+votu_0667f690fe6586a6b734		true	false
+votu_0809d8af0d5c1fd9d302		false	false
+votu_08954fb545381d3120cd	Fusobacterium animalis	false	true
+votu_08981ae721a995571ec9		false	false
+votu_0898c20af715c17f4755		true	false
+votu_094692d425430e3ba66f		false	false
+votu_0a19decd01103d5fc0c2	Bacteroides fragilis (division I)	false	true
+votu_0a33326806f3665ccbde		true	false
+votu_0b2a4230351d0cdb4e3b	Bacteroides fragilis (division I)	false	true
+votu_0b43bbbcb7b73c2f7fae		false	false
+votu_0cb63bbce56e4086459f		false	false
+votu_0cf0c80101517fa45146	Fusobacterium animalis	false	true
+votu_10f443cdce98fe7e0907		false	false
+votu_110ea43980dd71e37911	Fusobacterium animalis	false	true
+votu_111c98af280d8b9611c5		false	false
+votu_1135ad739960faadb914		true	false
+votu_119e9c85e03b1f75af31		false	false
+votu_11e4a0a1c0592572daf9	Bacteroides fragilis (division I)	false	true
+votu_120357a3ad25ba026d12		false	false
+votu_123ae6aebee840141daa		false	false
+votu_1391ca47df19bbb20775		true	false
+votu_1423b67460f9215adb60		false	false
+votu_142dc1838ad43b84e2f1		true	false
+votu_14c5e2fa6d929c6f9c0d		false	false
+votu_14db4064513ec069e143		true	false
+votu_14ed6541c7c1fe3abc2f		false	false
+votu_1538c442c37ddcf312f9	Fusobacterium animalis	false	true
+votu_164d2b3ba4e384e08a73		false	false
+votu_180a27ba91aba2f18d3f	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_189e7bac5b524df2147d		true	false
+votu_1906238b427667fc56c3		false	false
+votu_1a0bec952156d932207a		true	false
+votu_1b7dadc0ef11df852ec3		false	false
+votu_1bb6d255322759c00fb5		true	false
+votu_1c50e2261a7194a4cf38		true	false
+votu_1d09c53f2926ff06986c		false	false
+votu_1d0cc8660040198ad03e	Bacteroides fragilis (division I)	false	true
+votu_1d91b8cbee962128c0ac		false	false
+votu_1ddf86f7e8cdf9c09bb6		false	false
+votu_1e45dae377e731ba88f2		false	false
+votu_206569755c97fdae18b7	Fusobacterium animalis	false	true
+votu_2162a623f666c51b10c4	Bacteroides fragilis (division I)	false	true
+votu_2238e7938d318af57ae0	Bacteroides fragilis (division I)	false	true
+votu_2275ee3cfd7c87225e8f		false	false
+votu_22ae35350fc818d7b7a0		true	false
+votu_22b2454eae098f85b147	Bacteroides fragilis (division I)	false	true
+votu_23410b77a727e82568a7		false	false
+votu_235a8ef24c94005aebcb		false	false
+votu_2402c5857ed5d3f7f63a	Fusobacterium animalis	false	true
+votu_2451be49a28049405b8a		false	false
+votu_24c0b2e97fd5db2697f5	Fusobacterium animalis	false	true
+votu_2560cb256703a5661bf3	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_25e6551e9262f15c0e07		true	false
+votu_2663e0b8daea50044c93	Fusobacterium animalis	false	true
+votu_26cccb4aa0ae0a70cdef	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_277890e4ba36f7889d5f		true	false
+votu_28ca87e20574eacc4b38		true	false
+votu_28e2992dfd03fd351d7d		false	false
+votu_28f87c099306411c6f55	Fusobacterium animalis	false	true
+votu_2a290723c6707ad39abe		false	false
+votu_2af1dfa046198262d2f6		true	false
+votu_2b1ccf127ad829d20d7c		false	false
+votu_2d122201b1ee0a16b16a		true	false
+votu_2d9617603964e546ba4a		true	false
+votu_2f669e30d85b00a98c58		false	false
+votu_2fb9e1aaaf77ff769ff6		true	false
+votu_2ff5461a9e931a5fb1a1	Fusobacterium animalis	false	true
+votu_2ff5e397d0f1d32004dc	Bacteroides fragilis (division I)	false	false
+votu_302acbbe2905ffc7bc73		false	false
+votu_3063035ed00021498858		true	false
+votu_31acfd3a3dc2dea435a4		false	false
+votu_322e58faa1c800704db8		true	false
+votu_3283f9c527cba1073969		true	false
+votu_334925eea8cd70fe75b2		false	false
+votu_337c474d2938bee00d7b		false	false
+votu_35014d4c54b88d2ab34e	Fusobacterium animalis	false	true
+votu_35b47354c24394166c88		true	false
+votu_37e04e93d09a9f0a1164	Fusobacterium animalis	false	true
+votu_3834aa9037a2038033ba		false	false
+votu_395e17f2c611f050d47a	Bacteroides fragilis (division I)	false	true
+votu_398ebeffa75c0644e42c		false	false
+votu_39ea6dcb138a1aa92197	Fusobacterium animalis	false	true
+votu_3b17cdbd3d4d78975b34		false	false
+votu_3b4d9cc52354c1ce9014	Bacteroides fragilis (division I)	false	true
+votu_3c2336b42b0a99ad2a6c		false	false
+votu_3c5086fc21a9000be8b8	Bacteroides fragilis (division I)	false	true
+votu_3ca45bca0a7150a4f4a8	Bacteroides fragilis (division I)	false	true
+votu_3cb3cac3271ad2891be7		false	false
+votu_3cbcdc753815f29b5b89		false	false
+votu_3e284b6e8d0da3be94ef	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_3e40738bce25e9d8eef4		true	false
+votu_3e565f47dfddd54f32a5		true	false
+votu_3ef290d078e64894209a		false	false
+votu_3ef8f4835e47a45f969c	Fusobacterium animalis	false	true
+votu_400ab5f5687add1039f4	Bacteroides fragilis (division I)	false	true
+votu_413876ca6135fedfe8f2	Bacteroides fragilis (division I)	false	true
+votu_42576ec178f341b9c642		true	false
+votu_42e439aa0d582b77c031	Fusobacterium animalis	false	true
+votu_434245b271c69e7033e2	Fusobacterium animalis	false	true
+votu_434980b70ff13124c034		false	false
+votu_43df1b830733a03005cb	Fusobacterium animalis	false	false
+votu_4477adb5b6de061a9b60	Fusobacterium animalis	false	true
+votu_44cde91c21880483dd71		true	false
+votu_45af342830217ce554b5		false	false
+votu_45dbf1e147ca9e377a82		true	false
+votu_460353d4d5133754bc17		true	false
+votu_467bf3f7d9d096c9850f		false	false
+votu_46cdd03f6fb67c0662ee	Bacteroides fragilis (division I)	false	true
+votu_48cbd5bebf4b17459d61		true	false
+votu_49b44329a88ec3454df1		false	false
+votu_49ba0587886a1f0f9cb6		true	false
+votu_4a405590d07572b7805d	Bacteroides fragilis (division I)	false	true
+votu_4a47a4eb8e8a373726ab		false	false
+votu_4ae3b65dddd1d91a3bc7	Bacteroides fragilis (division I)	false	true
+votu_4aeae3b16a560fb74736		false	false
+votu_4b60f616fe91ed32d567		true	false
+votu_4ca80479da0560d0ea93		true	false
+votu_4d4baebffbd8f687df3b		true	false
+votu_4d5c86163b3fa4e2a2ad		false	false
+votu_4e13d6b5f96e87ae0771	Bacteroides fragilis (division I)	false	true
+votu_50820871fc98c6c6e90b	Bacteroides fragilis (division I)	false	true
+votu_509302d1801f4dab5adc	Fusobacterium animalis	false	true
+votu_50b4033f5976e2f0e8f0		false	false
+votu_5396e2dc596bd53f9bf0		true	false
+votu_55180679c0de0d1a8121		true	false
+votu_5695052a1f69a6504506	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	true	true
+votu_56ce46f3cb2c0653b3ad		true	false
+votu_5782d90b8b1665db4327		false	false
+votu_57fad75f5dad4905159c		false	false
+votu_5826ca0350e9ea128622		false	false
+votu_5876feffc9de8ef1b53c		false	false
+votu_59558a5483483a3014c9		false	false
+votu_599344e8c87e24de707f		false	false
+votu_59d869f7e0c9d3a06a84		false	false
+votu_5a3270f10306b3823772		true	false
+votu_5afc2a5f3a6c352ef40e	Fusobacterium animalis	false	true
+votu_5ba7d4fd8c991309bd44		true	false
+votu_5c473974f64971851bbb		true	false
+votu_5c807b531c5de9cb34b3		false	false
+votu_5cb9d3f17208f388b71e	Fusobacterium animalis	false	true
+votu_5d1ac71cab8723e6e4ea		false	false
+votu_5d39172b23b8757a748b	Fusobacterium animalis	false	true
+votu_5d4e687513bc6f0c002a		false	false
+votu_5e038b85c02e9296bd6c		true	false
+votu_5e307eef704ecd6e3b15	Fusobacterium animalis	false	true
+votu_5e5a16a238dfa46b3ba7		false	false
+votu_5e6868452f78a5de568c		false	false
+votu_5e79179941701490d878		false	false
+votu_5ea3f6064198f1bcd470		false	false
+votu_5edec6c363088c9feed1		false	false
+votu_60466dd31454a8e13d2e		false	false
+votu_611b8e3673eb62da4590	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	false	true
+votu_6200184ad1ae964fb014		true	false
+votu_62a5b7c231639ce4a5b3		true	false
+votu_63a52be0968102f27b0e		false	false
+votu_64fc83f0fa9633296535	Bacteroides fragilis (division I)	false	true
+votu_65214726f79917158bdf		true	false
+votu_6607b4b5d5deba593995		false	false
+votu_6762dfaf80484d6669be		false	false
+votu_67fea9e55a8fcc42403b		true	false
+votu_682f6bc949806ab5a7f7	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_6849f84635df4fb447c7		true	false
+votu_69ef8e0cb850f282b2ed		false	false
+votu_6a9b2226f1673da2b75f	Bacteroides fragilis (division I)	false	true
+votu_6aa49d046d45c0de207e		false	false
+votu_6ab2920354ced312d5d9	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_6ad4d76248e52804c616	Bacteroides fragilis (division I)	false	true
+votu_6ba347b920af2d0cbebc		true	false
+votu_6bfb9d1fbb5517b11248		true	false
+votu_6c61f3ec6bdb7477e0b0	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	false	true
+votu_6d104d56612a6dae88d6		false	false
+votu_6e91c6edb1ddb3eccc3e		false	false
+votu_6eda6aaf5c983429b5dc		false	false
+votu_6f0504c1dc252e793896		true	false
+votu_6f288d16a4b6bca8026e		false	false
+votu_6f805cefb41a07d53886	Fusobacterium animalis	false	true
+votu_6f8b88b440c54b3d764d	Bacteroides fragilis (division I)	false	true
+votu_6fa3acfedd6260e2e85b		false	false
+votu_705d05d4e852c1a4039a	Fusobacterium animalis	false	true
+votu_70765cc01baead7b231b		true	false
+votu_709a40bd3eb404a47d0b		false	false
+votu_70a3dfc3d79b16e7af79	Fusobacterium animalis	false	true
+votu_7131a31db099660309ab		false	false
+votu_71380b1a48e87c571269		false	false
+votu_716ec69f512bcbab1070		false	false
+votu_726e4a1df4ec5608cae3	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_735be50192998fd84ec8		true	false
+votu_738cf07ba6ea06a2f0fc		true	false
+votu_74797d9adaf8e2d62a7e	Fusobacterium animalis	false	true
+votu_747ff839e1be199627d6	Bacteroides fragilis (division I)	false	true
+votu_74df171b3af932cb404c		false	false
+votu_74ec111ad5aa7417b1c3		true	false
+votu_75044b7002fe3c9360f6		true	false
+votu_753650f2e422b8f78da2		true	false
+votu_7594080340f1037f27ef	Bacteroides fragilis (division I)	false	true
+votu_76690e045041d26784df		false	false
+votu_766dc0c72d3f9feda1fe	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_77b7edad85e42be675b9	Fusobacterium animalis	false	true
+votu_77cbe8d00162bca5c3ee		true	false
+votu_77cc63e92495c9a25d7b		true	false
+votu_783cbdb8d00299aaa26b	Bacteroides fragilis (division I)	false	true
+votu_7903b40bbba6d9dbffe2		false	false
+votu_79ec3ea37e10c283d142	Fusobacterium animalis	false	true
+votu_7a3f6dc77a34bcb9be1f		true	false
+votu_7bb39ca4fe4ee68252f5	Fusobacterium animalis	false	true
+votu_7bc2597790b75cef4199		true	false
+votu_7bdb4a4be0d3ac8f3ed1		false	false
+votu_7c5237d5ddd7c425cd90		true	false
+votu_7d0e344433b111d628a3	Fusobacterium animalis	false	true
+votu_7df24a417ac945ef0e67	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	false	true
+votu_7e5d591edfde25b88a26		true	false
+votu_7ecfa8c56bf10e156e37		false	false
+votu_7f199cd3583c185d6ef1	Fusobacterium animalis	false	true
+votu_7f3d3479c2f29fe608a1	Bacteroides fragilis (division I)	false	true
+votu_7fc5eab94128f04fae9a	Bacteroides fragilis (division I)	false	true
+votu_7fcc473bef500343be81		true	false
+votu_80687b7f5037bc19a7fc		false	false
+votu_8084669c3fd935c18cd0		true	false
+votu_81850450a07dd26e4b87	Fusobacterium animalis	false	true
+votu_8287818d42b1ae4c656a		true	false
+votu_840f2d2cafec397b6e7d	Fusobacterium animalis	false	true
+votu_8427b12c4c0f72108d0c		false	false
+votu_85265706401014352615	Fusobacterium animalis	false	true
+votu_856ee76b46f585237836	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_8620a57e3ce02ee9b5ad	Fusobacterium animalis	false	true
+votu_865991bf653ef1057a37	Fusobacterium animalis	false	true
+votu_867cd38945dceebcdf37	Bacteroides fragilis (division I)	false	true
+votu_86ba0d902f940027a6e2	Bacteroides fragilis (division I)	true	true
+votu_86c22d70b1b2542728c0	Fusobacterium animalis	false	true
+votu_8722c4f3d47fe25e5a42		true	false
+votu_884b42a82cb5d080fd92		false	false
+votu_89fb0cd1c15a3937f715		false	false
+votu_89ff48702186fd7c94bf		false	false
+votu_8a34ab43b18e0ab11760		false	false
+votu_8aeba5a3489f1cd92f20		false	false
+votu_8ba82b16c98d9167654b		false	false
+votu_8be18822f99b07c4e3d5		false	false
+votu_8d1bb426de744c365f45		false	false
+votu_8d60f732ea3378fbfd36		false	false
+votu_8dc86f1ad09d54a814f4		true	false
+votu_8e06fa5b7f19cc06ca82		true	false
+votu_8e75cfe1ff8b48f6df19		true	false
+votu_8e8fb45962905461a0dd		true	false
+votu_8eb942f264560b19dbdf		false	false
+votu_8f261682c678262feca3		true	false
+votu_8f8c96516cdbb779e67b	Fusobacterium animalis	false	true
+votu_8fe7e52a98c27c10d774		true	false
+votu_91ed2f48b544a8322403		true	false
+votu_92577a2e4b5f946b269a		false	false
+votu_928d5b4b6e0e221be800		false	false
+votu_9293f106a5b400a1c040	Fusobacterium animalis	false	true
+votu_92f3be01ec4fb6bd554d		true	false
+votu_93f61d0c77422deaf088		false	false
+votu_944648da645554b9f9fb		false	false
+votu_94a31552e316f25cb7db		false	false
+votu_95788108e1fd87ec42d5		true	false
+votu_95bbad5c7990e546c032	Bacteroides fragilis (division I)	false	true
+votu_95c8e267e5a27999eb14		false	false
+votu_96856ce23838e4468291		true	false
+votu_9693037a18ffc1f48bae	Fusobacterium animalis	false	false
+votu_976209df035c841936fc		false	false
+votu_981f32eac11f8ab04039		true	false
+votu_987545c8fa8efc2dbc5b		true	false
+votu_9885377d89cd86b6d60f		true	false
+votu_98ed9341d98c8616125f	Parvimonas micra	false	true
+votu_992b0ef69d6f3508184b		false	false
+votu_996cdf7d1e5ab962f65c		true	false
+votu_999cb5bd1d7ba7dac5d3		false	false
+votu_99d058376c5ebdfb3b27	Fusobacterium animalis	false	true
+votu_99d4a5cbbe52298e9db2		false	false
+votu_9beefe215a92319565bf		false	false
+votu_9c278450d7711cd97278		true	false
+votu_9d0058178db3478db596	Bacteroides fragilis (division I)	false	true
+votu_9d123955aa035ce55026	Fusobacterium animalis	false	true
+votu_9dc0f3699076f1a245d7		false	false
+votu_9eb959be08749cb3476e		false	false
+votu_9f1f2e20f3ae292763a4	Fusobacterium animalis	false	true
+votu_a05d6257fab9f6f1c275		true	false
+votu_a06d4c988efc7a876c08		false	false
+votu_a0829da4d2b7455157ae		false	false
+votu_a10a4c44eb8724e53915		false	false
+votu_a17bd4453ea5d2b64848		true	false
+votu_a1d72c3ceee71d4827fc	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_a37578bf083dc1ae050b		false	false
+votu_a4612862065d3a3f003b		true	false
+votu_a4c45d18a7db5d7d731f		true	false
+votu_a53b473a5bd1204deacc		false	false
+votu_a5ec087282a7316e3fd3	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_a6014f952f6acec25e58		true	false
+votu_a63e23612d3072c61428	Bacteroides fragilis (division I)	false	true
+votu_a66882484d81d345cd5e		false	false
+votu_a7b2d47b89ccdd7c42b7		true	false
+votu_a8b728feefa48219ce7f		false	false
+votu_a9e3d26d083058054302	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_aa4c380b38c600f9c058	Fusobacterium animalis	false	true
+votu_aa82b46995f22eb8f65b		true	false
+votu_ac3204ca7bfe89c9e593	Bacteroides fragilis (division I)	false	true
+votu_ac5a48c060300c1cf4ff	Bacteroides fragilis (division I)	false	true
+votu_acd1196a276a1be01bd3		false	false
+votu_ace15c9612b3c514e253		false	false
+votu_ad55163900ec8e9e1368		false	false
+votu_ae0d73349d2c5dfc3267	Bacteroides fragilis (division I)	false	true
+votu_ae8219ca05a26f980a9e		true	false
+votu_af20d983a9d9d5f20b29	Bacteroides fragilis (division I)	false	true
+votu_af23e788f4fd66e4bfad		false	false
+votu_af7228beaee29421133b		true	false
+votu_aff726d5d1b64b7d9a45		true	false
+votu_affad52fcaa565127c0c	Fusobacterium animalis	false	true
+votu_b00d0b8f02919d994070	Bacteroides fragilis (division I)	false	true
+votu_b063995468c7f43e07ff		false	false
+votu_b0ce7a1700373383573b		true	false
+votu_b19d68188bef9c251f83	Parvimonas micra	false	true
+votu_b1d78b9d3157f56f01ae	Fusobacterium animalis	false	true
+votu_b1dfc6d56a17c5533f74		false	false
+votu_b24c3e8871674dcde9c2	Bacteroides fragilis (division I)	false	true
+votu_b2536000d627223f92e9		false	false
+votu_b2da37aacc4366eec9c7	Bacteroides fragilis (division I)	false	true
+votu_b3f0bf7b8e45a4ce96b5	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_b447a9d07d6450fbfee7		true	false
+votu_b449c47493c8ad1bfb06		true	false
+votu_b4c449707b5dbc5bed83	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	false	true
+votu_b4db8910315bb5b38ab8	Bacteroides fragilis (division I);Bacteroides hominis / historical B. fragilis division II	false	true
+votu_b5a546771e4e429b5af4		false	false
+votu_b613d4ae9691860b9c75		false	false
+votu_b659057f4c10b43acf01		true	false
+votu_b70e5a5f6aa8e20f6868		false	false
+votu_b7a1b3a80cef948e2088		false	false
+votu_b7a7b96cf99741cfc25a		false	false
+votu_b7cff746636a3e40d2a8		false	false
+votu_b7f4e00754fdeec4ed2d		true	false
+votu_b8042d70c258be80167e		false	false
+votu_b80b106781513223fee4		true	false
+votu_b8ea19bb33cbbb8e6521		false	false
+votu_b9347e664da8e1cfbfa0	Fusobacterium animalis	false	true
+votu_b956e61d50756b879e0a		false	false
+votu_b97bf3055e9df8b8a781		true	false
+votu_b99fa5ddb5caf5bb86a9		true	false
+votu_bbd91134c5908c036efe	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_bc6ba2c6bd0f2aa382aa		true	false
+votu_bd1785a6a9ff8f5ca0be		false	false
+votu_bd1add4c25b62c04eb41		false	false
+votu_bd21331de80702b47288		true	false
+votu_bd330f87b437ba472db4		true	false
+votu_bd46bd75363fc36155e5	Fusobacterium animalis	false	false
+votu_be9081ff0c61ccfc3b7c		false	false
+votu_bee9adade5d319b07145		true	false
+votu_bf222eaf2e64bbd50d11	Bacteroides fragilis (division I)	false	true
+votu_bfb15d0e744d6c521740	Bacteroides fragilis (division I)	false	true
+votu_bfb533b8254e6f9a50c5	Bacteroides fragilis (division I)	false	true
+votu_c0400de593cb9a0503b5		false	false
+votu_c10843a06079fb2d3926		false	false
+votu_c16b468870d2eee98258		true	false
+votu_c1cb11d6e6e764600c93		false	false
+votu_c20b767710a487a68246		false	false
+votu_c22953d7868d1281bb1b		false	false
+votu_c34aefa88b963bf61032		false	false
+votu_c3a10b9570faafacb200		false	false
+votu_c5261c16161d0fee1b64		true	false
+votu_c52b0babc29c1847afe2	Bacteroides fragilis (division I)	false	true
+votu_c56c34f3ca3dd9154c44		true	false
+votu_c5a2f99a831ca65cae7c	Fusobacterium animalis	false	true
+votu_c7206db26b8b5431732d		false	false
+votu_c7f4b3f3ed44fc3f9488	Fusobacterium animalis	false	true
+votu_c8eeecd08a78b3d4f7be	Bacteroides fragilis (division I)	false	true
+votu_c9ba2fd9ef1a05abdaa2	Parvimonas micra	false	false
+votu_c9e82d333dcd51a2db26	Bacteroides fragilis (division I)	false	true
+votu_ca715a490878f3289f5d		false	false
+votu_cb939e9383d5cb7c7756		false	false
+votu_cc146ff7776e27a652d9		false	false
+votu_cc43c35851de75453d7d		false	false
+votu_cd571fcf2510fb3f5b10		false	false
+votu_cd5eefff466ce32e237c		true	false
+votu_ce3b58d107a945050ace	Fusobacterium animalis	false	true
+votu_ce5fbe00272c04f275dc	Fusobacterium animalis	false	true
+votu_cefb9fe17bb2a1dff458		false	false
+votu_d014d89a7ff08092ac53		true	false
+votu_d035903db15f19a5ed7f		false	false
+votu_d0697457c35d99d3ee5c		true	false
+votu_d0875a87d31edc9a8d40	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_d0f984c9876a6e6c0f84	Fusobacterium animalis	false	true
+votu_d18621f03798533b36c2		true	false
+votu_d1c8a5c53c5837b6a8c3	Fusobacterium animalis	false	true
+votu_d25109bb45fe46ce82eb		true	false
+votu_d38a4f710b946fe1c8e3		false	false
+votu_d418275ecf510969d78a	Fusobacterium animalis	false	true
+votu_d49b9410398233443dc7		true	false
+votu_d4d8a64753cb8f7d252d		true	false
+votu_d555819fb920edb26bf7		true	false
+votu_d5e8cf7142b7efa99219		false	false
+votu_d7725091a2a62f83471a		true	false
+votu_d7bf3bcf9aacd699aa89		true	false
+votu_d91c8fd3ea48e9e20345		false	false
+votu_d960a98e96871672e342	Bacteroides fragilis (division I)	false	true
+votu_d998630c08dfee6c6843		false	false
+votu_da2d79f7520ef0caead5		false	false
+votu_da33c8a3da5fbf0a7ff9	Bacteroides fragilis (division I)	false	true
+votu_da5f095bd4d3e9294192		true	false
+votu_da6bce2aca7df20bf0a8		true	false
+votu_daa620346d218f8cf2ff		false	false
+votu_db5be0029f3c3000b8d8		false	false
+votu_df33c1b407ff8281b82a		false	false
+votu_df62291fdf716f1abf4d		false	false
+votu_e058af0ce494d8c237ef		true	false
+votu_e1b3266e7116ac1152ff	Fusobacterium animalis	false	true
+votu_e2280024ba9142efa3b5	Fusobacterium animalis	false	true
+votu_e2c3a4443eb65c973a18	Bacteroides hominis / historical B. fragilis division II	false	true
+votu_e38c8fbabe7174dd30ad		false	false
+votu_e3bb28530627da347f4a		true	false
+votu_e448bfb6db3309c54b7d		false	false
+votu_e498f9425d1a8c6de98d	Bacteroides fragilis (division I)	false	true
+votu_e53a6ec7242fb2550222		true	false
+votu_e5fa97fd7941dae0791f	Bacteroides fragilis (division I)	false	true
+votu_e6b90e6596d66c95e6be		true	false
+votu_e76e5dbdac94e570f1f2		true	false
+votu_e8f042746fc9f15d73e7	Bacteroides fragilis (division I)	false	true
+votu_e90d07081206d569e89f	Fusobacterium animalis	false	true
+votu_e9d99f2ffaad183a7db4		false	false
+votu_ea4db8b809a9c25ffb80		false	false
+votu_eaa783493ad7425f8bea		true	false
+votu_eac01c06fce08ee4ab3b		false	false
+votu_eb6c40e3bb78ea14d800		true	false
+votu_ebe809f76ff948d25f40		false	false
+votu_ebfa1f386f9627e77577		false	false
+votu_ec01aa460aed31526832		false	false
+votu_ec404ac305beca107ed2		false	false
+votu_ec4278acbbdf984fd814	Parvimonas micra	false	true
+votu_ec5a47efbfa27844ee34		false	false
+votu_eca909b0488cbffa02e1	Fusobacterium animalis	false	true
+votu_ecc65434bd88927d108e	Bacteroides fragilis (division I)	false	true
+votu_ed053d4946e20bfefb0d		false	false
+votu_ed5bd4f85b7d6f3625df		false	false
+votu_ede1be9c18da9e204b83		true	false
+votu_ee0d0a9bb5e5a1d6a786		false	false
+votu_ee18336a0216376a4f45		false	false
+votu_ee355aa61b27d20ea157		true	false
+votu_eecc35eed6d6d3b1dbd9	Fusobacterium animalis	false	false
+votu_ef2d32aa968f8d0ac860		true	false
+votu_ef9f246435aabeba5165		false	false
+votu_f03732ee693f5d71d584		true	false
+votu_f07f8875ec47205cfd29		false	false
+votu_f0f713a90add73ebf833		true	false
+votu_f258ad322815110526f1		true	false
+votu_f2a6cf1364230b9cdf25		false	false
+votu_f2e35c4bd772b7de894b	Fusobacterium animalis	false	true
+votu_f302c20067b479aa23d0		true	false
+votu_f336ae5086066a73a2d0		false	false
+votu_f38bd1ce9594ca6426d4		false	false
+votu_f47c442ebb0c5d5062e8	Bacteroides fragilis (division I)	false	true
+votu_f4e436972332597c4c13		true	false
+votu_f63eb80bdad26ca19001		true	false
+votu_f65696e080f2eaea3d4a		false	false
+votu_f719fff3975425b6fff9		false	false
+votu_f7510efb8475f13c244d		true	false
+votu_f824b9f655f2de3299cf		false	false
+votu_f9bb7b4c17ed74fd6502	Bacteroides fragilis (division I)	false	true
+votu_fbf61553c9b2711a4954		false	false
+votu_fc194411c84d0b8c685b		false	false
+votu_fd2e0c2eb8316cc02610		false	false
+votu_fe453a3cdc620f051a3d		true	false
+votu_ff0e7fa8119cedb2c8de		true	false
+votu_ff3b1d96a0736ee85771		true	false
+votu_ffa0f28f29f980c4e525	Fusobacterium animalis	false	true

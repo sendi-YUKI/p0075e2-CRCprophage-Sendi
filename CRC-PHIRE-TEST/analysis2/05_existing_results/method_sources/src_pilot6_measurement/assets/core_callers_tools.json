@@ -1,0 +1,764 @@
+{
+  "schema_version": 1,
+  "image": "crc-phage/core-callers:20260922",
+  "image_id": "sha256:1ad724df938c3e52641769fcc642e729cd728c22bbb4a23d8f4f7782e24debb1",
+  "platform": "linux/amd64",
+  "source_base": "python@sha256:3cd9086bdb30f7c9bc08a3fa621d9842e0d3f6f9291aeb4677e0547817c10b12",
+  "tools": {
+    "PhiSpy": {
+      "version": "5.0.10",
+      "source": "https://pypi.org/project/PhiSpy/5.0.10/",
+      "source_sha256": "8329fa472b84e150b3ef59b9388830f238dc69b290af2a1ea95567dde29ec6f8",
+      "models": [
+        {
+          "bytes": 195,
+          "relative_path": "phage_functions.txt",
+          "sha256": "5e7b0c83c47483b0131f72cc0c2a56a07339a60be0842adf006c412df92cda23"
+        },
+        {
+          "bytes": 7289281,
+          "relative_path": "phage_kmers_all_wohost.txt",
+          "sha256": "aeb45914eaabbdeaff87cdb9f7310e03972e748081d0da9a7749a6c64b2bdff5"
+        },
+        {
+          "bytes": 220019,
+          "relative_path": "trainSet_122586.26.txt",
+          "sha256": "ce83634115abef52910caf617570cc45bebadfabaec6646d8b2b2d6e967c3862"
+        },
+        {
+          "bytes": 213023,
+          "relative_path": "trainSet_122587.18.txt",
+          "sha256": "be31cd2c4ea8b9f0c399c5b6946e0b04ce02dd2744a6155939f867b42ce314bc"
+        },
+        {
+          "bytes": 237002,
+          "relative_path": "trainSet_1280.10152.txt",
+          "sha256": "c0f9ed982780db4e6b3d34df1ac90ca79bfaa0c555680bcb85c3e99e1a6b83f0"
+        },
+        {
+          "bytes": 359335,
+          "relative_path": "trainSet_1351.557.txt",
+          "sha256": "9b66377d844c87970a65febf1bcd267b6c3241d00c4b3da0c8e51123a594a329"
+        },
+        {
+          "bytes": 304544,
+          "relative_path": "trainSet_1367847.3.txt",
+          "sha256": "92973f9576b488f13bb6f34bbea54553802cf69df2bb857610ef02b06daa19e0"
+        },
+        {
+          "bytes": 301914,
+          "relative_path": "trainSet_147645.106.txt",
+          "sha256": "d943682fabf0ead5960f20981112a69b7496884b78c87b185691a1252cca42f5"
+        },
+        {
+          "bytes": 232938,
+          "relative_path": "trainSet_1525717.3.txt",
+          "sha256": "58216c6af00544a691b7148431f779890b9ee54e6a5294187cd99ca7d03d9f0f"
+        },
+        {
+          "bytes": 492301,
+          "relative_path": "trainSet_155864.289.txt",
+          "sha256": "cda7644acafa1b9f6251fc601f16b759ab449fa601e7ef18360207b7b5ec7fec"
+        },
+        {
+          "bytes": 238170,
+          "relative_path": "trainSet_158878.38.txt",
+          "sha256": "06af20e6dfca3980ffed6d19b6f1f59d5945d6dc90076dd0ca2a9f8ae5dd6741"
+        },
+        {
+          "bytes": 490517,
+          "relative_path": "trainSet_160488.79.txt",
+          "sha256": "2a7d742325eb84c1497156cf535da0b94be819e28019a249e6eb7083ef51c830"
+        },
+        {
+          "bytes": 160124,
+          "relative_path": "trainSet_160490.61.txt",
+          "sha256": "284a84d52acb599cd058e6bfc3efaacfe1d94d5b5117a305b2ad2cf03cd18fc7"
+        },
+        {
+          "bytes": 265936,
+          "relative_path": "trainSet_160492.65.txt",
+          "sha256": "4bbb9d215aba3c2430d35a748dd3a160de7cecd699ff4b0e8f94ede8537d1e5c"
+        },
+        {
+          "bytes": 260772,
+          "relative_path": "trainSet_1660154.3.txt",
+          "sha256": "52802e75f82a518ff2c782c629db6aecd880f68a40e05b2779ac01446de77802"
+        },
+        {
+          "bytes": 251214,
+          "relative_path": "trainSet_169963.176.txt",
+          "sha256": "f785c8cdf9cde9678030d1423c2677b7c100ae4b103f65d8270e54dc329ff0c7"
+        },
+        {
+          "bytes": 242570,
+          "relative_path": "trainSet_183190.38.txt",
+          "sha256": "79f2f4461e085f81f184345b8687cbbcd6d962541edff38365100b147e06e294"
+        },
+        {
+          "bytes": 168955,
+          "relative_path": "trainSet_186103.26.txt",
+          "sha256": "67c5ffa8fba67ff15303217631634eaa2aed9a52093f17b9a2e5868a4a77c8c4"
+        },
+        {
+          "bytes": 332213,
+          "relative_path": "trainSet_187410.24.txt",
+          "sha256": "b6e4e93eb93f8c482c927d8a671d5ef9462cf291eb1969c7512a6e74d4c512ad"
+        },
+        {
+          "bytes": 417016,
+          "relative_path": "trainSet_190486.46.txt",
+          "sha256": "1ba046930679103fc4ce29af550a17df60af00443a47a75217c64002eef140e6"
+        },
+        {
+          "bytes": 325896,
+          "relative_path": "trainSet_190650.21.txt",
+          "sha256": "7c7a77f26e297e6e20fa2364535d9aefa5d7016528cb3b1ba344af59a4ed05f0"
+        },
+        {
+          "bytes": 239903,
+          "relative_path": "trainSet_195102.53.txt",
+          "sha256": "85cf5fd1b8ff94e8ed93f46ac43e854f8ef81bc22e18528d8b1faf025f0d9637"
+        },
+        {
+          "bytes": 225481,
+          "relative_path": "trainSet_196620.15.txt",
+          "sha256": "f45d17e3d7e5a37c9c69e84fe0c0dae848e5f0e1ccacb98fc14c1854e1d66be4"
+        },
+        {
+          "bytes": 432436,
+          "relative_path": "trainSet_198214.txt",
+          "sha256": "1052784261de2004da6818e9bbf986f92733c6b82904ce9c678ba50ac266b4af"
+        },
+        {
+          "bytes": 169228,
+          "relative_path": "trainSet_198466.10.txt",
+          "sha256": "7f918d747d7cde804c2df24bab4682cc62a57978cd424ff24339a0c61ff20be8"
+        },
+        {
+          "bytes": 448747,
+          "relative_path": "trainSet_199310.168.txt",
+          "sha256": "a2316437d6f13f0c0d0f689f97e44e68c8114e9d21542147374b61deb949f61d"
+        },
+        {
+          "bytes": 166054,
+          "relative_path": "trainSet_206672.37.txt",
+          "sha256": "0f71109c791699d0468a9c1b37ee3563852baad6d8e6ffcf25b22008ab338fd5"
+        },
+        {
+          "bytes": 504916,
+          "relative_path": "trainSet_208964.452.txt",
+          "sha256": "cf08136d7f775287c58dad988951f6c7d5e9401c9cde0d525526f74692f07a84"
+        },
+        {
+          "bytes": 418029,
+          "relative_path": "trainSet_211586.69.txt",
+          "sha256": "ce71a36ce9f29e83d10bde2786c85faec03cfd767703a8f4c3e1440bbe770213"
+        },
+        {
+          "bytes": 238569,
+          "relative_path": "trainSet_212717.31.txt",
+          "sha256": "ccbb7c845968670219fe6d4fbb5780bc3269db8afefc78766c55acea52767c46"
+        },
+        {
+          "bytes": 337158,
+          "relative_path": "trainSet_214092.200.txt",
+          "sha256": "e92db4f2b44c2f8d77bd39a10ff592f0fd36e5a85d1882a9689350ee8e3f387f"
+        },
+        {
+          "bytes": 468728,
+          "relative_path": "trainSet_220341.87.txt",
+          "sha256": "c370aff383150f6d75c8a39aea2f60d4341aaf12d6e8deb4a9a7db76477f67f1"
+        },
+        {
+          "bytes": 387498,
+          "relative_path": "trainSet_224308.360.txt",
+          "sha256": "815da870f6ec3ec0f83fffe7928d3b81857e23538ab8fbd68e6c2ca81c3d0cda"
+        },
+        {
+          "bytes": 290926,
+          "relative_path": "trainSet_224914.79.txt",
+          "sha256": "8729b4fc34484257f46f7e579992da9d1f4935075dbcc97dd47234cf8983fc26"
+        },
+        {
+          "bytes": 286241,
+          "relative_path": "trainSet_243230.96.txt",
+          "sha256": "0385cd8923c9f5816bb434a4d09630346b0a63fb7f7ee4edda8d07adccd4210f"
+        },
+        {
+          "bytes": 324012,
+          "relative_path": "trainSet_243277.252.txt",
+          "sha256": "133feaf5fcbbae4edeece7037cec3078201ff92fd86233bbed45c76da2c821af"
+        },
+        {
+          "bytes": 676019,
+          "relative_path": "trainSet_266835.41.txt",
+          "sha256": "3056533a3539616a7a37e5a48ac14dbc33a572cbf63228f6435671e14cd27151"
+        },
+        {
+          "bytes": 461156,
+          "relative_path": "trainSet_267608.42.txt",
+          "sha256": "6575ec8d9ae9cd9cd670d73a0915192896a1589194d82ea7c70b2e766d8f780e"
+        },
+        {
+          "bytes": 371971,
+          "relative_path": "trainSet_272558.23.txt",
+          "sha256": "8a39104a4ecc3eb10394f00c551938e5a70a8b6eb8e54da0fc7751bad3ae9a5d"
+        },
+        {
+          "bytes": 213325,
+          "relative_path": "trainSet_272623.42.txt",
+          "sha256": "0dfe68c8965cd6deb59317916d93117c93b477ba81b5a3970860946a01232fad"
+        },
+        {
+          "bytes": 264675,
+          "relative_path": "trainSet_272626.22.txt",
+          "sha256": "59c8bf26a9575778508ba610d7e1f13e9cb943350033122ce60e83eb599a10c9"
+        },
+        {
+          "bytes": 179964,
+          "relative_path": "trainSet_272843.53.txt",
+          "sha256": "3ec3caeab8ce18ddc3ed0d31a010514ebffd32cbf128accaa9cc172ba6d0796c"
+        },
+        {
+          "bytes": 385286,
+          "relative_path": "trainSet_318586.5.txt",
+          "sha256": "f715774ad9f36ab7ba60210c2067f67e743d531cf8772d60ad9b9edddef585ed"
+        },
+        {
+          "bytes": 566147,
+          "relative_path": "trainSet_32002.17.txt",
+          "sha256": "c3a096aff39960256d992d5bc08c4c65dd3f3dc26a76ce2ccb80568c91ae4ffa"
+        },
+        {
+          "bytes": 385547,
+          "relative_path": "trainSet_411479.31.txt",
+          "sha256": "817f52c92ec2db0a42eb859bb73a6f466ce658e37b6d212a7c5b8ae7839bbda6"
+        },
+        {
+          "bytes": 157416,
+          "relative_path": "trainSet_71421.45.txt",
+          "sha256": "559ea665dde761d07102f816b55f2878221c8d52e4cae383f9577c3d26ffac34"
+        },
+        {
+          "bytes": 369898,
+          "relative_path": "trainSet_83331.121.txt",
+          "sha256": "25ed70839f77394896adf62e4f9349a94ff60ebea6feeadece4f6c050b80268b"
+        },
+        {
+          "bytes": 368398,
+          "relative_path": "trainSet_83332.460.txt",
+          "sha256": "9c2e2b207e8f5bdc06a04396fccb323eaa63451ce778b192bde65041dac17afc"
+        },
+        {
+          "bytes": 391364,
+          "relative_path": "trainSet_83333.998.txt",
+          "sha256": "42d990ae190c50b5018db1be1b34add453ffc16d90cacc8cbab0075532e9f982"
+        },
+        {
+          "bytes": 496064,
+          "relative_path": "trainSet_83334.295.txt",
+          "sha256": "e2c897751fec573dcecc5ceead5173ce4940fd0231106e003acd5adbb663ae14"
+        },
+        {
+          "bytes": 759397,
+          "relative_path": "trainSet_Bacillus.txt",
+          "sha256": "a132f24c0171491d9a791fa254e7e2174c9af372f84048cd80465b6c62c81803"
+        },
+        {
+          "bytes": 478400,
+          "relative_path": "trainSet_Clostridium.txt",
+          "sha256": "5f32381064b7ced04ec549ad2275829a514940554e948c47729d0a98bd674c65"
+        },
+        {
+          "bytes": 1828260,
+          "relative_path": "trainSet_Ecoli.txt",
+          "sha256": "7fa3bb606534f96740ae320b240d8357fd2b06bed8daa473d5554418566f6210"
+        },
+        {
+          "bytes": 359335,
+          "relative_path": "trainSet_Efec.txt",
+          "sha256": "9b66377d844c87970a65febf1bcd267b6c3241d00c4b3da0c8e51123a594a329"
+        },
+        {
+          "bytes": 515817,
+          "relative_path": "trainSet_Listeria.txt",
+          "sha256": "79b7ea3933c0bf068acf5102e6859adb73d149aae0b3d36888a2117ca22c1f2d"
+        },
+        {
+          "bytes": 738224,
+          "relative_path": "trainSet_Mtb.txt",
+          "sha256": "48ae51f6fcbe20238f26f8bf9b790b2ac6fe406dc5a915dfa089b65048300d08"
+        },
+        {
+          "bytes": 432970,
+          "relative_path": "trainSet_Nmeningitidis.txt",
+          "sha256": "3a3e4116e3a1e354334d40330519d28981d756b94e04b14aef66bce119c29962"
+        },
+        {
+          "bytes": 1485166,
+          "relative_path": "trainSet_Paracoccus.txt",
+          "sha256": "dfd3c92b974aaed4f8a7a7a436acb281ef7e9fa2e4f490e7a5a8d4c496ae4cb2"
+        },
+        {
+          "bytes": 995361,
+          "relative_path": "trainSet_Pseudomonas.txt",
+          "sha256": "c870f86433a36b96c5ab219ac64a67126161e1b94779ec9f5b999aebf6a255b2"
+        },
+        {
+          "bytes": 700509,
+          "relative_path": "trainSet_Saureus.txt",
+          "sha256": "658f163335e940f50713ecb328e4e834387ebdbfd7d560baeabb1c14d0d1aec5"
+        },
+        {
+          "bytes": 498163,
+          "relative_path": "trainSet_Spyogenes.txt",
+          "sha256": "b5689725c8c324efcf194db934f7fe970f8cbac3bc8273917ca7580f8d3824dd"
+        },
+        {
+          "bytes": 508434,
+          "relative_path": "trainSet_Xfastidiosa.txt",
+          "sha256": "9640047aaed9dfd997f16c6f67323f2fd5c307c636807cc1a33fb48f150482d6"
+        },
+        {
+          "bytes": 669299,
+          "relative_path": "trainSet_Ypestis.txt",
+          "sha256": "49a9132e84584c34317d29957c2843195065526561c15d9f2b1fab9473038ffa"
+        },
+        {
+          "bytes": 15736231,
+          "relative_path": "trainSet_genericAll.txt",
+          "sha256": "fdff0c83b17ea7075f9174c0cd760f99b734edee3d831da1be47d6ef9af02c70"
+        },
+        {
+          "bytes": 4676,
+          "relative_path": "trainingGenome_list.txt",
+          "sha256": "0d432f8c0ad04e98c276b98e5adac3054672e2bd14f9b8986a0b8ae0db74f681"
+        }
+      ]
+    },
+    "PhageBoost": {
+      "reported_version": "0.1.7",
+      "git_commit": "46239e3994be9cb5b2b714f8742fedd350d432c7",
+      "source": "https://github.com/ku-cbd/PhageBoost/tree/46239e3994be9cb5b2b714f8742fedd350d432c7",
+      "source_archive_sha256": "c94a3fa4f2e743523cfd617ca8e4543f6a486ad3fdd6c7fedf914383711a6a00",
+      "models": [
+        {
+          "bytes": 12669224,
+          "relative_path": "model_delta_std_hacked.pickled.silent.gz",
+          "sha256": "32ecdbd4c6b03d5bf02393f88f009f80d23439c3e17ffedec89f3d3a261b1fb2"
+        },
+        {
+          "bytes": 6609830,
+          "relative_path": "phageboost_mode_v_1.01.pkl.z",
+          "sha256": "6131b80e7aeec3e33b84857baa2209cf1cd01e5a0d32f8f4631976cae650860d"
+        }
+      ]
+    }
+  },
+  "dependency_lock_sha256": "286334eea0b4532037f55a253128b09588f4015ea88d76f15415cbb146e03cf6",
+  "dockerfile_sha256": "79315b3c898812c5cb34668993eadfef4bdb1cb2f8ab3406f9e9a1236370e3d9",
+  "resource_limit": {
+    "cpus": 6,
+    "memory_gib": 12
+  },
+  "compatibility": "Pinned isolated Python3.12,numpy1.26,pandas2.2,Biopython1.85,XGBoost2.1; upstream CodonUsage absolute imports exposed via PYTHONPATH, source unchanged",
+  "build_assets": [
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/.gitignore",
+      "bytes": 2317,
+      "sha256": "688103d31352bb98569da5a126cc880709cdcaeb3a3378abc09a8cb22cee5bb3"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/LICENSE",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/MANIFEST",
+      "bytes": 238,
+      "sha256": "13d4eeaf0062e5a7692c05942b5c375b4bef680aa550a51c31af6d88d61e57b0"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/CodonUsage.py",
+      "bytes": 7575,
+      "sha256": "62ec3b48957696861c190954b7ee1bee5574d92e4f48438b66382a0353f7d7ba"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/CodonUsageIndices.py",
+      "bytes": 1380,
+      "sha256": "a77bc87202845ede5fd7787eb8a7ee5ab4bc6028932629dc942e88984d38d346"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/__init__.py",
+      "bytes": 519,
+      "sha256": "028f19f983158bcc54719abd6d19bfabdf898ab8e5d27562575b15807d13397f"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/_version.txt",
+      "bytes": 5,
+      "sha256": "1a6cadcf0974aecbea5798ec1187535c749b5ab39bdaf0118ef800dcdf531b06"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/bbcache.py",
+      "bytes": 1059,
+      "sha256": "ce5b5dd078637655a569b552417f4baacbb81176990c59a839b4e28a3e9c2214"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/calc_features.py",
+      "bytes": 10083,
+      "sha256": "79a10214ceb3f0354480b4ec764424f93e829c08087e4077e6b437bb9d6afeda"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/get_genecalls.py",
+      "bytes": 1042,
+      "sha256": "18d36f048b8b4758a2f962bd721c49224cd38448f448e8230c07dd3649bee649"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/get_matches.py",
+      "bytes": 1679,
+      "sha256": "f48376b9b2debdf8662d71454976911a60f83d443618dc74ec1076e0bf0184df"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/get_predictions.py",
+      "bytes": 6779,
+      "sha256": "74acc2d4986e7bc7e9798f9407df01a1fd6d138291ba71901da17f0e0dda6349"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/main.py",
+      "bytes": 9268,
+      "sha256": "cbc5ea557dfd56f426a378c1ba3ea081d92c4686b605256cb839d57a03bd5f70"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/models/model_delta_std_hacked.pickled.silent.gz",
+      "bytes": 12669224,
+      "sha256": "32ecdbd4c6b03d5bf02393f88f009f80d23439c3e17ffedec89f3d3a261b1fb2"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/PhageBoost/models/phageboost_mode_v_1.01.pkl.z",
+      "bytes": 6609830,
+      "sha256": "6131b80e7aeec3e33b84857baa2209cf1cd01e5a0d32f8f4631976cae650860d"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/README.md",
+      "bytes": 1965,
+      "sha256": "4b4e737caa645c932f4efa1f1aa58b7782a806a1a58516f5125595a4ee3d0340"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/example/data/NC_000907.fasta.gz",
+      "bytes": 542219,
+      "sha256": "0b62e00ed8ee227ac437c551c99f3bdf83d4c5a312543f13ca9c69be2e7bbc82"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/fig1a.png",
+      "bytes": 68044,
+      "sha256": "4f940eaf5702a8e226339e21caad3a82ef1fbde1ad8115a1806728531630dc9a"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/notebooks/basic.ipynb",
+      "bytes": 11585,
+      "sha256": "e05ca12aee8595402c783f83a28418a4108b11492d88a4318561b206b977f4ae"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/notebooks/explanations.ipynb",
+      "bytes": 343197,
+      "sha256": "4777f9d8587a7208500feca68ddf042e47f842c3068622da3cfca379900c0729"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/phageboost.py",
+      "bytes": 484,
+      "sha256": "acdd0e80a6db30972037ada60228696fc4fe2d2c1e7725a573969e7ab402a20f"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/requirements.txt",
+      "bytes": 96,
+      "sha256": "cd0a72048c17d2ec6f955bb9f79b15d58f366d5f4bd06af866db5dfebea41aec"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/setup.cfg",
+      "bytes": 148,
+      "sha256": "4f20a92c15e16b94bc66703d55cdfce5b432874e6b68d5ac522716879e80833a"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/setup.py",
+      "bytes": 2327,
+      "sha256": "26d24b77d6f6e44bcdbaf63331493360a6509b61fdac583d6180c79f97e0399a"
+    },
+    {
+      "path": "PhageBoost-46239e3994be9cb5b2b714f8742fedd350d432c7/test/test.py",
+      "bytes": 2326,
+      "sha256": "446c9ee4c6777da30a72a8fdf87a2295ddbf2df67a207537d9fe67117cedd883"
+    },
+    {
+      "path": "phageboost.tar.gz",
+      "bytes": 19898072,
+      "sha256": "c94a3fa4f2e743523cfd617ca8e4543f6a486ad3fdd6c7fedf914383711a6a00"
+    },
+    {
+      "path": "phispy-5.0.10.tar.gz",
+      "bytes": 19027840,
+      "sha256": "8329fa472b84e150b3ef59b9388830f238dc69b290af2a1ea95567dde29ec6f8"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 4707,
+      "sha256": "286334eea0b4532037f55a253128b09588f4015ea88d76f15415cbb146e03cf6"
+    },
+    {
+      "path": "wheels/annotated_types-0.8.0-py3-none-any.whl",
+      "bytes": 13427,
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+    },
+    {
+      "path": "wheels/anyio-4.15.1-py3-none-any.whl",
+      "bytes": 132079,
+      "sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+    },
+    {
+      "path": "wheels/archspec-0.2.6-py3-none-any.whl",
+      "bytes": 81818,
+      "sha256": "22463371fe8e9fa92fa144bf320cb445373a99f2ca6a5914c890e0c0b7816f8f"
+    },
+    {
+      "path": "wheels/bcbio_gff-0.7.1-py3-none-any.whl",
+      "bytes": 16008,
+      "sha256": "98b18c797fbabd27f47c2edc2a5c5e75d37a353cc2286684c4650728e66ff8fd"
+    },
+    {
+      "path": "wheels/biopython-1.85-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 3268869,
+      "sha256": "d024ad48997ad53d53a77da24b072aaba8a550bd816af8f2e7e606a9918a3b43"
+    },
+    {
+      "path": "wheels/blosc2-4.13.1-cp311-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 6634160,
+      "sha256": "1f0276ed928b2975dec012da8ebc9a1ef0a3f26d5a268635e0d12b1737d99832"
+    },
+    {
+      "path": "wheels/cachier-3.1.2-py3-none-any.whl",
+      "bytes": 24098,
+      "sha256": "24c0fefd6aef1d38a4337590aba82f3c4bd844df18393ba93c7fd7dcc98da304"
+    },
+    {
+      "path": "wheels/certifi-2026.7.22-py3-none-any.whl",
+      "bytes": 136983,
+      "sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775"
+    },
+    {
+      "path": "wheels/h11-0.16.0-py3-none-any.whl",
+      "bytes": 37515,
+      "sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+    },
+    {
+      "path": "wheels/h2-4.4.1-py3-none-any.whl",
+      "bytes": 62636,
+      "sha256": "0e25f1462b23c9cb82d9eb02e28bc706dac2a68cb457c6a0d74d63c8a2a5d0e6"
+    },
+    {
+      "path": "wheels/hpack-4.2.0-py3-none-any.whl",
+      "bytes": 34246,
+      "sha256": "858ac0b02280fa582b5080d68db0899c62a80375e0e5413a74970c5e518b6986"
+    },
+    {
+      "path": "wheels/httpcore-1.0.9-py3-none-any.whl",
+      "bytes": 78784,
+      "sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+    },
+    {
+      "path": "wheels/httpx-0.28.1-py3-none-any.whl",
+      "bytes": 73517,
+      "sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+    },
+    {
+      "path": "wheels/hyperframe-6.1.0-py3-none-any.whl",
+      "bytes": 13007,
+      "sha256": "b03380493a519fce58ea5af42e4a42317bf9bd425596f7a0835ffce80f1a42e5"
+    },
+    {
+      "path": "wheels/idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    {
+      "path": "wheels/joblib-1.4.2-py3-none-any.whl",
+      "bytes": 301817,
+      "sha256": "06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"
+    },
+    {
+      "path": "wheels/markdown_it_py-4.2.0-py3-none-any.whl",
+      "bytes": 91687,
+      "sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a"
+    },
+    {
+      "path": "wheels/mdurl-0.1.2-py3-none-any.whl",
+      "bytes": 9979,
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+    },
+    {
+      "path": "wheels/more_itertools-10.6.0-py3-none-any.whl",
+      "bytes": 63038,
+      "sha256": "6eb054cb4b6db1473f6e15fcc676a08e4732548acd47c708f0e179c2c7c01e89"
+    },
+    {
+      "path": "wheels/msgpack-1.2.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 420619,
+      "sha256": "77c2e018417dc1d66f235e383877ee885b60ade9d29e494dd581e08af2cb1923"
+    },
+    {
+      "path": "wheels/ndindex-1.10.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 546875,
+      "sha256": "03cf1e6cdac876bd8fc92d3b65bb223496b1581d10eab3ba113f7c195121a959"
+    },
+    {
+      "path": "wheels/numexpr-2.14.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 445187,
+      "sha256": "d6a5d8fc7016bf6f6e1808b011510aa7c3bd75ec1407f7650874ec591db59f5e"
+    },
+    {
+      "path": "wheels/numpy-1.26.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 17950613,
+      "sha256": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed"
+    },
+    {
+      "path": "wheels/nvidia_nccl_cu12-2.32.3-py3-none-manylinux_2_27_x86_64.whl",
+      "bytes": 351526311,
+      "sha256": "bb94b2348e4861d5e8aa00b36c3d12d9bdf9c6369b82cbb723de0b582280a21c"
+    },
+    {
+      "path": "wheels/packaging-26.3-py3-none-any.whl",
+      "bytes": 129956,
+      "sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c"
+    },
+    {
+      "path": "wheels/pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 12739445,
+      "sha256": "fffb8ae78d8af97f849404f21411c95062db1496aeb3e56f146f0355c9989319"
+    },
+    {
+      "path": "wheels/phispy-5.0.10-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "bytes": 18020702,
+      "sha256": "56c78115cf016a54253e006b33a01908774c47e5bc50463f843c9841b9491fab"
+    },
+    {
+      "path": "wheels/pickleshare-0.7.5-py2.py3-none-any.whl",
+      "bytes": 6877,
+      "sha256": "9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56"
+    },
+    {
+      "path": "wheels/portalocker-4.4.0-py3-none-any.whl",
+      "bytes": 129647,
+      "sha256": "a8e99ea29bfb61766ee0b4008cbaf0651e8e050f7a2485ebf54316480e99226e"
+    },
+    {
+      "path": "wheels/py_cpuinfo-9.0.0-py3-none-any.whl",
+      "bytes": 22335,
+      "sha256": "859625bc251f64e21f077d099d4162689c762b5d6a4c3c97553d56241c9674d5"
+    },
+    {
+      "path": "wheels/pydantic-2.13.5-py3-none-any.whl",
+      "bytes": 472589,
+      "sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73"
+    },
+    {
+      "path": "wheels/pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2066284,
+      "sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2"
+    },
+    {
+      "path": "wheels/pygments-2.21.0-py3-none-any.whl",
+      "bytes": 1250147,
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    {
+      "path": "wheels/pyrodigal-3.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 2995826,
+      "sha256": "1c9243987039885b0754d89df57c1a9c08a1246174794d1227f3135c98c43daa"
+    },
+    {
+      "path": "wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "bytes": 229892,
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+    },
+    {
+      "path": "wheels/pytz-2026.3.post1-py2.py3-none-any.whl",
+      "bytes": 508283,
+      "sha256": "dd95840dd199baea12d9cc096a1d452caa6596a1c1e4b5f3dbd1541855d5e815"
+    },
+    {
+      "path": "wheels/rich-15.0.0-py3-none-any.whl",
+      "bytes": 310654,
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+    },
+    {
+      "path": "wheels/scikit_learn-1.5.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 12945797,
+      "sha256": "394397841449853c2290a32050382edaec3da89e35b3e03d6cc966aebc6a8ae6"
+    },
+    {
+      "path": "wheels/scipy-1.13.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 38218311,
+      "sha256": "de3ade0e53bc1f21358aa74ff4830235d716211d7d077e340c7349bc3542e884"
+    },
+    {
+      "path": "wheels/setuptools-80.9.0-py3-none-any.whl",
+      "bytes": 1201486,
+      "sha256": "062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922"
+    },
+    {
+      "path": "wheels/six-1.17.0-py2.py3-none-any.whl",
+      "bytes": 11050,
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+    },
+    {
+      "path": "wheels/tables-3.10.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 7483570,
+      "sha256": "f6c12d0d04de89297763923ebeaddfd7e0b51f29041895db284fd4913e7448b7"
+    },
+    {
+      "path": "wheels/tabulate-0.9.0-py3-none-any.whl",
+      "bytes": 35252,
+      "sha256": "024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"
+    },
+    {
+      "path": "wheels/threadpoolctl-3.7.0-py3-none-any.whl",
+      "bytes": 26362,
+      "sha256": "cd8b60b5641b45c67bbf73c64c843235fc2d8a480c87389f52f5dbee893b86be"
+    },
+    {
+      "path": "wheels/typing_extensions-4.16.0-py3-none-any.whl",
+      "bytes": 45571,
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    {
+      "path": "wheels/typing_inspection-0.4.4-py3-none-any.whl",
+      "bytes": 14750,
+      "sha256": "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+    },
+    {
+      "path": "wheels/tzdata-2026.4-py2.py3-none-any.whl",
+      "bytes": 347494,
+      "sha256": "c2169a8b0a7a5e9674da5a135ccdfb2b3e671b333ed9fed17b41f73c34476e81"
+    },
+    {
+      "path": "wheels/watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl",
+      "bytes": 79078,
+      "sha256": "20ffe5b202af80ab4266dcd3e91aae72bf2da48c0d33bdb15c66658e685e94e2"
+    },
+    {
+      "path": "wheels/xgboost-2.1.4-py3-none-manylinux_2_28_x86_64.whl",
+      "bytes": 223642416,
+      "sha256": "8df6da72963969ab2bf49a520c3e147b1e15cbeddd3aa0e3e039b3532c739339"
+    }
+  ],
+  "total_cached_wheel_bytes": 704966630,
+  "fresh_build_note": "All software/model sources and complete transitive package wheel hashes preserved. Locally built PhiSpy wheel is locked as a binary build artifact; retain cache for exact rebuild. New binary artifacts or image IDs require repinning and testing.",
+  "coordinate_audit": {
+    "PhiSpy": "seqio_filter.py CDS start=location.start+1, stop=location.end; writers.py FASTA source[start:stop] omits first reported base. Raw retained; canonical source[start-1:stop]. Attachment details retained but not experimentally validated.",
+    "PhageBoost": "get_genecalls.py uses pyrodigal.begin/end (1based inclusive); get_predictions.py FASTA source[start:stop+1] shifts right one base. Raw retained; canonical source[start-1:stop]."
+  },
+  "source_review_urls": [
+    "https://github.com/linsalrob/PhiSpy",
+    "https://pypi.org/project/PhiSpy/5.0.10/",
+    "https://github.com/ku-cbd/PhageBoost/tree/46239e3994be9cb5b2b714f8742fedd350d432c7"
+  ]
+}

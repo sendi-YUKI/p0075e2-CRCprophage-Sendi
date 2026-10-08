@@ -1,0 +1,17 @@
+{
+  "assemblies": 258,
+  "named_isolate_identity_groups": 258,
+  "sequence_equivalence_groups": 258,
+  "independent_human_donors": "not_established",
+  "clinical_labels": {
+    "unknown": 196,
+    "reported_healthy_no_CRC_screening_documented": 6,
+    "CRC_project_documented": 3,
+    "CRC": 2,
+    "child_faecal_reference_not_adult_matched_control": 12,
+    "nonCRC_colonoscopy_after_bacteraemia": 18,
+    "CRC_colonoscopy_after_bacteraemia": 7,
+    "CRC_BioSample_documented": 14
+  },
+  "total_fasta_bytes": 1025273570
+}

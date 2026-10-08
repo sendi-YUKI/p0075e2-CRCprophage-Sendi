@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "sample": "SID531469",
+  "group": "CRC",
+  "command": [
+    "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-metaphlan/.pixi/envs/default/bin/metaphlan",
+    "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688502/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_2.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_0/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_1/clean_1.fastq.gz",
+    "--input_type",
+    "fastq",
+    "--db_dir",
+    "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--index",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--offline",
+    "--nproc",
+    "14",
+    "--bt2_ps",
+    "very-sensitive",
+    "--min_mapq_val",
+    "5",
+    "--mapout",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/host_tail/SID531469/markers.mapout.bz2",
+    "-t",
+    "rel_ab",
+    "-o",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/host_tail/SID531469/profile.tsv"
+  ],
+  "input_checks": [
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688502/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688502/dehuman/clean_1.fastq.gz",
+      "sha256": "fa9cb6d57921744e61c17b76097b622f48b396ed5ca382063338b0541a72cebd",
+      "bytes": 71553334
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_1.fastq.gz",
+      "sha256": "c2233c5bc0602718cae88d22020379748c854196255d40bfb63f7e20399334fe",
+      "bytes": 2323891795
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_2.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman/clean_2.fastq.gz",
+      "sha256": "ccae68583bc826497cf03920282ad52dd28a4b6cacd8a95c789b20b20a897510",
+      "bytes": 2359300217
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_0/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_0/clean_1.fastq.gz",
+      "sha256": "a0aae8f7aeeb7ea4d711210021c7ed25b4a8bc6296865b75e39e46f2f864e161",
+      "bytes": 46955326
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_1/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v1/SID531469/clean/units/ERR688649/dehuman_singleton_1/clean_1.fastq.gz",
+      "sha256": "feaabbb85e589e27c3364ad207bd1b100c762049518ae177dd09c3b47a2364e1",
+      "bytes": 22505050
+    }
+  ],
+  "input_readsets": 4,
+  "clean_reads": 49534577,
+  "elapsed_seconds": 631.6654019355774,
+  "profile_sha256": "fd6f69aa4b63fd302985a8dd6365a3464618f85f60a318ecfe43db6147889ff3",
+  "synthetic_donor_unit": {
+    "unit_id": "SID531469",
+    "biological_sample_id": "SID531469",
+    "library_id": "donor_combined_disjoint_clean_reads",
+    "eligibility": {
+      "host_adjustment": {
+        "status": "provisional"
+      }
+    }
+  },
+  "job_id": "1139",
+  "worker": "isolated_tail",
+  "original_output_path": "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/host_tail/SID531469",
+  "published_output_path": "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/03_host_profile/SID531469",
+  "database_preflight_reuse": "same_fixed_database_as_verified_initial_CRC_donor_plus_size_check"
+}

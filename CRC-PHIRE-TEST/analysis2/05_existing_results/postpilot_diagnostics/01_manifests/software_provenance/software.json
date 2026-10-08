@@ -1,0 +1,22 @@
+{
+  "PropagAtE_commit": "d67f6f74de2b20290339ad7fc7721e6bf02c8f1a",
+  "tracked_source_unmodified": true,
+  "selected_official_source_sha256": {
+    "Propagate/Propagate": "751f8ef42c13246ff1f58b59c6b142a22d7dc2de63de62c673f3b25b3fd1abaf",
+    "Propagate/modules.py": "895799814f816c793c975c9bffc5623f393e3e19b1e1ef163bd04d711c5700f3",
+    "Propagate/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "README.md": "45f576b06d971df4634a27218f8b53f6aef36b1148aaecfb0a233c9f3e77ee26",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  "active_python_environment": "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/02_pipeline/propagate_env/bin/python",
+  "package_versions": {
+    "metaphlan": "4.2.4",
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "pysam": "0.24.1",
+    "matplotlib": "3.11.2",
+    "numba": "0.61.2",
+    "llvmlite": "0.44.0"
+  },
+  "quarto": "1.9.38"
+}

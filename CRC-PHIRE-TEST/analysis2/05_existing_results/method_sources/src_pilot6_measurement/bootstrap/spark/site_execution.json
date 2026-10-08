@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "target": "SPARK_PORTABILITY_BUILD",
+  "host": "spark-d3de",
+  "user": "sendi",
+  "uid": 1002,
+  "platform": "linux-aarch64",
+  "observed_utc": "2026-09-23T13:04:57.021579+00:00",
+  "scheduler": {
+    "policy_checked": true,
+    "actual_smoke_verified": true,
+    "partition": "main",
+    "account": "lab",
+    "qos": "normal",
+    "heavy_jobs_must_use_slurm": true,
+    "strategy": "one_outer_allocation_nextflow_local_queue_one",
+    "smoke_job_id": "723",
+    "smoke_exit_code": "0:0",
+    "smoke_state": "COMPLETED",
+    "smoke_cpus": 1,
+    "smoke_memory": "256M",
+    "smoke_log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability_20260923/scheduler_smoke_723.log",
+    "sacct": "723|sendi|lab|main|COMPLETED|0:0|1|256M|00:00:01\n723.batch||lab||COMPLETED|0:0|1||00:00:01\n"
+  },
+  "resources": {
+    "cpus": 6,
+    "memory_gib": 48,
+    "max_parallel_heavy": 1,
+    "gpu_requested": false,
+    "shared_lock": "/srv/CRC-PHIRE/scratch/crc-phage/core-heavy.lock"
+  },
+  "runtime": {
+    "selected": "native-locked-prefix",
+    "docker_status": "permission_denied",
+    "container_available": false,
+    "filesystem_isolation": "Landlock data-write confinement; not container/network/chmod isolation",
+    "readonly_mounts_enforced": false,
+    "input_database_checksum_validation": true,
+    "write_guard_actual_probe": true,
+    "write_guard_receipt": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability_20260923/fs_guard/acceptance.json"
+  },
+  "user_namespace": {
+    "max_user_namespaces": 511826,
+    "unprivileged_userns_clone": 1,
+    "apparmor_restrict_unprivileged_userns": 1,
+    "subuid": "231072:65536",
+    "subgid": "231072:65536",
+    "apptainer_installed": false,
+    "site_recommendation_found": false
+  },
+  "policy_sources": [
+    {
+      "path": "/etc/motd",
+      "sha256": "5456359705d725de8e9af8ce5d3205e8be12952060a41b67559331bcfe5a4a4d"
+    },
+    {
+      "path": "/etc/slurm/job_submit.lua",
+      "sha256": "99095d52e5f60818c33d44ab01dbc91bc2a23635d6ff7be25d23436f5ac41c67"
+    },
+    {
+      "path": "/etc/slurm/cgroup.conf",
+      "sha256": "2d4c7badacae7ef6fe128766c5731d44f0a0c775bcd2473cd234ff6e3fe8944a"
+    }
+  ],
+  "review_group_interpretation": {
+    "group": "spark-review-submit",
+    "role": "reviewer_device_registration_and_material_access",
+    "slurm_submit_hook_found": false
+  }
+}

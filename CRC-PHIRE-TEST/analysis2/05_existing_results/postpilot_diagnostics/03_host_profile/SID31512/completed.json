@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "sample": "SID31512",
+  "group": "control",
+  "command": [
+    "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-metaphlan/.pixi/envs/default/bin/metaphlan",
+    "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688403/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_2.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_0/clean_1.fastq.gz,/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_1/clean_1.fastq.gz",
+    "--input_type",
+    "fastq",
+    "--db_dir",
+    "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--index",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503",
+    "--offline",
+    "--nproc",
+    "6",
+    "--bt2_ps",
+    "very-sensitive",
+    "--min_mapq_val",
+    "5",
+    "--mapout",
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/03_host_profile/SID31512/markers.mapout.bz2",
+    "-t",
+    "rel_ab",
+    "-o",
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/03_host_profile/SID31512/profile.tsv"
+  ],
+  "input_checks": [
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688403/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688403/dehuman/clean_1.fastq.gz",
+      "sha256": "938ff2693e06f0c1e6079aa59e90bc6fc00aef3ed1bbef21f31a820ecca18459",
+      "bytes": 87677122
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_1.fastq.gz",
+      "sha256": "a48259ad7385be75c01c0f80c73e4597fc113febd0bb284a7ff7eb39af8ef60c",
+      "bytes": 2163185148
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_2.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman/clean_2.fastq.gz",
+      "sha256": "5488a8a2164df3b49f998822dc1f2cab41adc0e1bd797802e82a92e6b180098c",
+      "bytes": 2176292265
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_0/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_0/clean_1.fastq.gz",
+      "sha256": "61bd383effa4efc25f90c60454081f05807282af6598ef0be6e6cc2065e9e556",
+      "bytes": 53850011
+    },
+    {
+      "path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_1/clean_1.fastq.gz",
+      "resolved": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID31512/clean/units/ERR688550/dehuman_singleton_1/clean_1.fastq.gz",
+      "sha256": "dca6ba3ffb9de3ad791af403eedf519242a52cc3779b509a58a6a739d43a1f92",
+      "bytes": 9963743
+    }
+  ],
+  "input_readsets": 4,
+  "clean_reads": 47740494,
+  "elapsed_seconds": 1393.9550368785858,
+  "profile_sha256": "637c2faf0e76479ff2a00ba8da46161cfcba1ca12b2ff52b62a802e963654496",
+  "synthetic_donor_unit": {
+    "unit_id": "SID31512",
+    "biological_sample_id": "SID31512",
+    "library_id": "donor_combined_disjoint_clean_reads",
+    "eligibility": {
+      "host_adjustment": {
+        "status": "provisional"
+      }
+    }
+  },
+  "job_id": "1133"
+}

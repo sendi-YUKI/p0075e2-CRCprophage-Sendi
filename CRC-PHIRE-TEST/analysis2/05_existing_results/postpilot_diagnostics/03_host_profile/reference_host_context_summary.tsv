@@ -1,0 +1,5 @@
+reference_host_taxon	reference_linked_votus	broad_detected_donor_votu_cells	host_profile_positive_donors	host_count_denominator	scope
+Bacteroides fragilis (division I)	62	8	6	10	reference_relationship_descriptive_not_patient_host_assignment
+Bacteroides hominis / historical B. fragilis division II	22	0	NA	10	reference_relationship_descriptive_not_patient_host_assignment
+Fusobacterium animalis	64	0	1	10	reference_relationship_descriptive_not_patient_host_assignment
+Parvimonas micra	4	0	4	10	reference_relationship_descriptive_not_patient_host_assignment

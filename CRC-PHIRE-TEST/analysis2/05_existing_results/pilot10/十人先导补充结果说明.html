@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>CRC-PHIRE 十人先导补充</title><style>body{max-width:1000px;margin:40px auto;padding:0 24px;color:#183142;font:17px/1.9 system-ui}article{white-space:pre-wrap}h1{font-size:28px}</style><h1>CRC-PHIRE 十人先导补充</h1><article># CRC-PHIRE：258份参考＋10人先导补充结果
+
+本报告只在十人联合目录、功能注释、十人统一定量及逐文件验收全部完成后生成；原六人结果单独保留。
+
+## 实际完成范围
+
+参考端258份基因组；患者端为Feng队列5例CRC、5名研究对照。保留原先导六人，按既有清单顺序补入SID530368、SID532796、SID530295、SID31512四名对照；SID31285另行保留、不纳入。四名新增对照在本轮分析结果产生前固定，没有根据噬菌体结果选人。研究对照可有高血压或脂肪肝等共病，不等同于全部健康人。
+
+参考端812条原始候选中有541个预测provirus位点。患者端得到10683个原始病毒实例；原始病毒实例不能全部称为prophage。联合目录包含11472条按序列SHA去重的序列，工程质量集合形成473个vOTU。
+
+## 两端能否连接
+
+直接匹配分类：{&quot;partial_or_fragment_match&quot;: 1031, &quot;broad_bidirectional_match&quot;: 20}。有广泛直接匹配的参考端序列19条、患者端序列7条。
+
+匹配使用既定95% ANI及85%覆盖起点；广泛匹配要求两条序列都覆盖至少85%，片段匹配单列。对两个方向的非重叠比对证据取保守值。相同方向序列SHA完全相同另列。
+
+G_M_occurrence_host_links.tsv给出菌株/基因组、患者样本、两端候选编号和坐标。这个连接证明患者序列与参考菌株中的病毒序列相似；不能据此确认它在患者体内属于该菌，也不能推断功能基因完全一致。
+
+## 功能与定量怎么阅读
+
+四名新增对照同样参加组装和病毒发现，十人共同建立新版目录；十人全部向同一新版参考重新定量，未把六人旧目录的数值与四人新目录的数值直接拼接。258份参考和已有六人的主要预测结果经校验复用。
+
+功能从各条病毒序列自身预测基因后统一进行PHROGs、DefenseFinder/AntiDefenseFinder和KOfam搜索。intersection_function_evidence.tsv汇总匹配对象的证据链接。KO、cargo或反防御同源命中仍需检查基因上下文、边界和系统完整性，不是机制验证。
+
+每人PE、SE和fastp孤儿reads分别比对，再按碱基深度相加计算同一个人的覆盖广度；没有把readsets当作独立患者。竞争参考加入258份细菌基因组并遮蔽目录中的病毒位点，减少明显的细菌背景误配，但不是完整肠道背景库。
+
+广泛检出采用整条病毒参考至少75%碱基在过滤后达到至少1×覆盖；保留连续深度、广度和歧义信号。未达阈值不等于不存在。258份单独菌株的竞争比对深度不能直接当作已验证的物种丰度或宿主校正结果。
+
+## 这次可以与不可以下的结论
+
+可以评价：现有数据是否支持两端序列连接、功能证据能否追踪到具体序列、按人定量能否贯通。若未得到广泛交集，保留片段匹配、目录覆盖和宿主检出背景，不能为了取出交集降低阈值。
+
+pilot10_descriptive_group_comparison.tsv按同一vOTU列出两组的检出人数、可评价人数、检出比例及丰度、深度、广度中位数。未评价状态不算阴性，分母单独列出；所有已测量vOTU均保留。这里只描述这十人的观察差异，没有进行显著性检验、P值筛选或疾病预测。
+
+十人同时参与发现与测量，仍是样本内先导。5∶5增加了对照侧信息，但样本少、单队列、年龄和共病等尚不能充分控制，不证明CRC关联、致病或保护作用，也不是独立验证。两组都是4女1男，不代表已经完成年龄或其他临床因素匹配；原始临床元数据的核查状态仍须保留。正式研究与analysis2交接范围需独立推进。
+
+## 文件入口
+
+- G_M_sequence_matches.tsv：直接序列匹配与双向覆盖。
+- G_M_occurrence_host_links.tsv：参考菌株与患者病毒实例对应。
+- G_M_sequence_disposition.tsv：匹配与未匹配序列均保留。
+- intersection_function_evidence.tsv：匹配对象的功能证据。
+- donor_votu_measurement.tsv：十人的定量、覆盖和检出状态。
+- pilot10_descriptive_group_comparison.tsv：5∶5的描述性比较。
+- pilot10_final_acceptance.json：本报告数值与文件校验。
+</article></html>

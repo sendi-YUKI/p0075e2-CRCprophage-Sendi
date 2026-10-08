@@ -1,0 +1,37 @@
+query_key	taxon_scope	role	direction	budget_cap	preselected	reserve	review	excluded	context_only	duplicate_assembly	source_ids	interpretation
+fusobacterium_animalis	Fusobacterium animalis	deep	CRC_enriched_lineage_dependent	180	89	0	0	2	0	91	FNA2024;FNTAX2025;CRC2025	保留旧名与新种/谱系对应；不把旧Fna C1/C2当永恒分类
+fusobacterium_nucleatum	Fusobacterium nucleatum	deep	CRC_enriched_lineage_dependent	120	50	7	72	2	0	106	CRC2025;FNTAX2025	查询包含子类群时全局去重复；宿主/口腔与肠道来源分开
+fusobacterium_polymorphum	Fusobacterium polymorphum	lineage_context	CRC_enriched_lineage_dependent	70	70	64	4	0	0	135	CRC2025;FNTAX2025	Fn复合群的谱系覆盖
+fusobacterium_vincentii	Fusobacterium vincentii	lineage_context	CRC_enriched_lineage_dependent	70	34	0	1	0	0	35	CRC2025;FNTAX2025	Fn复合群的谱系覆盖
+fusobacterium_watanabei	Fusobacterium watanabei	taxonomy_context	unresolved_taxonomic_context	40	18	0	0	0	0	18	FNTAX2025	新分类参考；不外推疾病方向
+fusobacterium_paranimalis	Fusobacterium paranimalis	taxonomy_context	unresolved_taxonomic_context	40	1	0	0	0	0	0	FNTAX2025	保留分类争议和类型株锚点
+fusobacterium_periodonticum	Fusobacterium periodonticum	focused	CRC_association_with_recent_mechanistic_support	60	8	1	0	0	0	9	FPER2026	新增研究线索，不等同多队列普适结论
+parvimonas_micra	Parvimonas micra	deep	CRC_enriched	180	33	3	1	1	0	37	CRC2025;QMP2024	多来源种内prophage覆盖；CRC来源不是参考纳入硬条件
+peptostreptococcus_anaerobius	Peptostreptococcus anaerobius	deep	CRC_enriched	150	30	0	7	0	0	37	QMP2024;CRC2019	重复关联和机制关注宿主
+peptostreptococcus_stomatis	Peptostreptococcus stomatis	deep	CRC_enriched	120	2	0	0	0	0	2	CRC2025;CRC2019	不与P. anaerobius合并；公开培养genome可能较少
+bacteroides_fragilis	Bacteroides fragilis	deep	strain_dependent_mixed	200	200	1170	295	489	0	812	BF2026;CRC2025	ETBF/NTBF依基因证据；不把整个物种等同致病
+bacteroides_hominis	Bacteroides hominis	lineage_context	unresolved_taxonomic_context	80	80	35	6	40	0	138	BF2026	历史division II单列；当前taxonomy与旧标签核查
+gemella_morbillorum	Gemella morbillorum	focused	CRC_enriched	100	14	0	0	0	0	14	CRC2025;CRC2019	口腔/肠道/临床体位分开
+solobacterium_moorei	Solobacterium moorei	focused	CRC_enriched	80	8	0	0	0	0	8	CRC2019;CRC2025	补足反复出现的口腔相关CRC宿主
+porphyromonas_asaccharolytica	Porphyromonas asaccharolytica	focused	CRC_enriched	80	3	0	0	0	0	3	QMP2024;CRC2019	定量混杂调整后仍有支持
+porphyromonas_somerae	Porphyromonas somerae	focused	CRC_association_context_dependent	60	7	0	0	0	0	7	CRC2019;CRC2025	不将属级方向直接推广所有种
+prevotella_intermedia	Prevotella intermedia	focused	CRC_enriched	80	17	0	22	0	0	39	QMP2024;CRC2019	口腔来源可作参考，不能当健康人对照
+anaerococcus_vaginalis	Anaerococcus vaginalis	focused	CRC_enriched	60	7	0	2	0	0	9	QMP2024	补足混杂调整后支持的宿主
+dialister_pneumosintes	Dialister pneumosintes	focused	CRC_enriched	60	4	0	0	0	0	4	QMP2024;CRC2025	补足混杂调整后支持的宿主
+hungatella_hathewayi	Hungatella hathewayi	focused	CRC_enriched	100	30	3	7	0	0	41	CRC2025;VIROME2023	种内与旧Clostridium标签交叉核查
+clostridium_symbiosum	Clostridium symbiosum	focused	CRC_association_context_dependent	80	29	15	39	6	0	87	CRC2019;CRC2025	数据库新旧分类分别保留
+streptococcus_gallolyticus	Streptococcus gallolyticus	focused	CRC_relevant_clinical_association	100	37	0	23	4	3	67	CRC2019	临床宿主资源；血培养不等同粪便病例对照
+faecalibacterium	Faecalibacterium	deep_depleted_background	control_associated_subset_direction_not_genus_wide	200	123	4	144	6	0	267	VIROME2023;CRC2019;HIBC2025	属级检索覆盖F. prausnitzii复合群的新种；逐种解释
+roseburia	Roseburia	deep_depleted_background	control_associated_subset_direction_not_genus_wide	160	28	1	94	4	1	125	VIROME2023;CRC2019	属级检索补种内/种间覆盖，不宣称全属保护
+agathobacter_rectalis	Agathobacter rectalis	depleted_background	control_associated	150	126	8	4	4	0	143	VIROME2023	旧Eubacterium rectale名称对应；耗竭不等同保护
+anaerostipes_hadrus	Anaerostipes hadrus	ecological_context	context_dependent	100	91	5	6	0	0	99	CRC2025	肠道功能/谱系背景；不预设CRC方向
+coprococcus_comes	Coprococcus comes	ecological_context	direction_not_prespecified	60	60	17	3	2	0	81	GPD2021	常见肠道发酵生态背景，未据此宣称CRC耗竭
+bifidobacterium_longum	Bifidobacterium longum	ecological_context	control_association_context_dependent	100	100	1780	11	28	3	954	CRC2019	种/亚种和年龄来源需区分，不预设保护
+bifidobacterium_adolescentis	Bifidobacterium adolescentis	ecological_context	direction_not_prespecified	80	80	762	57	3	0	719	GPD2021	补充非CRC富集的肠道宿主背景
+akkermansia_muciniphila	Akkermansia muciniphila	ecological_context	context_dependent	100	100	110	34	21	0	260	AKK2021;CRC2025	CRC中可富集，不能自动列为保护菌
+bacteroides_uniformis	Bacteroides uniformis	ecological_context	direction_not_prespecified	80	80	202	355	4	1	574	GPD2021	常见肠道Bacteroides背景，避免只看B. fragilis
+bacteroides_thetaiotaomicron	Bacteroides thetaiotaomicron	ecological_context	direction_not_prespecified	80	80	634	46	36	0	564	GPD2021	可实验宿主及功能背景，不预设疾病方向
+phocaeicola_vulgatus	Phocaeicola vulgatus	ecological_context	context_dependent	80	80	855	21	38	0	805	CRC2019	旧Bacteroides vulgatus；高丰度近缘背景
+phocaeicola_dorei	Phocaeicola dorei	ecological_context	context_dependent	60	60	173	10	11	0	247	CRC2019	旧Bacteroides dorei；与vulgatus分开
+escherichia_coli	Escherichia coli	mechanistic_context	strain_gene_dependent	150	150	3615	1	1691	0	2	CRC2025;PGENOTOX2022	仅RefSeq完整组装盘点作为有界结构背景；不是E. coli全物种穷尽检索
+butyricicoccus_pullicaecorum	Butyricicoccus pullicaecorum	experimental_context	potential_protective_preclinical_only	30	2	0	0	0	4	5	BUTYRICICOCCUS2020	动物实验依据；非人类型株只作实验/分类背景，单列不伪装患者宿主

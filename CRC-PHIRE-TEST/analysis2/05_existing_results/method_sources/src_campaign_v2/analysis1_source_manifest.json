@@ -1,0 +1,223 @@
+{
+  "source_commit": "cb4f0d7f9240caf1aa9f23ba826ef7d976238417",
+  "source_repo": "/srv/CRC-PHIRE/projects/crc-pipeline",
+  "runtime_version": "analysis1_campaign_v2",
+  "changes": [
+    {
+      "file": "bin/spark_runtime.py",
+      "before_sha256": "860209f15b5a88cc994e31336b2d3476cc4b7d494e001f7381d1751d5df31ab5",
+      "after_sha256": "2e1eec27d91661374a990138f44f4da2229bda1af6322ec18330d73a4d1f971b",
+      "diff": "--- bin/spark_runtime.py\n+++ bin/spark_runtime.py\n@@ -19,6 +19,7 @@\n import sys\n \n REPO = Path(__file__).resolve().parents[1]\n+DEPENDENCY_REPO = Path('/srv/CRC-PHIRE/projects/crc-pipeline')\n DEPENDENCIES = REPO / 'assets/spark_dependencies.json'\n SITE = REPO / 'bootstrap/spark/site_execution.json'\n IDENTITIES = REPO / 'assets/spark_runtime_identities.json'\n"
+    },
+    {
+      "file": "bin/spark_runtime.py",
+      "before_sha256": "2e1eec27d91661374a990138f44f4da2229bda1af6322ec18330d73a4d1f971b",
+      "after_sha256": "9d66bbb404db40e8cbb30de8b565839a1cb8aa54a964976b2a5c59844c09ba0c",
+      "diff": "--- bin/spark_runtime.py\n+++ bin/spark_runtime.py\n@@ -169,7 +169,7 @@\n         raise RuntimeError('Native ARM environment is not ready: ' + key)\n     prefix = Path(item['prefix']).expanduser().resolve()\n     manifest = Path(item['manifest']).expanduser().resolve()\n-    if not prefix.is_relative_to(REPO / 'envs') or not manifest.is_relative_to(REPO / 'envs'):\n+    if not prefix.is_relative_to(DEPENDENCY_REPO / 'envs') or not manifest.is_relative_to(DEPENDENCY_REPO / 'envs'):\n         raise RuntimeError('Native prefixes/manifests must be inside this repository envs/')\n     lock = Path(item.get('lock', str(manifest.parent / 'pixi.lock'))).resolve()\n     if not prefix.is_dir() or not lock.is_file() or sha(lock) != item.get('lock_sha256'):\n"
+    },
+    {
+      "file": "bin/spark_runtime.py",
+      "before_sha256": "9d66bbb404db40e8cbb30de8b565839a1cb8aa54a964976b2a5c59844c09ba0c",
+      "after_sha256": "638373056d963faa80a3a054a4ef018ef8e99f97ee0504817d15b499d4c84a65",
+      "diff": "--- bin/spark_runtime.py\n+++ bin/spark_runtime.py\n@@ -237,7 +237,7 @@\n             # The current record may point to a later version-probe-only attempt.\n             # Bind commands to the historical build receipt for this exact binary.\n             commands = []\n-            for receipt in sorted((REPO / 'results/spark_portability/dependencies').glob('*/core-checkv/diamond_native_source.json')):\n+            for receipt in sorted((DEPENDENCY_REPO / 'results/spark_portability/dependencies').glob('*/core-checkv/diamond_native_source.json')):\n                 built = read(receipt)\n                 if built.get('binary_sha256') != source['binary_sha256'] or built.get('sha256') != source['sha256']:\n                     continue\n"
+    },
+    {
+      "file": "bin/spark_runtime.py",
+      "before_sha256": "638373056d963faa80a3a054a4ef018ef8e99f97ee0504817d15b499d4c84a65",
+      "after_sha256": "040bd9d0c735aaa6d067c66bbe5dcca89c41cb39dbecc3541a250f9680d8fe16",
+      "diff": "--- bin/spark_runtime.py\n+++ bin/spark_runtime.py\n@@ -319,7 +319,7 @@\n     info=root.lstat()\n     if root.is_symlink() or not root.is_dir() or info.st_uid!=os.getuid() or info.st_mode & 0o077:\n         raise ValueError('Private temporary alias directory has unknown ownership/permissions; refusing to change it')\n-    alias=root/hashlib.sha256(os.fsencode(str(temp))).hexdigest()[:20]\n+    alias=root/hashlib.sha256(os.fsencode(str(temp))).hexdigest()[:12]\n     if len(os.fsencode(alias))>70:raise ValueError('Short temporary alias still exceeds the AF_UNIX-safe path budget')\n     created=False\n     try:alias.symlink_to(temp,target_is_directory=True);created=True\n"
+    },
+    {
+      "file": "bin/spark-launch.py",
+      "before_sha256": "4ed402d09c6fa696a1c9dbdcaa3ce83ff920677ce9480fc6fdc9b25e0d21c031",
+      "after_sha256": "554ce0cd88171b980537b9bfc1b7329b0042118cf79500b2dc8bf941672587b3",
+      "diff": "--- bin/spark-launch.py\n+++ bin/spark-launch.py\n@@ -77,7 +77,10 @@\n     path = Path(values[0]).expanduser().resolve()\n     if any(x in str(path) for x in ('\\n', '\\r', \"'\")):\n         raise ValueError('Output paths containing quotes/newlines are unsupported')\n-    for protected in (Path.home() / 'databases', Path.home() / 'scratch/crc-phage', REPO / 'envs', REPO / 'baseline_evidence'):\n+    campaign = Path('/srv/CRC-PHIRE/analysis1')\n+    if not path.is_relative_to(campaign):\n+        raise ValueError('analysis1 runtime outputs must stay inside its campaign')\n+    for protected in (Path.home() / 'databases', campaign / 'work', campaign / 'spark_preflight', REPO, runtime.DEPENDENCY_REPO / 'envs', REPO / 'baseline_evidence'):\n         if path == protected or path.is_relative_to(protected) or protected.is_relative_to(path):\n             raise ValueError('Output overlaps protected database/environment/work/evidence path')\n     if path == REPO or REPO.is_relative_to(path):\n"
+    },
+    {
+      "file": "bin/spark-launch.py",
+      "before_sha256": "554ce0cd88171b980537b9bfc1b7329b0042118cf79500b2dc8bf941672587b3",
+      "after_sha256": "9100955216cbd25e657f869099b9cb21ffb05dc68d04e1bbe72ddf7099cc5b99",
+      "diff": "--- bin/spark-launch.py\n+++ bin/spark-launch.py\n@@ -109,7 +109,7 @@\n              'scientifically_calibrated': False, 'real_data_validated': False,\n              'resume_requested': '--resume' in args}\n     runtime.save(receipt_path, state)\n-    lock_path = Path.home() / 'scratch/crc-phage/core-heavy.lock'\n+    lock_path = Path('/srv/CRC-PHIRE/analysis1/core-heavy.lock')\n     lock_path.parent.mkdir(parents=True, exist_ok=True)\n     child = None\n     def interrupted(signum, frame):\n"
+    },
+    {
+      "file": "bin/spark-launch.py",
+      "before_sha256": "9100955216cbd25e657f869099b9cb21ffb05dc68d04e1bbe72ddf7099cc5b99",
+      "after_sha256": "cbfcf8419c59920eabb6161ea824a4ddb04278ea36a254fea413160622906bc8",
+      "diff": "--- bin/spark-launch.py\n+++ bin/spark-launch.py\n@@ -127,7 +127,7 @@\n             env.update(CRC_PHAGE_RUNTIME='spark-native',\n                        CRC_SPARK_HEAVY_LOCK_OWNER=str(os.getpid()),\n                        CRC_SPARK_HEAVY_LOCK_FD=str(lock.fileno()),\n-                       CRC_SPARK_PREFLIGHT_ROOT=str(Path.home() / 'scratch/crc-phage/spark_preflight' / record),\n+                       CRC_SPARK_PREFLIGHT_ROOT=str(Path('/srv/CRC-PHIRE/analysis1/spark_preflight') / record),\n                        CRC_SPARK_ALLOWED_WRITE_ROOTS='[]',\n                        NXF_OPTS='-Xms256m -Xmx2g -XX:ActiveProcessorCount=6')\n             # Exact native config and prefix lock fingerprints are recorded even\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "ab27460b597ece55839bc0aa391796a75436b49806e1c7c34a99c2ffd1682918",
+      "after_sha256": "cece23341397b6eb5dd9004481ed023c235ab87b43e58b747f604de592ef34b7",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -301,7 +301,7 @@\n     if (a.research_catalog or a.research_source_manifest) and a.workflow!='viral':raise ValueError('Research bridge flags require viral mode')\n     if bool(a.research_catalog)!=bool(a.research_source_manifest):raise ValueError('Research bridge requires both catalogue and source manifest')\n     if getattr(a,'research_run',False):research_profile_guard(getattr(a,'measurement_profile',None),getattr(a,'detection_profiles',None))\n-    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path.home()/'scratch/crc-phage'\n+    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path('/srv/CRC-PHIRE/analysis1')\n     if out.is_relative_to(dbroot) or out.is_relative_to(workroot):raise ValueError('Outputs must be separate from database and Nextflow work directories')\n     for key,value in vars(a).items():\n         if key in ('workflow','outdir','catalog_scope') or not value:continue\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "cece23341397b6eb5dd9004481ed023c235ab87b43e58b747f604de592ef34b7",
+      "after_sha256": "7748b71c31ae9749eb12013ab8f484e5ae513d8b8cef1851ef909f164722f1ea",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -301,7 +301,7 @@\n     if (a.research_catalog or a.research_source_manifest) and a.workflow!='viral':raise ValueError('Research bridge flags require viral mode')\n     if bool(a.research_catalog)!=bool(a.research_source_manifest):raise ValueError('Research bridge requires both catalogue and source manifest')\n     if getattr(a,'research_run',False):research_profile_guard(getattr(a,'measurement_profile',None),getattr(a,'detection_profiles',None))\n-    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path('/srv/CRC-PHIRE/analysis1')\n+    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path('/srv/CRC-PHIRE/analysis1/work/reads_v1')\n     if out.is_relative_to(dbroot) or out.is_relative_to(workroot):raise ValueError('Outputs must be separate from database and Nextflow work directories')\n     for key,value in vars(a).items():\n         if key in ('workflow','outdir','catalog_scope') or not value:continue\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "7748b71c31ae9749eb12013ab8f484e5ae513d8b8cef1851ef909f164722f1ea",
+      "after_sha256": "485ea2555092b97687a791d97d3505219fe05acb0569d4e255c16090349aa75a",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -286,7 +286,8 @@\n def code_manifest():\n     files=[p for root in ('bin','modules','workflows','conf','assets') for p in (R/root).rglob('*') if p.is_file() and '__pycache__' not in p.parts]\n     files += list(R.glob('main*.nf'))+[R/'nextflow.config']\n-    return {'commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=R,text=True).strip(),'dirty':bool(subprocess.check_output(['git','status','--porcelain'],cwd=R,text=True)),'files':{str(p.relative_to(R)):sha(p) for p in files}}\n+    origin=read(R/'analysis1_source_manifest.json')\n+    return {'commit':None,'source_commit':origin['source_commit'],'snapshot':True,'source_manifest_sha256':sha(R/'analysis1_source_manifest.json'),'files':{str(p.relative_to(R)):sha(p) for p in files}}\n def main():\n     p=argparse.ArgumentParser(description=__doc__);p.add_argument('workflow',choices=['reads','assembly','viral','cohort','association']);p.add_argument('--outdir',required=True);p.add_argument('--resume',action='store_true');p.add_argument('--preview',action='store_true')\n     p.add_argument('--samplesheet');p.add_argument('--merge-map');p.add_argument('--clean-reads-manifest');p.add_argument('--assembly-manifest');p.add_argument('--catalog-dir');p.add_argument('--catalog-scope',choices=['host_resolved_prophage','virome_discovery','combined_exploratory']);p.add_argument('--legacy-catalog');p.add_argument('--legacy-source-manifest')\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "485ea2555092b97687a791d97d3505219fe05acb0569d4e255c16090349aa75a",
+      "after_sha256": "f00ed2261d7b6c1ff0dc936529cabe0c6b6694a8008ada7103dd327b25713f9b",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -460,7 +460,7 @@\n             cmd+=spark_runtime.nextflow_options()\n             evidence_envs=params.get('viral_evidence_tools','').split(',') if params.get('viral_evidence_tools') else []\n             spark_runtime.native_record(info,sorted(set(['python']+[spark_runtime.image_environment(i) for i in images]+evidence_envs)))\n-            state['resource_limits']={'cpus':6,'memory_gib':48,'task_memory_gib':46,'queue_size':1}\n+            state['resource_limits']={'allocation':spark_runtime.allocation(),'profile':os.environ.get('CRC_SPARK_RESOURCE_PROFILE','standard'),'assembly_threads':a.assembly_threads,'assembly_memory_gib':a.assembly_memory_gib}\n         if resume:cmd+=['-resume',resume]\n         if a.preview:cmd+=['-preview']\n         state.update(status='running',nextflow_started=True,command=cmd);dump(statefile,state)\n"
+    },
+    {
+      "file": "bin/reads_io.py",
+      "before_sha256": "5e94c8d2e3f5918e5579985bb5079d6c3f2932fab648ac9ca7c43711faf757ca",
+      "after_sha256": "ff8ee48c1f540a973ccbb79584e1ad168226ff257fc36a0816c1894dd33b0719",
+      "diff": "--- bin/reads_io.py\n+++ bin/reads_io.py\n@@ -186,7 +186,7 @@\n     return files[0],files[1] if len(files)==2 else None\n def prepare(sheet,out,merge_map=None):\n     sheet=Path(sheet).resolve();out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True)\n-    rows=table(sheet);seen=set();libs={};samples={};units=[];accessions=set();used_paths=set();run_keys={}\n+    rows=table(sheet);seen=set();libs={};library_layouts={};samples={};units=[];accessions=set();used_paths=set();run_keys={}\n     for row in rows:\n         for k in ('biological_sample_id','library_id','readset_id'):ident(row.get(k),k)\n         declared_encoding=bool(row.get('quality_encoding'))\n"
+    },
+    {
+      "file": "bin/reads_io.py",
+      "before_sha256": "ff8ee48c1f540a973ccbb79584e1ad168226ff257fc36a0816c1894dd33b0719",
+      "after_sha256": "828bbdf49a2fd668424935183e7cc9e161be8fdb877cef7f45214aa8401c2235",
+      "diff": "--- bin/reads_io.py\n+++ bin/reads_io.py\n@@ -210,7 +210,8 @@\n             row['genbank_sha256']=sha(gb)\n         subject=row.get('subject_id') or None\n         if subject is not None and subject.strip().lower() in ('unknown','na','null','none',''):subject=None\n-        key=(row['biological_sample_id'],row['material_type'],subject,row['layout'],row.get('mda','unknown'),row.get('human_remove','true'))\n+        key=(row['biological_sample_id'],row['material_type'],subject,row.get('mda','unknown'),row.get('human_remove','true'))\n+        library_layouts.setdefault(row['library_id'],set()).add(row['layout'])\n         if row['library_id'] in libs and libs[row['library_id']]!=key:raise ValueError('Library foreign key/attributes conflict')\n         libs[row['library_id']]=key\n         run_id=row.get('run_id') or row.get('run_accession') or ('local:'+rid)\n"
+    },
+    {
+      "file": "bin/reads_io.py",
+      "before_sha256": "828bbdf49a2fd668424935183e7cc9e161be8fdb877cef7f45214aa8401c2235",
+      "after_sha256": "e6b4fbe7adbfa183f7d56cb1cdc6c284223a7029d4be546e1268e3881f991c15",
+      "diff": "--- bin/reads_io.py\n+++ bin/reads_io.py\n@@ -284,7 +284,7 @@\n     if len({u['unit_id'] for u in units})!=len(units):raise ValueError('Duplicate final unit IDs')\n     for u in units:dump(out/'units'/f'{u[\"unit_id\"]}.json',u)\n     write_tsv(out/'readsets.tsv',[{**u,'run_id':u.get('run_id') or u.get('run_accession') or 'local:'+u['readset_id']} for u in readset_units],['readset_id','run_id','biological_sample_id','library_id','subject_id','material_type','layout','molecule','platform','reads_1','reads_2'])\n-    write_tsv(out/'libraries.tsv',[{'library_id':lid,'biological_sample_id':key[0],'material_type':key[1],'subject_id':key[2],'layout':key[3]} for lid,key in sorted(libs.items())],['library_id','biological_sample_id','material_type','subject_id','layout'])\n+    write_tsv(out/'libraries.tsv',[{'library_id':lid,'biological_sample_id':key[0],'material_type':key[1],'subject_id':key[2],'layout':';'.join(sorted(library_layouts[lid]))} for lid,key in sorted(libs.items())],['library_id','biological_sample_id','material_type','subject_id','layout'])\n     write_tsv(out/'samples.tsv',[{'biological_sample_id':sid,'subject_id':subject,'subject_status':'known' if subject else 'unknown'} for sid,subject in sorted(samples.items())],['biological_sample_id','subject_id','subject_status'])\n     write_tsv(out/'merge_map.tsv',[{'unit_id':u['unit_id'],'readset_id':rid} for u in units for rid in u['source_readsets']],['unit_id','readset_id'])\n     manifest={'schema_version':1,'kind':'raw_reads_manifest','samplesheet_sha256':sha(sheet),'merge_map_sha256':sha(merge_map) if merge_map else None,'units':units}\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "5c2f8c4014ff935df9f7ff1c7a8fa7900f9c17e2b9020f178f72142508e46794",
+      "after_sha256": "cae723caa8c2d5350af387796aab709a6dd00cc35d9ae26ba9a5b03c705c2f8f",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -99,7 +99,7 @@\n     return u\n \n \n-def assembly_command(u, work, threads=6):\n+def assembly_command(u, work, threads=6, memory_gib=10):\n     if not 1 <= threads <= 6:\n         raise ValueError('Assembly thread budget is 1..6')\n     singles = [p for p in u.get('singletons', []) if fq_counts(p)['reads']]\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "cae723caa8c2d5350af387796aab709a6dd00cc35d9ae26ba9a5b03c705c2f8f",
+      "after_sha256": "9170edf4608c246eb1081699d63f8c8076b6121cb19df53fcde81dfeda6368bc",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -100,8 +100,10 @@\n \n \n def assembly_command(u, work, threads=6, memory_gib=10):\n-    if not 1 <= threads <= 6:\n-        raise ValueError('Assembly thread budget is 1..6')\n+    if not 1 <= threads <= 20:\n+        raise ValueError('Assembly threads must be 1..20')\n+    if not 1 <= memory_gib <= 100:\n+        raise ValueError('Assembly memory must be 1..100 GiB')\n     singles = [p for p in u.get('singletons', []) if fq_counts(p)['reads']]\n     primary = int(u['counts']['fragments']) > 0\n     r1, r2 = u['reads_1'], u.get('reads_2')\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "9170edf4608c246eb1081699d63f8c8076b6121cb19df53fcde81dfeda6368bc",
+      "after_sha256": "742fcf8774b1a77c6a50c4bf3726bc920589010a94eba920fb62b81dcf682f79",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -112,7 +112,7 @@\n     if not paired and not single_reads:\n         return None\n     if u['material_type'] == 'bacterial_isolate':\n-        cmd = ['spades.py', '-t', str(threads), '-m', '10', '--phred-offset', '33', '-o', str(work)]\n+        cmd = ['spades.py', '-t', str(threads), '-m', str(memory_gib), '--phred-offset', '33', '-o', str(work)]\n         if paired:\n             cmd += ['--isolate', '-1', r1, '-2', r2]\n             for p in singles:\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "742fcf8774b1a77c6a50c4bf3726bc920589010a94eba920fb62b81dcf682f79",
+      "after_sha256": "4ab33059d99aee7f2fe6cdfcb4623a13d7c8a3f5eba7f7d7c694235cd48c837e",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -123,7 +123,7 @@\n                 cmd += ['--s1', p]\n         return 'SPAdes', cmd, work / 'contigs.fasta', work / 'assembly_graph_with_scaffolds.gfa', paired, single_reads\n     if u['material_type'] in {'bulk_metagenome', 'vlp'}:\n-        cmd = ['megahit', '-t', str(threads), '-m', str(10 * 1024**3), '--min-contig-len', '500', '-o', str(work)]\n+        cmd = ['megahit', '-t', str(threads), '-m', str(memory_gib * 1024**3), '--min-contig-len', '500', '-o', str(work)]\n         if paired:\n             cmd += ['-1', r1, '-2', r2]\n         if single_reads:\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "4ab33059d99aee7f2fe6cdfcb4623a13d7c8a3f5eba7f7d7c694235cd48c837e",
+      "after_sha256": "c3028e944217ac67bd0e0864539b1ce4a3f7b20da01849f0e87c5c740fa289d9",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -134,7 +134,7 @@\n     raise ValueError('Unsupported assembly material')\n \n \n-def assemble(unitfile, out, threads=6):\n+def assemble(unitfile, out, threads=6, memory_gib=10):\n     u = clean_inputs(json.load(open(unitfile)), unitfile)\n     out = Path(out).resolve()\n     if any(Path(p).resolve().is_relative_to(out) for p in u['checksums']):\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "c3028e944217ac67bd0e0864539b1ce4a3f7b20da01849f0e87c5c740fa289d9",
+      "after_sha256": "a7fd8f8ed2b4ef5f97a9e20bb5ae6dfb6837e8a7b9328b8437d4eaa053109058",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -140,7 +140,7 @@\n     if any(Path(p).resolve().is_relative_to(out) for p in u['checksums']):\n         raise ValueError('Assembly output overlaps raw/clean input path')\n     out.mkdir(parents=True, exist_ok=True)\n-    selection = assembly_command(u, out / 'assembler', threads)\n+    selection = assembly_command(u, out / 'assembler', threads, memory_gib)\n     if selection is None:\n         dump(out / 'assembly_unit.json', dict(u, status='not_assessed', reason='zero_clean_reads',\n              assembly_fasta=None, assembly_qc_status='not_assessed'))\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "a7fd8f8ed2b4ef5f97a9e20bb5ae6dfb6837e8a7b9328b8437d4eaa053109058",
+      "after_sha256": "87bd1e2a805335931451953eecccf7e39146dfd9198c73024c681cda48a48178",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -306,7 +306,7 @@\n     p = argparse.ArgumentParser(description=__doc__); sub = p.add_subparsers(dest='cmd', required=True)\n     for name in ['assemble', 'annotate']:\n         a = sub.add_parser(name); a.add_argument('--unit', required=True); a.add_argument('--outdir', required=True)\n-        a.add_argument('--threads', type=int, default=6, choices=range(1,7))\n+        a.add_argument('--threads', type=int, default=6, choices=range(1,21));a.add_argument('--memory-gib',type=int,default=10,choices=range(1,101))\n         if name == 'annotate':\n             a.add_argument('--db')\n     a = sub.add_parser('collect'); a.add_argument('--units', nargs='*', default=[]); a.add_argument('--outdir', required=True)\n"
+    },
+    {
+      "file": "bin/reads_assembly.py",
+      "before_sha256": "87bd1e2a805335931451953eecccf7e39146dfd9198c73024c681cda48a48178",
+      "after_sha256": "bd122ee7c3acb710d5680410a91962fbd733942e11acd317f9fd1496baf70f95",
+      "diff": "--- bin/reads_assembly.py\n+++ bin/reads_assembly.py\n@@ -313,7 +313,7 @@\n     a = sub.add_parser('crosswalk'); a.add_argument('--genes', required=True); a.add_argument('--gbff', required=True); a.add_argument('--out', required=True)\n     args = p.parse_args()\n     if args.cmd == 'assemble':\n-        assemble(args.unit, args.outdir, args.threads)\n+        assemble(args.unit, args.outdir, args.threads, args.memory_gib)\n     elif args.cmd == 'annotate':\n         annotate(args.unit, args.outdir, args.db, args.threads)\n     elif args.cmd == 'collect':\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "f00ed2261d7b6c1ff0dc936529cabe0c6b6694a8008ada7103dd327b25713f9b",
+      "after_sha256": "390dd1cb65b29614abdaa26a47af46e489c96430ca68a478626ea352c88362dc",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -295,7 +295,7 @@\n     p.add_argument('--viral-evidence-tools',default='',help='Opt-in V1 evidence: comma-separated bacphlip,vibrant,vcontact3; default disabled')\n     p.add_argument('--canonical-gene-tables',nargs='+',help='Viral workflow: separate canonical A2 gene_table.tsv files; commas are forbidden')\n     p.add_argument('--preprocessing-profile',default=str(R/'assets/profiles/reads_preprocessing_dev_v1.json'));p.add_argument('--measurement-profile',default=str(R/'assets/profiles/cohort_measurement_dev_v1.json'));p.add_argument('--detection-profiles',default=str(R/'assets/profiles/cohort_detection_dev_v1.json'));p.add_argument('--host-references');p.add_argument('--decoy-fasta');p.add_argument('--enable-phispy',action='store_true');p.add_argument('--research-run',action='store_true',help='Study run: reject profiles without research_eligible=true (protocol section 12)')\n-    p.add_argument('--enable-metaphlan',action='store_true');p.add_argument('--association-long');p.add_argument('--association-metadata');p.add_argument('--association-spec');a=p.parse_args()\n+    p.add_argument('--assembly-threads',type=int,default=16,choices=range(1,21));p.add_argument('--assembly-memory-gib',type=int,default=40,choices=range(1,101));p.add_argument('--enable-metaphlan',action='store_true');p.add_argument('--association-long');p.add_argument('--association-metadata');p.add_argument('--association-spec');a=p.parse_args()\n     if a.enable_viral_kofam and a.workflow!='viral':raise ValueError('--enable-viral-kofam requires viral mode')\n     if a.viral_evidence_tools and a.workflow!='viral':raise ValueError('--viral-evidence-tools is only valid for viral')\n     if a.canonical_gene_tables and a.workflow!='viral':raise ValueError('--canonical-gene-tables is only valid for viral')\n"
+    },
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "390dd1cb65b29614abdaa26a47af46e489c96430ca68a478626ea352c88362dc",
+      "after_sha256": "9553add40eba82b5dd4cf729b0a683830f05de0f508cfaf7ea3842c233dbd892",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -322,7 +322,7 @@\n     lock=open(out/'.run.lock','w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)\n     history=R/'.nextflow/history';resume=select_resume_session(old,{},history) if a.resume else None\n     name='readsbuild_'+a.workflow+'_'+datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S')+'_'+uuid.uuid4().hex[:6]\n-    params={'outdir':str(out)};mounts={str(R),str(dbroot)};tools=read(R/'assets/reads_tools.json')\n+    params={'outdir':str(out),'assembly_threads':a.assembly_threads,'assembly_memory_gib':a.assembly_memory_gib};mounts={str(R),str(dbroot)};tools=read(R/'assets/reads_tools.json')\n     database_manifest=spark_runtime.reads_database_manifest(info) if spark_runtime.enabled() else R/'assets/reads_databases.json'\n     dbs=read(database_manifest) if database_manifest.exists() else {}\n     if spark_runtime.enabled():params['database_manifest']=str(database_manifest)\n"
+    },
+    {
+      "file": "modules/local/reads.nf",
+      "before_sha256": "95c70cb64edbaaa7168db954575c7d191162afaf704e53687ea997d4d4795bc6",
+      "after_sha256": "35253cdff6d5799afa8df3fd4c77d86ed94111a23ccdc10fb95574d40b87c2c5",
+      "diff": "--- modules/local/reads.nf\n+++ modules/local/reads.nf\n@@ -63,7 +63,7 @@\n with open('unit.json', 'w') as handle:\n     json.dump(unit, handle, sort_keys=True)\n PY\n-    python3 ${code}/reads_assembly.py assemble --unit unit.json --outdir '${id}' --threads ${task.cpus}\n+    python3 ${code}/reads_assembly.py assemble --unit unit.json --outdir '${id}' --threads ${task.cpus} --memory-gib ${params.assembly_memory_gib}\n     \"\"\"\n }\n process READS_ANNOTATE {\n"
+    },
+    {
+      "file": "conf/reads.config",
+      "before_sha256": "a5668e22f07bf1875fd561728a03963e477187ada6b50c6045ac63fd16909314",
+      "after_sha256": "ded50009c7ab90d004c3eb04057315af12b6e475ebb6c9ae96b2247ebaa86432",
+      "diff": "--- conf/reads.config\n+++ conf/reads.config\n@@ -7,6 +7,8 @@\n     preprocessing_profile = \"${projectDir}/assets/profiles/reads_preprocessing_dev_v1.json\"\n     database_manifest = \"${projectDir}/assets/reads_databases.json\"\n     software_manifest = \"${projectDir}/assets/reads_tools.json\"\n+    assembly_threads = 6\n+    assembly_memory_gib = 10\n     enable_phispy = false\n     human_index = null\n     virome_db = null\n"
+    },
+    {
+      "file": "conf/reads.config",
+      "before_sha256": "ded50009c7ab90d004c3eb04057315af12b6e475ebb6c9ae96b2247ebaa86432",
+      "after_sha256": "4e6fccfae1fb4bf4bb9efcec43d74e54bd12ae61e6a1e80b8aa75cf662ee1e4a",
+      "diff": "--- conf/reads.config\n+++ conf/reads.config\n@@ -20,7 +20,7 @@\n process {\n     withName: READS_CLEAN { container=params.reads_qc_container; cpus=3; memory=6.GB; maxForks=2; time=24.h }\n     withName: READS_COLLECT { container=params.reads_qc_container; cpus=1; memory=2.GB }\n-    withName: READS_ASSEMBLE { container=params.reads_assembly_container; cpus=6; memory=12.GB; maxForks=1; time=48.h }\n+    withName: READS_ASSEMBLE { container=params.reads_assembly_container; cpus=params.assembly_threads; memory=(params.assembly_memory_gib as Integer + 8).GB; maxForks=1; time=48.h }\n     withName: READS_ANNOTATE { container=params.reads_bakta_container; cpus=6; memory=12.GB; maxForks=1; time=24.h }\n     withName: ASSEMBLY_COLLECT { cpus=1; memory=1.GB }\n }\n"
+    },
+    {
+      "file": "bin/reads_process.py",
+      "before_sha256": "ecbb43962c9d3e19328bd1baa009bc2eb502966b816c724b3561805e67ea2630",
+      "after_sha256": "39acc27e5e417fd629e2ae196b1aa0fbdd85d637420bf37d48245a4409d82595",
+      "diff": "--- bin/reads_process.py\n+++ bin/reads_process.py\n@@ -290,7 +290,7 @@\n     out=Path(out).resolve();out.mkdir(parents=True,exist_ok=True);units=[];summary=[]\n     for d in dirs:\n         d=Path(d);u=json.load(open(d/'clean_unit.json'));target=out/'units'/u['unit_id'];target.parent.mkdir(exist_ok=True)\n-        if d.resolve()!=target.resolve():shutil.copytree(d,target,dirs_exist_ok=True,symlinks=True)\n+        if d.resolve()!=target.resolve():shutil.copytree(d,target,dirs_exist_ok=True,symlinks=True,ignore=shutil.ignore_patterns('*.sam','*.sqlite','*.sqlite-*','trimmed_*.fastq.gz','singleton_*.fastq.gz'))\n         for field in ('reads_1','reads_2'):\n             if u[field]:u[field]=str(target/Path(u[field]).relative_to(d.resolve()))\n         u['singletons']=[str(target/Path(f).relative_to(d.resolve())) for f in u['singletons']]\n"
+    },
+    {
+      "file": "bin/reads_process.py",
+      "before_sha256": "39acc27e5e417fd629e2ae196b1aa0fbdd85d637420bf37d48245a4409d82595",
+      "after_sha256": "b454d4836a0ecc1cee608159ab9377d2c1b7a32c5467cc6e6aa856f885318c90",
+      "diff": "--- bin/reads_process.py\n+++ bin/reads_process.py\n@@ -57,7 +57,7 @@\n             raise ValueError('SAM lacks records for one or more input reads/mates')\n         db.commit();a=out/'clean_1.fastq.gz';b=out/'clean_2.fastq.gz' if r2 else None\n         removed=kept=removed_bases=retained_bases=0\n-        with gzip.open(a,'wt') as fa:\n+        with gzip.open(a,'wt',compresslevel=1) as fa:\n             fb=gzip.open(b,'wt') if b else None\n             try:\n                 pairs=itertools.zip_longest(fastq(r1),fastq(r2)) if r2 else ((x,None) for x in fastq(r1))\n"
+    },
+    {
+      "file": "bin/reads_process.py",
+      "before_sha256": "b454d4836a0ecc1cee608159ab9377d2c1b7a32c5467cc6e6aa856f885318c90",
+      "after_sha256": "bf804d077c40ceb91587315862936b0fda29c0af841c4b560ef5dc031c020da8",
+      "diff": "--- bin/reads_process.py\n+++ bin/reads_process.py\n@@ -58,7 +58,7 @@\n         db.commit();a=out/'clean_1.fastq.gz';b=out/'clean_2.fastq.gz' if r2 else None\n         removed=kept=removed_bases=retained_bases=0\n         with gzip.open(a,'wt',compresslevel=1) as fa:\n-            fb=gzip.open(b,'wt') if b else None\n+            fb=gzip.open(b,'wt',compresslevel=1) if b else None\n             try:\n                 pairs=itertools.zip_longest(fastq(r1),fastq(r2)) if r2 else ((x,None) for x in fastq(r1))\n                 for x,y in pairs:\n"
+    }
+  ],
+  "notes": [
+    "Existing primary workflow source preserved",
+    "Mixed layouts are separate QC readsets, then one sample assembly",
+    "No detection or disease thresholds changed"
+  ],
+  "parent_runtime": "analysis1_reads_v1",
+  "campaign_v2_changes": [
+    {
+      "file": "bin/run_stage.py",
+      "before_sha256": "9553add40eba82b5dd4cf729b0a683830f05de0f508cfaf7ea3842c233dbd892",
+      "after_sha256": "1254dc151696c669bc0ebd258d9346a8b1732ed3ff35253ba0df792bec51aa0d",
+      "diff": "--- bin/run_stage.py\n+++ bin/run_stage.py\n@@ -302,7 +302,7 @@\n     if (a.research_catalog or a.research_source_manifest) and a.workflow!='viral':raise ValueError('Research bridge flags require viral mode')\n     if bool(a.research_catalog)!=bool(a.research_source_manifest):raise ValueError('Research bridge requires both catalogue and source manifest')\n     if getattr(a,'research_run',False):research_profile_guard(getattr(a,'measurement_profile',None),getattr(a,'detection_profiles',None))\n-    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path('/srv/CRC-PHIRE/analysis1/work/reads_v1')\n+    out=check_path(a.outdir);dbroot=Path.home()/'databases';workroot=Path('/srv/CRC-PHIRE/analysis1/work/campaign_v2')\n     if out.is_relative_to(dbroot) or out.is_relative_to(workroot):raise ValueError('Outputs must be separate from database and Nextflow work directories')\n     for key,value in vars(a).items():\n         if key in ('workflow','outdir','catalog_scope') or not value:continue\n"
+    },
+    {
+      "file": "bin/viral_catalog.py",
+      "before_sha256": "d79e413a93831eee8d3257723bd9cfc10f1048dff1dfa018355658c986401afa",
+      "after_sha256": "1197e63c396ef2dd50a154c83519f9ddc0a6eb2a8f9d34d170ec2787962cfedb",
+      "diff": "--- bin/viral_catalog.py\n+++ bin/viral_catalog.py\n@@ -16,7 +16,7 @@\n SCOPES = {'host_resolved_prophage', 'virome_discovery', 'combined_exploratory'}\n DISCOVERY_SOURCE_KINDS = {'viral_assembly', 'metagenome_assembly', 'virome_assembly', 'independent_fasta'}\n VIRUS_SCOPES = {'bacteriophage', 'archaeal_virus', 'eukaryotic_virus', 'unknown'}\n-POLICY = dict(version='dev_viral_eligibility_v1', min_length_bp=1000,\n+POLICY = dict(version='analysis1_v4_primary_length5000_medium_quality_v1', min_length_bp=5000,\n               min_checkv_completeness_percent=50, max_checkv_contamination_percent=10,\n               identity='retained_geNomad_candidate', missing_quality='unknown',\n               scientifically_calibrated=False, source_slice='verified_this_run_required', host_scope='requires_host_QC_eligible',\n"
+    },
+    {
+      "file": "bin/viral_catalog.py",
+      "before_sha256": "1197e63c396ef2dd50a154c83519f9ddc0a6eb2a8f9d34d170ec2787962cfedb",
+      "after_sha256": "5cb5b462e1c7e143dbbfd87743f4a965db1392dbf001a0e8d3b3850c994d2f4f",
+      "diff": "--- bin/viral_catalog.py\n+++ bin/viral_catalog.py\n@@ -160,7 +160,7 @@\n \n def eligibility(row, policy=POLICY):\n     if int(row['length']) < policy['min_length_bp']:\n-        return 'ineligible', 'below_development_length_threshold'\n+        return 'ineligible', 'below_primary_length_5000bp_retained_in_raw_catalog'\n     if row['virus_scope'] == 'eukaryotic_virus':\n         return 'unknown', 'CheckV_prokaryotic_model_applicability_unsupported'\n     q, c = number(row['completeness']), number(row['contamination'])\n"
+    },
+    {
+      "file": "bin/reads_publish.py",
+      "before_sha256": "07001d9d44e609cd07c3d2be8f630ba9ddf4bfb388281038bc182d930db34270",
+      "after_sha256": "bbbc44740194b5129ba1e064650a70629beb0589ae9b919d3bfae3ab9dd65406",
+      "diff": "--- bin/reads_publish.py\n+++ bin/reads_publish.py\n@@ -22,7 +22,7 @@\n     out=Path(a.outdir).resolve();out.mkdir(parents=True,exist_ok=True);roots={};files=[]\n     for d in a.assembly_dirs:\n         d=Path(d).resolve();u=json.load(open(d/'assembly_unit.json'));target=out/'units'/u['unit_id'];target.parent.mkdir(exist_ok=True)\n-        shutil.copytree(d,target,dirs_exist_ok=True);roots[str(d)]=str(Path(a.publish_root)/'units'/u['unit_id'])\n+        shutil.copytree(d,target,dirs_exist_ok=True,ignore=shutil.ignore_patterns(\"readback.sam\"));roots[str(d)]=str(Path(a.publish_root)/'units'/u['unit_id'])\n         # An annotation bundle points back to the complete original assembly; retain that too.\n         if u.get('assembly_fasta') and not Path(u['assembly_fasta']).is_relative_to(d):\n             source=Path(u['assembly_fasta']).parent;shutil.copytree(source,target/'assembly_source',dirs_exist_ok=True);roots[str(source)]=str(Path(a.publish_root)/'units'/u['unit_id']/'assembly_source')\n"
+    },
+    {
+      "file": "conf/spark_exclusive.config",
+      "description": "Viral task allocation only; source caller arguments unchanged."
+    }
+  ]
+}

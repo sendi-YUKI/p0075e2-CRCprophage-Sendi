@@ -1,0 +1,9 @@
+metric	value	source
+reference_genomes	258	01_reference/reference258_manifest.tsv
+predicted_provirus_instances	923	pilot10/prophage_evidence/occurrence_evidence.tsv
+vOTUs	473	pilot10/exploratory/votu_differential.tsv
+valid_fisher	342	pilot10/exploratory/votu_differential.tsv
+valid_abundance	473	pilot10/exploratory/votu_differential.tsv
+G_M_broad_pairs	20	pilot10/G_M_sequence_matches.tsv
+replication_evaluable_loci	382	postpilot_diagnostics/05_replication_activity/locus_diagnostics.tsv
+replication_candidates	2	postpilot_diagnostics/05_replication_activity/replication_candidates.tsv

@@ -1,0 +1,8 @@
+{
+  "status": "pending_Jinlong",
+  "new_server_pilot_policy": "no_new_pilot",
+  "pilot_reuse": "Jinlong_decides",
+  "effective_config": null,
+  "decisions_tsv": "../Jinlong_方法与参数决策表.tsv",
+  "decision_values": {}
+}

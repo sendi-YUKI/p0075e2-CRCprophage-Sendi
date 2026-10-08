@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "donors": 10,
+  "readsets": 40,
+  "fastq_inputs": 50,
+  "coordinate_bam_loci": 382,
+  "job_id": "1140",
+  "host_table_sha256": "0b0c4f148daeecf597dbf76ca6ff25795d12f919134c9e3b0084962eac1d3787",
+  "recovered_tail_samples": [],
+  "large_fastq_sha_reused_from_per_donor_receipts_not_rehashed": true
+}

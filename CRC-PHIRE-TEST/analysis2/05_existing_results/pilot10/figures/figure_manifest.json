@@ -1,0 +1,91 @@
+{
+  "status": "generated_pending_visual_review",
+  "created_utc": "2026-10-08T08:03:11.089541+00:00",
+  "job_id": "1130",
+  "pilot": "pilot10",
+  "matplotlib": "3.11.2",
+  "numpy": "1.26.4",
+  "font": "DejaVu Sans",
+  "upstream_acceptance_sha256": "682a319f7a51714257bc6bb73fe0f0bbec9c2bbbd279d285c410fdfbec65bbc2",
+  "input_sha256": {
+    "12_reports/pilot10/G_M_sequence_matches.tsv": "a3b22260db4447e02a13bf1c6a5c107c574cabc5c50e6f036205e937dc58d805",
+    "12_reports/pilot10/G_M_occurrence_host_links.tsv": "2533c7f49d222172dd15060437d921775559b7e1f311e221d1cdcfa03a756405",
+    "12_reports/pilot10/intersection_function_evidence.tsv": "25d1d880d02e70652f7b2b43c2183f385212ac4330fb8580d9c3feec3ef50e39",
+    "12_reports/pilot10/donor_votu_measurement.tsv": "fbdff3dd721a194ebc09d322679087ba5ce74c2c69bb609318115d38612ffda9",
+    "06_viral_catalog/pilot10_combined/catalog/viral_sequence_master.tsv": "be4f00931d252b401a843a830a1d0bd07e63d23569be1df0bcfdff42d217877e",
+    "06_viral_catalog/pilot10_combined/catalog/source_occurrences.tsv": "5f2a3aeb12f8c82d7fddb15b1270db4707b3fc93dd5e8c618af80401daf02acf",
+    "06_viral_catalog/pilot10_combined/genes/gene_table.tsv": "39ca22bf081c1d971048e5ae7de4a3678666dac1c00182c7f07aa20db7fefe7e",
+    "06_viral_catalog/pilot10_combined/functions/function_hits.tsv": "6c65266f3de9192f89db878b942b867a0dd984e3a8b0bfde41aee0392b6471d1",
+    "06_viral_catalog/pilot10_combined/functions/viral_sequence_function_status.tsv": "b4e79f45cd25b6d0e624b29a7f96a5bfe67ec24d50687c9e309bde8082c998f4",
+    "06_viral_catalog/pilot10_combined/functions/systems.tsv": "779fbd4337dd5dd488b9926e0d5dc36c87fe1fed9fcf3c979a46b0684ccc23e9",
+    "01_manifests/pilot10_frozen_assemblies.json": "a90f70ad63705ccdf37e9b8e150bb285d443a881dffd233e1664c40ea203ecb1",
+    "06_viral_catalog/pilot10_combined/pipeline_info/stage_state.json": "bede384878710313a8ad3f8453d7dd1f287f5f3b5f76d821a84f355a33e521d2",
+    "06_viral_catalog/pilot10_combined/pipeline_info/terminal_output_manifest.json": "ea48d3f18d7f66af97e785860add3cbbf0695069abad5b44506ad4a32411200d",
+    "13_handoff/pilot10_selective_publication_acceptance.json": "afa0dca544bf42d501e9c1b3557a7aebdbdce97040c8dea381d53993a169edf5"
+  },
+  "script_sha256": {
+    "render_pilot_figures.py": "d9e68e1dff6853e1614f3196007a106a5ddf44dfaeda3831f69a579ddfbdd453",
+    "pilot_function_figures.py": "e3c1970ca11592058d7800089734bfb07b7f4e8594609dbea309d67c287edd78",
+    "pilot10_catalog_acceptance.py": "239d071557583d9dfc1d986f236704418ad6c80607aba3cefd7df97263918d94"
+  },
+  "figures": [
+    {
+      "stem": "Fig01_design_and_discovery",
+      "title": "研究输入与逐人发现概览",
+      "caption": "圆点是每人组装得到的原始病毒实例数，竖线是其中预测provirus位点数。两者不是两个独立集合；原始病毒实例不能全部称为prophage。数量受测序深度和组装能力影响，不能直接解释为疾病差异。",
+      "selection": "All fixed donors; zeros retained."
+    },
+    {
+      "stem": "Fig02_sequence_and_reference_links",
+      "title": "两端的序列交集与参考菌株连接",
+      "caption": "左图包含通过既定初筛的直接G–M序列对，可能有重叠点；不是所有未匹配对的分布。右图按参考分类单元和患者病毒序列展示连接，每格按不同参考genome去重计数，不将展开的多对多对应行当独立证据。这里的菌名表示参考端来源，不能证明患者体内宿主。",
+      "selection": "Up to16 broad-matched M sequences, sorted by pooled distinct-donor count, then length, then ID. No ranking by CRC effect."
+    },
+    {
+      "stem": "Fig03_donor_heatmap_and_points",
+      "title": "逐人的病毒谱与检出情况",
+      "caption": "热图展示按全体供者合并检出人数、合并平均丰度及编号排序的前24个vOTU，未按CRC差异挑选。灰色是未评估，低丰度与零值使用同一连续色阶。右图每个点是一名供者，短横线是中位数；展示全部目录中的检出数量。检出计数受测序和宿主背景影响，图中没有显著性检验或因果含义。",
+      "selection": "Up to24 pooled-detection-ranked vOTUs; all donors retained. Full unfiltered tables preserved."
+    },
+    {
+      "stem": "Fig04_sequence_function_evidence",
+      "title": "Sequence-specific functional evidence",
+      "caption": "每行是一条宏基因组来源病毒序列；圆点面积随该序列上不同功能标签数增加，数字给出实际数值。PHROG仅计accepted=true且is_best=true的同源家族；防御和反防御计不同系统亚型，KO计不同KO编号，四列的统计单位并不相同。“—”表示没有报告该类命中，“?”表示未评估或来源表缺失；均不能解释为生物学缺失。这些是序列自身的计算证据，KO不是已确认AMG，系统命中不是机制验证。不从相似参考序列转移注释，不进行组间功能显著性检验。",
+      "selection": "At most 16 broad-matched M sequences selected by pooled donor count, then length and ID; no CRC contrast ranking."
+    },
+    {
+      "stem": "Fig05_candidate_gene_context",
+      "title": "Illustrative sequence-level gene context",
+      "caption": "展示最多两条广泛匹配宏基因组病毒序列的自身基因坐标和方向；在先前按全体供者出现次数筛选的序列中按长度、编号排序选取，不按CRC与对照差异挑选。每个箭头是该序列实际预测的一个基因。颜色仅表示该基因自身的同源命中或系统成员证据，每条轨道最多标注六个基因；未着色不等于没有功能。同一基因可能有多类证据，所有类别保存在对应source-data表；颜色优先级为反防御、防御、KO、PHROG，仅用于显示。仅从系统表提供的实际gene ID连接系统成员。这些是未经过人工机制审查的展示实例，不是已确认实验候选；图中没有同源基因连线、序列共线性或宿主侧翼，不据此认定AMG、prophage整合或患者体内宿主。",
+      "selection": "Among the pooled-occurrence display set, choose up to two sequences by descending length, then ID; require every coordinate to be valid."
+    }
+  ],
+  "outputs": {
+    "figures/Fig01_design_and_discovery.png": "b6824dc7fb257d420c0b5e3a5ad2aabce8eb385e1ef6e227371ae0825f188245",
+    "figures/Fig01_design_and_discovery.svg": "7871dfe55171dcc449e8c11986d01632bcf0157592c13428d3f0baf7f5f39516",
+    "figures/Fig05_candidate_gene_context.svg": "087c1285df068679d39d71a4f12c17b93f66d7be746717458d1614cf6b613600",
+    "figures/Fig03_donor_heatmap_and_points.svg": "2798ed64528182322a1f9c61e239e8525fc92a7ec87f484fdbf9f3bbd88812a3",
+    "figures/Fig04_sequence_function_evidence.png": "6e93455c7e5a54232686bc0768d00d054214e32a26b1a18a9ecde2677b08addb",
+    "figures/Fig02_sequence_and_reference_links.pdf": "36142a80cb0b3e8231f87898a7a10284aad8dc34e727996eac3d308c17ad73be",
+    "figures/Fig05_candidate_gene_context.pdf": "c0ecb38aaab3bae7fb9044d14956d2471ab013bb6ee64ba17fd84cb4bf97d4a4",
+    "figures/Fig04_sequence_function_evidence.pdf": "939195af79a823e42e29b5d41964ee0bd54467d0f12c30c59d9f75f73b4dd0f9",
+    "figures/Fig01_design_and_discovery.pdf": "27b0343108b8263c6255a4d9b2519363989713b166f76f42ebfc53ff6db81d53",
+    "figures/Fig02_sequence_and_reference_links.png": "96709b2617bb510c9c94b1430ecada78c3be850e73e10fa309966758afbaf4e8",
+    "figures/Fig02_sequence_and_reference_links.svg": "df4a8429516a49064752f0d8bdf88015b07b8576f8be89c954548f5d7c6b5a46",
+    "figures/Fig03_donor_heatmap_and_points.png": "9260875f0500f1c9148f9df90cc27bd662048cdae1349edc372a1064a4a4244e",
+    "figures/Fig04_sequence_function_evidence.svg": "250215f85f1e6a5f6323c8b14fb3a3caf3010a03ac88bd4cd937412bc7208edb",
+    "figures/Fig05_candidate_gene_context.png": "fe035c59982d0625c06f904e805a519e8b6f467f726b99a0b74d1eae4de48ce8",
+    "figures/Fig03_donor_heatmap_and_points.pdf": "726ff9de634d6ba5e5a5b200f44d32e4ae8bbadfc9bec3fa4961a558f4932d6e",
+    "figures/source_data/Fig01_donor_instances.tsv": "48961a332b7d5722939cdf1d06ed9bec0f2859d01a36d14d7f2542ae69484955",
+    "figures/source_data/Fig03_all_donor_detection_counts.tsv": "727c86e4fe9c59e031524bad232ff626e74ec5efb0b194f1a7831060d93db5df",
+    "figures/source_data/Fig04_sequence_function_evidence.tsv": "1383b965614208ad6f3a997a08eae833b639bd1f95f239c6a1f70eb675decf9f",
+    "figures/source_data/Fig02_reference_link_matrix.tsv": "488a2af4ecbe2a4d5e2a26219f26b1e66073456ad826fa5873272c5fe927d779",
+    "figures/source_data/Fig02_direct_pairs.tsv": "a3b22260db4447e02a13bf1c6a5c107c574cabc5c50e6f036205e937dc58d805",
+    "figures/source_data/votu_display_aliases.tsv": "2163d647ab3a53cb42ac2ea5eccb3423543c2b0fd151544655d245728c29f515",
+    "figures/source_data/Fig03_display_measurements.tsv": "bb7178e657eea718a1d1efad6509e0ec97ff394ddf53407486758ddbc0f8e957",
+    "figures/source_data/sequence_display_aliases.tsv": "39e564927b783effd193bd1f0513f3459bc7d9995d16b32c057ca6ef57dedeef",
+    "figures/source_data/Fig05_candidate_gene_context.tsv": "837745f726a9a00e5e3bd6c40edcbd9d0a2e46af805bd7d7617235c3352657cd",
+    "图文结果报告.html": "21b0259433d175247f617312d42e3b83bb54c2904ca5e8d493fdddd2ba08d619",
+    "图文结果报告.md": "9748f0e236c611a19abd9ccaa999fbb9725452c64caa95cdd93806ecea8895b2"
+  }
+}

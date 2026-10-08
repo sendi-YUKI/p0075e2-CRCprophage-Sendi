@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "recorded": "2026-10-08T16:31:54.294125+02:00",
+  "scope": "postpilot_adjustment_258_references_10_Feng_donors",
+  "all_successful_jobs": [
+    1133,
+    1134,
+    1135,
+    1136,
+    1137,
+    1138,
+    1139,
+    1141,
+    1140,
+    1142,
+    1145
+  ],
+  "preserved_initial_preflight_failure": 1132,
+  "host_donors": 10,
+  "readsets": 40,
+  "fastq_files": 50,
+  "replication_loci": 382,
+  "replication_candidates": 2,
+  "html_reports": 5,
+  "main_figures": 4,
+  "local_link_checks": 29,
+  "no_repeat_patient_mapping_on_convergence": true,
+  "next_batch_status": "not_ready_clinical_freeze_required",
+  "new_cohort_download_submitted": false,
+  "priority_change": "denied_by_remote_Slurm_permissions_no_change",
+  "main_report": "08_reports/CRC-PHIRE_试跑后诊断与方案调整报告.html"
+}

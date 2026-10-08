@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN" xml:lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>CRC-PHIRE_试跑后诊断与方案调整报告</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="report.css" />
+</head>
+<body>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#crc-phire试跑后诊断结果与方案调整报告"
+id="toc-crc-phire试跑后诊断结果与方案调整报告">CRC-PHIRE：试跑后诊断结果与方案调整报告</a>
+<ul>
+<li><a href="#1-先说结论" id="toc-1-先说结论">1. 先说结论</a></li>
+<li><a href="#2-从哪里开始读" id="toc-2-从哪里开始读">2.
+从哪里开始读</a></li>
+<li><a href="#3-本轮真正完成了哪些计算"
+id="toc-3-本轮真正完成了哪些计算">3. 本轮真正完成了哪些计算</a></li>
+<li><a href="#4-宿主测量结果哪些菌在这十人中有信号"
+id="toc-4-宿主测量结果哪些菌在这十人中有信号">4.
+宿主测量结果：哪些菌在这十人中有信号</a></li>
+<li><a href="#5-歧义到底来自哪里" id="toc-5-歧义到底来自哪里">5.
+歧义到底来自哪里</a></li>
+<li><a href="#6-为什么保留075同时增加030部分信号"
+id="toc-6-为什么保留075同时增加030部分信号">6.
+为什么保留0.75，同时增加0.30部分信号</a></li>
+<li><a href="#7-复制活动支线已经得到了什么"
+id="toc-7-复制活动支线已经得到了什么">7.
+复制活动支线：已经得到了什么</a></li>
+<li><a href="#8-显著性结果怎样理解" id="toc-8-显著性结果怎样理解">8.
+显著性结果怎样理解</a></li>
+<li><a href="#9-最终方案有哪些实质调整"
+id="toc-9-最终方案有哪些实质调整">9. 最终方案有哪些实质调整</a></li>
+<li><a href="#10-接下来做什么需要多久"
+id="toc-10-接下来做什么需要多久">10. 接下来做什么、需要多久</a></li>
+<li><a href="#11-可复现记录和逐人耗时"
+id="toc-11-可复现记录和逐人耗时">11. 可复现记录和逐人耗时</a></li>
+<li><a href="#12-本轮结果的科学价值" id="toc-12-本轮结果的科学价值">12.
+本轮结果的科学价值</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1
+id="crc-phire试跑后诊断结果与方案调整报告">CRC-PHIRE：试跑后诊断结果与方案调整报告</h1>
+<p>生成时间：2026-10-08 16:29
+CEST。本轮范围为258份参考genome和Feng单队列10名供者（5
+CRC＋5研究对照）。本报告采用新诊断结果，保留原先导报告和统计。</p>
+<h2 id="1-先说结论">1. 先说结论</h2>
+<p><strong>这轮诊断支持继续推进患者宏基因组发现主线，并保留相对复制活动支线。</strong>
+宿主丰度已在十人中测量；歧义来源和覆盖规则已经复核；382个预测provirus位点均获得了可评价的配对覆盖，其中2个位点具有与活跃复制相容的特征。一个约70.5
+kb的位点进入原合格目录，且有双侧宿主marker，是值得继续追踪的具体对象。</p>
+<p>这轮最重要的改进是明确“测到了什么、哪些信号可以比较、候选下一步如何验证”。后续正式研究仍需跨队列评价疾病关联，并对优先候选开展相称的关键实验。现有十人的CRC关联结果仍是探索性的：原815项检验没有通过全局FDR；这一事实与获得技术诊断和复制活动候选并不矛盾。</p>
+<h2 id="2-从哪里开始读">2. 从哪里开始读</h2>
+<ul>
+<li><a
+href="../00_plan/CRC-PHIRE_修订后的完整研究方案.html">完整研究方案（HTML）</a>／<a
+href="../00_plan/CRC-PHIRE_修订后的完整研究方案.md">MD</a>：科学目的、九队列、主终点、宿主、功能、复制活动和实验路线。</li>
+<li><a
+href="../00_plan/Pipeline调整清单与下一批操作.html">Pipeline调整与下一批操作（HTML）</a>／<a
+href="../00_plan/Pipeline调整清单与下一批操作.md">MD</a>：哪些已完成、哪些需适配、数据量与命令。</li>
+<li><a
+href="../00_plan/评审事实与方法纠错.md">事实与方法纠错</a>：逐条审阅意见与证据。</li>
+<li><a
+href="../04_measurement_audit/measurement_decision.md">测量规则决策</a>及<a
+href="../06_statistics_design/analysis_rules.json">机器可读配置</a>。</li>
+</ul>
+<h2 id="3-本轮真正完成了哪些计算">3. 本轮真正完成了哪些计算</h2>
+<table>
+<thead>
+<tr>
+<th>工作</th>
+<th>已完成的范围</th>
+<th>对研究的用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>宿主丰度</td>
+<td>10人，40 readsets、50个clean FASTQ；MetaPhlAn
+4.2.4＋固定vJan25数据库</td>
+<td>确定哪些宿主有可测信号，明确分类分辨率</td>
+</tr>
+<tr>
+<td>歧义诊断</td>
+<td>原40个readsets的片段分类，4730个供者×vOTU单元</td>
+<td>区分病毒间共享与宿主背景共享，避免把NA当零</td>
+</tr>
+<tr>
+<td>阈值诊断</td>
+<td>0.75和0.30完整状态重算</td>
+<td>保留广泛覆盖主终点及部分信号敏感性</td>
+</tr>
+<tr>
+<td>技术校准</td>
+<td>11个不同目标，SE/PE、阳性及困难背景阴性；另核对真实覆盖曲线</td>
+<td>识别保守归属的敏感性代价与所测背景的误归属表现</td>
+</tr>
+<tr>
+<td>复制活动</td>
+<td>382个原组装位点，10人原readback BAM；PropagAtE＋有限敏感性</td>
+<td>定位具体活跃复制候选，保留结构资格和宿主证据层级</td>
+</tr>
+<tr>
+<td>方案与下一批入口</td>
+<td>新完整方案、配置、九队列inventory及有临床冻结前置检查的下载入口</td>
+<td>在有证据的规则上推进正式研究</td>
+</tr>
+</tbody>
+</table>
+<p>1133按原顺序处理样本；1139以14核从末尾处理不同样本。结果发布后由原通道校验复用。1140在两路结束后核对十人身份、输入收据和profile
+SHA，并核对382个位点的BAM
+contig长度、排序/索引和坐标。资源与真实耗时见<a
+href="../09_handoff/final_compute_accounting.tsv">作业账目</a>，同一批结果没有按新线程数全部重算。</p>
+<h2 id="4-宿主测量结果哪些菌在这十人中有信号">4.
+宿主测量结果：哪些菌在这十人中有信号</h2>
+<table>
+<thead>
+<tr>
+<th>宿主物种标签</th>
+<th>CRC有profile信号人数</th>
+<th>对照有profile信号人数</th>
+<th>相对丰度范围／可解释性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bacteroides fragilis</td>
+<td>3/5</td>
+<td>3/5</td>
+<td>CRC 0–0.68026%；对照 0–0.028185%</td>
+</tr>
+<tr>
+<td>Bacteroides hominis</td>
+<td>NA</td>
+<td>NA</td>
+<td>当前库无精确物种标签；单列待解析</td>
+</tr>
+<tr>
+<td>Fusobacterium animalis</td>
+<td>1/5</td>
+<td>0/5</td>
+<td>CRC 0–0.023475%；对照 0–0%</td>
+</tr>
+<tr>
+<td>Fusobacterium nucleatum</td>
+<td>1/5</td>
+<td>0/5</td>
+<td>CRC 0–0.022531%；对照 0–0%</td>
+</tr>
+<tr>
+<td>Parvimonas micra</td>
+<td>4/5</td>
+<td>0/5</td>
+<td>CRC 0–0.052913%；对照 0–0%</td>
+</tr>
+<tr>
+<td>Peptostreptococcus anaerobius</td>
+<td>0/5</td>
+<td>0/5</td>
+<td>CRC 0–0%；对照 0–0%</td>
+</tr>
+<tr>
+<td>Faecalibacterium prausnitzii</td>
+<td>5/5</td>
+<td>5/5</td>
+<td>CRC 0.33231–6.695%；对照 0.51435–3.6149%</td>
+</tr>
+<tr>
+<td>Roseburia intestinalis</td>
+<td>4/5</td>
+<td>5/5</td>
+<td>CRC 0–0.69376%；对照 0.000506–0.45015%</td>
+</tr>
+</tbody>
+</table>
+<p>“有profile信号”指固定MetaPhlAn方法报告该物种；上述范围按全部5人计算，未报告者在受支持的物种标签下记为操作性零。B.
+hominis没有精确物种标签，保留NA，后续用分类crosswalk或定向marker澄清。B.
+fragilis的物种标签也未单独验证division
+I／II的辨别能力，不能直接把其丰度当参考division I的专属丰度。</p>
+<p>全体物种见<a
+href="../03_host_profile/donor_species.tsv">逐人宿主表</a>，重点物种见<a
+href="../03_host_profile/priority_host_by_donor.tsv">重点宿主逐人表</a>，参考分类对应见<a
+href="../03_host_profile/reference_taxonomy_crosswalk.tsv">分类交叉表</a>。原始marker
+mapout、逐人命令和profile留在Spark对应目录，支持后续定向检查。</p>
+<p>本轮已将参考宿主关系与逐人phage测量、细菌丰度并排整理：</p>
+<table>
+<thead>
+<tr>
+<th>参考宿主分类</th>
+<th>相关vOTU数</th>
+<th>广泛检出的人×vOTU单元</th>
+<th>宿主有profile信号人数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bacteroides fragilis (division I)</td>
+<td>62</td>
+<td>8</td>
+<td>6/10</td>
+</tr>
+<tr>
+<td>Bacteroides hominis / historical B. fragilis division II</td>
+<td>22</td>
+<td>0</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>Fusobacterium animalis</td>
+<td>64</td>
+<td>0</td>
+<td>1/10</td>
+</tr>
+<tr>
+<td>Parvimonas micra</td>
+<td>4</td>
+<td>0</td>
+<td>4/10</td>
+</tr>
+</tbody>
+</table>
+<p>这些数字可以区分“宿主本身缺少可测信号”和“有宿主信号但特定参考phage未广泛检出”。后者提示应优先检查株系/元件差异和病毒可归属性，而非仅归因于宿主不存在。多宿主vOTU可能出现在多个宿主行，不能把行数相加当作独立病毒数。逐人对应见<a
+href="../03_host_profile/reference_linked_viral_host_context.tsv">宿主—病毒背景表</a>。</p>
+<p>它适合解释“参考宿主信号是否同时可测”；患者中的实际phage宿主仍按整合上下文和相应分类证据确定。正式宿主调整仅用于连接可靠、有共同丰度范围和足够事件的子集；十人阶段以可测性诊断为目的。</p>
+<p><img src="../07_figures/Fig01_host_context.png"
+alt="图1：十人的细菌宿主组成与重点物种" /></p>
+<p><strong>图1说明。</strong>
+每列或每点对应一名真实供者，橙色CRC、蓝色对照；左图选择有profile信号的优先物种及总体丰度较高的物种，百分比为MetaPhlAn相对丰度，未报告值为灰色。右图未报告值放在低于全部正值的绘图底线，该底线不是估计丰度；实际底线值保存在source_data/host_display_settings.json。数据库精确标签不支持的B.
+hominis不填零、不放入图中。图为描述展示，没有添加疾病显著性检验或星号；原始值可在source_data中获取。</p>
+<h2 id="5-歧义到底来自哪里">5. 歧义到底来自哪里</h2>
+<p>按每个readset内部唯一fragment统计：病毒目标之间歧义254,062；病毒与宿主背景歧义44,038；同目标多位置或搜索饱和932；另有host-only歧义1,851,498。</p>
+<p>涉及病毒目标的歧义片段合计299,032，其中约85%来自多个病毒目标，约14.7%来自病毒—宿主背景。这个结果说明优先需要处理近缘病毒共享序列及测量分辨率，而不能只靠降低一个广度阈值解决所有问题。host-only计数不能全部写成“丢掉的病毒reads”。同一片段展开到多个目标的提及次数另表保存。</p>
+<p>0.75下457个单元广泛检出；改为0.30后695个单元满足部分信号规则。新增的是238个供者×vOTU单元，不是238种新病毒。所有状态重新计算，歧义NA没有沿用旧标签或变为零。</p>
+<h2 id="6-为什么保留075同时增加030部分信号">6.
+为什么保留0.75，同时增加0.30部分信号</h2>
+<p>已知来源模拟对11个技术类别目标进行检验：0.75检出SE的5/11、PE的6/11；0.30在两种layout下均为11/11。困难背景阴性由近缘病毒和遮蔽后的宿主片段组成，所选目标均无错误归属覆盖。模拟固定随机种子、布局和误差率，完全不按疾病P值选择对象。</p>
+<p>因此，当前测量在这些背景中较保守，但真实目标的共享区域会造成敏感性损失。我们保留“广泛序列覆盖”作为清楚的主终点，并把可信部分信号作为独立敏感性结果。后续若要比较难分辨近缘病毒，针对具体对象验证合并测量单元或特异区段即可；本轮不需要全局更换算法或反复调到显著。</p>
+<p><img src="../07_figures/Fig02_measurement_diagnosis.png"
+alt="图2：歧义、覆盖状态与有限已知来源校准" /></p>
+<p><strong>图2说明。</strong>
+A为真实歧义片段数，按readset去重；B每行2365个供者×vOTU单元，全部10人合计4730。C和D为明确标识的技术模拟，目标编号与真实ID交叉表保存在source_data。模拟只支持这11个目标及所设背景，不代表整个目录、所有平台的灵敏度/特异性。四面板均为测量诊断，无疾病显著性检验。</p>
+<h2 id="7-复制活动支线已经得到了什么">7.
+复制活动支线：已经得到了什么</h2>
+<p>382/382个位点在本次自身组装回贴数据中达到最低覆盖可评价条件；其中153个位点进入原合格目录（139代表、14成员）。因此“能评价覆盖”和“病毒身份/结构资格适合正式解释”仍分别报告。自身组装更容易保留有覆盖的位点，这个382/382不能外推成患者所有prophage的检出率。</p>
+<p>PropagAtE识别2个具有活跃复制特征的位点，另外380个位点在这次采样中未见达到该判定的覆盖升高。两候选在严格比对和局部宿主分母的有限检查中保持相容结果：</p>
+<table>
+<thead>
+<tr>
+<th>供者</th>
+<th>组别</th>
+<th>vOTU</th>
+<th>区段kb</th>
+<th>主覆盖比</th>
+<th>严格比对比值</th>
+<th>局部分母比值</th>
+<th>双侧宿主marker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SID532796</td>
+<td>control</td>
+<td>votu_460353d4d5133754bc17</td>
+<td>70.486</td>
+<td>3.121</td>
+<td>3.114</td>
+<td>2.896</td>
+<td>true</td>
+</tr>
+<tr>
+<td>SID31160</td>
+<td>control</td>
+<td>未入合格目录</td>
+<td>3.709</td>
+<td>3.193</td>
+<td>3.185</td>
+<td>3.125</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<p>优先对象为SID532796的约70.5
+kb位点。其病毒平均覆盖约64.66×、宿主约20.72×、主比值约3.12，覆盖升高延伸至较大区段，且进入原合格目录。对应实例为<code>occ_6490c24bbc8d472e47dbd3aa62bd61f3</code>。后续可先解析宿主/整合结构，再在更多样本及可获得的培养株中评价复制活动，并按问题开展切出、胞外DNA、颗粒等关键实验。</p>
+<p>SID31160的约3.7
+kb位点也具有稳定覆盖升高，但属于原目录未纳入的短候选，对应<code>occ_e4d72bc9eef184918f45ae2b967a9d00</code>。后续先核实病毒身份和局部结构，再决定实验投入。</p>
+<p>两条均来自对照，当前结果支持“存在可追踪的复制活动候选”，疾病方向留待跨队列检验。没有覆盖升高的位点也可能在其他条件下具有诱导潜力；后续实验可以进一步回答。计算筛查负责定位对象，实验负责验证具体活动与机制，这是本项目的正常研究分工。</p>
+<p><img src="../07_figures/Fig03_locus_coverage.png"
+alt="图3：原组装上下文中的覆盖曲线" /></p>
+<p><strong>图3说明。</strong>
+A/B为全部两个工具阳性位点，C/D为合格目录中每组覆盖比最接近1的示例，未按疾病P值选择。背景阴影为caller预测区段，横轴为原contig坐标，纵轴为250
+bp窗口平均深度；蓝线为与工具一致的span覆盖，橙线为严格过滤后的CIGAR块覆盖。窗口展示附近宿主区段，主判定使用规定的完整宿主分母。曲线展示连续覆盖证据，不以显著性星号表示诱导。</p>
+<p><img src="../07_figures/Fig04_replication_feasibility.png"
+alt="图4：全部位点的覆盖、逐供者分布与有限稳健性" /></p>
+<p><strong>图4说明。</strong>
+共382个位点、10名供者；A为宿主与病毒平均覆盖，较大点标出两候选；B每人上方为可评价位点数，横线为比值1和2；C比较主比值、严格比对及邻近±5
+kb可用宿主分母。分布和有限敏感性相容支持保留支线；没有双峰不影响这一结论。位点不是独立患者，本图没有把382个位点当作382个疾病样本检验。</p>
+<p>采用PropagAtE v1.1.0固定提交，identity 0.97、比值2、Cohen's d
+0.7、病毒平均深度至少1×、广度至少0.5、contig端mask150
+bp。项目另设宿主可用长度至少1
+kb、深度至少1×、广度至少0.5。完整结果和结构状态见<a
+href="../05_replication_activity/locus_diagnostics.tsv">382位点表</a>，两候选见<a
+href="../05_replication_activity/replication_candidates.tsv">候选表</a>。</p>
+<h2 id="8-显著性结果怎样理解">8. 显著性结果怎样理解</h2>
+<p>历史先导473个vOTU产生342项有效检出检验和473项丰度检验：原始P＜0.05分别为1项和19项，815项全局Q均为1；拆开端点后最小Q分别为1和0.93849。因此当前没有通过所设FDR的CRC关联。131项检出比较没有可执行的有效检验，按NA保留，不能算成“检验后不显著”。</p>
+<p>5＋5并非数学上绝对无法通过BH；本轮复算给出明确反例，纠正原评审的“算术不可达”。同时397/473个vOTU只在0或1人达到广泛检出，真实信息量稀疏。正式研究需要更多独立供者、跨队列重复及预先定义的信息过滤；扩量提高精度和可重复性评价能力，但不预定必须出现多少显著对象。</p>
+<p>本轮四张图服务测量与候选诊断，没有新增疾病关联检验，因而不添加P/Q星号。正式关联图将同时报告效应、区间、可测人数和校正范围。</p>
+<h2 id="9-最终方案有哪些实质调整">9. 最终方案有哪些实质调整</h2>
+<ol type="1">
+<li>患者自主发现保持主线，258参考提供结构、功能与培养株追溯；参考交集是高价值连接证据，不是所有患者候选的强制入口。</li>
+<li>主要端点明确为广泛覆盖检出；丰度为补充，部分信号独立报告，复制活动作为结构/覆盖合格子集的支线。</li>
+<li>含开发患者来源成员的家族为主、G-only为补充；物理目录仍统一竞争测量；不同家族的FDR范围明确。</li>
+<li>宿主可测性先核查，再在连接和共同支持足够的子集开展调整；B.
+hominis等分类缺口不填零。</li>
+<li>复制支线依据本轮实际结果保留。功能沿用已完成PHROGs、defense、anti-defense和代谢同源结果，重点对象再审阅边界/系统完整性。</li>
+<li>七开发＋两保留的边界保持；主目录、候选、方向和规则先冻结，再看保留队列效应。</li>
+</ol>
+<p>机器配置中<code>adopted</code>表示科学规则采用，<code>conditional</code>表示正式运行前需要有限实现/信息量核查，<code>deferred</code>表示本轮不开展。临床清单、稀疏模型后端和宿主子集接口仍需按pipeline清单接通；这不会改变已经确定的科学主线。</p>
+<h2 id="10-接下来做什么需要多久">10. 接下来做什么、需要多久</h2>
+<table>
+<thead>
+<tr>
+<th>顺序</th>
+<th>具体操作</th>
+<th>数据与产物</th>
+<th>条件化时间规划</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>冻结本轮方案和测量规则，保留已完成结果</td>
+<td>本报告、完整方案、JSON、四图及验收</td>
+<td>本轮收尾完成后即可使用</td>
+</tr>
+<tr>
+<td>2</td>
+<td>九队列临床/供者/run核对，先解决影响分组的具体冲突</td>
+<td>去重和纳排表、每批合格runs、clinical_freeze</td>
+<td>公开来源齐备时约1–3个工作日；关键缺失需原作者资料</td>
+</tr>
+<tr>
+<td>3</td>
+<td>参数化现有批量driver和正式统计接口</td>
+<td>1个已完成样本复用检查＋1个新开发样本贯通</td>
+<td>约1–2个工作日，可与临床核对并行</td>
+</tr>
+<tr>
+<td>4</td>
+<td>两个其他开发来源各少量平衡样本核查可移植性</td>
+<td>例如各4 CRC＋4对照；不按病毒阳性筛选</td>
+<td>取决于下载/组装，单Spark预留约1–3天并据实测更新</td>
+</tr>
+<tr>
+<td>5</td>
+<td>分批完成开发来源，冻结统一目录后全量测量</td>
+<td>全部合格供者，避免每加几人重映射全部历史样本</td>
+<td>按最终清单和实测CPU-hours规划数周；更大服务器可缩短</td>
+</tr>
+<tr>
+<td>6</td>
+<td>开发关联、宿主/功能解释；冻结候选再验证</td>
+<td>两保留来源验证、主候选与备选</td>
+<td>计算规模确定后估时；实验按候选条件制定</td>
+</tr>
+</tbody>
+</table>
+<p>现有Feng候选池107人、214 runs、321 FASTQ，候选总量约490.7
+GB；已有约71.9 GB通过下载收据复核，候选剩余约418.8
+GB。实际合格数量和下载量需临床冻结，不把候选池当最终人数。现有10人不重下、不重组装。九队列清单见<a
+href="../01_manifests/next_cohort_inventory.tsv">next_cohort_inventory.tsv</a>，下一批下载入口已实现临床冻结和manifest哈希检查，当前状态为<code>not_ready</code>，本轮没有偷偷扩量下载。</p>
+<h2 id="11-可复现记录和逐人耗时">11. 可复现记录和逐人耗时</h2>
+<table>
+<thead>
+<tr>
+<th>供者</th>
+<th>组别</th>
+<th>输入clean reads</th>
+<th>profile处理reads</th>
+<th>线程</th>
+<th>计算分钟</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SID31160</td>
+<td>control</td>
+<td>48,231,860</td>
+<td>47,293,574</td>
+<td>6</td>
+<td>21.8</td>
+</tr>
+<tr>
+<td>SID31512</td>
+<td>control</td>
+<td>47,740,494</td>
+<td>46,859,862</td>
+<td>6</td>
+<td>23.2</td>
+</tr>
+<tr>
+<td>SID31866</td>
+<td>CRC</td>
+<td>62,158,031</td>
+<td>59,851,498</td>
+<td>6</td>
+<td>29.1</td>
+</tr>
+<tr>
+<td>SID530295</td>
+<td>control</td>
+<td>57,273,399</td>
+<td>55,967,204</td>
+<td>6</td>
+<td>29.8</td>
+</tr>
+<tr>
+<td>SID530368</td>
+<td>control</td>
+<td>41,131,235</td>
+<td>40,172,866</td>
+<td>6</td>
+<td>22.1</td>
+</tr>
+<tr>
+<td>SID530373</td>
+<td>CRC</td>
+<td>50,489,099</td>
+<td>48,798,837</td>
+<td>14</td>
+<td>12.4</td>
+</tr>
+<tr>
+<td>SID531248</td>
+<td>CRC</td>
+<td>59,830,020</td>
+<td>58,002,754</td>
+<td>14</td>
+<td>12.2</td>
+</tr>
+<tr>
+<td>SID531361</td>
+<td>CRC</td>
+<td>49,050,958</td>
+<td>47,888,434</td>
+<td>14</td>
+<td>10.3</td>
+</tr>
+<tr>
+<td>SID531469</td>
+<td>CRC</td>
+<td>49,534,577</td>
+<td>48,428,617</td>
+<td>14</td>
+<td>10.5</td>
+</tr>
+<tr>
+<td>SID532796</td>
+<td>control</td>
+<td>50,144,651</td>
+<td>49,285,012</td>
+<td>14</td>
+<td>11.8</td>
+</tr>
+</tbody>
+</table>
+<p>MetaPhlAn默认最短read长度过滤会使profile处理数低于输入clean
+reads，二者都保存；输入仍与原组装clean
+reads逐文件对应。线程为真实命令参数，不把Slurm内存申请当作实际峰值。实际运行代码在<code>../02_pipeline/</code>，profile、模拟命令及PropagAtE每样本命令均有收据，软件/数据库清单在<code>../01_manifests/</code>。大FASTQ、BAM和marker
+mapout保留Spark，代码、表、图、报告和校验记录同步本地。</p>
+<h2 id="12-本轮结果的科学价值">12. 本轮结果的科学价值</h2>
+<p>现在已有一套可运行、可解释的测量路径，明确了近缘病毒归属是重要瓶颈，也获得了可追踪的复制活动对象。后续投入应优先用于跨队列重复、宿主/结构精化和实验可得性，而非无目的增加注释、不断改变阈值或强求所有功能类别出现显著结果。</p>
+<p>背景和方法依据见<a
+href="../00_plan/评审事实与方法纠错.md">纠错文档中的原文链接</a>与<a
+href="../00_plan/CRC-PHIRE_修订后的完整研究方案.md">完整研究方案</a>。本报告的具体数字均来自本轮真实表格；模拟结果已明确标识。</p>
+</body>
+</html>

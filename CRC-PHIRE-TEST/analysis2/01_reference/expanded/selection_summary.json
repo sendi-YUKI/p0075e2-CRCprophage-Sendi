@@ -1,0 +1,22 @@
+{
+  "query_records": 21608,
+  "unique_assembly_records": 21608,
+  "metadata_identity_groups": 15064,
+  "status_counts": {
+    "duplicate_assembly": 6544,
+    "review": 1265,
+    "excluded": 2392,
+    "preselected": 1931,
+    "reserve": 9464,
+    "context_only": 12
+  },
+  "preselected_genomes": 1931,
+  "preselected_taxon_labels": 76,
+  "preselected_query_units": 36,
+  "old258_retained_identities": 177,
+  "old258_exact_assemblies_retained": 166,
+  "new_identity_candidates": 1754,
+  "named_strain_count": 1930,
+  "final_sequence_QC": "pending_Jinlong",
+  "sequence_level_independent_strains": "not_yet_established"
+}

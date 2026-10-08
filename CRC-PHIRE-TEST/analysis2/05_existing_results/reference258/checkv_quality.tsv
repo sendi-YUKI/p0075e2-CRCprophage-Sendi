@@ -1,0 +1,813 @@
+candidate_id	genome_id	checkv_contig_length	checkv_provirus	checkv_proviral_length	checkv_gene_count	checkv_viral_genes	checkv_host_genes	checkv_quality	checkv_miuvig_quality	checkv_completeness	checkv_completeness_method	checkv_contamination	checkv_kmer_freq	checkv_warnings
+ph_gb384dbe3d68acd93885c_03687fdfa9627125da681c558f8eca8c	GCA_051912815.1	426	No	NA	1	0	0	Low-quality	Genome-fragment	1.01	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_06059c45e43d7ad416e227037dccfb7f	GCA_051912815.1	1425	No	NA	1	1	0	Low-quality	Genome-fragment	2.48	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_0a5fc07c675b8076e012c5ae7ca549a8	GCA_051912815.1	4839	No	NA	1	1	0	Low-quality	Genome-fragment	8.54	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_122e365a1617f40df2f5fa117bcb589b	GCA_051912815.1	309	No	NA	1	0	0	Low-quality	Genome-fragment	0.66	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_1bb18e32bd6391fafc350c0ccf127eae	GCA_051912815.1	1398	No	NA	1	1	0	Low-quality	Genome-fragment	2.5	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_1da766f0bad0901288f7c43b8f6503c4	GCA_051912815.1	1365	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_1fa8f4b0c67232861bfc65c82e53046e	GCA_051912815.1	2040	No	NA	1	0	0	Low-quality	Genome-fragment	4.76	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_2ce8acbe8ea3b6ca0174a90db1701b95	GCA_051912815.1	3738	No	NA	1	0	1	Low-quality	Genome-fragment	8.73	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_31e5aa72ac777ac3b1b7011d6c582d60	GCA_051912815.1	2835	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_32d4f31e31ab2c1f76e57a87ec03bef2	GCA_051912815.1	1164	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_38ca283392ea4a58988140750f491f0e	GCA_051912815.1	648	No	NA	1	0	0	Low-quality	Genome-fragment	1.13	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_3cc609624bf6f4db9058b7d45637f740	GCA_051912815.1	2589	No	NA	1	0	1	Low-quality	Genome-fragment	0.8	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_3cde279d0f421053d97a316b11b15b1d	GCA_051912815.1	1041	No	NA	1	0	0	Low-quality	Genome-fragment	1.0	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_4383f7040cc12c685623371893c797b9	GCA_051912815.1	633	No	NA	1	0	0	Low-quality	Genome-fragment	1.48	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_43a9b16c3410d3e1014246aa6c2db44e	GCA_051912815.1	1425	No	NA	1	1	0	Low-quality	Genome-fragment	2.48	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_4a0b4988bc31accb590cdc43af90f153	GCA_051912815.1	669	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_4dc3ad668875322e8095207a36ce4c32	GCA_051912815.1	4128	No	NA	1	0	0	Low-quality	Genome-fragment	7.05	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_55be63928049bc8d28c9ba956d6d03b3	GCA_051912815.1	4017	No	NA	1	1	0	Low-quality	Genome-fragment	6.96	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_5a85198a9086ece12a2c5730528192a8	GCA_051912815.1	5412	No	NA	1	1	0	Low-quality	Genome-fragment	9.33	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_5aba5460520b370b417a68368b8c7b06	GCA_051912815.1	1233	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_5f9c8be6452aec1dad7556e800e9fa89	GCA_051912815.1	3198	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_6040a78e316ad446dbceaa173b433392	GCA_051912815.1	1401	No	NA	1	1	0	Low-quality	Genome-fragment	2.49	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_6199e1726d3954afb6e6dbfe8b514a0d	GCA_051912815.1	2463	No	NA	1	1	0	Low-quality	Genome-fragment	4.25	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_736d0dfe335df71563f44ff9cb627e3e	GCA_051912815.1	1182	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_73c0acc0c551a7d8abc3822a9897c650	GCA_051912815.1	498	No	NA	1	0	0	Low-quality	Genome-fragment	1.16	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_7630670b9794d10b23af8f9367b4de11	GCA_051912815.1	1248	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_7b036f37cb57df2229566b2a9c0991a0	GCA_051912815.1	1569	No	NA	1	1	0	Low-quality	Genome-fragment	3.71	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_7c2e2b0447d7e10bd9ea15bad23567e0	GCA_051912815.1	3180	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_7e008426913fa94ef59a7434d7778fd4	GCA_051912815.1	3822	No	NA	1	0	1	Low-quality	Genome-fragment	3.46	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_7e58649ead424360ac15d16fbe3d6792	GCA_051912815.1	6909	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_83c645338c043a55697b891440979eb5	GCA_051912815.1	1035	No	NA	1	1	0	Low-quality	Genome-fragment	2.45	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_8b390fdce40324ba84ef25830c460ab5	GCA_051912815.1	447	No	NA	1	0	0	Low-quality	Genome-fragment	1.06	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_8be637a39b5ae9c2380bdd4d78e7019b	GCA_051912815.1	1131	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_8bea163e73a8322d90c07ff45227c07e	GCA_051912815.1	5406	No	NA	1	1	0	Low-quality	Genome-fragment	9.26	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_9b5152b758ac8206b390abacde415365	GCA_051912815.1	1185	No	NA	1	0	0	Low-quality	Genome-fragment	2.06	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_a9ffd76595a57429e9549a3d4dbda0eb	GCA_051912815.1	2610	No	NA	1	1	0	Low-quality	Genome-fragment	4.5	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_c7640aed00e9226d0065d03e19f7b53a	GCA_051912815.1	1236	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_d4d94602771f3655d2b50de4862ccc20	GCA_051912815.1	1224	No	NA	1	1	0	Low-quality	Genome-fragment	2.9	AAI-based (high-confidence)	0.0	1.0	
+ph_gb384dbe3d68acd93885c_ddfe40a3fd0d78e2708c6029505ec2c2	GCA_051912815.1	474	No	NA	1	0	0	Low-quality	Genome-fragment	1.12	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_de711b92cc4c39c1612316026a6c14de	GCA_051912815.1	1263	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_e53f49615cd32db332011da9a541e8f6	GCA_051912815.1	2538	No	NA	1	0	1	Low-quality	Genome-fragment	1.28	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_e7d8bd0ce649a931a297c10f16d860a5	GCA_051912815.1	6747	No	NA	1	0	0	Low-quality	Genome-fragment	13.14	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_f066cdac0d416586fd880065cfcfe844	GCA_051912815.1	246	No	NA	1	0	0	Low-quality	Genome-fragment	0.42	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_f15ec54ea654ce947ef661c81f333b44	GCA_051912815.1	1254	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_f3a8ba25112665bdf42fc6488bcb52b9	GCA_051912815.1	1236	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_f3e49cde11a78b7c550d34d3ca481890	GCA_051912815.1	648	No	NA	1	0	0	Low-quality	Genome-fragment	1.13	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_f44461201c60413cc9064c034bc4de2d	GCA_051912815.1	1182	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_fb42ab54a9b750bbe7cf6c605ee5b685	GCA_051912815.1	1176	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb384dbe3d68acd93885c_fc5fee18035f094a897e9f2ef8efd4c6	GCA_051912815.1	246	No	NA	1	0	0	Low-quality	Genome-fragment	0.44	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g31570bd071284df07336_69654d509ad717e44c0835c3f8f7d412	GCA_057797675.1	42928	Yes	36102	56	4	4	Medium-quality	Genome-fragment	59.91	AAI-based (medium-confidence)	15.9	1.0	
+ph_g31570bd071284df07336_c225e8b9989a97dff74b35b396ec4f83	GCA_057797675.1	23372	No	NA	31	1	2	Low-quality	Genome-fragment	14.89	HMM-based (lower-bound)	0.0	1.01	
+ph_gb76e85f1698d1997edea_9286fa4e463665d4d0ab888a1e9f2df8	GCF_000493795.1	39057	Yes	34853	59	23	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	10.76	1.0	
+ph_gc6afbb0b626c17fe1858_015e2cb47fa4079dca0490a5fd5b4e4f	GCF_000598805.1	5459	No	NA	2	1	0	Low-quality	Genome-fragment	9.12	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_1905c9dd0017590bcef514bf9e8e155a	GCF_000598805.1	6498	No	NA	7	0	1	Low-quality	Genome-fragment	13.98	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_1e55c8fe5a181933a9792730617d2212	GCF_000598805.1	1228	No	NA	1	0	0	Low-quality	Genome-fragment	2.08	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_22f9143fde2a97e52700c002a79ef5f0	GCF_000598805.1	4794	Yes	1874	7	1	1	Low-quality	Genome-fragment	1.84	HMM-based (lower-bound)	60.91	1.0	
+ph_gc6afbb0b626c17fe1858_2f8a088eed3154860b8b6a7b591db918	GCF_000598805.1	1214	No	NA	3	0	0	Low-quality	Genome-fragment	2.03	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_3e917f9e5399ce8fb5b7e2c63b9a37c5	GCF_000598805.1	6850	No	NA	11	3	0	Low-quality	Genome-fragment	11.26	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_42675246d6c019c146068c3482979a28	GCF_000598805.1	6450	No	NA	10	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_5083bbc11c51a65dfe1d79fdb2ba2ac5	GCF_000598805.1	10371	No	NA	11	1	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_77ac8b8b36429c158b99c981b3faa119	GCF_000598805.1	2977	No	NA	4	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.02	no viral genes detected
+ph_gc6afbb0b626c17fe1858_79a386f67e601f9719d0a64c579dccdc	GCF_000598805.1	5711	No	NA	8	2	0	Low-quality	Genome-fragment	9.51	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_918a0d93caaa21473afb20b76a5ff9b1	GCF_000598805.1	4210	No	NA	4	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_99cb498d1b13986b7e9fba158c8ddd59	GCF_000598805.1	33380	No	NA	36	4	0	Medium-quality	Genome-fragment	55.83	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_b88fce2cbe8cb9046b473ab699ff549d	GCF_000598805.1	28092	Yes	25249	29	3	2	Low-quality	Genome-fragment	42.52	AAI-based (medium-confidence)	10.12	1.0	
+ph_gc6afbb0b626c17fe1858_c1a225aeb62abbc7aa764c0248db3727	GCF_000598805.1	3833	No	NA	2	1	0	Low-quality	Genome-fragment	6.19	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6afbb0b626c17fe1858_c8d6c1430aa8a62a1517d1c71580f443	GCF_000598805.1	3231	No	NA	7	0	0	Low-quality	Genome-fragment	4.83	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_d0f040297c08e3abc7091517773952c8	GCF_000598805.1	6455	No	NA	7	0	1	Low-quality	Genome-fragment	13.88	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_f3754e4ecafa6837d08ea1d04a46a740	GCF_000598805.1	5296	No	NA	11	0	3	Low-quality	Genome-fragment	8.45	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gc6afbb0b626c17fe1858_f5d39c8765b4305fa21e6661aef392a2	GCF_000598805.1	774	No	NA	2	1	0	Low-quality	Genome-fragment	1.29	AAI-based (high-confidence)	0.0	1.0	
+ph_g460894500d378ca5cdf3_1d84db055007377122000a6cd33a1ce2	GCF_000724815.2	41767	Yes	34308	54	13	4	Medium-quality	Genome-fragment	84.83	AAI-based (high-confidence)	17.86	1.0	
+ph_g460894500d378ca5cdf3_c52f58dafba08e4dd940f760fcaefe87	GCF_000724815.2	35392	No	NA	46	15	2	High-quality	High-quality	92.15	AAI-based (high-confidence)	0.0	1.0	
+ph_g460894500d378ca5cdf3_ece25951106b39b4d997e01cf5c97b97	GCF_000724815.2	25336	No	NA	37	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3d55b09061fe78d326c9_1d0dfbf012c9a9e303e9390755b40c06	GCF_015070945.1	22998	No	NA	23	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3d55b09061fe78d326c9_34f25ad2c76314c7a83a35c77c980c11	GCF_015070945.1	27732	No	NA	42	6	0	Medium-quality	Genome-fragment	72.7	AAI-based (medium-confidence)	0.0	1.0	
+ph_g3d55b09061fe78d326c9_8fc4f766dde1cef8583544aa438cc7ac	GCF_015070945.1	17362	No	NA	28	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3d55b09061fe78d326c9_a73427b07554d1361ea302efca19d296	GCF_015070945.1	18739	No	NA	20	0	4	Low-quality	Genome-fragment	32.24	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g3d55b09061fe78d326c9_be4d02d834e94344931d234ae7b3ba53	GCF_015070945.1	19373	No	NA	17	3	1	Low-quality	Genome-fragment	21.92	AAI-based (medium-confidence)	0.0	1.0	
+ph_g3d55b09061fe78d326c9_d7df78e35ef4e4294425abcba224e87e	GCF_015070945.1	15832	No	NA	20	2	2	Low-quality	Genome-fragment	29.65	AAI-based (medium-confidence)	0.0	1.0	
+ph_g1fa2701811968bcf4b32_0007743cdf32eda1b7b963889c3cf4c4	GCF_021359565.1	41767	Yes	34308	54	13	4	Medium-quality	Genome-fragment	84.83	AAI-based (high-confidence)	17.86	1.0	
+ph_g1fa2701811968bcf4b32_7788b890d0c8cec52e6e9bdce2c9238f	GCF_021359565.1	17591	No	NA	25	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_gc6740fbaa42ebef60d4e_7a749f094db6c072e77be8bf002ec938	GCF_023383525.1	5861	No	NA	10	3	0	Low-quality	Genome-fragment	7.04	HMM-based (lower-bound)	0.0	1.0	
+ph_gc6740fbaa42ebef60d4e_80030e952cf2740f08b47161af6378f6	GCF_023383525.1	43720	No	NA	73	26	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc6740fbaa42ebef60d4e_97600c0fde9465202294d1c37cc0f823	GCF_023383525.1	10911	No	NA	13	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc6740fbaa42ebef60d4e_eedb888c32ec861a5bccf8881780d7ef	GCF_023383525.1	8205	No	NA	11	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g94aa6eed884422942505_4756613f94eda350339d8621687a3ae8	GCF_023383605.1	9677	No	NA	12	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g94aa6eed884422942505_677a176d55ad0f8c570db0c2a1f94245	GCF_023383605.1	3209	No	NA	5	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g94aa6eed884422942505_6b9c399ad8c6e3402bc2f3a74f932e87	GCF_023383605.1	18054	No	NA	29	12	0	Low-quality	Genome-fragment	46.43	AAI-based (medium-confidence)	0.0	1.0	
+ph_g94aa6eed884422942505_9b2802734be5ae29613cde25a66e21cd	GCF_023383605.1	5861	No	NA	10	3	0	Low-quality	Genome-fragment	7.04	HMM-based (lower-bound)	0.0	1.0	
+ph_g94aa6eed884422942505_d9dbc06948bafbe7d4f7f8b2ca241a0b	GCF_023383605.1	25182	No	NA	39	15	0	Medium-quality	Genome-fragment	58.27	AAI-based (high-confidence)	0.0	1.0	
+ph_g734c3cf9f43feaf40ed5_69420e6deb7f201316b5d2306c074663	GCF_026966415.1	20438	No	NA	22	1	3	Low-quality	Genome-fragment	10.02	HMM-based (lower-bound)	0.0	1.0	
+ph_g734c3cf9f43feaf40ed5_9c996067063da521b5b15670f6d71cb0	GCF_026966415.1	31301	No	NA	41	11	1	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_g62e2ff3b9601053e227f_0cfd5c46cfee7f73dccf5d884345bdd3	GCF_037911905.1	10628	No	NA	20	1	1	Low-quality	Genome-fragment	28.62	AAI-based (medium-confidence)	0.0	1.02	
+ph_g62e2ff3b9601053e227f_2e5a419ddf6f0c2d9530842ad20aba8c	GCF_037911905.1	38989	No	NA	57	16	1	Medium-quality	Genome-fragment	56.56	HMM-based (lower-bound)	0.0	1.0	
+ph_g62e2ff3b9601053e227f_61a6c85bd99ab0423bd5bf03887adbd8	GCF_037911905.1	40810	No	NA	70	19	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g62e2ff3b9601053e227f_eeff8df3b11e7ca19b149c8a27fbda57	GCF_037911905.1	46472	No	NA	73	25	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g898b0d745c21beed9690_0595d5c2e4700e43817a54d2514c710c	GCF_040687795.1	45393	Yes	40322	48	8	4	High-quality	High-quality	94.14	AAI-based (medium-confidence)	11.17	1.0	
+ph_g898b0d745c21beed9690_12cae78a528dc960e6d119d72da02217	GCF_040687795.1	44280	Yes	37460	58	3	4	Medium-quality	Genome-fragment	61.98	AAI-based (medium-confidence)	15.4	1.0	
+ph_g898b0d745c21beed9690_22aa613bb2f2d0808ade1ea7edd7601a	GCF_040687795.1	60551	No	NA	80	13	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g898b0d745c21beed9690_66070c0d1ac5ba14223349d33f312868	GCF_040687795.1	18434	Yes	12815	22	3	2	Low-quality	Genome-fragment	7.78	HMM-based (lower-bound)	30.48	1.02	
+ph_g898b0d745c21beed9690_7ff0b70e1022be563dcd8a68bac8a9ca	GCF_040687795.1	55978	Yes	29687	60	7	13	Medium-quality	Genome-fragment	69.31	AAI-based (medium-confidence)	46.97	1.0	
+ph_g898b0d745c21beed9690_8782e9f436fa58f3ba4de86f4715c961	GCF_040687795.1	43830	No	NA	48	6	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g898b0d745c21beed9690_b30aaec2e7312100e16474771668510a	GCF_040687795.1	112142	No	NA	174	31	5	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g898b0d745c21beed9690_c158ff77c954f9eaa09094f57dc3a18b	GCF_040687795.1	33452	No	NA	46	13	0	Medium-quality	Genome-fragment	82.71	AAI-based (high-confidence)	0.0	1.0	
+ph_g898b0d745c21beed9690_d93e4bf1e57fb356b12c258e206ec2af	GCF_040687795.1	21446	No	NA	24	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g92491f44d456c6f97f77_8b2a489be0ac1841ab4a611e1cb25a2d	GCF_900637905.1	31232	No	NA	50	23	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g9b0d2b3b27d6d475b732_86d8216bdd2d5cba5a861787a0a24493	GCA_001816225.4	16301	No	NA	25	2	1	Low-quality	Genome-fragment	32.68	AAI-based (medium-confidence)	0.0	1.0	
+ph_g9b0d2b3b27d6d475b732_a2a87a1efa96b3ac8d653ab8b6c0070a	GCA_001816225.4	31238	No	NA	44	13	0	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_g9b0d2b3b27d6d475b732_c2a3b0635d813a2c05d43f07f1020a56	GCA_001816225.4	39650	No	NA	42	7	1	High-quality	High-quality	92.57	AAI-based (medium-confidence)	0.0	1.0	
+ph_g9b0d2b3b27d6d475b732_c7289b81ef99fafbcde644b9cccb580f	GCA_001816225.4	42400	No	NA	60	5	3	Medium-quality	Genome-fragment	67.22	AAI-based (high-confidence)	0.0	1.0	
+ph_g3d60c79463ebe84e6b3f_2a2bd302c5e7c55449c58667163e89bc	GCA_037578015.1	45692	No	NA	66	32	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g3d60c79463ebe84e6b3f_7c24bcde9df756c4f559e0220f9a0fcd	GCA_037578015.1	40490	No	NA	69	17	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g710ab1c097ca5c5b9ae2_307cff9572271392a4a56d9ee0502f98	GCA_049315025.1	60022	No	NA	80	14	4	High-quality	High-quality	97.07	AAI-based (high-confidence)	0.0	1.0	
+ph_g710ab1c097ca5c5b9ae2_3420e0a6dbfae979caad0527901d0001	GCA_049315025.1	34775	No	NA	49	13	1	Medium-quality	Genome-fragment	85.99	AAI-based (high-confidence)	0.0	1.0	
+ph_ge5aa6b5ec1680e613c20_266f8707c89a2bbe005c3bc825664aa4	GCA_050845875.1	64441	No	NA	93	19	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ge5aa6b5ec1680e613c20_c6e7c4c37eb8191ff429ad548e2c9d23	GCA_050845875.1	25796	No	NA	28	0	11	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge5aa6b5ec1680e613c20_c966ddb82138f8eb25a83d74e63b42d1	GCA_050845875.1	40303	Yes	33470	54	10	4	High-quality	High-quality	90.3	AAI-based (high-confidence)	16.95	1.0	
+ph_ge5aa6b5ec1680e613c20_deb692bd526a685e09251a84cebcf6e3	GCA_050845875.1	68731	No	NA	81	5	4	Medium-quality	Genome-fragment	89.91	AAI-based (medium-confidence)	0.0	1.0	
+ph_g084a71fa059fe9b8dad4_60c536bee04b4ce32197277b46c35faa	GCA_057796905.1	41668	Yes	34822	54	5	4	Medium-quality	Genome-fragment	57.81	AAI-based (medium-confidence)	16.43	1.0	
+ph_g084a71fa059fe9b8dad4_a990db03a3fd697470ffbab7a0dc0fec	GCA_057796905.1	52515	Yes	48835	65	6	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	7.01	1.01	
+ph_g35b139116635ff6c1341_151e13c5897c8be2fead44690289c887	GCA_057797795.1	41862	Yes	35036	55	4	4	Medium-quality	Genome-fragment	58.45	AAI-based (medium-confidence)	16.31	1.0	
+ph_g35b139116635ff6c1341_1858db362be6eea8ae6e9121402cfa89	GCA_057797795.1	49780	Yes	46100	59	6	4	Medium-quality	Genome-fragment	63.84	AAI-based (medium-confidence)	7.39	1.01	
+ph_g08a104675f40898b1e28_2eb4e2a06f2f59df71cf3347d53b21e6	GCA_057799855.1	43707	Yes	36884	58	4	4	Medium-quality	Genome-fragment	61.2	AAI-based (medium-confidence)	15.61	1.0	
+ph_g08a104675f40898b1e28_3f84e17d80b7b70352e2a9d9d315bb47	GCA_057799855.1	34492	No	NA	47	12	0	High-quality	High-quality	92.45	AAI-based (medium-confidence)	0.0	1.0	
+ph_g08a104675f40898b1e28_3faef69c5e2a87ad30f4a9057f872325	GCA_057799855.1	60725	Yes	47688	67	6	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	21.47	1.0	
+ph_g08a104675f40898b1e28_64800e11dcdfc91fc3b1ae70c3364ad3	GCA_057799855.1	39896	No	NA	54	13	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g08a104675f40898b1e28_67f475a413795a42b46d9ef0799e2dae	GCA_057799855.1	25692	No	NA	23	0	12	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g08a104675f40898b1e28_72745359c8991efd6ea2964d6d7707bc	GCA_057799855.1	23452	No	NA	23	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf167d6dbd9727b73cc44_4cb777cc68f61e7061a59a23a3ccfddd	GCA_057801175.1	51436	Yes	47756	63	5	4	Medium-quality	Genome-fragment	66.17	AAI-based (high-confidence)	7.15	1.01	
+ph_gf167d6dbd9727b73cc44_793cec007f186292d8875964ef864924	GCA_057801175.1	41854	Yes	34999	55	3	4	Medium-quality	Genome-fragment	58.06	AAI-based (medium-confidence)	16.38	1.01	
+ph_gf167d6dbd9727b73cc44_f153ebbc5c73528539dfd0c2ec5df574	GCA_057801175.1	40041	No	NA	48	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g29fac831b0e871f3a535_247443a78553523fd655bd827c8e29f7	GCA_057801255.1	48327	No	NA	45	7	2	Low-quality	Genome-fragment	43.52	AAI-based (high-confidence)	0.0	1.0	
+ph_g29fac831b0e871f3a535_3c72a032cb0e9fb3bc5a8cca6732cbd3	GCA_057801255.1	55811	No	NA	84	5	4	Medium-quality	Genome-fragment	50.3	AAI-based (high-confidence)	0.0	1.0	
+ph_g29fac831b0e871f3a535_62240e8fb174009c18bb55690719d96b	GCA_057801255.1	72416	Yes	64069	69	7	6	High-quality	High-quality	97.84	AAI-based (high-confidence)	11.53	1.0	
+ph_g29fac831b0e871f3a535_fee3950af7827a77ba8d91de65b15d49	GCA_057801255.1	43790	Yes	36968	56	3	4	Medium-quality	Genome-fragment	61.75	AAI-based (medium-confidence)	15.58	1.0	
+ph_g2ef017f17f99f84fbbca_3408a7a931b050f148340c39dcc649f4	GCF_000009925.1	14755	No	NA	14	1	2	Low-quality	Genome-fragment	10.63	HMM-based (lower-bound)	0.0	1.0	
+ph_g2ef017f17f99f84fbbca_a2c068239015de8678ee0de22b96028d	GCF_000009925.1	44472	Yes	37647	62	3	4	Medium-quality	Genome-fragment	62.47	AAI-based (medium-confidence)	15.35	1.02	
+ph_g2ef017f17f99f84fbbca_e4d57bffbcba7b41fcfe335227139c1d	GCF_000009925.1	34493	No	NA	47	12	0	High-quality	High-quality	92.45	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga71f009cadc6598e30b9_0fbf3745bc6bb50d8b7090138de57d24	GCF_000158275.2	43298	No	NA	75	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga71f009cadc6598e30b9_9b5f56b66b9573f94e18e87e9f5c71f9	GCF_000158275.2	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_ga71f009cadc6598e30b9_e44a9ab24a685cdbe02e946023bc7b6c	GCF_000158275.2	41873	Yes	37701	69	26	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.96	1.0	
+ph_gdfda72638f02cccdef85_0e3749b85c6f24868664b0d17c6e4eef	GCF_000158535.2	40436	No	NA	69	17	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gdfda72638f02cccdef85_b9c32963de9eefffb37c18ae0c529fe7	GCF_000158535.2	27355	No	NA	27	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.03	no viral genes detected
+ph_gdfda72638f02cccdef85_f46438600a8e310a273f200c8a9362da	GCF_000158535.2	42778	Yes	41085	71	25	2	High-quality	High-quality	98.32	AAI-based (medium-confidence)	3.96	1.01	
+ph_g116a3c0f344a769b0556_be96085778db7580f93c9639e0fe5453	GCF_000210835.1	34774	No	NA	48	13	1	Medium-quality	Genome-fragment	85.98	AAI-based (high-confidence)	0.0	1.0	
+ph_g4ddfe526117b710a4272_3b6e19ff43b9a3834eb511c4733a763a	GCF_000218645.2	41131	No	NA	73	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g56f1d3d85e930645dfd4_3b9a8a5a805053c5ebd1a6ab6f2cd29b	GCF_000218655.1	37230	No	NA	51	18	1	High-quality	High-quality	95.51	AAI-based (high-confidence)	0.0	1.0	
+ph_g56f1d3d85e930645dfd4_6c4d1047a654d224c47abb6d904b0aa9	GCF_000218655.1	34977	No	NA	53	17	1	Low-quality	Genome-fragment	49.63	HMM-based (lower-bound)	0.0	1.0	
+ph_g56f1d3d85e930645dfd4_87370b5d40b0a121535c9d3dd5756e17	GCF_000218655.1	42940	No	NA	76	17	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.01	
+ph_g56f1d3d85e930645dfd4_9b968730cc0ac58470aa8a2021cc632b	GCF_000218655.1	34824	No	NA	55	18	2	High-quality	High-quality	95.66	AAI-based (high-confidence)	0.0	1.0	
+ph_g9543232c444d5596efcf_5ea634e29911c156eb972163640ff082	GCF_000242975.1	43070	No	NA	73	18	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ge5432a5f8ac61ad33573_58b8bc2c565644d22420ff1e9abd924a	GCF_000263115.1	60852	Yes	48203	66	6	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	20.79	1.0	
+ph_ge5432a5f8ac61ad33573_710ea1c063bed8e9b3aae4fcd4d08f5a	GCF_000263115.1	25681	No	NA	22	0	12	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge5432a5f8ac61ad33573_932b0a249576ba9e841c0bc7b4c9a384	GCF_000263115.1	43709	Yes	36980	59	4	4	Medium-quality	Genome-fragment	61.67	AAI-based (medium-confidence)	15.39	1.0	
+ph_ge5432a5f8ac61ad33573_b98704873a11ba9350e5497ddec1c138	GCF_000263115.1	34498	No	NA	47	12	0	High-quality	High-quality	92.46	AAI-based (medium-confidence)	0.0	1.0	
+ph_ge5432a5f8ac61ad33573_baf7496bd3a680b2628cc9d18fea2a95	GCF_000263115.1	23453	No	NA	22	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge5432a5f8ac61ad33573_d29956d7cf690ce25b7220045ec0f075	GCF_000263115.1	74346	Yes	68377	107	14	5	High-quality	High-quality	96.6	AAI-based (high-confidence)	8.03	1.0	
+ph_ge5432a5f8ac61ad33573_e0b184242f7b8eae021a35fcd5e876e7	GCF_000263115.1	48163	Yes	26531	50	8	5	Medium-quality	Genome-fragment	61.94	AAI-based (medium-confidence)	44.91	1.0	
+ph_g272c155a12df04f98deb_608d8c83072ea1ee6c0113c3545c50d2	GCF_000273135.1	15740	No	NA	22	2	1	Low-quality	Genome-fragment	9.9	HMM-based (lower-bound)	0.0	1.0	
+ph_g272c155a12df04f98deb_ea1442feee018479d0ef56c9c21f0cc7	GCF_000273135.1	45072	No	NA	55	2	10	Low-quality	Genome-fragment	30.02	AAI-based (medium-confidence)	0.0	1.0	
+ph_gb3649fdaa21cb8779730_41dea4bf03f50392369d102edf613e5c	GCF_000400875.1	35019	No	NA	54	19	3	Medium-quality	Genome-fragment	52.74	HMM-based (lower-bound)	0.0	1.0	
+ph_gdc3bc328e18d13e54d76_39adf43291ac4ca95e0b30ed56ed3bfd	GCF_000479285.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_g67b4f66d6f1bd2314572_1c99df9700182027636c783dda9e5787	GCF_000598145.1	23542	Yes	19862	21	3	3	Low-quality	Genome-fragment	25.08	AAI-based (medium-confidence)	15.63	1.0	
+ph_g67b4f66d6f1bd2314572_39848b1d331a243fd4c0b94a4635e37d	GCF_000598145.1	17377	No	NA	26	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_3b740074ddb812a00457c342bff1cd34	GCF_000598145.1	26073	No	NA	40	4	0	Medium-quality	Genome-fragment	68.35	AAI-based (medium-confidence)	0.0	1.0	
+ph_g67b4f66d6f1bd2314572_4dc2fd5f5a8f9ad9f099d4fc42ae1e68	GCF_000598145.1	624	No	NA	1	0	0	Low-quality	Genome-fragment	1.48	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_598e60c8624dbeb07c54ac3e15b30174	GCF_000598145.1	25265	No	NA	32	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_8c246cf4f2ca4eda5c2c50ad60b36f32	GCF_000598145.1	584	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_8cb98358b68907e04e26aeef26cfc1ef	GCF_000598145.1	3595	No	NA	4	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_91f79f96150414c83da3812a8bdfbec5	GCF_000598145.1	1207	No	NA	1	0	0	Low-quality	Genome-fragment	2.87	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g67b4f66d6f1bd2314572_9e3c81459461d1db33d9c67cda4cc238	GCF_000598145.1	8493	No	NA	9	1	1	Low-quality	Genome-fragment	5.32	HMM-based (lower-bound)	0.0	1.0	
+ph_g67b4f66d6f1bd2314572_a62096889b3576d33dcc976005387e4f	GCF_000598145.1	730	No	NA	2	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_045cb0e6cab53b53a0feb5c82a500333	GCF_000598165.1	19347	No	NA	19	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_0b64844b046bae1696b0a60983145570	GCF_000598165.1	3124	No	NA	3	0	0	Low-quality	Genome-fragment	4.09	AAI-based (medium-confidence)	0.0	1.03	no viral genes detected
+ph_ga0b409f9731f85e62f73_0c5ac0720588ba4bbd6f7c80bb4cfc66	GCF_000598165.1	25146	No	NA	38	2	0	Medium-quality	Genome-fragment	65.92	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_4e4184b16740b7e28847688029ae57bb	GCF_000598165.1	6736	No	NA	6	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_61326cdf8bf661e03e6ec3e6da17d078	GCF_000598165.1	14960	No	NA	18	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_6ce7406d94176420ef8d0175370284a0	GCF_000598165.1	8477	No	NA	14	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_77d6f382ff4d197f18263d8c2cef2b04	GCF_000598165.1	6158	No	NA	7	2	0	Low-quality	Genome-fragment	6.49	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_8c4ecd42a48414a115038d3ef43c2e78	GCF_000598165.1	3339	No	NA	4	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_9323a032efaa9aa08f87326f899f292d	GCF_000598165.1	33309	No	NA	35	3	1	Medium-quality	Genome-fragment	55.3	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_948bd69cfc947fd759d49b9dbb814b3a	GCF_000598165.1	45669	No	NA	65	4	2	Low-quality	Genome-fragment	41.15	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_99285479011e082d32ca5b14fdd2185f	GCF_000598165.1	27262	No	NA	38	3	2	Medium-quality	Genome-fragment	64.52	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_9d88d2525614fcce845f6c52a1629a78	GCF_000598165.1	24095	No	NA	17	5	2	Low-quality	Genome-fragment	21.69	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_adaf62f76bc5dcdbff5eb40f29f6b500	GCF_000598165.1	27704	No	NA	23	5	1	Medium-quality	Genome-fragment	64.68	AAI-based (medium-confidence)	0.0	1.03	low-confidence ITR
+ph_ga0b409f9731f85e62f73_b2746111bfeaf11a41c8005e4e82d8ae	GCF_000598165.1	27245	No	NA	29	3	2	Low-quality	Genome-fragment	24.54	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga0b409f9731f85e62f73_d06ed18a2a5d0ee81629d3d726b960b8	GCF_000598165.1	681	No	NA	1	0	0	Low-quality	Genome-fragment	1.18	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_ga0b409f9731f85e62f73_d497ce1dd39343c3f045c69e2a462723	GCF_000598165.1	14111	No	NA	12	2	1	Low-quality	Genome-fragment	28.03	AAI-based (medium-confidence)	0.0	1.0	
+ph_g185160bba4eed1403daa_0f084825365a18479a62b3c622b5f07b	GCF_000598205.1	5042	No	NA	8	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_527011fe9bc7c52d206ae85fb899f8aa	GCF_000598205.1	10459	No	NA	15	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_7c5bbfb55a58ba2fb84f2ae98f50b71f	GCF_000598205.1	2018	No	NA	3	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_93a70fd03c2d2f022bfb0ec913c557d0	GCF_000598205.1	562	No	NA	1	1	0	Low-quality	Genome-fragment	1.22	AAI-based (high-confidence)	0.0	1.0	
+ph_g185160bba4eed1403daa_9a459767d3a6b5143269cffbb5326f6f	GCF_000598205.1	814	No	NA	1	0	0	Low-quality	Genome-fragment	1.76	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_b09007c06e3d30d06b5396e8608dd5cb	GCF_000598205.1	767	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_b960d909a5931281957b710fecca0eef	GCF_000598205.1	14980	No	NA	19	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_cac792fd276780fc1df5f3368a048a97	GCF_000598205.1	3611	No	NA	5	1	0	Low-quality	Genome-fragment	1.55	HMM-based (lower-bound)	0.0	1.0	
+ph_g185160bba4eed1403daa_cfc483d41538e5ee3711bba88c5cfa11	GCF_000598205.1	2659	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_d97b6b4cca7828384750a15ab1095a46	GCF_000598205.1	500	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_de8d17af8a4fb690c507ba61535297a8	GCF_000598205.1	6811	No	NA	6	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g185160bba4eed1403daa_ee427914a30b864bedb337cdc98ecf99	GCF_000598205.1	2558	No	NA	1	1	0	Low-quality	Genome-fragment	5.63	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_182dec51cce8547b06ea4d46f76131f2	GCF_000598325.1	4283	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_189058b5da94b4a41f008e396c80e95d	GCF_000598325.1	35710	No	NA	30	6	2	Low-quality	Genome-fragment	32.18	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_481088d351671f8cb2e025fbff6af166	GCF_000598325.1	4480	No	NA	6	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_547924a726e021f2cec8727048b91f25	GCF_000598325.1	27427	No	NA	29	3	2	Low-quality	Genome-fragment	24.7	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_6352f228d0dac4810c338ad9cea0906b	GCF_000598325.1	10574	No	NA	6	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g34021ac433cde5ec0abc_6882969e4d8556af0e0013bb197d9106	GCF_000598325.1	3343	No	NA	4	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_6a19bfc87733370d56503df335795afc	GCF_000598325.1	17444	No	NA	16	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_760ed286561b2bfe0c86285df2417e5e	GCF_000598325.1	5343	No	NA	8	1	0	Low-quality	Genome-fragment	3.46	HMM-based (lower-bound)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_910044ac9880bc2e55043a0d19969078	GCF_000598325.1	20240	No	NA	18	3	1	Low-quality	Genome-fragment	20.84	AAI-based (high-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_9c86264ad4ff2a8de22dd2bac01d8cf3	GCF_000598325.1	26979	No	NA	22	5	1	Medium-quality	Genome-fragment	62.99	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_a85d6e6f6fdf21ce39c8aff997ada527	GCF_000598325.1	6696	No	NA	6	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_ad2c95a0ce75723dbb0370625c7720a1	GCF_000598325.1	7936	Yes	4626	10	1	3	Low-quality	Genome-fragment	4.18	AAI-based (high-confidence)	41.71	1.0	
+ph_g34021ac433cde5ec0abc_c4d699b68ed5fb439f1dd44f41da831e	GCF_000598325.1	28714	No	NA	42	1	2	Low-quality	Genome-fragment	34.19	HMM-based (lower-bound)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_d43cfc95177b59d16482920cbbe92a7c	GCF_000598325.1	1187	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g34021ac433cde5ec0abc_dd1e5123af4ac5593b9fca2d3052c279	GCF_000598325.1	34351	Yes	31375	42	3	2	Medium-quality	Genome-fragment	52.06	AAI-based (medium-confidence)	8.66	1.0	
+ph_g34021ac433cde5ec0abc_de91de5e4861c5ae001f4329068bcc75	GCF_000598325.1	25059	No	NA	39	2	0	Medium-quality	Genome-fragment	65.69	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34021ac433cde5ec0abc_f2af321db977a32afc858cd3b94d3311	GCF_000598325.1	26885	No	NA	39	3	1	Medium-quality	Genome-fragment	63.63	AAI-based (medium-confidence)	0.0	1.0	
+ph_gf0140d84553bf4553c4f_00f403625cd87a94d1d03d8652b5a1b6	GCF_000598505.1	3497	No	NA	4	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_1a3199fa64965f197a6d28367012681e	GCF_000598505.1	2503	No	NA	5	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_5612a64d22f52345a6690362bf87df54	GCF_000598505.1	10088	No	NA	14	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_7f2bfe8addb54ce53c43ec74e70ce068	GCF_000598505.1	13387	No	NA	26	6	0	Low-quality	Genome-fragment	41.22	AAI-based (high-confidence)	0.0	1.0	
+ph_gf0140d84553bf4553c4f_87bd50ee160a8071bbbaa5eb7f67b4ff	GCF_000598505.1	3845	No	NA	8	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_a16b8e84e05dc53fda762555924987d5	GCF_000598505.1	1246	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_eacfd3f134424e9f753ef603f2888911	GCF_000598505.1	1468	No	NA	1	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf0140d84553bf4553c4f_f2f07025051f70dc6d43ba22b17253fa	GCF_000598505.1	15367	No	NA	18	7	0	Low-quality	Genome-fragment	35.57	AAI-based (high-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_325364561912a3922c89d7e0a7bbde66	GCF_000598545.2	23848	No	NA	31	11	0	Medium-quality	Genome-fragment	64.34	AAI-based (medium-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_404eaf5cca2bdbe96e709b7781947f41	GCF_000598545.2	36938	No	NA	53	7	2	Medium-quality	Genome-fragment	61.26	AAI-based (high-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_49b079a77b38f0a139827d510cb56acf	GCF_000598545.2	59211	Yes	50883	67	8	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	14.06	1.0	
+ph_g2f05734ec4f49e252b11_570fee8c9724d0a47370305e4c8f2693	GCF_000598545.2	7573	No	NA	7	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g2f05734ec4f49e252b11_6079e203b3b17f3017c280ee250cbb3a	GCF_000598545.2	29112	No	NA	43	4	1	Medium-quality	Genome-fragment	76.32	AAI-based (medium-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_7444f663ed7a111eb0c8002582b2a96a	GCF_000598545.2	1696	No	NA	1	0	1	Low-quality	Genome-fragment	2.62	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g2f05734ec4f49e252b11_ae6a74587fb7e6e5bda9c9860b4c4f04	GCF_000598545.2	19479	No	NA	27	6	0	Low-quality	Genome-fragment	34.2	AAI-based (high-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_be74e14baf2681e421b4fccf5879132c	GCF_000598545.2	58682	Yes	52177	80	13	5	Complete	High-quality	100.0	Provirus (high-confidence)	11.09	1.0	
+ph_g2f05734ec4f49e252b11_cb63a4a407414d30052dd1fc1e90b13c	GCF_000598545.2	35463	No	NA	45	4	1	Medium-quality	Genome-fragment	59.24	AAI-based (medium-confidence)	0.0	1.0	
+ph_g2f05734ec4f49e252b11_ff2f8aeff769b4151abbe7a632a7c18c	GCF_000598545.2	2847	No	NA	5	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gce8b1a7bb2d63d1c4ca8_1fe0c1246b1d1e9c33e0958755def977	GCF_000598565.1	12469	No	NA	13	0	5	Low-quality	Genome-fragment	2.11	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gce8b1a7bb2d63d1c4ca8_da10c0d2665c4c5084f2623fe47460f5	GCF_000598565.1	40457	Yes	33632	52	3	4	Medium-quality	Genome-fragment	55.82	AAI-based (medium-confidence)	16.87	1.0	
+ph_g089e029536871101b82a_0e8083fccd53e163432d76bade8d2ac5	GCF_000598585.1	78503	Yes	72517	113	17	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	7.63	1.0	
+ph_g089e029536871101b82a_5ada010cea9b7b3ea05d5fa0cde99e7d	GCF_000598585.1	22484	No	NA	26	1	1	Low-quality	Genome-fragment	12.19	HMM-based (lower-bound)	0.0	1.0	
+ph_g089e029536871101b82a_bb5bf896deb3df823f3324d420d40fdf	GCF_000598585.1	36156	No	NA	46	4	1	Medium-quality	Genome-fragment	60.49	AAI-based (medium-confidence)	0.0	1.0	
+ph_g41ad03260f0231873bc2_33a18bdac61082b56dd0cf2b5ab7a273	GCF_000598645.1	9589	No	NA	20	2	1	Low-quality	Genome-fragment	9.48	HMM-based (lower-bound)	0.0	1.0	
+ph_g41ad03260f0231873bc2_3abbc343693d64a7c2fd0c93541c7b78	GCF_000598645.1	4173	No	NA	5	0	2	Low-quality	Genome-fragment	8.08	AAI-based (medium-confidence)	0.0	1.31	no viral genes detected
+ph_g41ad03260f0231873bc2_3b6f4d0ac19cb2d3952a7e4c39d674b6	GCF_000598645.1	3222	No	NA	4	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g41ad03260f0231873bc2_3d6642c3486afb62e203cb87f417cae3	GCF_000598645.1	9063	No	NA	16	2	3	Low-quality	Genome-fragment	6.36	HMM-based (lower-bound)	0.0	1.0	
+ph_g41ad03260f0231873bc2_684fcf390be2d96e943374e3f3363e71	GCF_000598645.1	33515	No	NA	45	3	1	Medium-quality	Genome-fragment	55.22	AAI-based (medium-confidence)	0.0	1.0	
+ph_g52cd73080ed39fd77591_0ed064a739c13d498ab4c0eaac8fe992	GCF_000598705.1	2047	No	NA	2	0	1	Low-quality	Genome-fragment	3.16	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g52cd73080ed39fd77591_1660f22b608fffae81c49f9c340ae8f1	GCF_000598705.1	42589	Yes	35730	55	3	4	Medium-quality	Genome-fragment	59.79	AAI-based (medium-confidence)	16.11	1.01	
+ph_g89faec93259e773378ce_0a9663d699b0c8a34761fb37e3ca1f82	GCF_000598725.1	3413	No	NA	7	0	1	Low-quality	Genome-fragment	7.97	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g89faec93259e773378ce_4884b48c95ffda0fb685d2d33dc9c3ff	GCF_000598725.1	2563	No	NA	2	0	0	Low-quality	Genome-fragment	5.98	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g89faec93259e773378ce_64713c69107203fa6b5c54062bd4e24d	GCF_000598725.1	15799	No	NA	22	1	1	Low-quality	Genome-fragment	8.57	HMM-based (lower-bound)	0.0	1.0	
+ph_g89faec93259e773378ce_83a5a2cb09cacb05c703becf56563d75	GCF_000598725.1	3655	No	NA	6	0	1	Low-quality	Genome-fragment	8.53	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g89faec93259e773378ce_ac07fc82c165c239a53df0bf4d78bfbb	GCF_000598725.1	54831	No	NA	78	14	1	Medium-quality	Genome-fragment	87.63	AAI-based (high-confidence)	0.0	1.0	
+ph_g89faec93259e773378ce_d3254b264d4c23eeca8b1aa2d1beaa47	GCF_000598725.1	65677	No	NA	73	12	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g89faec93259e773378ce_df940ceaa106bd39db4e3cd66b1c6201	GCF_000598725.1	3214	No	NA	5	0	1	Low-quality	Genome-fragment	7.6	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g89faec93259e773378ce_ec41a4be4fb25838c3cd478fd5a732cc	GCF_000598725.1	13604	No	NA	20	5	1	Low-quality	Genome-fragment	33.65	AAI-based (medium-confidence)	0.0	1.0	
+ph_g70b256511fd8ba6b2ae4_2607832998db14e3ee6044a2858f07c9	GCF_000598865.1	5147	No	NA	4	0	1	Low-quality	Genome-fragment	7.3	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g70b256511fd8ba6b2ae4_2c988ed2dcb962bf5080d604950c49e8	GCF_000598865.1	27672	No	NA	26	3	0	Low-quality	Genome-fragment	46.18	AAI-based (medium-confidence)	0.0	1.0	
+ph_g70b256511fd8ba6b2ae4_3a95b44e4d530ee4484a3823c469dce9	GCF_000598865.1	8642	No	NA	9	1	1	Low-quality	Genome-fragment	5.43	HMM-based (lower-bound)	0.0	1.0	
+ph_g70b256511fd8ba6b2ae4_5c5fc49e7a219062abe19c3370e298a5	GCF_000598865.1	9523	No	NA	17	2	1	Low-quality	Genome-fragment	13.4	AAI-based (high-confidence)	0.0	1.0	
+ph_g70b256511fd8ba6b2ae4_cfb2035c2058e4900f43894c63456d8f	GCF_000598865.1	61634	No	NA	87	13	2	Medium-quality	Genome-fragment	87.14	AAI-based (high-confidence)	0.0	1.0	
+ph_g70b256511fd8ba6b2ae4_f1ac490cfaa626e855bc1a85760d6af4	GCF_000598865.1	1678	No	NA	1	0	1	Low-quality	Genome-fragment	2.59	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g1d998c792bd2859dff5a_3a71ef7da06a4e4e80669c1f1f1b45c7	GCF_000598985.1	3750	No	NA	6	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g1d998c792bd2859dff5a_7d7fd71d5a2979464d354a3b4fcbf5df	GCF_000598985.1	2111	No	NA	1	0	1	Low-quality	Genome-fragment	3.26	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g1d998c792bd2859dff5a_951236adc1e47e5ecc4d1baeadad18d5	GCF_000598985.1	40917	Yes	34092	53	3	4	Medium-quality	Genome-fragment	56.95	AAI-based (medium-confidence)	16.68	1.0	
+ph_gf93f9e11f0f4a06e984e_00ba6c0b6fe28ba41c044e00f4eb9d47	GCF_000599045.1	36318	No	NA	52	14	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gf93f9e11f0f4a06e984e_117b85c30398906daa06eb579f0ef051	GCF_000599045.1	1093	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_gf93f9e11f0f4a06e984e_4f0f32cf739108c44e2760d3f365761d	GCF_000599045.1	3597	No	NA	2	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf93f9e11f0f4a06e984e_9e0c79591f9c7b82dd55dcf00ab9bf3a	GCF_000599045.1	34249	No	NA	47	13	1	Medium-quality	Genome-fragment	84.68	AAI-based (high-confidence)	0.0	1.0	
+ph_gf93f9e11f0f4a06e984e_cd503c859bc756211450a42438210c4d	GCF_000599045.1	25609	No	NA	27	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf93f9e11f0f4a06e984e_ea91f30df239e499a39f93a78f83e417	GCF_000599045.1	36228	No	NA	47	3	2	Medium-quality	Genome-fragment	60.16	AAI-based (medium-confidence)	0.0	1.0	
+ph_gf93f9e11f0f4a06e984e_ff8d89a3070fb1122d976cc9a33b524f	GCF_000599045.1	33740	No	NA	45	15	2	Medium-quality	Genome-fragment	87.87	AAI-based (high-confidence)	0.0	1.0	
+ph_gbb98f173da7722b89ff8_04cf2937e91ecac92fb642588bc8c16a	GCF_000599065.2	40457	Yes	33729	52	3	4	Medium-quality	Genome-fragment	55.98	AAI-based (medium-confidence)	16.63	1.0	
+ph_gbb98f173da7722b89ff8_9cd26e323be091d3dd293ac8191cc4f0	GCF_000599065.2	60205	No	NA	78	5	9	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbb98f173da7722b89ff8_ba52dee69aeb6a5edf726edd358fb3da	GCF_000599065.2	100610	Yes	53421	114	6	21	Medium-quality	Genome-fragment	73.86	AAI-based (medium-confidence)	46.9	1.0	
+ph_gbb98f173da7722b89ff8_c397e95e7e4d5de4ee0aef02f16f9a1c	GCF_000599065.2	28655	No	NA	24	5	1	Medium-quality	Genome-fragment	66.9	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbb98f173da7722b89ff8_f4ebb2149a9da111eedaccbcde4d83d3	GCF_000599065.2	108084	Yes	95984	123	13	11	Medium-quality	Genome-fragment	86.47	AAI-based (medium-confidence)	11.19	1.0	
+ph_gbb98f173da7722b89ff8_fe50ba04e8ba4cd54d576ef05be0e7b2	GCF_000599065.2	61491	Yes	59661	83	12	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	2.98	1.01	
+ph_gbbe1bef007abfdc5c871_0c6976fe828583f7fb2abf37137900f4	GCF_000599145.2	3556	No	NA	2	0	0	Low-quality	Genome-fragment	7.65	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gbbe1bef007abfdc5c871_105a104dea267095f1ceed2653caa90a	GCF_000599145.2	30525	No	NA	49	11	0	Low-quality	Genome-fragment	48.7	AAI-based (high-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_34c29b8efa359a701e6457273719efa2	GCF_000599145.2	3283	No	NA	2	0	0	Low-quality	Genome-fragment	7.1	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gbbe1bef007abfdc5c871_4fbe47180e80534459a9bf18ea631892	GCF_000599145.2	3572	No	NA	2	0	2	Low-quality	Genome-fragment	5.52	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gbbe1bef007abfdc5c871_685eefd80f880668637624eb128c1d28	GCF_000599145.2	88891	Yes	80563	110	12	7	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.37	1.0	contig >1.5x longer than expected genome length
+ph_gbbe1bef007abfdc5c871_7cfe0e27f7f10c536c9fc9ac42d89598	GCF_000599145.2	19143	No	NA	24	2	1	Low-quality	Genome-fragment	31.9	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_93744f9e793baa1f3b410fd4d0350e03	GCF_000599145.2	5267	No	NA	8	0	1	Low-quality	Genome-fragment	9.89	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gbbe1bef007abfdc5c871_954f1b6a54006e3793e4f69f22cf179a	GCF_000599145.2	97038	No	NA	117	11	5	Medium-quality	Genome-fragment	87.42	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_9e6f819e74d3d7d65e117a2b301997fb	GCF_000599145.2	35463	No	NA	45	4	1	Medium-quality	Genome-fragment	59.25	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_a15ab5040cab48417baceb424c9b29f8	GCF_000599145.2	3528	No	NA	3	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gbbe1bef007abfdc5c871_d9e9ab24de06145d23279b72beb47b7f	GCF_000599145.2	27783	No	NA	43	11	1	Medium-quality	Genome-fragment	74.89	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_f616bcf862413de562dd7b37805ef0d8	GCF_000599145.2	4245	No	NA	6	1	0	Low-quality	Genome-fragment	9.04	AAI-based (medium-confidence)	0.0	1.0	
+ph_gbbe1bef007abfdc5c871_fa48f7e6e256274e8170d0997d12f3c0	GCF_000599145.2	58684	Yes	52179	81	13	5	Complete	High-quality	100.0	Provirus (high-confidence)	11.08	1.0	
+ph_ge6b10e2e3fee8718f6b0_2ff9271a8a05b93874c3261995203b54	GCF_000599185.2	19457	No	NA	19	1	2	Low-quality	Genome-fragment	11.88	AAI-based (medium-confidence)	0.0	1.0	
+ph_ge6b10e2e3fee8718f6b0_42b09288a432c9a1c538bf7676f34342	GCF_000599185.2	17109	No	NA	17	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge6b10e2e3fee8718f6b0_4bff6c158058616500b5a71d79d9f3d9	GCF_000599185.2	15756	No	NA	22	1	1	Low-quality	Genome-fragment	8.55	HMM-based (lower-bound)	0.0	1.0	
+ph_ge6b10e2e3fee8718f6b0_5df1d6eb77f34bbe9f4b9effaa3e8c73	GCF_000599185.2	18896	No	NA	20	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge6b10e2e3fee8718f6b0_702aa11e34217b09813e4f9a63e3a894	GCF_000599185.2	15744	No	NA	22	3	1	Low-quality	Genome-fragment	9.56	HMM-based (lower-bound)	0.0	1.0	
+ph_g39fbbfa30eb6c6d2c1c6_0bf4e5e28d13c8205bedd052dcecf1ca	GCF_000599225.1	33431	No	NA	44	15	1	Medium-quality	Genome-fragment	87.07	AAI-based (high-confidence)	0.0	1.0	
+ph_g39fbbfa30eb6c6d2c1c6_0cb1f2d2d32fe36a1b26c9a05cfba363	GCF_000599225.1	25609	No	NA	27	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g39fbbfa30eb6c6d2c1c6_2776e2d7a5d15932794c8deb8ec1fa4e	GCF_000599225.1	33452	No	NA	46	13	0	Medium-quality	Genome-fragment	82.71	AAI-based (high-confidence)	0.0	1.0	
+ph_g39fbbfa30eb6c6d2c1c6_55dd0441ca72decac775b664efe09de9	GCF_000599225.1	34742	No	NA	46	3	1	Medium-quality	Genome-fragment	57.3	AAI-based (medium-confidence)	0.0	1.0	
+ph_g39fbbfa30eb6c6d2c1c6_5eb6c8008aed7b70e735e29c8ae2b28d	GCF_000599225.1	36318	No	NA	52	14	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g39fbbfa30eb6c6d2c1c6_7d6a51c7971783f6a795bebeacb63877	GCF_000599225.1	2092	No	NA	4	0	1	Low-quality	Genome-fragment	5.44	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g39fbbfa30eb6c6d2c1c6_d01cb22faa6836fe8f049bd8fefd72f5	GCF_000599225.1	3107	No	NA	3	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g4942da3d571f42c5a7e6_114b5726c886dfa0e222e1fccc49412a	GCF_000601055.1	36816	No	NA	51	10	0	High-quality	High-quality	98.86	AAI-based (medium-confidence)	0.0	1.0	
+ph_g4942da3d571f42c5a7e6_80198de708f26aef9babf6a68aa34e88	GCF_000601055.1	42183	No	NA	47	9	1	High-quality	High-quality	93.31	AAI-based (medium-confidence)	0.0	1.0	
+ph_g4942da3d571f42c5a7e6_cff34d993bf71467fde6ff67218d9f8b	GCF_000601055.1	47748	No	NA	68	11	1	Medium-quality	Genome-fragment	76.37	AAI-based (high-confidence)	0.0	1.0	
+ph_g5750bcf0c92106e186d1_22030ba651a56eb9e014db368198e32e	GCF_000601095.1	3701	No	NA	6	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5750bcf0c92106e186d1_3c651bc9f7099e7e2524fefe0ef969fe	GCF_000601095.1	51930	No	NA	73	13	1	Medium-quality	Genome-fragment	83.09	AAI-based (high-confidence)	0.0	1.0	
+ph_g5750bcf0c92106e186d1_699fbffe04f0efbd08890ae32112a2b7	GCF_000601095.1	3750	No	NA	6	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5750bcf0c92106e186d1_6c0ff41947d6db256930f8364d335706	GCF_000601095.1	3945	No	NA	6	1	0	Low-quality	Genome-fragment	8.41	AAI-based (medium-confidence)	0.0	1.0	
+ph_g5750bcf0c92106e186d1_87e0cca0d633f61b9927c5a6f096a6ea	GCF_000601095.1	88890	Yes	80562	110	12	7	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.37	1.0	contig >1.5x longer than expected genome length
+ph_g5750bcf0c92106e186d1_9219cc3d2607cdb2b40ef08e942f2974	GCF_000601095.1	30056	No	NA	44	11	1	Medium-quality	Genome-fragment	81.11	AAI-based (medium-confidence)	0.0	1.0	
+ph_g5750bcf0c92106e186d1_b10db8a1e01e1a8a833b6c49b3de4ede	GCF_000601095.1	108329	Yes	96229	126	10	11	Medium-quality	Genome-fragment	86.69	AAI-based (medium-confidence)	11.17	1.0	
+ph_g5750bcf0c92106e186d1_b4b9ee8123673280eeb502fcc2de6739	GCF_000601095.1	58684	Yes	52179	81	13	5	Complete	High-quality	100.0	Provirus (high-confidence)	11.08	1.0	
+ph_g5750bcf0c92106e186d1_c26684bb16236c66733fb5fde81638c7	GCF_000601095.1	4136	No	NA	8	0	1	Low-quality	Genome-fragment	6.96	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g5750bcf0c92106e186d1_e6601cba351ed5159abf048ea8817d01	GCF_000601095.1	37508	Yes	31893	47	4	3	Medium-quality	Genome-fragment	53.28	AAI-based (medium-confidence)	14.97	1.02	
+ph_g2908dcdcb17ccad0625a_2ede816582ed2a4299aeb4b23886ef4b	GCF_000710365.2	43118	Yes	35697	59	3	4	Medium-quality	Genome-fragment	59.91	AAI-based (medium-confidence)	17.21	1.0	
+ph_g945c0109049cbb5bfb31_0494071c0d1cb2409e46b045c85017df	GCF_000710375.2	38586	No	NA	49	11	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g945c0109049cbb5bfb31_1c15af46e359b3ffc93e20f9e8760b4d	GCF_000710375.2	56617	Yes	41075	65	4	5	High-quality	High-quality	93.32	AAI-based (medium-confidence)	27.45	1.0	
+ph_g945c0109049cbb5bfb31_964716cecb668a0431b041b637199a9a	GCF_000710375.2	52421	No	NA	73	4	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g945c0109049cbb5bfb31_9e921da0b4545c9031e8d821b444b4ed	GCF_000710375.2	27063	No	NA	34	1	3	Low-quality	Genome-fragment	17.51	HMM-based (lower-bound)	0.0	1.0	
+ph_g945c0109049cbb5bfb31_a6438c68732964c34761418edc123669	GCF_000710375.2	62538	No	NA	81	3	4	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.01	
+ph_gbd730751a19e682a36ce_1b5b81d46f1cc7c5dcdf45f3ce5ce66e	GCF_000724665.2	17064	No	NA	23	0	5	Low-quality	Genome-fragment	25.09	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gbd730751a19e682a36ce_5567d9c9d1eed4dc949a1ea1ec279e93	GCF_000724665.2	77206	No	NA	118	19	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gbd730751a19e682a36ce_73505ae46e66bfb790f0ca775cf6dcbd	GCF_000724665.2	29759	Yes	22469	34	4	5	Low-quality	Genome-fragment	37.83	AAI-based (medium-confidence)	24.5	1.0	
+ph_gbd730751a19e682a36ce_76189a2637dc27cae64b3a1c902d543d	GCF_000724665.2	17377	No	NA	26	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gbd730751a19e682a36ce_d039864120689cd45c029735dc988411	GCF_000724665.2	56628	No	NA	79	12	2	High-quality	High-quality	97.01	AAI-based (high-confidence)	0.0	1.0	
+ph_g1010678b2dbdd8ca6edf_1d9306bf53a42aeeaf4c78d8715710b0	GCF_000724805.2	17103	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g1010678b2dbdd8ca6edf_2c5a5358f6c5938187fd197187498688	GCF_000724805.2	39127	No	NA	41	7	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g1010678b2dbdd8ca6edf_88a8231881ce8abfc61635268985a71e	GCF_000724805.2	19487	No	NA	21	0	6	Low-quality	Genome-fragment	30.82	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_gebe6d10829e685ea6b80_215817ad805eaf0f1e649e3455658123	GCF_000965785.1	35466	Yes	34169	48	15	3	Medium-quality	Genome-fragment	88.99	AAI-based (high-confidence)	3.66	1.0	
+ph_gebe6d10829e685ea6b80_2b88c847f2081cbb307b9b15c262d752	GCF_000965785.1	45564	Yes	33076	55	3	6	Medium-quality	Genome-fragment	54.49	AAI-based (medium-confidence)	27.41	1.0	
+ph_gd42022bee2ffc63ecdf2_369c45d1311e8cd15cdb35aaee5396fb	GCF_001056335.1	15598	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gd42022bee2ffc63ecdf2_742944da50d5f20e795aff0762c64c55	GCF_001056335.1	39617	No	NA	44	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gd42022bee2ffc63ecdf2_c2876c120b0ef6fb68a3c01133076948	GCF_001056335.1	6986	No	NA	4	1	0	Low-quality	Genome-fragment	14.08	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd42022bee2ffc63ecdf2_fa4bdffe7f69fe2390170975dabb02f0	GCF_001056335.1	33768	No	NA	46	5	1	Medium-quality	Genome-fragment	55.14	AAI-based (medium-confidence)	0.0	1.0	
+ph_g0f2cfb984d8dbc65c31b_5cdfcf250dae74f5361ed2b6388f9f7d	GCF_001286525.1	41494	Yes	34669	53	3	4	Medium-quality	Genome-fragment	57.54	AAI-based (medium-confidence)	16.45	1.0	
+ph_g0f2cfb984d8dbc65c31b_ea207d3c76dd1183f4cd5e8c2ce8db55	GCF_001286525.1	36907	No	NA	51	12	1	High-quality	High-quality	91.2	AAI-based (high-confidence)	0.0	1.0	
+ph_g0f2cfb984d8dbc65c31b_fc56c4fc794203900b273d2c69e8d958	GCF_001286525.1	63069	No	NA	71	11	5	High-quality	High-quality	96.85	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6a03cbbcb25fe2eb858_436b5e9bfea91250cd4baffa62f874e7	GCF_001546435.1	18019	No	NA	29	12	0	Low-quality	Genome-fragment	46.34	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc6a03cbbcb25fe2eb858_8f4f8ba00752ace96595db06a203063b	GCF_001546435.1	5861	No	NA	10	3	0	Low-quality	Genome-fragment	7.04	HMM-based (lower-bound)	0.0	1.0	
+ph_gc6a03cbbcb25fe2eb858_a76e9cf752d6994e3ee9722391930c22	GCF_001546435.1	25452	No	NA	44	14	0	Medium-quality	Genome-fragment	58.12	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6a03cbbcb25fe2eb858_a9eaee6e8a98e0d385fad5f5ae03533e	GCF_001546435.1	45138	No	NA	72	18	1	High-quality	High-quality	95.46	AAI-based (high-confidence)	0.0	1.0	
+ph_gc6a03cbbcb25fe2eb858_c4ea3002d4575290847d852fb8c6ec9b	GCF_001546435.1	42521	Yes	26918	61	9	5	Medium-quality	Genome-fragment	78.86	AAI-based (high-confidence)	36.69	1.0	low-confidence Provirus
+ph_g9bd1fb38b45b8008e6c8_6ab94b985d772c8849fee281743e83d5	GCF_001580095.1	49959	Yes	46279	59	6	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	7.37	1.0	
+ph_g9bd1fb38b45b8008e6c8_71894a2bb11363f5e503da4a32952acf	GCF_001580095.1	33510	Yes	28246	35	3	2	Low-quality	Genome-fragment	47.54	AAI-based (medium-confidence)	15.71	1.0	
+ph_g9bd1fb38b45b8008e6c8_7470004ccb600b3cd3f2936fd3441046	GCF_001580095.1	7138	No	NA	16	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g9bd1fb38b45b8008e6c8_effcf4ab2d43edfd5122dcf18cc6357f	GCF_001580095.1	7237	No	NA	11	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc72d90803327edc22de7_a9ddee8073b69e3121fddeded36955ad	GCF_001682215.1	35906	No	NA	50	13	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gc72d90803327edc22de7_cb5b7835ba6fc58199e450d5e337b598	GCF_001682215.1	45478	No	NA	57	5	4	High-quality	High-quality	99.75	AAI-based (medium-confidence)	0.0	1.01	
+ph_g8d2ce7ebeb2805c8b20e_1a6b98d5cca233348fcab96cee990902	GCF_001692695.1	45633	No	NA	57	3	2	Medium-quality	Genome-fragment	76.67	AAI-based (medium-confidence)	0.0	1.0	
+ph_g8d2ce7ebeb2805c8b20e_7eaa0ab8bf589d046870b286b70a2d63	GCF_001692695.1	23935	No	NA	23	1	4	Low-quality	Genome-fragment	15.04	HMM-based (lower-bound)	0.0	1.0	
+ph_gd5e1ebf49f5572aab46a_8a67fc9ffc8535347a7cb10639a606c6	GCF_001693695.1	62318	No	NA	73	13	2	High-quality	High-quality	95.74	AAI-based (high-confidence)	0.0	1.0	
+ph_gd5e1ebf49f5572aab46a_c431807841889af2f9127bff348bef13	GCF_001693695.1	32784	No	NA	50	13	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g0af6958d614afd0ef93e_2aef7b373717d25cac74fd1b2639fbca	GCF_001699855.1	28068	No	NA	30	5	0	Medium-quality	Genome-fragment	73.15	AAI-based (medium-confidence)	0.0	1.0	
+ph_g0af6958d614afd0ef93e_4d480a0e2bea63c88090f89e650446f6	GCF_001699855.1	32873	No	NA	51	13	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g0af6958d614afd0ef93e_88295b2f1ac1b7ae0ac31ab27f75e318	GCF_001699855.1	48096	No	NA	57	6	1	Medium-quality	Genome-fragment	62.78	AAI-based (medium-confidence)	0.0	1.0	
+ph_g0af6958d614afd0ef93e_d35fd456b42b6e69b14298d7533e5af5	GCF_001699855.1	41433	Yes	32260	46	9	7	Medium-quality	Genome-fragment	75.32	AAI-based (medium-confidence)	22.14	1.0	
+ph_gbd691699a9b62563aeed_949f51e495bda803e51b8f53a920eb93	GCF_002762005.1	3127	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gbd691699a9b62563aeed_d18b56082cb045a6cdfc07173f090e78	GCF_002762005.1	43907	No	NA	78	28	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g87d30e78cb0c920f7936_163732e43d76ef7e2f088d82df9c4341	GCF_002762015.1	2591	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g87d30e78cb0c920f7936_5d6b0753fd24a658ae0892a17347afd7	GCF_002762015.1	18577	No	NA	18	0	16	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g87d30e78cb0c920f7936_6d2660c064e2cb7fcab15cb3111a0a4a	GCF_002762015.1	43907	No	NA	78	28	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc650b7db718c23d26bd0_a2c335aaadc00d9e7592ba9e4e825457	GCF_002849695.1	105255	No	NA	137	13	4	High-quality	High-quality	94.83	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc650b7db718c23d26bd0_bf4c48676bb2deae564886e8cc1908cc	GCF_002849695.1	20294	No	NA	31	3	3	Low-quality	Genome-fragment	33.9	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc1f5a5c723027a0729ee_0a78b51e3e9febc4dde2fe9590d117a2	GCF_003363115.1	18784	No	NA	20	2	2	Low-quality	Genome-fragment	11.04	HMM-based (lower-bound)	0.0	1.0	
+ph_gc1f5a5c723027a0729ee_54fc1f3c386f12632477c2e0a728bbc6	GCF_003363115.1	7614	No	NA	10	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc1f5a5c723027a0729ee_6e1c343206db626f2b89824011b5f41c	GCF_003363115.1	41869	Yes	34246	52	3	5	Medium-quality	Genome-fragment	57.23	AAI-based (medium-confidence)	18.21	1.0	
+ph_gc1f5a5c723027a0729ee_8391c17cfdc57805bdbe5709ffb76f47	GCF_003363115.1	34582	No	NA	47	13	1	Medium-quality	Genome-fragment	85.48	AAI-based (high-confidence)	0.0	1.0	
+ph_g029b6a40c215f4f2e466_28b7bf9e2e2aef903a7839cc59dd79a5	GCF_003438895.1	42678	Yes	35952	55	3	4	Medium-quality	Genome-fragment	59.71	AAI-based (medium-confidence)	15.76	1.0	
+ph_g029b6a40c215f4f2e466_666ca079fdc492fe2b0e5461b44c0218	GCF_003438895.1	36318	No	NA	52	14	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g029b6a40c215f4f2e466_6e29e86aac75c76e6992fce493996428	GCF_003438895.1	34132	No	NA	47	13	1	Medium-quality	Genome-fragment	84.39	AAI-based (high-confidence)	0.0	1.0	
+ph_g967c26f846d106d239b1_b8bdfd3c6279c75ae59734937a5577b0	GCF_003454775.1	31560	No	NA	52	26	0	High-quality	High-quality	98.92	AAI-based (high-confidence)	0.0	1.0	
+ph_g508e51f7d435b278834e_501f1c0d4d65b29e99d0638340ee47a9	GCF_004798515.1	28331	No	NA	39	12	1	Medium-quality	Genome-fragment	70.05	AAI-based (high-confidence)	0.0	1.0	
+ph_g508e51f7d435b278834e_85420670fa20618465c13979158a5608	GCF_004798515.1	64370	No	NA	73	11	5	High-quality	High-quality	98.87	AAI-based (high-confidence)	0.0	1.0	
+ph_g508e51f7d435b278834e_8df841fdd085994318c9d7bfd8210388	GCF_004798515.1	51151	Yes	36700	59	4	6	Medium-quality	Genome-fragment	83.38	AAI-based (medium-confidence)	28.25	1.0	
+ph_g508e51f7d435b278834e_ddcaf43d97840ce887026c0c88356231	GCF_004798515.1	37201	No	NA	49	4	2	High-quality	High-quality	92.7	AAI-based (medium-confidence)	0.0	1.0	
+ph_g983350cd0b5c315e695b_1cb12ab637ed6fde6bdaff299d8f8ed1	GCF_005706655.1	49793	Yes	46113	60	6	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	7.39	1.0	
+ph_g983350cd0b5c315e695b_3200aa51206d3f74bf0a4584f6a7d53d	GCF_005706655.1	35313	No	NA	37	2	10	Low-quality	Genome-fragment	22.69	HMM-based (lower-bound)	0.0	1.0	
+ph_g983350cd0b5c315e695b_b57e89da50363c51db86fe9b3fcdf644	GCF_005706655.1	40917	Yes	34092	53	3	4	Medium-quality	Genome-fragment	56.95	AAI-based (medium-confidence)	16.68	1.0	
+ph_g983350cd0b5c315e695b_c0e92e7bc2033f8d53f14748fb19af91	GCF_005706655.1	7237	No	NA	11	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g2dad8ae78cd3673fad26_15758cd9fb427b417135161304790d3d	GCF_008086695.1	42664	Yes	35919	59	3	4	Medium-quality	Genome-fragment	60.0	AAI-based (medium-confidence)	15.81	1.0	
+ph_g4709df73a0560c0291e4_269049875c1d20ccdc6ff4d5ea323d9a	GCF_008369705.1	33480	No	NA	48	11	1	Medium-quality	Genome-fragment	82.9	AAI-based (high-confidence)	0.0	1.0	
+ph_g4709df73a0560c0291e4_77c3abab9a36c62b31c22b082aedf4b0	GCF_008369705.1	62267	No	NA	71	12	3	High-quality	High-quality	95.63	AAI-based (high-confidence)	0.0	1.0	
+ph_g4709df73a0560c0291e4_7aba00713fc845665b143c8ab36ebf7d	GCF_008369705.1	50863	Yes	47183	62	5	4	Medium-quality	Genome-fragment	65.4	AAI-based (medium-confidence)	7.24	1.01	
+ph_g4709df73a0560c0291e4_e47bb2911ffc9235fe710f9e46911e7c	GCF_008369705.1	40733	Yes	33907	53	3	4	Medium-quality	Genome-fragment	56.28	AAI-based (medium-confidence)	16.76	1.01	
+ph_gd0b0a10315a099289b2e_343c5a50e6f902e0355116219a401994	GCF_008633155.1	33903	No	NA	51	23	0	Medium-quality	Genome-fragment	69.49	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd632b02f2fd02eeabd27_37ff606b505eb14bbcacef4818a0c821	GCF_013267555.1	40871	No	NA	45	8	2	High-quality	High-quality	95.42	AAI-based (high-confidence)	0.0	1.0	
+ph_gd632b02f2fd02eeabd27_71e75365b68d2bb6c0a3486ee4977f86	GCF_013267555.1	43678	Yes	24531	46	6	8	Medium-quality	Genome-fragment	57.27	AAI-based (medium-confidence)	43.84	1.0	
+ph_gd632b02f2fd02eeabd27_a21a9d4279146294f2ddad32dd121b1c	GCF_013267555.1	41936	No	NA	60	8	1	Medium-quality	Genome-fragment	78.01	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd632b02f2fd02eeabd27_ce094809727b551fb1e1af5f7b924aa9	GCF_013267555.1	49351	No	NA	68	15	2	High-quality	High-quality	96.74	AAI-based (high-confidence)	0.0	1.0	
+ph_gd632b02f2fd02eeabd27_e283010016e450097c793508bb53cdf9	GCF_013267555.1	15756	No	NA	22	1	1	Low-quality	Genome-fragment	8.55	HMM-based (lower-bound)	0.0	1.0	
+ph_g34dd6ba36fc966a2bfeb_719d2e130bd3dd01b323b0fe335a8e49	GCF_014042525.1	61405	Yes	49168	76	6	4	Medium-quality	Genome-fragment	82.29	AAI-based (high-confidence)	19.93	1.0	
+ph_g34dd6ba36fc966a2bfeb_8cf565e97a94fd1b2f8979205799430b	GCF_014042525.1	16580	No	NA	18	1	1	Low-quality	Genome-fragment	10.42	HMM-based (lower-bound)	0.0	1.0	
+ph_g34dd6ba36fc966a2bfeb_de44a83a5223ba52d868879b6e0ed4be	GCF_014042525.1	33381	No	NA	47	10	2	High-quality	High-quality	90.06	AAI-based (medium-confidence)	0.0	1.0	
+ph_g34dd6ba36fc966a2bfeb_e290cfeba364993c8e523a8ec144c7bb	GCF_014042525.1	37150	Yes	35923	55	8	3	Medium-quality	Genome-fragment	54.93	AAI-based (medium-confidence)	3.3	1.0	
+ph_g34dd6ba36fc966a2bfeb_ef3ec8f2e9953035a333ff4e5c90efdc	GCF_014042525.1	66620	No	NA	100	20	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g34dd6ba36fc966a2bfeb_ff14245c1b3539731ac562d9950f7a12	GCF_014042525.1	35066	No	NA	51	14	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g1370d6ffb889cc1574cb_55baa7f5178f1249df705e37bff76000	GCF_015831765.1	4648	No	NA	3	1	0	Low-quality	Genome-fragment	12.62	AAI-based (medium-confidence)	0.0	1.0	
+ph_g1370d6ffb889cc1574cb_5922e0dec1f715c9df9042fb21234c9a	GCF_015831765.1	51155	Yes	36704	58	4	6	Medium-quality	Genome-fragment	83.39	AAI-based (medium-confidence)	28.25	1.0	
+ph_g1370d6ffb889cc1574cb_59c34d355e8f15abaf6c876183f443f6	GCF_015831765.1	4287	No	NA	3	0	0	Low-quality	Genome-fragment	11.82	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g1370d6ffb889cc1574cb_6580f496083ee70071d7879813d34e8c	GCF_015831765.1	434	No	NA	1	0	0	Low-quality	Genome-fragment	1.2	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g1370d6ffb889cc1574cb_6c2c0a70d0650b6086de48b320156ae1	GCF_015831765.1	15099	No	NA	28	11	0	Low-quality	Genome-fragment	46.56	AAI-based (high-confidence)	0.0	1.0	
+ph_g1370d6ffb889cc1574cb_71f6f6fe601f5ce9375f88486cad3d5c	GCF_015831765.1	15674	No	NA	21	10	0	Low-quality	Genome-fragment	39.58	AAI-based (medium-confidence)	0.0	1.0	
+ph_g1370d6ffb889cc1574cb_ab98f3c478196c8d39f322466cda9b8d	GCF_015831765.1	7518	No	NA	13	0	0	Low-quality	Genome-fragment	12.39	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_gec7886586a21f2182b24_1f25ce1f4ea5b460d865b7013fdc8ff1	GCF_016864615.1	42042	No	NA	59	3	2	Medium-quality	Genome-fragment	67.31	AAI-based (high-confidence)	0.0	1.0	
+ph_gec7886586a21f2182b24_6f95259bdcd8c80bee9942c231e3d72f	GCF_016864615.1	48521	No	NA	62	4	5	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.01	
+ph_gec7886586a21f2182b24_968d914998c1c5ea65f396d6c76ad9dd	GCF_016864615.1	34671	No	NA	44	16	2	High-quality	High-quality	90.28	AAI-based (high-confidence)	0.0	1.0	
+ph_gec7886586a21f2182b24_ab9b0ca09fb2c7a5c5a58232f082ffdd	GCF_016864615.1	22910	No	NA	30	1	2	Low-quality	Genome-fragment	14.83	HMM-based (lower-bound)	0.0	1.0	
+ph_gec7886586a21f2182b24_b2d09dc49bcd7c51fa86fd2e5a67613d	GCF_016864615.1	49595	No	NA	49	4	8	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g46503cab4e10f429158f_2c2a5339721abef6e127c25668556c93	GCF_016889925.1	44886	Yes	38157	58	6	4	Medium-quality	Genome-fragment	61.59	AAI-based (high-confidence)	14.99	1.0	
+ph_g46503cab4e10f429158f_a33389b0c4c563f04112843bc41bbc1f	GCF_016889925.1	51436	Yes	47661	63	5	4	Medium-quality	Genome-fragment	66.04	AAI-based (high-confidence)	7.34	1.01	
+ph_g46503cab4e10f429158f_af0bb0e7df14d9db4e9bfe67ff6fe0e0	GCF_016889925.1	141020	No	NA	182	13	8	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.01	
+ph_ge233e0e8a1f75c11ddbb_25578952fa284a4505b7920e4ca4aa5b	GCF_018292185.1	59449	No	NA	83	14	2	High-quality	High-quality	95.83	AAI-based (high-confidence)	0.0	1.0	
+ph_ge233e0e8a1f75c11ddbb_90d297e11de8282150bdaad63234af42	GCF_018292185.1	15770	No	NA	22	1	1	Low-quality	Genome-fragment	8.55	HMM-based (lower-bound)	0.0	1.0	
+ph_ge233e0e8a1f75c11ddbb_b4ac47af391259eec8994ecc61faa3a6	GCF_018292185.1	16398	No	NA	23	3	1	Low-quality	Genome-fragment	9.96	HMM-based (lower-bound)	0.0	1.0	
+ph_ge233e0e8a1f75c11ddbb_f3c3ca8b6f8e2d4e11b08f606a2193ad	GCF_018292185.1	20311	No	NA	24	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g58f23f5a54fa314b5e7f_2c3f55b24875c30597528998ba98dcf1	GCF_019552105.1	50126	Yes	45827	63	20	5	Medium-quality	Genome-fragment	70.57	HMM-based (lower-bound)	8.58	1.01	
+ph_g1359416686f75b952704_12014ed01142a594b2383a9e8cd378e1	GCF_019552125.1	55689	Yes	48954	75	22	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	12.09	1.0	
+ph_g1359416686f75b952704_3d5b7e7ffaa195d58d191436ca631830	GCF_019552125.1	40545	No	NA	66	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gd771cd5c2214568de8d6_54bc1141f0503ff1ebdb6e8694f71da2	GCF_019733435.1	35074	No	NA	47	13	2	Medium-quality	Genome-fragment	86.69	AAI-based (high-confidence)	0.0	1.0	
+ph_gd771cd5c2214568de8d6_93d07edb1b2b37e171430fd8a5cfde24	GCF_019733435.1	41869	Yes	34343	52	3	5	Medium-quality	Genome-fragment	57.39	AAI-based (medium-confidence)	17.98	1.0	
+ph_gb3d775da4538947fd7ed_a102a51cdc15169aa890376c597c380a	GCF_019915805.1	73618	Yes	67637	108	15	5	High-quality	High-quality	95.56	AAI-based (high-confidence)	8.12	1.0	
+ph_gb3d775da4538947fd7ed_ab382154d9ccb35f17241477cbb8dc36	GCF_019915805.1	17116	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb3d775da4538947fd7ed_ff11a393a0c1afaab534b6c9fddff6e9	GCF_019915805.1	51108	Yes	47333	61	5	3	Medium-quality	Genome-fragment	65.56	AAI-based (high-confidence)	7.39	1.0	
+ph_g1982e6aeb7b2a4eef78f_c869d10326feba7910529ebc6751578d	GCF_019915815.1	55719	No	NA	79	14	4	High-quality	High-quality	90.23	AAI-based (high-confidence)	0.0	1.0	
+ph_g3a08b399717283722272_3b0e920086fd02de955dde4a931d4520	GCF_019915865.1	37696	No	NA	52	15	1	High-quality	High-quality	93.08	AAI-based (high-confidence)	0.0	1.0	
+ph_g3a08b399717283722272_76100b799f03dfc58543dd915454a3f4	GCF_019915865.1	17377	No	NA	26	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3a08b399717283722272_d2583d740323d2da5f17893f62ac4df9	GCF_019915865.1	14386	No	NA	15	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gca2817db69b312f3d84d_63eaa989ff0dfb60a4ad700b28b6df6f	GCF_020256545.1	41776	Yes	34954	54	3	4	Medium-quality	Genome-fragment	58.39	AAI-based (medium-confidence)	16.33	1.0	
+ph_gca2817db69b312f3d84d_729325f498f10244e2cd8a1ead4e5174	GCF_020256545.1	35245	No	NA	45	13	1	Medium-quality	Genome-fragment	87.03	AAI-based (high-confidence)	0.0	1.0	
+ph_gca2817db69b312f3d84d_f64ddbecf8a690316681c1df7943d40f	GCF_020256545.1	22279	No	NA	27	1	0	Low-quality	Genome-fragment	12.08	HMM-based (lower-bound)	0.0	1.0	
+ph_gf8237a497f0233db7154_5f332c156c19cc9176eef9236376f44c	GCF_021359585.1	33608	No	NA	33	0	14	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gf8237a497f0233db7154_d51a486f37cc9d29ac3a8e665d84d85b	GCF_021359585.1	46434	No	NA	55	6	1	High-quality	High-quality	99.67	AAI-based (medium-confidence)	0.0	1.0	
+ph_g029093293eb37d0e1007_05e5f932f90ed6f7d1a8066e1da5b407	GCF_023383545.1	13621	No	NA	29	2	1	Low-quality	Genome-fragment	31.84	AAI-based (high-confidence)	0.0	1.0	
+ph_g029093293eb37d0e1007_0ec57b2b2aeff1050166e88af3ee5570	GCF_023383545.1	11275	No	NA	13	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g029093293eb37d0e1007_2191f2d4d2d82a9df6c1b93e1207350a	GCF_023383545.1	3556	No	NA	6	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g029093293eb37d0e1007_2431914d911f66cd54f2137d2ce1cf05	GCF_023383545.1	8484	No	NA	15	4	0	Low-quality	Genome-fragment	21.77	AAI-based (medium-confidence)	0.0	1.0	
+ph_g029093293eb37d0e1007_4573102e512b3d3bc534ba6407fbcf3b	GCF_023383545.1	28165	No	NA	49	15	0	Medium-quality	Genome-fragment	82.35	AAI-based (high-confidence)	0.0	1.0	
+ph_g029093293eb37d0e1007_5086b08a9c766cf01776be09ed25ffea	GCF_023383545.1	3500	No	NA	5	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.02	no viral genes detected
+ph_g029093293eb37d0e1007_f4beda4d7fbbdc54f58e4468c198fb9d	GCF_023383545.1	33039	No	NA	47	16	0	Medium-quality	Genome-fragment	69.87	AAI-based (high-confidence)	0.0	1.0	
+ph_gc75b1632735bb3d9bc66_3df27f145001f4c3e216bc88be828d30	GCF_023383575.1	6200	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc75b1632735bb3d9bc66_74d5d23ffbb8a347312fdcb1d3a2fd89	GCF_023383575.1	41893	No	NA	68	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gc75b1632735bb3d9bc66_ef9ca65c82a5331499aa3a316524baa7	GCF_023383575.1	32103	No	NA	45	21	0	Medium-quality	Genome-fragment	88.57	AAI-based (high-confidence)	0.0	1.0	
+ph_g803d88a0cca49e27d143_0f70994489682e68878bb9853819f539	GCF_023383645.1	6460	No	NA	4	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g803d88a0cca49e27d143_40d3ca6ee9b6adaea0e3cd950ed15a82	GCF_023383645.1	3806	No	NA	6	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g803d88a0cca49e27d143_936fdd67259aff1c4d373159178af1e7	GCF_023383645.1	11244	No	NA	14	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g803d88a0cca49e27d143_a00d2b70a3ba958a472c73ee1a87e64d	GCF_023383645.1	40133	No	NA	57	18	0	High-quality	High-quality	95.29	AAI-based (high-confidence)	0.0	1.0	
+ph_g803d88a0cca49e27d143_e721dfe4320d5ddc95a961f926714ee6	GCF_023383645.1	5642	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g803d88a0cca49e27d143_e74f8966872bd026cebeba28c8717f1d	GCF_023383645.1	11594	No	NA	20	1	0	Low-quality	Genome-fragment	25.56	HMM-based (lower-bound)	0.0	1.0	
+ph_g803d88a0cca49e27d143_f45227dde178abdd911fba46177a9e48	GCF_023383645.1	8020	No	NA	15	4	0	Low-quality	Genome-fragment	18.82	AAI-based (high-confidence)	0.0	1.0	
+ph_gbbbf05d6192f7ab34812_016ca91699fe2f1c13877a4a34fbc3c9	GCF_023702735.1	61518	No	NA	68	5	3	Medium-quality	Genome-fragment	80.09	AAI-based (high-confidence)	0.0	1.0	
+ph_gbbbf05d6192f7ab34812_2d445407062aac3fd7161775084926b1	GCF_023702735.1	53645	No	NA	75	13	2	Medium-quality	Genome-fragment	86.05	AAI-based (high-confidence)	0.0	1.0	
+ph_gbbbf05d6192f7ab34812_2e01505f6e76b76a39df305139a05c9d	GCF_023702735.1	17324	No	NA	19	2	2	Low-quality	Genome-fragment	10.19	HMM-based (lower-bound)	0.0	1.0	
+ph_gbbbf05d6192f7ab34812_432340429dda982370a32278318534b7	GCF_023702735.1	40925	Yes	31629	56	14	3	Medium-quality	Genome-fragment	78.18	AAI-based (high-confidence)	22.71	1.0	
+ph_gbbbf05d6192f7ab34812_4365519307c721c922fed10f4afd960a	GCF_023702735.1	52301	Yes	48526	70	8	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	7.22	1.0	
+ph_gbbbf05d6192f7ab34812_cdce09b6ec18204423b18e4b6bf22387	GCF_023702735.1	41099	Yes	34369	54	3	4	Medium-quality	Genome-fragment	57.53	AAI-based (medium-confidence)	16.38	1.0	
+ph_g241636d1d0c9195e9e5d_90b72ff5f4d8775d80818487dd552d88	GCF_024296585.1	46517	No	NA	57	5	4	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.01	
+ph_g241636d1d0c9195e9e5d_e4688098346c2e6e6a663a916a396dcc	GCF_024296585.1	42169	No	NA	47	7	3	High-quality	High-quality	98.45	AAI-based (high-confidence)	0.0	1.0	
+ph_ga696cec03f93e21742f9_3b44e1967f230c3ecc365bb271317cdd	GCF_024758185.1	71047	No	NA	104	20	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga696cec03f93e21742f9_4e0f0f82199fb6d0064a82c59e5debb1	GCF_024758185.1	12089	No	NA	10	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g162c3d611179d88beb9b_2849296e96685d701fae213654264c70	GCF_024758305.1	40283	Yes	33459	52	3	4	Medium-quality	Genome-fragment	55.87	AAI-based (medium-confidence)	16.94	1.0	
+ph_g162c3d611179d88beb9b_446480f1c487e847e7db51e3ad57201f	GCF_024758305.1	62797	Yes	21590	63	8	10	Medium-quality	Genome-fragment	50.41	AAI-based (high-confidence)	65.62	1.0	low-confidence Provirus
+ph_g162c3d611179d88beb9b_bb328f7991ca274c29205f99378cacb9	GCF_024758305.1	35892	No	NA	50	12	0	High-quality	High-quality	97.07	AAI-based (medium-confidence)	0.0	1.0	
+ph_g162c3d611179d88beb9b_be6881f822f24f6b9186efabb7dc9e41	GCF_024758305.1	39375	Yes	32542	53	10	4	Medium-quality	Genome-fragment	87.78	AAI-based (high-confidence)	17.35	1.0	
+ph_gaa78cf9baf38f3c092b4_22d369a6b2fd208316c5066ab7511e44	GCF_024758845.1	35751	No	NA	48	11	1	High-quality	High-quality	93.44	AAI-based (high-confidence)	0.0	1.0	
+ph_gaa78cf9baf38f3c092b4_32eadf3ec66fe509c2a199a569b0246c	GCF_024758845.1	43825	Yes	36491	56	11	4	High-quality	High-quality	97.79	AAI-based (medium-confidence)	16.73	1.0	
+ph_gaa78cf9baf38f3c092b4_540d72acf5341a623989ed3f68a5a9f5	GCF_024758845.1	44867	No	NA	60	5	2	Medium-quality	Genome-fragment	74.9	AAI-based (medium-confidence)	0.0	1.0	
+ph_gaa78cf9baf38f3c092b4_ff1c9dc08311fd04cd3ddd06e771ffa2	GCF_024758845.1	17108	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gfd6f32c53e25ba4b1b93_837202c0e55f24561590769228f201bc	GCF_024759005.1	40283	Yes	33459	52	3	4	Medium-quality	Genome-fragment	55.87	AAI-based (medium-confidence)	16.94	1.0	
+ph_gfd6f32c53e25ba4b1b93_8c2dda6e361e7863645570699f2305a7	GCF_024759005.1	35892	No	NA	50	12	0	High-quality	High-quality	97.07	AAI-based (medium-confidence)	0.0	1.0	
+ph_gfd6f32c53e25ba4b1b93_d7c7280d061fecad987f8a812c6b96ad	GCF_024759005.1	39375	Yes	32542	53	10	4	Medium-quality	Genome-fragment	87.78	AAI-based (high-confidence)	17.35	1.0	
+ph_gc024d400184d70a13c0a_28d41ed36d052256a5271fa45e8da3ff	GCF_024759065.1	51077	Yes	47397	60	5	4	Medium-quality	Genome-fragment	67.53	AAI-based (medium-confidence)	7.2	1.01	
+ph_gc024d400184d70a13c0a_7c76bf59fb1acac18ffe734f8eb81639	GCF_024759065.1	34774	No	NA	48	13	1	Medium-quality	Genome-fragment	85.98	AAI-based (high-confidence)	0.0	1.0	
+ph_gc024d400184d70a13c0a_95e0ddb7d3c421bf2ced34de5f48f8dc	GCF_024759065.1	42587	Yes	35730	56	3	4	Medium-quality	Genome-fragment	59.8	AAI-based (medium-confidence)	16.1	1.01	
+ph_gc024d400184d70a13c0a_9c0bf620b2715f8ee990d9feba3a46ea	GCF_024759065.1	52036	Yes	36381	59	4	5	Medium-quality	Genome-fragment	82.65	AAI-based (medium-confidence)	30.08	1.0	
+ph_g4a535d410fe915d6b243_764abdc38b64a4e79f89b6834ae05abc	GCF_024759105.1	76804	Yes	72531	117	17	6	High-quality	High-quality	93.7	AAI-based (high-confidence)	5.56	1.0	
+ph_g4a535d410fe915d6b243_892e813776252973e6b6adbb7e618b63	GCF_024759105.1	74010	No	NA	93	4	11	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g0f643645b9ca5ddc9055_7eee0b23a23d54ddf51a751e8c4c646d	GCF_025916355.1	15799	No	NA	22	1	1	Low-quality	Genome-fragment	8.57	HMM-based (lower-bound)	0.0	1.0	
+ph_g3b42df910d23087f6889_4001328700935e365469020d72562c2e	GCF_026965925.1	34547	No	NA	52	13	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g3b42df910d23087f6889_79800df23f40dbff038e9b771c1148e0	GCF_026965925.1	19207	No	NA	22	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3b42df910d23087f6889_df5d3d057f4eafaf4b746571cd546b45	GCF_026965925.1	7376	No	NA	7	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3b42df910d23087f6889_ebbc2c56c7eefcdf97a7cbe77f844a53	GCF_026965925.1	15014	No	NA	13	2	0	Low-quality	Genome-fragment	32.76	AAI-based (medium-confidence)	0.0	1.0	
+ph_g3b42df910d23087f6889_f6d9852f60b5af9b46d2f00f3afb97f1	GCF_026965925.1	19893	No	NA	34	1	1	Low-quality	Genome-fragment	31.95	AAI-based (high-confidence)	0.0	1.0	
+ph_gd5f79433a1dee745a7ea_3241e070e95ef73b5d69910d0af6bfa0	GCF_026965975.1	37456	No	NA	52	12	1	High-quality	High-quality	92.56	AAI-based (high-confidence)	0.0	1.0	
+ph_gd5f79433a1dee745a7ea_c5f5e81946819b5a1c11b5503e08aef6	GCF_026965975.1	49781	Yes	46006	59	6	4	Medium-quality	Genome-fragment	63.71	AAI-based (medium-confidence)	7.58	1.01	
+ph_ga872b191fb784cf0403e_bb22ad1f76ec5a710ecddca00179d818	GCF_026966015.1	61076	No	NA	86	21	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga872b191fb784cf0403e_e36439a3b3bcf73363a6a17292d0a49e	GCF_026966015.1	41854	Yes	35109	55	3	4	Medium-quality	Genome-fragment	58.25	AAI-based (medium-confidence)	16.12	1.01	
+ph_g593915097233d4739f62_0533943f2c3b35f53707b5d294dea2f1	GCF_026966035.1	2853	No	NA	2	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g593915097233d4739f62_0b3863ae1519b5eeda5de1decae8f2ec	GCF_026966035.1	24017	No	NA	39	5	4	Medium-quality	Genome-fragment	56.83	AAI-based (high-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_40da08809d20e5702e2ca6ef61603187	GCF_026966035.1	17520	No	NA	20	1	1	Low-quality	Genome-fragment	10.71	AAI-based (medium-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_6ae0e09226881654873dfab898c3e6e5	GCF_026966035.1	18810	No	NA	31	10	0	Low-quality	Genome-fragment	46.5	AAI-based (high-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_6f6e56d84844a9e96fdbb62f9749503f	GCF_026966035.1	40121	No	NA	42	5	2	High-quality	High-quality	93.67	AAI-based (high-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_a0f8fd6a3fd0b2e501ab9a70a5619f01	GCF_026966035.1	45857	Yes	39032	58	3	3	Medium-quality	Genome-fragment	66.38	AAI-based (medium-confidence)	14.88	1.0	
+ph_g593915097233d4739f62_c3bcddb931a345498e94fd1ce28b09c8	GCF_026966035.1	14326	No	NA	11	3	1	Low-quality	Genome-fragment	28.65	AAI-based (medium-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_d3d96874be116adc0527a2c0d64fa8e6	GCF_026966035.1	4136	No	NA	5	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g593915097233d4739f62_e357bb69d9ebdc25f4f2f3a3ada141d2	GCF_026966035.1	19853	No	NA	26	1	1	Low-quality	Genome-fragment	10.77	HMM-based (lower-bound)	0.0	1.0	
+ph_g593915097233d4739f62_e5cb707b533e6d2e29439027943b991f	GCF_026966035.1	1298	No	NA	2	0	0	Low-quality	Genome-fragment	3.03	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g593915097233d4739f62_e734e4941fef442b66fe605b42bb501b	GCF_026966035.1	2708	No	NA	7	0	0	Low-quality	Genome-fragment	6.32	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g593915097233d4739f62_f7189f426c3ac4efe89f812eb88c56a4	GCF_026966035.1	22229	No	NA	33	8	0	Medium-quality	Genome-fragment	52.51	AAI-based (medium-confidence)	0.0	1.0	
+ph_g593915097233d4739f62_fa113d93acb5fd0c4ff6fbe478bcf149	GCF_026966035.1	15788	No	NA	23	3	1	Low-quality	Genome-fragment	9.59	HMM-based (lower-bound)	0.0	1.0	
+ph_g67fea2f005b558cf4af0_1885c385e04ca0738387a2ce11fb236e	GCF_026966055.1	32824	No	NA	45	13	1	Medium-quality	Genome-fragment	81.16	AAI-based (high-confidence)	0.0	1.0	
+ph_g67fea2f005b558cf4af0_50b44323596a9524111bb15f12742bff	GCF_026966055.1	41863	Yes	35131	54	3	4	Medium-quality	Genome-fragment	59.27	AAI-based (medium-confidence)	16.08	1.0	
+ph_g67fea2f005b558cf4af0_e1ebc2136b08db6116c0f7fa8daad0ab	GCF_026966055.1	78295	Yes	72578	111	17	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	7.3	1.0	
+ph_ge9f2be72eb30b7a41bf4_142ba2bebd956a406dd7ceb7d3c730ca	GCF_026966075.1	38154	Yes	31330	48	3	3	Medium-quality	Genome-fragment	52.34	AAI-based (medium-confidence)	17.89	1.0	
+ph_ge9f2be72eb30b7a41bf4_563fb7e95b24365badc1c7b79795c919	GCF_026966075.1	60249	No	NA	65	10	5	High-quality	High-quality	92.71	AAI-based (high-confidence)	0.0	1.0	
+ph_g3cd793fa5e3ec7a7051b_3abdbf7ac50c8f490aa4807c4f553e43	GCF_026966095.1	24420	No	NA	41	13	0	Medium-quality	Genome-fragment	75.23	AAI-based (high-confidence)	0.0	1.0	
+ph_g3cd793fa5e3ec7a7051b_5f562fac619daf76adb35bd6e221b18e	GCF_026966095.1	10034	No	NA	11	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g3cd793fa5e3ec7a7051b_7e97ea0246aaab92a3872c2335d5c4ef	GCF_026966095.1	39922	Yes	33194	51	3	4	Medium-quality	Genome-fragment	55.49	AAI-based (medium-confidence)	16.85	1.0	
+ph_g3cd793fa5e3ec7a7051b_7f00a57e48672dad66ebd3df6d5e15c4	GCF_026966095.1	2811	No	NA	5	1	0	Low-quality	Genome-fragment	4.63	AAI-based (medium-confidence)	0.0	1.0	
+ph_g3cd793fa5e3ec7a7051b_da4275a7398cfc244ec9e806d0559f8c	GCF_026966095.1	27429	No	NA	37	10	1	Medium-quality	Genome-fragment	74.11	AAI-based (medium-confidence)	0.0	1.0	
+ph_g3cd793fa5e3ec7a7051b_e7765e4bfcb82fe73a252857e05a95d0	GCF_026966095.1	2527	No	NA	1	1	0	Low-quality	Genome-fragment	5.45	AAI-based (high-confidence)	0.0	1.0	
+ph_g7f1686982da1b0e73347_0ff9ad4438b1acee3d1893eff127b256	GCF_026966195.1	43098	Yes	36243	57	3	4	Medium-quality	Genome-fragment	60.13	AAI-based (medium-confidence)	15.91	1.01	
+ph_g7f1686982da1b0e73347_4fd50fc36606eeab7c755ada437f56e0	GCF_026966195.1	5571	No	NA	6	0	0	Low-quality	Genome-fragment	12.16	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_g7f1686982da1b0e73347_70dd6738b1491d381b0e3a95bd1c7902	GCF_026966195.1	25419	No	NA	27	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g20117be12393b68a12fb_1b88bf71d673eea058fa877f2121a650	GCF_026966255.1	71871	Yes	67593	114	19	4	Medium-quality	Genome-fragment	79.79	HMM-based (lower-bound)	5.95	1.01	
+ph_g20117be12393b68a12fb_2aa231ebe3bce2ccc3816887c00259ef	GCF_026966255.1	27004	No	NA	41	13	1	Medium-quality	Genome-fragment	83.25	AAI-based (high-confidence)	0.0	1.0	
+ph_g20117be12393b68a12fb_c8bed99a709a6d84c4e4316d470551cd	GCF_026966255.1	26764	No	NA	42	11	1	Medium-quality	Genome-fragment	72.36	AAI-based (medium-confidence)	0.0	1.0	
+ph_g5af49c706a57e732aa5b_395eccc40a4c8fcde832c757c25e89f4	GCF_026966425.1	8914	No	NA	19	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g5af49c706a57e732aa5b_635f83a0fa9553f203019e798e312426	GCF_026966425.1	31588	No	NA	35	3	2	Medium-quality	Genome-fragment	52.8	AAI-based (medium-confidence)	0.0	1.0	
+ph_g5af49c706a57e732aa5b_6fd67e464306be72930b3242433275d5	GCF_026966425.1	2610	No	NA	2	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.03	no viral genes detected; low-confidence ITR
+ph_g5af49c706a57e732aa5b_9f499204128fa15a97a0d2867d59ce67	GCF_026966425.1	42200	Yes	39341	55	13	3	High-quality	High-quality	97.27	AAI-based (high-confidence)	6.77	1.0	
+ph_g5af49c706a57e732aa5b_bb791fdd204f667a02d3fee226bdb97c	GCF_026966425.1	18381	No	NA	21	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g6be3e958a07406782b77_2478d1f7ecb7607cd2bb3445a4fc82d9	GCF_026966435.1	16685	No	NA	18	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g6be3e958a07406782b77_27e2d26c1fb865b33a18e9eba98a6ed5	GCF_026966435.1	55473	No	NA	78	12	1	High-quality	High-quality	90.13	AAI-based (high-confidence)	0.0	1.0	
+ph_g6be3e958a07406782b77_2f4fba93c2dddf1dd7c63b05a9b275fd	GCF_026966435.1	4861	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g6be3e958a07406782b77_588dca23aa205d41f3087fcf33642c70	GCF_026966435.1	61487	Yes	58887	77	4	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	4.23	1.0	
+ph_g6be3e958a07406782b77_7c27dce1f0c66bf42d8e7f7d7eea9c6f	GCF_026966435.1	41544	Yes	34816	54	5	4	Medium-quality	Genome-fragment	57.78	AAI-based (medium-confidence)	16.19	1.0	
+ph_g6be3e958a07406782b77_f856c051887354eb4ef4bd133f9a5355	GCF_026966435.1	21592	No	NA	24	0	11	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g6056d898241bc4f3b67d_0b3610a4296b344f3aef898c9a41bee1	GCF_026966445.1	6866	No	NA	9	0	1	Low-quality	Genome-fragment	11.56	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_g6056d898241bc4f3b67d_694722cbb71611c36fd737435b699679	GCF_026966445.1	46517	Yes	42742	57	5	4	High-quality	High-quality	93.75	AAI-based (medium-confidence)	8.12	1.01	
+ph_g6056d898241bc4f3b67d_7d379c9afcbab252729091712d816f87	GCF_026966445.1	59158	No	NA	88	18	2	High-quality	High-quality	98.46	AAI-based (high-confidence)	0.0	1.0	
+ph_g6056d898241bc4f3b67d_9bcf06a8beacbd0627378a19eacdfe74	GCF_026966445.1	42663	Yes	35809	59	3	4	Medium-quality	Genome-fragment	59.82	AAI-based (medium-confidence)	16.07	1.0	
+ph_g467af8064645802a9819_0fe24fe59b9f14cb85083a3c2a74c8fc	GCF_026966455.1	36014	Yes	30918	45	3	2	Medium-quality	Genome-fragment	51.29	AAI-based (medium-confidence)	14.15	1.0	
+ph_g467af8064645802a9819_1fc7b849950f0a8a3dd625636f9bd4d4	GCF_026966455.1	22279	No	NA	26	1	0	Low-quality	Genome-fragment	12.08	HMM-based (lower-bound)	0.0	1.0	
+ph_g467af8064645802a9819_2f2e807655206317da5b6de496612dc1	GCF_026966455.1	32605	No	NA	45	10	1	Medium-quality	Genome-fragment	87.95	AAI-based (medium-confidence)	0.0	1.0	
+ph_g467af8064645802a9819_46796d1b534f332e55602ef2a0f4fac0	GCF_026966455.1	16198	No	NA	11	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g467af8064645802a9819_4a06721c09f2a8552d1679962e8691c0	GCF_026966455.1	14239	No	NA	19	1	0	Low-quality	Genome-fragment	28.84	AAI-based (medium-confidence)	0.0	1.01	
+ph_g467af8064645802a9819_515689a41a6b2315bbe38a409ce548ad	GCF_026966455.1	6158	No	NA	9	1	1	Low-quality	Genome-fragment	6.11	HMM-based (lower-bound)	0.0	1.0	
+ph_g467af8064645802a9819_7e4706f8f3bdc7079b15b484fe0082b1	GCF_026966455.1	6559	No	NA	10	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g467af8064645802a9819_8bf9a9984feadc3e50f1902347239d72	GCF_026966455.1	3479	No	NA	5	1	0	Low-quality	Genome-fragment	4.89	AAI-based (medium-confidence)	0.0	1.0	
+ph_g467af8064645802a9819_b249ef822debd4ff74974f18ff1c1737	GCF_026966455.1	34428	No	NA	35	1	5	Low-quality	Genome-fragment	39.78	HMM-based (lower-bound)	0.0	1.0	
+ph_g467af8064645802a9819_ba3599b51d6e8606fb9c3ec061e357ea	GCF_026966455.1	57135	Yes	55305	74	13	3	High-quality	High-quality	94.73	AAI-based (high-confidence)	3.2	1.0	
+ph_g467af8064645802a9819_ef3bc470f30ba412c141c0f8934b49de	GCF_026966455.1	2814	No	NA	2	1	0	Low-quality	Genome-fragment	1.65	HMM-based (lower-bound)	0.0	1.0	
+ph_g621bd1d2973af0a86982_4c567da31368cc6d953be1dd2cc1d9a9	GCF_026966515.1	2551	No	NA	1	1	0	Low-quality	Genome-fragment	5.5	AAI-based (high-confidence)	0.0	1.0	
+ph_g621bd1d2973af0a86982_57cfece55e17ab11bd01b39bc24587f7	GCF_026966515.1	6798	No	NA	12	1	2	Low-quality	Genome-fragment	11.34	AAI-based (medium-confidence)	0.0	1.0	
+ph_g621bd1d2973af0a86982_5fc0133f60fd4c4dc571c1bfcb8eb0dd	GCF_026966515.1	22411	No	NA	30	10	0	Medium-quality	Genome-fragment	60.39	AAI-based (medium-confidence)	0.0	1.0	
+ph_g621bd1d2973af0a86982_8ef9e8c8311fe4b9f23e91bbe6bd4327	GCF_026966515.1	13017	No	NA	13	1	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	
+ph_g621bd1d2973af0a86982_e00e24a4b202ad5d5dd0049223b41586	GCF_026966515.1	2813	No	NA	5	1	0	Low-quality	Genome-fragment	4.63	AAI-based (medium-confidence)	0.0	1.0	
+ph_g621bd1d2973af0a86982_e3fb7dafb82c07cdf329ac290281d664	GCF_026966515.1	40455	Yes	33727	51	3	4	Medium-quality	Genome-fragment	56.38	AAI-based (medium-confidence)	16.63	1.0	
+ph_g621bd1d2973af0a86982_ee1e8db67949a6557e639ba0753614c9	GCF_026966515.1	22159	No	NA	38	13	0	Medium-quality	Genome-fragment	68.25	AAI-based (high-confidence)	0.0	1.0	
+ph_g43ec781b7b55728bd250_0e179db6e8ba26cff99ac5f37ffad2c0	GCF_026966535.1	36995	No	NA	41	6	4	Medium-quality	Genome-fragment	86.37	AAI-based (medium-confidence)	0.0	1.0	
+ph_g43ec781b7b55728bd250_3a3d78489e963146dba323003b0db748	GCF_026966535.1	97376	No	NA	115	11	5	Medium-quality	Genome-fragment	87.72	AAI-based (medium-confidence)	0.0	1.0	
+ph_g43ec781b7b55728bd250_9505610c7c3475bae1c375ef66770dee	GCF_026966535.1	58898	Yes	57067	79	13	3	High-quality	High-quality	97.77	AAI-based (high-confidence)	3.11	1.0	
+ph_g43ec781b7b55728bd250_95a1a77310abefbe2e3640254f9e93e1	GCF_026966535.1	34944	Yes	27414	39	3	4	Low-quality	Genome-fragment	46.2	AAI-based (medium-confidence)	21.55	1.0	
+ph_g43ec781b7b55728bd250_a12a2b1eaea97fbe0ebdcd55d230be0a	GCF_026966535.1	51057	Yes	47377	60	7	3	Medium-quality	Genome-fragment	65.6	AAI-based (medium-confidence)	7.21	1.0	
+ph_g43ec781b7b55728bd250_df2dfbbe7a5656d8814f34f76075abe8	GCF_026966535.1	42831	Yes	34412	57	13	3	Medium-quality	Genome-fragment	85.08	AAI-based (high-confidence)	19.66	1.0	
+ph_g43ec781b7b55728bd250_e02962d16674ec306d607c62be244277	GCF_026966535.1	42211	No	NA	45	5	2	High-quality	High-quality	98.55	AAI-based (high-confidence)	0.0	1.0	
+ph_gfd48207cdd274bcbace4_346d285402631bb4a71fa0fae301c9f7	GCF_026966575.1	68871	Yes	62267	92	15	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.59	1.0	
+ph_gfd48207cdd274bcbace4_47ebe24359f577d16377563985f95f46	GCF_026966575.1	33181	Yes	26357	36	3	3	Low-quality	Genome-fragment	44.44	AAI-based (medium-confidence)	20.57	1.0	
+ph_gfd48207cdd274bcbace4_56206019716313c39de7e68869735444	GCF_026966575.1	17103	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gfd48207cdd274bcbace4_5e9b2d981c88a9fa701e2d16c7a7097a	GCF_026966575.1	32033	Yes	25650	39	11	4	Medium-quality	Genome-fragment	69.17	AAI-based (medium-confidence)	19.93	1.0	
+ph_gfd48207cdd274bcbace4_aed99b9afefe912d998c2b0d15784938	GCF_026966575.1	12534	No	NA	21	4	0	Low-quality	Genome-fragment	20.72	AAI-based (high-confidence)	0.0	1.02	
+ph_gfd48207cdd274bcbace4_b99f6b5d62c7b343fc0aaa378b6cd427	GCF_026966575.1	40471	No	NA	54	14	1	Medium-quality	Genome-fragment	67.41	AAI-based (high-confidence)	0.0	1.0	
+ph_gb190a88ae60958d52a35_7ccb6b006f674d6cc0d7f19fb9fa9dd2	GCF_026966705.1	40243	Yes	33418	52	3	4	Medium-quality	Genome-fragment	55.4	AAI-based (medium-confidence)	16.96	1.0	
+ph_gf31a4c159df6216029a9_e8b0d45c0041521c0b6a6729e3c429c4	GCF_028743415.1	40354	No	NA	67	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gf31a4c159df6216029a9_f5c2f3b662a9582d02f80aa9b749bd67	GCF_028743415.1	39353	No	NA	66	25	0	High-quality	High-quality	94.07	AAI-based (medium-confidence)	0.0	1.01	
+ph_gb74d8a7d50e5e73256a0_8552005ca268f1a54e2f95c7a22c2868	GCF_030294885.1	41630	Yes	34807	53	3	4	Medium-quality	Genome-fragment	58.24	AAI-based (medium-confidence)	16.39	1.0	
+ph_gb74d8a7d50e5e73256a0_8b8ea967c7cfb0f9ea97c5e32200d65c	GCF_030294885.1	44260	Yes	37136	61	11	6	High-quality	High-quality	91.95	AAI-based (high-confidence)	16.1	1.0	
+ph_gb74d8a7d50e5e73256a0_d08931a5a96a8d2132fbce9e90f49e51	GCF_030294885.1	71619	Yes	61018	95	5	5	Medium-quality	Genome-fragment	55.01	AAI-based (medium-confidence)	14.8	1.0	
+ph_gb74d8a7d50e5e73256a0_f3d32452e4617e6adb868a027cd7638c	GCF_030294885.1	83820	No	NA	76	7	10	Medium-quality	Genome-fragment	75.46	AAI-based (medium-confidence)	0.0	1.0	
+ph_g712d3477a84522744d33_048073a45fe8b8b29f129b09b913530a	GCF_035282285.1	1068	No	NA	2	1	0	Low-quality	Genome-fragment	0.64	HMM-based (lower-bound)	0.0	1.0	
+ph_g712d3477a84522744d33_37d01b4eaf86a10a793d2e94785685c3	GCF_035282285.1	552	No	NA	1	0	0	Low-quality	Genome-fragment	0.82	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+ph_ge04195b5ef27646c013f_6229f35b08a32240a3193d2e4a3aeb37	GCF_035282305.1	429	No	NA	1	1	0	Low-quality	Genome-fragment	0.26	HMM-based (lower-bound)	0.0	1.0	
+ph_ge04195b5ef27646c013f_efcb0dcc574de850d9b2b177c1bab6a5	GCF_035282305.1	408	No	NA	1	1	0	Low-quality	Genome-fragment	0.64	HMM-based (lower-bound)	0.0	1.0	
+ph_ge04195b5ef27646c013f_f33d624296974e5e8b20381ced15edba	GCF_035282305.1	613	No	NA	1	1	0	Low-quality	Genome-fragment	0.98	HMM-based (lower-bound)	0.0	1.0	
+ph_g7bbacc173af3a937db84_1b29783fc7d73f198277a179485f9729	GCF_035282325.1	325	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7bbacc173af3a937db84_2c07c2f24af05927a6d011d78ec41eaf	GCF_035282325.1	234	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7bbacc173af3a937db84_7525b6227c9b35eb9a11f7b2122dc9ca	GCF_035282325.1	557	No	NA	2	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7bbacc173af3a937db84_ca42251f5feaf6785f0e033a9e7b5f13	GCF_035282325.1	300	No	NA	1	1	0	Low-quality	Genome-fragment	0.31	HMM-based (lower-bound)	0.0	1.0	
+ph_g7bbacc173af3a937db84_cbdb12e778558d6cbf6fe993851902fb	GCF_035282325.1	244	No	NA	1	1	0	Low-quality	Genome-fragment	0.5	HMM-based (lower-bound)	0.0	1.0	
+ph_g7bbacc173af3a937db84_e682138c09563466ad736998c56b9301	GCF_035282325.1	1009	No	NA	2	1	0	Low-quality	Genome-fragment	0.46	HMM-based (lower-bound)	0.0	1.0	
+ph_g7bbacc173af3a937db84_ea942c0aca4e7b08e3389554101f43d2	GCF_035282325.1	32267	Yes	29621	49	21	3	High-quality	High-quality	97.02	AAI-based (medium-confidence)	8.2	1.0	
+ph_g9b75df83c5ebfa5de4dd_78192125f1baa4d5e102a4d62efa8f77	GCF_036323115.1	8550	No	NA	17	1	0	Low-quality	Genome-fragment	19.33	AAI-based (medium-confidence)	0.0	1.03	
+ph_g9b75df83c5ebfa5de4dd_bedaee753eb477790024716e31c20c4c	GCF_036323115.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_g63018c148afe13847ad3_43f3968ab745904ed6cbd2217def5d42	GCF_036323215.1	8550	No	NA	17	1	0	Low-quality	Genome-fragment	19.33	AAI-based (medium-confidence)	0.0	1.03	
+ph_g63018c148afe13847ad3_4c5ca0b8cc539e8061431989a1abe0a9	GCF_036323215.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_7c2fa120b966d9102bb187ab21c84343	GCF_037578025.1	24001	No	NA	43	11	1	Medium-quality	Genome-fragment	59.45	AAI-based (high-confidence)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_8e47e0616aecf2cd2665456f83af6ddd	GCF_037578025.1	34679	No	NA	50	8	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_905dfd3388eddeeb9d75246065daf536	GCF_037578025.1	16930	No	NA	40	2	0	Low-quality	Genome-fragment	40.73	AAI-based (high-confidence)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_cb324c2cf17d349682c9934f196ad9e3	GCF_037578025.1	16580	No	NA	40	2	1	Low-quality	Genome-fragment	41.21	AAI-based (high-confidence)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_cd6019f807eba010c799fb07339a5542	GCF_037578025.1	35276	No	NA	54	12	1	Medium-quality	Genome-fragment	87.49	AAI-based (high-confidence)	0.0	1.0	
+ph_g8b8cc18e4dc0a85e2151_f3ad663f328a75e1c5dd71821cca0e79	GCF_037578025.1	20890	No	NA	32	10	0	Medium-quality	Genome-fragment	51.74	AAI-based (high-confidence)	0.0	1.0	
+ph_g6c99b333c3c84a398b41_2f99b7cabe8e4ea24bc33013f8049c0c	GCF_037888955.1	42895	No	NA	74	15	1	High-quality	High-quality	90.71	AAI-based (high-confidence)	0.0	1.0	
+ph_g3e267d71d6fb0ca3b52d_2dc90b5d88c86a8319fd5e33f400d837	GCF_037888995.1	36582	No	NA	58	20	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g3e267d71d6fb0ca3b52d_560259d547fcca61fccd2a3473cff296	GCF_037888995.1	41907	Yes	37720	70	23	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.99	1.0	
+ph_g3e267d71d6fb0ca3b52d_67baabe71a5860bc407079e096756d2a	GCF_037888995.1	35644	No	NA	56	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_g3e267d71d6fb0ca3b52d_70e2e97916261acfafbf62dc14c254fc	GCF_037888995.1	36510	No	NA	63	17	1	High-quality	High-quality	90.59	AAI-based (high-confidence)	0.0	1.0	
+ph_g211632e6ce4bc11b864b_7e87c06f57ae1d231e5b1aa460eaf87d	GCF_037889015.1	35022	No	NA	52	19	3	Medium-quality	Genome-fragment	52.74	HMM-based (lower-bound)	0.0	1.0	
+ph_g355bcc3931d8d0ef397e_256d925b7eb31e5bdd073a3547a4d672	GCF_037889045.1	49116	No	NA	82	28	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g2b38cc0384624bc19a12_38e9e468eafac275218bbc2bf9cc2db6	GCF_037889275.1	31206	No	NA	52	21	1	Medium-quality	Genome-fragment	88.44	AAI-based (high-confidence)	0.0	1.0	
+ph_g2b38cc0384624bc19a12_48a4d81c56a42c519026e39fb931b353	GCF_037889275.1	38611	No	NA	64	29	0	Medium-quality	Genome-fragment	84.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g2b38cc0384624bc19a12_e87c2ff1098d75ce060b663fdd76c4b8	GCF_037889275.1	46412	No	NA	80	20	1	High-quality	High-quality	98.15	AAI-based (high-confidence)	0.0	1.0	
+ph_g9159d6deca722971f886_18279094d19fa36cfa398aa49c5ea099	GCF_037893335.1	42041	Yes	37853	69	25	2	Low-quality	Genome-fragment	49.42	HMM-based (lower-bound)	9.96	1.0	
+ph_g9159d6deca722971f886_a0494a6e5799a9735be09cf64c8e160c	GCF_037893335.1	43215	No	NA	77	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g9159d6deca722971f886_de828c7bca4ffc12a93b7086815cb937	GCF_037893335.1	37521	No	NA	57	15	1	Medium-quality	Genome-fragment	55.89	HMM-based (lower-bound)	0.0	1.0	
+ph_gca59100c2fa4471b1c12_18e5d353bb55ae30122f367058b5764a	GCF_037897415.1	40463	No	NA	69	19	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gd003cc425e7c1c540fea_82a1bbee82b29295dfa1f82aed23f700	GCF_037897425.1	39832	No	NA	70	28	0	High-quality	High-quality	97.13	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd003cc425e7c1c540fea_a7258068b10edea90a6216710b39f40c	GCF_037897425.1	18074	No	NA	19	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.21	no viral genes detected
+ph_gd1410e9460ac9e0cd132_7f40f8acec469f7f820329771b855d80	GCF_037897485.1	8168	No	NA	22	3	0	Low-quality	Genome-fragment	20.46	AAI-based (high-confidence)	0.0	1.0	
+ph_gd1410e9460ac9e0cd132_8a33fee1855c890343250fc4dfce0c29	GCF_037897485.1	43052	No	NA	76	23	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd1410e9460ac9e0cd132_8e64fac2689c38816a5cc93d0c981f49	GCF_037897485.1	38619	No	NA	72	19	1	High-quality	High-quality	95.82	AAI-based (high-confidence)	0.0	1.0	
+ph_gd1410e9460ac9e0cd132_acb6f10185fb6831bf89b420ed6b5783	GCF_037897485.1	31368	No	NA	52	13	1	Medium-quality	Genome-fragment	77.74	AAI-based (high-confidence)	0.0	1.0	
+ph_g1c7ada0b00972d9fcc40_a134f799360f90dd9ca62da2a6f78608	GCF_037897515.1	36858	No	NA	60	21	0	Medium-quality	Genome-fragment	54.29	HMM-based (lower-bound)	0.0	1.0	
+ph_g5a85231ae51097fe5b68_24dc10f818f647de64b779f4f92ef24e	GCF_037897545.1	47870	No	NA	81	22	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g5a85231ae51097fe5b68_8d393e9fca81578260d0d008865f2cdc	GCF_037897545.1	11794	No	NA	21	1	2	Low-quality	Genome-fragment	31.76	AAI-based (medium-confidence)	0.0	1.01	
+ph_g5a85231ae51097fe5b68_b6c0aa770dd9d77debd0619c7f74bdef	GCF_037897545.1	14398	Yes	11010	20	5	3	Low-quality	Genome-fragment	13.22	HMM-based (lower-bound)	23.53	1.0	
+ph_g5a85231ae51097fe5b68_b9112b10ec82c9a897c652eb0f7c9e35	GCF_037897545.1	42130	No	NA	64	22	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g5a85231ae51097fe5b68_bf93058ab8aaf2220f5bf76c6ae72c96	GCF_037897545.1	72962	No	NA	112	41	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+ph_g040407664af152d71e03_4d07aa3066623dc2fefbb42a57dc3f45	GCF_037904575.1	45387	No	NA	75	19	1	High-quality	High-quality	95.98	AAI-based (high-confidence)	0.0	1.0	
+ph_ge789179a4d0717003aae_d33b6e53c808bd2ef94e2f5be15929f5	GCF_037904595.1	36981	No	NA	54	7	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g6f2fcbe1ae95f829bf58_95b4e9267bd751354f8422ceabf1f369	GCF_037904725.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_gb1d45618023113c1e451_1b476203a59a98b23df9bfadb2fcb2be	GCF_037905245.1	39808	No	NA	61	25	0	High-quality	High-quality	94.14	AAI-based (high-confidence)	0.0	1.0	
+ph_gb1d45618023113c1e451_1f8085e11a3c3b5825d3c695bbeede7e	GCF_037905245.1	40145	No	NA	70	19	1	High-quality	High-quality	99.57	AAI-based (high-confidence)	0.0	1.0	
+ph_g0731b829948ca07ec00c_5c736e9fe7fe642b035cb84f2b65aa30	GCF_037906355.1	40916	No	NA	66	34	0	High-quality	High-quality	92.96	AAI-based (high-confidence)	0.0	1.0	
+ph_g0731b829948ca07ec00c_777f6f54b4eb7b7246aa3a24cd439e07	GCF_037906355.1	43053	No	NA	72	17	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gc3d32ff3602ccafa563f_2c2432b4bc54e3909424ef1de02e020a	GCF_037907055.1	45783	No	NA	79	16	0	High-quality	High-quality	96.82	AAI-based (high-confidence)	0.0	1.0	
+ph_gc3d32ff3602ccafa563f_9235f3047d46b183ea9891df947468e8	GCF_037907055.1	40184	No	NA	68	18	2	High-quality	High-quality	99.85	AAI-based (high-confidence)	0.0	1.0	
+ph_g6b57bc388acfc0fc108c_182bd941e95d40310bd2b0419ca79162	GCF_037908355.1	45783	No	NA	79	16	0	High-quality	High-quality	96.82	AAI-based (high-confidence)	0.0	1.0	
+ph_g6b57bc388acfc0fc108c_d3b4726171cc7b656adb85da64685137	GCF_037908355.1	40184	No	NA	68	18	2	High-quality	High-quality	99.85	AAI-based (high-confidence)	0.0	1.0	
+ph_gecd651ef29731ba89e21_b04b04b64f9603b030701fd08fc8a055	GCF_037911855.1	25152	No	NA	42	6	0	Low-quality	Genome-fragment	33.16	HMM-based (lower-bound)	0.0	1.0	
+ph_g972c6dd7461afb92c1cb_8a5cfd5cc7d91a2785f54802840aaf61	GCF_037911875.1	40239	No	NA	68	19	1	High-quality	High-quality	99.79	AAI-based (high-confidence)	0.0	1.0	
+ph_g972c6dd7461afb92c1cb_d0d2e32213e0d8cee8e507ed126d695f	GCF_037911875.1	52304	No	NA	84	30	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g373c498fa6f18965cac3_5d7ab5747cd5806ddde49ddcd330b2b8	GCF_037911885.1	57295	No	NA	74	22	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g232603833882798b52c3_6d54536cdccbe07d8b0389b17d995d40	GCF_037911915.1	46538	No	NA	74	25	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g232603833882798b52c3_aed181e652ea139c6f78c67e725bad47	GCF_037911915.1	43347	No	NA	65	22	0	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g6442daffb92ac5f1be59_c90e035e705d58ebc6866d60f0420d4f	GCF_037911935.1	47402	No	NA	77	28	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gfb2c90864f6ef9b7e2c0_3cccc619fa91d324bcf72d8ffd43259f	GCF_037911955.1	35643	No	NA	56	18	2	Low-quality	Genome-fragment	47.85	HMM-based (lower-bound)	0.0	1.0	
+ph_gfb2c90864f6ef9b7e2c0_49906d4534414bfca6cdffed1495eb86	GCF_037911955.1	46985	Yes	42446	77	21	3	High-quality	High-quality	98.78	AAI-based (high-confidence)	9.66	1.0	
+ph_gfb2c90864f6ef9b7e2c0_d874c0838b50ffcf91c8538ac198f65f	GCF_037911955.1	42002	No	NA	69	29	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga94dad08135eaa1c08d6_3b56dd7a30824ec95d1f144214a46407	GCF_037911975.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_ga94dad08135eaa1c08d6_8a3b73f8c2a4d51238f76b09d6f7e1d9	GCF_037911975.1	40045	No	NA	63	24	0	High-quality	High-quality	98.72	AAI-based (high-confidence)	0.0	1.0	
+ph_ge1c0dc2d60d2f0eefdcf_5a98b6a7d1c2a43ace3ed0ee51a41be1	GCF_037912025.1	35631	No	NA	54	20	2	Low-quality	Genome-fragment	47.05	HMM-based (lower-bound)	0.0	1.0	
+ph_ge1c0dc2d60d2f0eefdcf_6c565907e7ef62a1af0116d9ce819d4b	GCF_037912025.1	42417	No	NA	68	26	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g2a9beefccc22b179b353_0846f4b9fb11a689704469aa619f9dc9	GCF_037912275.1	30844	No	NA	52	13	0	High-quality	High-quality	90.37	AAI-based (high-confidence)	0.0	1.0	
+ph_g2a9beefccc22b179b353_3985732c8d189f0f995947d9462052c3	GCF_037912275.1	44908	Yes	41900	69	25	3	High-quality	High-quality	100.0	AAI-based (medium-confidence)	6.7	1.0	
+ph_g93d2623de6e2cfb515a9_180421f2cb20fc365fa9a3fe701c6de2	GCF_039761575.1	78293	Yes	72307	112	15	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	7.65	1.0	
+ph_g93d2623de6e2cfb515a9_81bd4f9b0a1d14c3b65cb08f662d4e52	GCF_039761575.1	39996	Yes	33171	54	3	4	Medium-quality	Genome-fragment	54.61	AAI-based (medium-confidence)	17.06	1.0	
+ph_gec8960190bb3e46e243b_155adc1368449fbec1cb4f6dd1490b0b	GCF_040097905.1	2502	No	NA	2	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gec8960190bb3e46e243b_8cd847be36640ffd4fd2da998b9b8b4d	GCF_040097905.1	42412	Yes	35586	55	4	4	Medium-quality	Genome-fragment	59.06	AAI-based (medium-confidence)	16.09	1.0	
+ph_ga5270dc940664838fd0d_214acfded8e549509801a7ca95405144	GCF_040142445.1	47296	No	NA	64	3	3	Medium-quality	Genome-fragment	79.01	AAI-based (medium-confidence)	0.0	1.01	
+ph_ga5270dc940664838fd0d_7b02968f1f8e32ffd6cb06bc66f4cf56	GCF_040142445.1	52421	No	NA	73	4	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga5270dc940664838fd0d_adfd6d894f7a8f84de30fd3f68f84868	GCF_040142445.1	73266	No	NA	81	12	3	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.01	
+ph_ga5270dc940664838fd0d_b00bd44eb8d74d012cad71a6d2bb1c2c	GCF_040142445.1	27063	No	NA	34	1	3	Low-quality	Genome-fragment	17.51	HMM-based (lower-bound)	0.0	1.0	
+ph_ga35dc632f86e29c3d369_0bc9bb4ced61396ad0963050a3a193a6	GCF_040142595.1	36923	Yes	13035	40	3	6	Low-quality	Genome-fragment	6.55	HMM-based (lower-bound)	64.7	1.0	
+ph_ga35dc632f86e29c3d369_55d4685c04de9dfbb9b292f38a7e26f2	GCF_040142595.1	44407	No	NA	58	3	3	Medium-quality	Genome-fragment	73.73	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga35dc632f86e29c3d369_8ad024d4267ac6236269043a84bff58c	GCF_040142595.1	24442	No	NA	29	0	7	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga35dc632f86e29c3d369_def62858bdc8f3860d864bab0ff6e666	GCF_040142595.1	41772	Yes	36640	52	4	4	Medium-quality	Genome-fragment	60.84	AAI-based (medium-confidence)	12.29	1.0	
+ph_g6a56a411f5a2239fb83f_1320b218b20ee3a19a349193283bc4e0	GCF_040687815.1	41863	Yes	35037	54	3	4	Medium-quality	Genome-fragment	59.11	AAI-based (medium-confidence)	16.31	1.0	
+ph_g014aa3a86a0187fb5153_706a7d2094f7a7955c8242734d95b4f6	GCF_040687825.1	21738	No	NA	21	1	4	Low-quality	Genome-fragment	13.66	HMM-based (lower-bound)	0.0	1.0	
+ph_g014aa3a86a0187fb5153_b3fc896e996209fa153622fbdd648266	GCF_040687825.1	19944	No	NA	19	1	5	Low-quality	Genome-fragment	14.37	HMM-based (lower-bound)	0.0	1.0	
+ph_g8be3910bbbaec8ab7224_7dd7ff8184f6e7d0946bc5c6117a8593	GCF_041027385.1	6129	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g8be3910bbbaec8ab7224_a89c80786db7b0d87def231d5f4667fc	GCF_041027385.1	31707	No	NA	54	10	0	High-quality	High-quality	92.85	AAI-based (medium-confidence)	0.0	1.0	
+ph_g8be3910bbbaec8ab7224_f4c787a5cf078341393da900a6d7735b	GCF_041027385.1	53988	No	NA	75	24	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g028a4cab06f73cdcca72_9c213661823c47613e5df92983f0949a	GCF_041027405.1	5673	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5bce220c7571f28fd9a5_0522e9c656b0763988904dbff4861c78	GCF_041027465.1	57182	No	NA	70	27	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g5bce220c7571f28fd9a5_73aead2b7722bfb17f6224c248f45805	GCF_041027465.1	5965	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5bce220c7571f28fd9a5_d56b800260580532f1c70c7c394ca3e8	GCF_041027465.1	5836	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gfb73a84f6fec68982ea5_894195c25502b2f9980389464f83a514	GCF_041027535.1	5673	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g0eb78149b030d03294de_4fbbab99c66828643a7704b162be1b20	GCF_041520925.1	40359	No	NA	70	19	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.01	
+ph_g0eb78149b030d03294de_6ec40d7a0bf935c307f9e171c7f0160a	GCF_041520925.1	40166	Yes	35877	64	21	2	Medium-quality	Genome-fragment	89.7	AAI-based (medium-confidence)	10.68	1.0	
+ph_g0eb78149b030d03294de_9e14d06fe5b15c5690b811d079aff130	GCF_041520925.1	35837	No	NA	60	18	1	Medium-quality	Genome-fragment	50.46	HMM-based (lower-bound)	0.0	1.0	
+ph_g0eb78149b030d03294de_dfbeeaf31c1a902469bfeb6e60d933bc	GCF_041520925.1	2267	No	NA	7	2	0	Low-quality	Genome-fragment	5.88	AAI-based (medium-confidence)	0.0	1.0	
+ph_ge17eb99cf2008925b3d2_3a207441da33b0558f0f7ee5f5e65afa	GCF_041520955.1	40108	No	NA	67	33	0	Medium-quality	Genome-fragment	88.5	AAI-based (high-confidence)	0.0	1.0	
+ph_ge17eb99cf2008925b3d2_3b758601fdebc4c933cb7b3066c9b0bd	GCF_041520955.1	6049	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ge17eb99cf2008925b3d2_cde2c1421832dd1fcfa30ed335399329	GCF_041520955.1	3244	No	NA	6	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.08	no viral genes detected
+ph_ge17eb99cf2008925b3d2_fc56a38b7d111bffdcb084de1744c51d	GCF_041520955.1	52649	No	NA	85	18	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g8b67f11bbe63a5d2d161_6570a9fa97381bea725a666e68814316	GCF_041521005.1	5896	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5e4c9503a398a909e71d_a0a7b4fc0a01efd387aed54029c6be3a	GCF_043421055.1	42729	No	NA	65	23	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_ga39c452f985f3c1e850a_777364033e6a0a4913a58e5431ce6fca	GCF_045159905.1	37163	No	NA	59	15	2	Medium-quality	Genome-fragment	53.39	HMM-based (lower-bound)	0.0	1.0	
+ph_ga39c452f985f3c1e850a_89dbf652d624c47074304a4797df93c5	GCF_045159905.1	59491	Yes	40819	70	23	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	31.39	1.0	
+ph_g359789635981b97a3ac6_1c78b479c80bba5c4e210693b3db88a2	GCF_045159935.1	30377	No	NA	52	9	0	Medium-quality	Genome-fragment	88.87	AAI-based (high-confidence)	0.0	1.0	
+ph_g359789635981b97a3ac6_b07b8ea74eb8c185429cac8a5415b55b	GCF_045159935.1	43446	No	NA	71	18	1	High-quality	High-quality	91.88	AAI-based (high-confidence)	0.0	1.0	
+ph_g8887c5ce32b7f33432e3_257e75271e3b61182cab6d1d0b8f8c49	GCF_045159945.1	42824	No	NA	72	20	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g49544c2cb74c564ba22b_a738a430491e67c8a5162216d03b991c	GCF_045159955.1	47299	No	NA	82	17	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g49544c2cb74c564ba22b_c0ca50d9ee1d49d10e7513ed9362ca08	GCF_045159955.1	36075	No	NA	57	16	1	Medium-quality	Genome-fragment	52.34	HMM-based (lower-bound)	0.0	1.0	
+ph_gc53cce2070e8aeff1a88_607c9990147ded50553a7a8cef6a71bb	GCF_045159985.1	40916	No	NA	66	34	0	High-quality	High-quality	92.96	AAI-based (high-confidence)	0.0	1.0	
+ph_gc53cce2070e8aeff1a88_e3b4980d67cc43656444c22139c48d3b	GCF_045159985.1	43055	No	NA	72	17	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g46140484935af7e6e314_017d2570114e2375657a2e3a53cb94dc	GCF_045689425.1	50693	Yes	47013	61	5	4	Medium-quality	Genome-fragment	65.14	AAI-based (medium-confidence)	7.26	1.01	
+ph_g46140484935af7e6e314_c190b52addf4d6f490476ae5b401a28a	GCF_045689425.1	35143	Yes	32702	47	16	3	Medium-quality	Genome-fragment	85.16	AAI-based (high-confidence)	6.95	1.0	
+ph_g2d522d9310803810907d_0bf3f9221fe0afe97c169c0e6cf438d3	GCF_045689915.1	57524	No	NA	80	16	4	High-quality	High-quality	93.52	AAI-based (high-confidence)	0.0	1.0	
+ph_g2d522d9310803810907d_5106bad4455dbfc9c67003ca63b0a3a9	GCF_045689915.1	52028	Yes	36375	59	4	5	Medium-quality	Genome-fragment	82.64	AAI-based (medium-confidence)	30.09	1.0	
+ph_g2d522d9310803810907d_93b61bed1e674baa92d060df3672c44e	GCF_045689915.1	14523	No	NA	17	2	1	Low-quality	Genome-fragment	8.54	HMM-based (lower-bound)	0.0	1.0	
+ph_g2d522d9310803810907d_b03a73cf5fedd7fd7739b6483a16328d	GCF_045689915.1	52640	Yes	48960	64	6	4	Medium-quality	Genome-fragment	78.63	AAI-based (high-confidence)	6.99	1.0	
+ph_g2d522d9310803810907d_d9c50e9b150773304cc7c7dc283cf75f	GCF_045689915.1	41099	Yes	34275	54	3	4	Medium-quality	Genome-fragment	57.36	AAI-based (medium-confidence)	16.6	1.0	
+ph_g63eab396828f448a5171_e6f8736c2fc346f66c15121e638812fd	GCF_050219895.1	49116	No	NA	82	28	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_gd552a11c58b02c04e059_901dc5d9066fac0e5bb50f5143913722	GCF_051064135.1	36916	No	NA	50	13	0	High-quality	High-quality	91.23	AAI-based (high-confidence)	0.0	1.0	
+ph_g7d44f7e7794610d79ae5_0691324e523fc87cc403578c765aa6c5	GCF_051370685.1	33256	No	NA	36	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7d44f7e7794610d79ae5_1262be56f2f957c45f97c8354f8b5679	GCF_051370685.1	30091	No	NA	36	0	6	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc2f15f72cee1f217b8ee_17c6550ec16c99de657916a3a3700440	GCF_051905015.1	24390	No	NA	28	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gc2f15f72cee1f217b8ee_35c584f55957f2a004f993627bb73177	GCF_051905015.1	60531	Yes	48309	76	4	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	20.19	1.0	
+ph_gc2f15f72cee1f217b8ee_3833acfd42bdbc71a6e29b471c347720	GCF_051905015.1	41790	Yes	34964	54	3	4	Medium-quality	Genome-fragment	59.01	AAI-based (medium-confidence)	16.33	1.0	
+ph_gc2f15f72cee1f217b8ee_a1c5eb60ed873c8dbfe2ed2b4a8ed659	GCF_051905015.1	60363	No	NA	69	13	7	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gc2f15f72cee1f217b8ee_e83d9c465478ee9c0d09e70f60fe3c60	GCF_051905015.1	40792	Yes	36961	45	3	3	Medium-quality	Genome-fragment	62.27	AAI-based (medium-confidence)	9.39	1.0	
+ph_gdb36047f5c5022db2391_7a00f639285b141c6fbf3496e4db3312	GCF_054298975.1	19286	No	NA	26	2	1	Low-quality	Genome-fragment	12.13	HMM-based (lower-bound)	0.0	1.0	
+ph_gdb36047f5c5022db2391_bca0058b5edb40a6a1de980cf895a7e9	GCF_054298975.1	77841	Yes	71855	110	16	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	7.69	1.0	
+ph_gdb36047f5c5022db2391_ed5c6a1d329c1976d529bf20c32065ca	GCF_054298975.1	31630	No	NA	42	3	1	Medium-quality	Genome-fragment	52.05	AAI-based (medium-confidence)	0.0	1.0	
+ph_gdb36047f5c5022db2391_ee6bbb347c0c31c244ee2ad1eea9f3e1	GCF_054298975.1	8939	No	NA	11	0	3	Low-quality	Genome-fragment	15.69	AAI-based (medium-confidence)	0.0	1.01	no viral genes detected
+ph_ga22660b8f4d6668c4ef3_0b039e4b927a9468ac73bd8325dc1463	GCF_054298995.1	32935	Yes	26207	36	3	3	Low-quality	Genome-fragment	43.8	AAI-based (medium-confidence)	20.43	1.0	
+ph_ga22660b8f4d6668c4ef3_3b087cf2be2314d2081cdc2e03e8d58d	GCF_054298995.1	17101	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga22660b8f4d6668c4ef3_6591ed47bcff865d3114d500c1ef1428	GCF_054298995.1	7364	No	NA	17	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga22660b8f4d6668c4ef3_eb02de5e8d6481d4ca2a7bf4ff61c071	GCF_054298995.1	9334	No	NA	17	1	0	Low-quality	Genome-fragment	23.14	AAI-based (medium-confidence)	0.0	1.0	
+ph_ga22660b8f4d6668c4ef3_f40e1330e1aca1810f8da984df77e275	GCF_054298995.1	23767	No	NA	32	6	1	Medium-quality	Genome-fragment	56.4	AAI-based (medium-confidence)	0.0	1.0	
+ph_gc5fa6de0644cc5c40caf_a4cab28833ea558e426f1312847461e7	GCF_054299015.1	49778	Yes	46098	59	6	4	Medium-quality	Genome-fragment	63.84	AAI-based (medium-confidence)	7.39	1.01	
+ph_gc5fa6de0644cc5c40caf_b9860bb1e4cfaa9490860be3988b005e	GCF_054299015.1	38031	Yes	32439	49	3	2	Medium-quality	Genome-fragment	54.25	AAI-based (medium-confidence)	14.7	1.0	
+ph_gc5fa6de0644cc5c40caf_eeaab358244472e9288c797e46737cd1	GCF_054299015.1	32098	No	NA	43	11	2	Medium-quality	Genome-fragment	79.36	AAI-based (high-confidence)	0.0	1.0	
+ph_gbdf429605ca9dcb6224e_f4b5dbfeb8aa3ed2e2925b4a75423fcb	GCF_054299035.1	134760	Yes	124949	142	12	8	High-quality	High-quality	100.0	AAI-based (medium-confidence)	7.28	1.0	
+ph_g1b788ba5beb2d549ae3a_43381c4e81250de3463b3b12362d57d7	GCF_054299055.1	17103	No	NA	23	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g1b788ba5beb2d549ae3a_6ec60365e52d4c8f2decd6e4dcfc4ed8	GCF_054299055.1	54833	No	NA	78	14	1	Medium-quality	Genome-fragment	87.64	AAI-based (high-confidence)	0.0	1.0	
+ph_g1b788ba5beb2d549ae3a_70eefbdbed7d9a5bab2511c48669208d	GCF_054299055.1	39877	Yes	33051	51	3	4	Medium-quality	Genome-fragment	54.83	AAI-based (medium-confidence)	17.12	1.0	
+ph_g1b788ba5beb2d549ae3a_75435b4ee652ef64d34235d7d5cb76e5	GCF_054299055.1	40020	Yes	36468	55	10	5	High-quality	High-quality	98.28	AAI-based (high-confidence)	8.88	1.0	
+ph_g01e3165bdee8f3d6aa30_824e4e199d07af5ef2fc986bffbde619	GCF_054299105.1	40320	Yes	33495	52	3	4	Medium-quality	Genome-fragment	55.52	AAI-based (medium-confidence)	16.93	1.0	
+ph_ga1d68afb5ad2d7612406_57176deb863b0c7ca2143baefc6f296d	GCF_054299125.1	48165	No	NA	62	4	2	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g65f14e3a2519a4d084c8_6f83f098b2fa16bd38671b9a30ccc34a	GCF_054299145.1	12089	No	NA	10	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_ga239d9732fa52a01824f_1131de59f9badf0f364ada6921f2e746	GCF_054299165.1	76340	Yes	70371	107	16	6	High-quality	High-quality	99.49	AAI-based (high-confidence)	7.82	1.0	
+ph_ga239d9732fa52a01824f_a8409e6a083ae4c6fca2c87ac20bda84	GCF_054299165.1	32622	Yes	25797	37	3	3	Low-quality	Genome-fragment	43.11	AAI-based (medium-confidence)	20.92	1.0	
+ph_ga239d9732fa52a01824f_c9127c802cfbad3efb31bb6241c3156f	GCF_054299165.1	15172	No	NA	25	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g9d4bbe5eada28ce42d99_42431c6e13d49bbc1649b8a06044697b	GCF_054299235.1	4373	No	NA	3	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g9d4bbe5eada28ce42d99_7b5011abb05f7263f6a96482307e2eb2	GCF_054299235.1	42840	Yes	36014	56	5	4	Medium-quality	Genome-fragment	59.77	AAI-based (medium-confidence)	15.93	1.0	
+ph_gae5627c3333a7a926286_2f03d508d88e7dd2cffb17046f04fa0f	GCF_054299275.1	17925	No	NA	18	0	3	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gae5627c3333a7a926286_627be7a1fae3cdeeeb170dc8b3ef7b3a	GCF_054299275.1	31213	Yes	29912	48	5	2	Low-quality	Genome-fragment	45.74	AAI-based (high-confidence)	4.17	1.0	
+ph_gae5627c3333a7a926286_8cabe89328f2aaf30c7ca94cd74504b8	GCF_054299275.1	4844	No	NA	7	3	0	Low-quality	Genome-fragment	7.56	AAI-based (high-confidence)	0.0	1.0	
+ph_gae5627c3333a7a926286_a3348a0238ba0c34e919a5e97f8deb03	GCF_054299275.1	41474	Yes	35454	50	3	5	Medium-quality	Genome-fragment	59.25	AAI-based (medium-confidence)	14.52	1.0	
+ph_gae5627c3333a7a926286_b454562dc75f0a28b843500a1ad8d33a	GCF_054299275.1	51934	Yes	48159	63	5	3	Medium-quality	Genome-fragment	69.46	AAI-based (high-confidence)	7.27	1.0	
+ph_gae5627c3333a7a926286_b80d7fa6099651f272426e4ee2874acf	GCF_054299275.1	44923	No	NA	60	10	1	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.0	
+ph_g7da2f59d3a28143f388c_10dc528a98c2724088bdcf7717b951f6	GCF_054299295.1	18420	No	NA	34	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7da2f59d3a28143f388c_1552c87539b433d1575cbe579bc009cc	GCF_054299295.1	74041	No	NA	66	6	10	Medium-quality	Genome-fragment	66.66	AAI-based (medium-confidence)	0.0	1.0	
+ph_g7da2f59d3a28143f388c_637310f9cd57303b8113daa3e08120b5	GCF_054299295.1	5477	No	NA	10	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g7da2f59d3a28143f388c_728128eb7a2d5e35936dadc530ef1596	GCF_054299295.1	42717	No	NA	52	4	1	Low-quality	Genome-fragment	38.51	AAI-based (medium-confidence)	0.0	1.0	
+ph_g7da2f59d3a28143f388c_ba1ce8e4073e36ccfd8c2b42c3570e91	GCF_054299295.1	75120	Yes	69802	108	15	5	High-quality	High-quality	98.65	AAI-based (high-confidence)	7.08	1.0	
+ph_g5833ef6ec47ef995ced8_01434abdc71c1ca22187d4a8da6a8304	GCF_054299315.1	17071	No	NA	20	2	0	Low-quality	Genome-fragment	27.46	AAI-based (high-confidence)	0.0	1.0	
+ph_g5833ef6ec47ef995ced8_06659f99296cfffcb8e7dc3a1296e7d4	GCF_054299315.1	79971	Yes	76020	129	19	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	4.94	1.0	
+ph_g5833ef6ec47ef995ced8_4f13033e437476c03687ac37ed7fc055	GCF_054299315.1	2432	No	NA	2	0	2	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g5833ef6ec47ef995ced8_6969db84823fbd5675b64aba07848951	GCF_054299315.1	35775	No	NA	49	13	2	Medium-quality	Genome-fragment	88.46	AAI-based (high-confidence)	0.0	1.0	
+ph_g5833ef6ec47ef995ced8_cf21edd0d3d054b067a2d3c24176d2c1	GCF_054299315.1	8364	No	NA	18	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.01	no viral genes detected
+ph_g5833ef6ec47ef995ced8_fb3bbcda15c2ad4c745ecd26bb1f34e3	GCF_054299315.1	8246	No	NA	4	1	0	Low-quality	Genome-fragment	17.98	AAI-based (medium-confidence)	0.0	1.0	
+ph_ge24f476124baed60eaae_474f4d0e1cea9f17698dfea24251bf22	GCF_054299335.1	1029	No	NA	1	0	0	Low-quality	Genome-fragment	1.07	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+ph_ge24f476124baed60eaae_7b028baa7e35ab0a205c433c93affac2	GCF_054299335.1	76262	Yes	67953	111	15	7	Complete	High-quality	100.0	Provirus (high-confidence)	10.9	1.0	
+ph_ge24f476124baed60eaae_c7e9fc052411618df3d3a04e0cfcf382	GCF_054299335.1	33027	No	NA	44	13	0	Medium-quality	Genome-fragment	81.66	AAI-based (high-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_00d477a301650ac81104064e694481a8	GCF_054299375.1	6243	Yes	4475	6	1	2	Low-quality	Genome-fragment	2.62	HMM-based (lower-bound)	28.32	1.0	
+ph_gb1a10e5e304dd004a369_196a3a7fc88f64ab750b0654d2676a29	GCF_054299375.1	527	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb1a10e5e304dd004a369_2e8ffa4096b8bd9edf4d3eac068dd798	GCF_054299375.1	28494	No	NA	32	5	2	Low-quality	Genome-fragment	48.28	AAI-based (medium-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_38ce671b44bfac0661c20e8638f125f4	GCF_054299375.1	6121	Yes	2535	4	1	1	Low-quality	Genome-fragment	4.3	AAI-based (medium-confidence)	58.59	1.0	
+ph_gb1a10e5e304dd004a369_400910d78c95146178840b75fb2ff874	GCF_054299375.1	6536	Yes	2950	4	1	1	Low-quality	Genome-fragment	5.3	AAI-based (medium-confidence)	54.87	1.0	
+ph_gb1a10e5e304dd004a369_4c19bca4f68cc44033e845b03f863def	GCF_054299375.1	18586	No	NA	30	2	0	Low-quality	Genome-fragment	48.72	AAI-based (medium-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_5159b377cca74593584c1b1aed402ac8	GCF_054299375.1	8353	No	NA	14	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gb1a10e5e304dd004a369_64f0f6cd711486fa39d79354cda8eb80	GCF_054299375.1	26019	No	NA	45	8	0	Low-quality	Genome-fragment	45.81	AAI-based (high-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_68ff5d2b1520f03902d57850e99e5f16	GCF_054299375.1	42519	Yes	35810	60	3	4	Medium-quality	Genome-fragment	59.74	AAI-based (medium-confidence)	15.78	1.0	
+ph_gb1a10e5e304dd004a369_7fc2ebf1dac8a7fbe220f3421f9dac30	GCF_054299375.1	1928	No	NA	3	1	0	Low-quality	Genome-fragment	1.73	HMM-based (lower-bound)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_a35c9b713d71c891e27ffc29ca0aba93	GCF_054299375.1	32074	No	NA	44	10	1	Medium-quality	Genome-fragment	86.52	AAI-based (medium-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_b9b3ef1697bc8cf00bc39aada5579fce	GCF_054299375.1	3058	No	NA	9	1	0	Low-quality	Genome-fragment	4.6	AAI-based (high-confidence)	0.0	1.0	
+ph_gb1a10e5e304dd004a369_eae82d9f1cab2f568763132efde93e98	GCF_054299375.1	345	No	NA	1	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g08b70932ee3332a8775c_1128402b5287fdb425dd78f9e6c13e33	GCF_054299395.1	42663	Yes	35919	59	3	4	Medium-quality	Genome-fragment	60.0	AAI-based (medium-confidence)	15.81	1.0	
+ph_g08b70932ee3332a8775c_e4785cd355a2501c2c318bcea6a8183b	GCF_054299395.1	46517	Yes	42742	57	5	4	High-quality	High-quality	93.75	AAI-based (medium-confidence)	8.12	1.01	
+ph_gd8de930dcc1497fd5b1e_0bdcaa8b2841517289154c36aeb7c97d	GCF_054299415.1	18115	No	NA	26	3	1	Low-quality	Genome-fragment	11.0	HMM-based (lower-bound)	0.0	1.0	
+ph_gd8de930dcc1497fd5b1e_1614e8d49a631a586176fb8b8bba50a1	GCF_054299415.1	46002	Yes	39898	46	7	4	High-quality	High-quality	93.15	AAI-based (high-confidence)	13.27	1.0	
+ph_gd8de930dcc1497fd5b1e_d779962742b5f3eeae86888444564b08	GCF_054299415.1	23629	No	NA	19	4	1	Low-quality	Genome-fragment	36.36	AAI-based (high-confidence)	0.0	1.0	
+ph_gd8de930dcc1497fd5b1e_ed31a8fad0853a1eca9041d06ca3280d	GCF_054299415.1	35608	No	NA	64	10	1	Medium-quality	Genome-fragment	57.67	AAI-based (high-confidence)	0.0	1.0	
+ph_g527b163bcfbd904503a8_03aeb3b11cc0280074b37e3108c96f55	GCF_054299435.1	23028	No	NA	32	4	0	Low-quality	Genome-fragment	35.15	AAI-based (high-confidence)	0.0	1.0	
+ph_g527b163bcfbd904503a8_44dd5c918672c3a59bac8325904df797	GCF_054299435.1	35322	No	NA	31	7	3	Low-quality	Genome-fragment	47.06	HMM-based (lower-bound)	0.0	1.0	
+ph_g527b163bcfbd904503a8_4e91f7afb7f9f3b43481dce0db259b24	GCF_054299435.1	38415	Yes	31591	48	3	3	Medium-quality	Genome-fragment	52.77	AAI-based (medium-confidence)	17.76	1.0	
+ph_g527b163bcfbd904503a8_573e4acbf51c11742cec152d38e9afeb	GCF_054299435.1	46921	Yes	39612	49	6	6	High-quality	High-quality	92.48	AAI-based (high-confidence)	15.58	1.0	
+ph_ged783e98f0f745f7e350_47e54c39a7ed5c08f032b72a18f20626	GCF_056531045.1	46578	No	NA	69	31	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gbe91af8d22a454f83874_498c131f5f78a00381575f71040b9484	GCF_056818395.1	40592	No	NA	64	21	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gbe91af8d22a454f83874_53d42d0f4681ccede8354a584d8989a4	GCF_056818395.1	38492	No	NA	62	28	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_gbe91af8d22a454f83874_a9f45b23dc997dc34709b883bdbecddb	GCF_056818395.1	35645	No	NA	55	19	2	Low-quality	Genome-fragment	47.07	HMM-based (lower-bound)	0.0	1.0	
+ph_gbe91af8d22a454f83874_b8ff37a6378482e108b0a15912b82496	GCF_056818395.1	40233	Yes	36365	68	20	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.61	1.0	
+ph_g2cd381079c0da31d05f1_08354801995cd5e3800e2baf1d1bdcd8	GCF_056819735.1	40027	No	NA	67	18	0	High-quality	High-quality	99.27	AAI-based (high-confidence)	0.0	1.0	
+ph_g2cd381079c0da31d05f1_c4d0915ff3db8347db4b5044231c7337	GCF_056819735.1	31819	No	NA	47	19	2	Low-quality	Genome-fragment	47.64	HMM-based (lower-bound)	0.0	1.01	
+ph_g21b9081304fc373635b5_8ca5c1694413cd9ffc43e8402a37c7fa	GCF_056822265.1	33534	No	NA	52	16	2	Low-quality	Genome-fragment	46.69	HMM-based (lower-bound)	0.0	1.0	
+ph_g19c7c841180c39c0e758_3679d4bf8c52f476640914bce743289f	GCF_056822985.1	45288	No	NA	71	18	1	High-quality	High-quality	95.77	AAI-based (high-confidence)	0.0	1.0	
+ph_g19c7c841180c39c0e758_dfb2f67b79d5d24a15c65918d8209dd1	GCF_056822985.1	48533	No	NA	66	32	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g19c7c841180c39c0e758_fb6cbace24695f838ddfe5c9efdaa9d3	GCF_056822985.1	37768	No	NA	62	21	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+ph_g9321b0ed51235c47129f_70e68adbc5d8f9ba347f582bc65b1c75	GCF_059072215.1	41854	Yes	34999	55	3	4	Medium-quality	Genome-fragment	58.06	AAI-based (medium-confidence)	16.38	1.01	
+ph_gbf6337d57c8747deb69c_d15fe8269ac5aaae83742e230787287a	GCF_059078235.1	39975	No	NA	67	18	1	High-quality	High-quality	99.15	AAI-based (high-confidence)	0.0	1.0	
+ph_g61c1993a6ffbe0e732fe_379561aa42dc86f72a8a5053512f588a	GCF_964241565.1	34494	No	NA	47	12	0	High-quality	High-quality	92.45	AAI-based (medium-confidence)	0.0	1.0	
+ph_g61c1993a6ffbe0e732fe_4ee034e3c85f66844a7154a31dffc23b	GCF_964241565.1	42079	No	NA	49	6	1	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+ph_g61c1993a6ffbe0e732fe_60591913c0535404ea86e5e7649c71ea	GCF_964241565.1	33799	Yes	26976	38	3	3	Low-quality	Genome-fragment	45.59	AAI-based (medium-confidence)	20.19	1.0	
+ph_g61c1993a6ffbe0e732fe_b1d5e7088ddb5c303fdbacf960bf6a69	GCF_964241565.1	23429	No	NA	23	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g61c1993a6ffbe0e732fe_bfec5ce0d637fd5889c7dcb92243a7a2	GCF_964241565.1	19591	No	NA	18	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_g61c1993a6ffbe0e732fe_f8c53ef1a9a64bb949c0ce8c433f33ef	GCF_964241565.1	8701	No	NA	22	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+ph_gcaffe5edc5322a4d4950_04a91c6d50161267ee38dafa0fcc04f1	GCF_988235855.1	44887	Yes	38063	58	5	4	Medium-quality	Genome-fragment	63.54	AAI-based (medium-confidence)	15.2	1.0	
+ph_gcaffe5edc5322a4d4950_736759afff2e86620ab87a415f87e719	GCF_988235855.1	62267	No	NA	71	12	3	High-quality	High-quality	95.63	AAI-based (high-confidence)	0.0	1.0	
+ph_gcaffe5edc5322a4d4950_7fd195face2ac86408d13e9718da0b6a	GCF_988235855.1	37757	No	NA	48	13	1	High-quality	High-quality	93.99	AAI-based (high-confidence)	0.0	1.0	
+ph_g126ee96dbba286328a7d_90aef0fd7aed9dcbd8e880c3d8d3de7f	GCF_988236955.1	131756	No	NA	127	7	20	Medium-quality	Genome-fragment	85.21	HMM-based (lower-bound)	0.0	1.0	
+ph_g126ee96dbba286328a7d_a4361d61b35c26bf257f97503e2e23b6	GCF_988236955.1	40450	Yes	33625	51	3	4	Medium-quality	Genome-fragment	55.8	AAI-based (medium-confidence)	16.87	1.0	
+ph_g126ee96dbba286328a7d_de082042fa5a05ce972cb5534cdb2623	GCF_988236955.1	36600	No	NA	49	14	1	High-quality	High-quality	90.38	AAI-based (high-confidence)	0.0	1.0	
+ph_g7b16dc16dd03aaf9ccf3_95161d3614aff399f714953d055454fa	GCF_988238855.1	63387	No	NA	70	6	3	High-quality	High-quality	95.83	AAI-based (high-confidence)	0.0	1.0	
+ph_g7b16dc16dd03aaf9ccf3_9b7f1e2c908f53ea0575845014b77986	GCF_988238855.1	40749	No	NA	55	3	3	Medium-quality	Genome-fragment	68.36	AAI-based (medium-confidence)	0.0	1.0	
+ph_g7b16dc16dd03aaf9ccf3_b256408901041e13f9e31f049f77ecaa	GCF_988238855.1	55496	No	NA	75	12	2	Medium-quality	Genome-fragment	89.38	AAI-based (high-confidence)	0.0	1.0	
+ph_g7b16dc16dd03aaf9ccf3_c4d4bbd895d2e0187bb2fe26a8bf0783	GCF_988238855.1	31301	No	NA	42	11	1	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_g505be3f01b70a93bc981_1585423b8ce1a6ebaa236547f9630332	GCF_988238865.1	55496	No	NA	75	12	2	Medium-quality	Genome-fragment	89.38	AAI-based (high-confidence)	0.0	1.0	
+ph_g505be3f01b70a93bc981_4360d38bbc52430c8a41c8501a59c257	GCF_988238865.1	40749	No	NA	55	3	3	Medium-quality	Genome-fragment	68.36	AAI-based (medium-confidence)	0.0	1.0	
+ph_g505be3f01b70a93bc981_9e865c3fc42da25fb631c8af969d2ef7	GCF_988238865.1	63387	No	NA	70	6	3	High-quality	High-quality	95.83	AAI-based (high-confidence)	0.0	1.0	
+ph_g505be3f01b70a93bc981_c2eee7cf57f35da5905baf0a6e7644ab	GCF_988238865.1	31301	No	NA	42	11	1	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_gadf3955d43a62b8b045d_2eac1d46e56607e04c10edf9f3f32151	GCF_988238925.1	63387	No	NA	70	6	3	High-quality	High-quality	95.83	AAI-based (high-confidence)	0.0	1.0	
+ph_gadf3955d43a62b8b045d_a2833afc08c431dabc5e0b50f8ac2b47	GCF_988238925.1	31301	No	NA	42	11	1	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_gadf3955d43a62b8b045d_a6cf54a64604e1f5a40849af9f05e2d0	GCF_988238925.1	55496	No	NA	75	12	2	Medium-quality	Genome-fragment	89.38	AAI-based (high-confidence)	0.0	1.0	
+ph_gadf3955d43a62b8b045d_ce5a240f38ef038f805dc533aca38c1b	GCF_988238925.1	40749	No	NA	55	3	3	Medium-quality	Genome-fragment	68.36	AAI-based (medium-confidence)	0.0	1.0	
+ph_g11ccfcdce0a291e9edb7_02468cb79a4fe62b51b2713cbf8108e8	GCF_988239065.1	40749	No	NA	55	3	3	Medium-quality	Genome-fragment	68.36	AAI-based (medium-confidence)	0.0	1.0	
+ph_g11ccfcdce0a291e9edb7_27f8e124eaa2d4422491bb470ed909ed	GCF_988239065.1	63387	No	NA	70	6	3	High-quality	High-quality	95.83	AAI-based (high-confidence)	0.0	1.0	
+ph_g11ccfcdce0a291e9edb7_389ce90c0e469c7b7f76b429b0c4e951	GCF_988239065.1	31301	No	NA	42	11	1	Medium-quality	Genome-fragment	77.39	AAI-based (high-confidence)	0.0	1.0	
+ph_g11ccfcdce0a291e9edb7_ffca36d7704f4d4f24875b23a65079fe	GCF_988239065.1	55496	No	NA	75	12	2	Medium-quality	Genome-fragment	89.38	AAI-based (high-confidence)	0.0	1.0	

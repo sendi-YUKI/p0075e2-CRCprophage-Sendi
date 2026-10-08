@@ -1,0 +1,19 @@
+source_kind	dimension	total_occurrences	positive	negative	unknown	assessed_denominator
+legacy_bacterial_genome	predicted_provirus	812	541	271	0	812
+legacy_bacterial_genome	two_sided_flank_geometry	812	513	299	0	812
+legacy_bacterial_genome	two_sided_host_marker_evidence	812	148	332	332	480
+legacy_bacterial_genome	checkv_provirus	812	171	641	0	812
+legacy_bacterial_genome	checkv_quality:Complete	812	5			812
+legacy_bacterial_genome	checkv_quality:High quality	812	202			812
+legacy_bacterial_genome	checkv_quality:Medium quality	812	216			812
+legacy_bacterial_genome	checkv_quality:Low quality	812	231			812
+legacy_bacterial_genome	checkv_quality:Undetermined / NA	812	158			812
+metagenome_assembly	predicted_provirus	10683	382	10301	0	10683
+metagenome_assembly	two_sided_flank_geometry	10683	321	10362	0	10683
+metagenome_assembly	two_sided_host_marker_evidence	10683	51	270	10362	321
+metagenome_assembly	checkv_provirus	10683	415	10268	0	10683
+metagenome_assembly	checkv_quality:Complete	10683	34			10683
+metagenome_assembly	checkv_quality:High quality	10683	151			10683
+metagenome_assembly	checkv_quality:Medium quality	10683	216			10683
+metagenome_assembly	checkv_quality:Low quality	10683	8232			10683
+metagenome_assembly	checkv_quality:Undetermined / NA	10683	2050			10683

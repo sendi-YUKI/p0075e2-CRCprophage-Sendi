@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-10-06T06:01:26.044131+00:00",
+  "status": "candidate_manifest_not_final_eligibility",
+  "samples": 107,
+  "groups": {
+    "CRC": 46,
+    "control": 61
+  },
+  "runs": 214,
+  "fastq_files": 321,
+  "bytes": 490654560109,
+  "engineering16_already_downloaded": 16,
+  "additional_candidate_samples": 91,
+  "unmapped_ENA_runs": [
+    {
+      "run_accession": "ERR688371",
+      "sample_accession": "SAMEA3136674",
+      "sample_alias": "31232",
+      "sample_title": "Stool sample from controls"
+    },
+    {
+      "run_accession": "ERR688518",
+      "sample_accession": "SAMEA3136674",
+      "sample_alias": "31232",
+      "sample_title": "Stool sample from controls"
+    },
+    {
+      "run_accession": "ERR688556",
+      "sample_accession": "SAMEA3136625",
+      "sample_alias": "31600",
+      "sample_title": "Stool sample from controls"
+    },
+    {
+      "run_accession": "ERR688409",
+      "sample_accession": "SAMEA3136625",
+      "sample_alias": "31600",
+      "sample_title": "Stool sample from controls"
+    }
+  ],
+  "sources": {
+    "Thomas2019_author_metadata_only.tsv": "6f22c1ee64e9434272895dee2de04e6002bf1c0ba3e900dd3a1609a5ab8b5ab3",
+    "FengQ_2015_sample.tsv": "41004ea5e9865ac70a23dde92a7815e207a5281fdc68d959d7302c2628f0b6fb",
+    "PRJEB7774_ena.tsv": "6a96d1ee433235c35f40cb6f4e4481c980c1a73af7342c89e3771cd9cfacccac"
+  },
+  "limitations": [
+    "Feng2015 original clinical supplement not yet parsed; do not replace unknown treatment timing with pretreatment.",
+    "Study controls may have non-CRC comorbidities; not universally disease-free.",
+    "Archive project entries absent from curated/author clinical mapping remain unresolved, not assigned by fecal origin.",
+    "No new bulk download submitted by this script."
+  ]
+}

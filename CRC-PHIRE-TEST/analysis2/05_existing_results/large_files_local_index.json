@@ -1,0 +1,52 @@
+[
+  {
+    "source": "12_reports\\pilot10\\prophage_evidence\\source_flanks.fna.gz",
+    "bytes": 1982904,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID31160.bai",
+    "bytes": 7961992,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID31512.bai",
+    "bytes": 3536768,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID31866.bai",
+    "bytes": 9159296,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID530368.bai",
+    "bytes": 4496536,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID530373.bai",
+    "bytes": 8237256,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID531248.bai",
+    "bytes": 8915576,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID531361.bai",
+    "bytes": 4875696,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID531469.bai",
+    "bytes": 6925376,
+    "status": "kept_at_original_location_not_copied"
+  },
+  {
+    "source": "12_reports\\pilot10\\candidate_review\\bam_indexes\\SID532796.bai",
+    "bytes": 7378552,
+    "status": "kept_at_original_location_not_copied"
+  }
+]

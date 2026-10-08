@@ -1,0 +1,17 @@
+{
+  "source_commit": "cb4f0d7f9240caf1aa9f23ba826ef7d976238417",
+  "source_repo": "/srv/CRC-PHIRE/projects/crc-pipeline",
+  "runtime_version": "src_pilot6_measurement",
+  "parent_source": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_pilot6_imported",
+  "parent_origin_sha256": "8871a63d5792c845db9f0160e04df867d44965865b5aee3507cd2350b2aceedd",
+  "derived_source_record": "/srv/CRC-PHIRE/analysis1/02_pipeline/pilot6_measurement_source_manifest.json",
+  "derived_source_record_sha256": "b158fda40d9c4f220e00a6e8954f6bab779967a8b6ea6b5b18247d9e9279d6ab",
+  "changes": [
+    "bin/run_stage.py",
+    "bin/cohort_measure.py",
+    "conf/spark_exclusive.config"
+  ],
+  "generated_runtime_updates": {},
+  "notes": "Provenance metadata restored after deployment omission; all scientific source files verified unchanged; explicitly recorded generated runtime identity updates.",
+  "restored_utc": "2026-10-07T02:06:32.222388+00:00"
+}

@@ -1,0 +1,1 @@
+run_id	stage	code_commit	input_manifest	input_sha256	command_file	effective_config	started_utc	ended_utc	exit_code	status	threads_requested	memory_requested_gib	elapsed_seconds	peak_memory_gib	output_manifest	failure_reason	retry_of

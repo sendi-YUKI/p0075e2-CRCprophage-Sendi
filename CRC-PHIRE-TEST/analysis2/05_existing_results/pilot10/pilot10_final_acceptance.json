@@ -1,0 +1,54 @@
+{
+  "status": "completed_balanced_engineering_pilot",
+  "created_utc": "2026-10-08T07:13:56.122587+00:00",
+  "reference_genomes": 258,
+  "donors": 10,
+  "groups": {
+    "CRC": 5,
+    "control": 5
+  },
+  "reference_raw_candidates": 812,
+  "reference_raw_provirus_loci": 541,
+  "metagenome_raw_occurrences": 10683,
+  "metagenome_occurrence_types": {
+    "full_contig_virus": 10301,
+    "provirus_locus": 382
+  },
+  "combined_unique_sequences": 11472,
+  "engineering_quality_votus": 473,
+  "direct_sequence_matches": {
+    "partial_or_fragment_match": 1031,
+    "broad_bidirectional_match": 20
+  },
+  "broad_matched_reference_sequences": 19,
+  "broad_matched_metagenome_sequences": 7,
+  "occurrence_host_links": 1066,
+  "donor_broad_detections": {
+    "SID31160": 55,
+    "SID31512": 44,
+    "SID31866": 49,
+    "SID530295": 56,
+    "SID530368": 39,
+    "SID530373": 33,
+    "SID531248": 59,
+    "SID531361": 22,
+    "SID531469": 42,
+    "SID532796": 58
+  },
+  "disease_association": "descriptive_5_vs_5_only_no_significance_test_single_cohort_discovery_samples",
+  "descriptive_group_features": 473,
+  "patient_host_assignment": "not_proven_by_reference_intersection",
+  "scope": "Balanced ten-donor technical and descriptive pilot; not completion of nine-cohort study or independent validation",
+  "output_sha256": {
+    "donor_votu_measurement.tsv": "fbdff3dd721a194ebc09d322679087ba5ce74c2c69bb609318115d38612ffda9",
+    "donor_measurement_status.tsv": "2df59cf86acfabe1fe9b9ba7e4d3578e055f83bc0757a1710b43759a6405bfb7",
+    "十人先导补充结果说明.html": "b0403a414f0ecf45dc6d53f71a6a968018ec29c700a700ede9be6f4d2f01af89",
+    "donor_measurement_acceptance.json": "9b410a2dcd4eaff38a9e7e57230d7027543c144ccd9bd51a694482ef289db8cc",
+    "G_M_sequence_matches.tsv": "a3b22260db4447e02a13bf1c6a5c107c574cabc5c50e6f036205e937dc58d805",
+    "intersection_function_evidence.tsv": "25d1d880d02e70652f7b2b43c2183f385212ac4330fb8580d9c3feec3ef50e39",
+    "G_M_sequence_disposition.tsv": "08673ddb7fe1cc9117a03872c72b16a6c71c2210a4a5ea54c97fa0e455a4638c",
+    "pilot10_descriptive_group_comparison.tsv": "802d1c6ce0d8b3e76fc31c65b4b166e1452ea0a23b3a2cbdc182eb3ca42ef6a2",
+    "G_M_occurrence_host_links.tsv": "2533c7f49d222172dd15060437d921775559b7e1f311e221d1cdcfa03a756405",
+    "十人先导补充结果说明.md": "7b62fe4653d56fc401fb3879ccfa129cda2d73cfc160207d90f620c1946967ab"
+  }
+}

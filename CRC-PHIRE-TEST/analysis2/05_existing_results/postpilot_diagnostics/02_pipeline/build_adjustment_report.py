@@ -1,0 +1,207 @@
+"""Generate a Chinese evidence report and HTML from verified real outputs only."""
+import pathlib,json,csv,collections,subprocess,hashlib,os,html
+from datetime import datetime
+from zoneinfo import ZoneInfo
+R=pathlib.Path('/srv/CRC-PHIRE/analysis1');A=R/'14_postpilot_adjustment'
+def table(p):
+    with open(p,encoding='utf-8-sig') as f:return list(csv.DictReader(f,delimiter='\t'))
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def write(p,rows):
+    assert rows
+    with open(p,'w',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(rows[0]),delimiter='\t');w.writeheader();w.writerows(rows)
+def mdtable(headers,rows):
+    def cell(v):return str(v).replace('|','／').replace('\n',' ')
+    return '\n'.join(['| '+' | '.join(map(cell,headers))+' |','| '+' | '.join(['---']*len(headers))+' |']+['| '+' | '.join(map(cell,r))+' |' for r in rows])
+def main():
+    gate=json.loads((A/'09_handoff/host_convergence_acceptance.json').read_text());assert gate['status']=='passed'
+    host=table(A/'03_host_profile/priority_host_summary.tsv');qc=table(A/'03_host_profile/host_profile_qc.tsv')
+    loci=table(A/'05_replication_activity/locus_diagnostics.tsv');facts=json.loads((A/'04_measurement_audit/facts.json').read_text())
+    rep=json.loads((A/'05_replication_activity/completed.json').read_text());assert sha(A/'05_replication_activity/locus_diagnostics.tsv')==rep['result_sha256']
+    cal=table(A/'04_measurement_audit/technical_calibration/calibration_results.tsv')
+    assert len(qc)==10 and len(loci)==382
+    positives=[r for r in loci if r['replication_call']=='replication_compatible']
+    pos_sorted=sorted(positives,key=lambda r:r['membership_status']!='representative');write(A/'05_replication_activity/replication_candidates.tsv',pos_sorted)
+    # Preserve reference taxonomy and patient species measurements as separate evidence layers.
+    refs=table(R/'01_manifests/reference_panel_metadata_original.tsv');refmap={r['accession']:r['adopted_taxon'] for r in refs}
+    cross={'Bacteroides fragilis (division I)':('Bacteroides_fragilis','species_label_only_division_discrimination_not_validated'),
+           'Bacteroides hominis / historical B. fragilis division II':('Bacteroides_hominis','exact_label_absent_in_current_database'),
+           'Fusobacterium animalis':('Fusobacterium_animalis','species_label_available'),
+           'Parvimonas micra':('Parvimonas_micra','species_label_available')}
+    write(A/'03_host_profile/reference_taxonomy_crosswalk.tsv',[{'reference_taxon':k,'reference_genomes':sum(r['adopted_taxon']==k for r in refs),'metaphlan_species_label':v[0],'resolution':v[1]} for k,v in cross.items()])
+    occ=table(R/'12_reports/pilot10/prophage_evidence/occurrence_evidence.tsv');vhosts=collections.defaultdict(set)
+    for r in occ:
+        if r['assembly_id'] in refmap and r['votu_id']:vhosts[r['votu_id']].add(refmap[r['assembly_id']])
+    priority=table(A/'03_host_profile/priority_host_by_donor.tsv');hlookup={(r['sample'],r['taxon']):r for r in priority}
+    joined=[]
+    for m in table(R/'12_reports/pilot10/donor_votu_measurement.tsv'):
+        for tax in sorted(vhosts.get(m['votu_id'],set())):
+            name,res=cross[tax];h=hlookup[(m['biological_sample_id'],name)]
+            joined.append({'sample':m['biological_sample_id'],'group':m['group'],'votu_id':m['votu_id'],'reference_host_taxon':tax,'n_reference_host_taxa':len(vhosts[m['votu_id']]),'viral_detection_status':m['detection_status'],'viral_breadth':m['breadth_full'],'host_relative_abundance_percent':h['relative_abundance_percent'],'host_measurement_status':h['measurement_status'],'taxonomy_resolution':res,'link_scope':'reference_host_context_only_patient_host_not_assigned','formal_host_model_eligible':'pending_patient_host_link_common_support_and_event_count'})
+    assert joined, 'Expected reference-linked viral context; inspect assembly identity join'
+    write(A/'03_host_profile/reference_linked_viral_host_context.tsv',joined)
+    context_summary=[]
+    for tax,(name,res) in cross.items():
+        rr=[r for r in joined if r['reference_host_taxon']==tax]
+        hs=[r for r in priority if r['taxon']==name]
+        measurable=sum(float(r['relative_abundance_percent'])>0 for r in hs) if all(r['relative_abundance_percent']!='NA' for r in hs) else 'NA'
+        context_summary.append({'reference_host_taxon':tax,'reference_linked_votus':len({r['votu_id'] for r in rr}),'broad_detected_donor_votu_cells':sum(r['viral_detection_status']=='detected' for r in rr),'host_profile_positive_donors':measurable,'host_count_denominator':10,'scope':'reference_relationship_descriptive_not_patient_host_assignment'})
+    write(A/'03_host_profile/reference_host_context_summary.tsv',context_summary)
+    context_table=mdtable(['参考宿主分类','相关vOTU数','广泛检出的人×vOTU单元','宿主有profile信号人数'],[[r['reference_host_taxon'],r['reference_linked_votus'],r['broad_detected_donor_votu_cells'],str(r['host_profile_positive_donors'])+'/10' if r['host_profile_positive_donors']!='NA' else 'NA'] for r in context_summary])
+    names=list(dict.fromkeys(r['taxon'] for r in host));ht=[]
+    for t in names:
+        rs={r['group']:r for r in host if r['taxon']==t}
+        if rs['CRC']['n_profile_signal']=='NA':ht.append([t.replace('_',' '),'NA','NA','当前库无精确物种标签；单列待解析'])
+        else:ht.append([t.replace('_',' '),rs['CRC']['n_profile_signal']+'/5',rs['control']['n_profile_signal']+'/5',f"CRC {float(rs['CRC']['minimum_percent']):.5g}–{float(rs['CRC']['maximum_percent']):.5g}%；对照 {float(rs['control']['minimum_percent']):.5g}–{float(rs['control']['maximum_percent']):.5g}%"])
+    pt=[]
+    for r in pos_sorted:
+        pt.append([r['biological_sample_id'],r['group'],r['votu_id'] or '未入合格目录',f"{(int(r['end0'])-int(r['start0']))/1000:.3f}",f"{float(r['tool_prophage-host_ratio']):.3f}",f"{float(r['strict_ratio']):.3f}",f"{float(r['local_ratio']):.3f}",r['two_sided_host_marker_evidence']])
+    qtab=[[r['sample'],r['group'],f"{int(r['input_clean_reads']):,}",f"{int(r['profile_processed_reads']):,}",r['nproc'],f"{float(r['elapsed_seconds'])/60:.1f}"] for r in qc]
+    jobs=subprocess.check_output(['sacct','-j','1132,1133,1134,1135,1136,1137,1138,1139,1140,1141','--parsable2','--format=JobID,State,Elapsed,AllocCPUS,ReqMem,MaxRSS,ExitCode'],text=True)
+    (A/'09_handoff/final_compute_accounting.tsv').write_text(jobs,encoding='utf-8')
+    stamp=datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M %Z')
+    md=f'''# CRC-PHIRE：试跑后诊断结果与方案调整报告
+
+生成时间：{stamp}。本轮范围为258份参考genome和Feng单队列10名供者（5 CRC＋5研究对照）。本报告采用新诊断结果，保留原先导报告和统计。
+
+## 1. 先说结论
+
+**这轮诊断支持继续推进患者宏基因组发现主线，并保留相对复制活动支线。** 宿主丰度已在十人中测量；歧义来源和覆盖规则已经复核；382个预测provirus位点均获得了可评价的配对覆盖，其中2个位点具有与活跃复制相容的特征。一个约70.5 kb的位点进入原合格目录，且有双侧宿主marker，是值得继续追踪的具体对象。
+
+这轮最重要的改进是明确“测到了什么、哪些信号可以比较、候选下一步如何验证”。后续正式研究仍需跨队列评价疾病关联，并对优先候选开展相称的关键实验。现有十人的CRC关联结果仍是探索性的：原815项检验没有通过全局FDR；这一事实与获得技术诊断和复制活动候选并不矛盾。
+
+## 2. 从哪里开始读
+
+- [完整研究方案（HTML）](../00_plan/CRC-PHIRE_修订后的完整研究方案.html)／[MD](../00_plan/CRC-PHIRE_修订后的完整研究方案.md)：科学目的、九队列、主终点、宿主、功能、复制活动和实验路线。
+- [Pipeline调整与下一批操作（HTML）](../00_plan/Pipeline调整清单与下一批操作.html)／[MD](../00_plan/Pipeline调整清单与下一批操作.md)：哪些已完成、哪些需适配、数据量与命令。
+- [事实与方法纠错](../00_plan/评审事实与方法纠错.md)：逐条审阅意见与证据。
+- [测量规则决策](../04_measurement_audit/measurement_decision.md)及[机器可读配置](../06_statistics_design/analysis_rules.json)。
+
+## 3. 本轮真正完成了哪些计算
+
+| 工作 | 已完成的范围 | 对研究的用途 |
+|---|---|---|
+| 宿主丰度 | 10人，40 readsets、50个clean FASTQ；MetaPhlAn 4.2.4＋固定vJan25数据库 | 确定哪些宿主有可测信号，明确分类分辨率 |
+| 歧义诊断 | 原40个readsets的片段分类，4730个供者×vOTU单元 | 区分病毒间共享与宿主背景共享，避免把NA当零 |
+| 阈值诊断 | 0.75和0.30完整状态重算 | 保留广泛覆盖主终点及部分信号敏感性 |
+| 技术校准 | 11个不同目标，SE/PE、阳性及困难背景阴性；另核对真实覆盖曲线 | 识别保守归属的敏感性代价与所测背景的误归属表现 |
+| 复制活动 | 382个原组装位点，10人原readback BAM；PropagAtE＋有限敏感性 | 定位具体活跃复制候选，保留结构资格和宿主证据层级 |
+| 方案与下一批入口 | 新完整方案、配置、九队列inventory及有临床冻结前置检查的下载入口 | 在有证据的规则上推进正式研究 |
+
+1133按原顺序处理样本；1139以14核从末尾处理不同样本。结果发布后由原通道校验复用。1140在两路结束后核对十人身份、输入收据和profile SHA，并核对382个位点的BAM contig长度、排序/索引和坐标。资源与真实耗时见[作业账目](../09_handoff/final_compute_accounting.tsv)，同一批结果没有按新线程数全部重算。
+
+## 4. 宿主测量结果：哪些菌在这十人中有信号
+
+{mdtable(['宿主物种标签','CRC有profile信号人数','对照有profile信号人数','相对丰度范围／可解释性'],ht)}
+
+“有profile信号”指固定MetaPhlAn方法报告该物种；上述范围按全部5人计算，未报告者在受支持的物种标签下记为操作性零。B. hominis没有精确物种标签，保留NA，后续用分类crosswalk或定向marker澄清。B. fragilis的物种标签也未单独验证division I／II的辨别能力，不能直接把其丰度当参考division I的专属丰度。
+
+全体物种见[逐人宿主表](../03_host_profile/donor_species.tsv)，重点物种见[重点宿主逐人表](../03_host_profile/priority_host_by_donor.tsv)，参考分类对应见[分类交叉表](../03_host_profile/reference_taxonomy_crosswalk.tsv)。原始marker mapout、逐人命令和profile留在Spark对应目录，支持后续定向检查。
+
+本轮已将参考宿主关系与逐人phage测量、细菌丰度并排整理：
+
+{context_table}
+
+这些数字可以区分“宿主本身缺少可测信号”和“有宿主信号但特定参考phage未广泛检出”。后者提示应优先检查株系/元件差异和病毒可归属性，而非仅归因于宿主不存在。多宿主vOTU可能出现在多个宿主行，不能把行数相加当作独立病毒数。逐人对应见[宿主—病毒背景表](../03_host_profile/reference_linked_viral_host_context.tsv)。
+
+它适合解释“参考宿主信号是否同时可测”；患者中的实际phage宿主仍按整合上下文和相应分类证据确定。正式宿主调整仅用于连接可靠、有共同丰度范围和足够事件的子集；十人阶段以可测性诊断为目的。
+
+![图1：十人的细菌宿主组成与重点物种](../07_figures/Fig01_host_context.png)
+
+**图1说明。** 每列或每点对应一名真实供者，橙色CRC、蓝色对照；左图选择有profile信号的优先物种及总体丰度较高的物种，百分比为MetaPhlAn相对丰度，未报告值为灰色。右图未报告值放在低于全部正值的绘图底线，该底线不是估计丰度；实际底线值保存在source_data/host_display_settings.json。数据库精确标签不支持的B. hominis不填零、不放入图中。图为描述展示，没有添加疾病显著性检验或星号；原始值可在source_data中获取。
+
+## 5. 歧义到底来自哪里
+
+按每个readset内部唯一fragment统计：病毒目标之间歧义254,062；病毒与宿主背景歧义44,038；同目标多位置或搜索饱和932；另有host-only歧义1,851,498。
+
+涉及病毒目标的歧义片段合计299,032，其中约85%来自多个病毒目标，约14.7%来自病毒—宿主背景。这个结果说明优先需要处理近缘病毒共享序列及测量分辨率，而不能只靠降低一个广度阈值解决所有问题。host-only计数不能全部写成“丢掉的病毒reads”。同一片段展开到多个目标的提及次数另表保存。
+
+0.75下457个单元广泛检出；改为0.30后695个单元满足部分信号规则。新增的是238个供者×vOTU单元，不是238种新病毒。所有状态重新计算，歧义NA没有沿用旧标签或变为零。
+
+## 6. 为什么保留0.75，同时增加0.30部分信号
+
+已知来源模拟对11个技术类别目标进行检验：0.75检出SE的5/11、PE的6/11；0.30在两种layout下均为11/11。困难背景阴性由近缘病毒和遮蔽后的宿主片段组成，所选目标均无错误归属覆盖。模拟固定随机种子、布局和误差率，完全不按疾病P值选择对象。
+
+因此，当前测量在这些背景中较保守，但真实目标的共享区域会造成敏感性损失。我们保留“广泛序列覆盖”作为清楚的主终点，并把可信部分信号作为独立敏感性结果。后续若要比较难分辨近缘病毒，针对具体对象验证合并测量单元或特异区段即可；本轮不需要全局更换算法或反复调到显著。
+
+![图2：歧义、覆盖状态与有限已知来源校准](../07_figures/Fig02_measurement_diagnosis.png)
+
+**图2说明。** A为真实歧义片段数，按readset去重；B每行2365个供者×vOTU单元，全部10人合计4730。C和D为明确标识的技术模拟，目标编号与真实ID交叉表保存在source_data。模拟只支持这11个目标及所设背景，不代表整个目录、所有平台的灵敏度/特异性。四面板均为测量诊断，无疾病显著性检验。
+
+## 7. 复制活动支线：已经得到了什么
+
+382/382个位点在本次自身组装回贴数据中达到最低覆盖可评价条件；其中153个位点进入原合格目录（139代表、14成员）。因此“能评价覆盖”和“病毒身份/结构资格适合正式解释”仍分别报告。自身组装更容易保留有覆盖的位点，这个382/382不能外推成患者所有prophage的检出率。
+
+PropagAtE识别2个具有活跃复制特征的位点，另外380个位点在这次采样中未见达到该判定的覆盖升高。两候选在严格比对和局部宿主分母的有限检查中保持相容结果：
+
+{mdtable(['供者','组别','vOTU','区段kb','主覆盖比','严格比对比值','局部分母比值','双侧宿主marker'],pt)}
+
+优先对象为SID532796的约70.5 kb位点。其病毒平均覆盖约64.66×、宿主约20.72×、主比值约3.12，覆盖升高延伸至较大区段，且进入原合格目录。对应实例为`occ_6490c24bbc8d472e47dbd3aa62bd61f3`。后续可先解析宿主/整合结构，再在更多样本及可获得的培养株中评价复制活动，并按问题开展切出、胞外DNA、颗粒等关键实验。
+
+SID31160的约3.7 kb位点也具有稳定覆盖升高，但属于原目录未纳入的短候选，对应`occ_e4d72bc9eef184918f45ae2b967a9d00`。后续先核实病毒身份和局部结构，再决定实验投入。
+
+两条均来自对照，当前结果支持“存在可追踪的复制活动候选”，疾病方向留待跨队列检验。没有覆盖升高的位点也可能在其他条件下具有诱导潜力；后续实验可以进一步回答。计算筛查负责定位对象，实验负责验证具体活动与机制，这是本项目的正常研究分工。
+
+![图3：原组装上下文中的覆盖曲线](../07_figures/Fig03_locus_coverage.png)
+
+**图3说明。** A/B为全部两个工具阳性位点，C/D为合格目录中每组覆盖比最接近1的示例，未按疾病P值选择。背景阴影为caller预测区段，横轴为原contig坐标，纵轴为250 bp窗口平均深度；蓝线为与工具一致的span覆盖，橙线为严格过滤后的CIGAR块覆盖。窗口展示附近宿主区段，主判定使用规定的完整宿主分母。曲线展示连续覆盖证据，不以显著性星号表示诱导。
+
+![图4：全部位点的覆盖、逐供者分布与有限稳健性](../07_figures/Fig04_replication_feasibility.png)
+
+**图4说明。** 共382个位点、10名供者；A为宿主与病毒平均覆盖，较大点标出两候选；B每人上方为可评价位点数，横线为比值1和2；C比较主比值、严格比对及邻近±5 kb可用宿主分母。分布和有限敏感性相容支持保留支线；没有双峰不影响这一结论。位点不是独立患者，本图没有把382个位点当作382个疾病样本检验。
+
+采用PropagAtE v1.1.0固定提交，identity 0.97、比值2、Cohen's d 0.7、病毒平均深度至少1×、广度至少0.5、contig端mask150 bp。项目另设宿主可用长度至少1 kb、深度至少1×、广度至少0.5。完整结果和结构状态见[382位点表](../05_replication_activity/locus_diagnostics.tsv)，两候选见[候选表](../05_replication_activity/replication_candidates.tsv)。
+
+## 8. 显著性结果怎样理解
+
+历史先导473个vOTU产生342项有效检出检验和473项丰度检验：原始P＜0.05分别为1项和19项，815项全局Q均为1；拆开端点后最小Q分别为1和0.93849。因此当前没有通过所设FDR的CRC关联。131项检出比较没有可执行的有效检验，按NA保留，不能算成“检验后不显著”。
+
+5＋5并非数学上绝对无法通过BH；本轮复算给出明确反例，纠正原评审的“算术不可达”。同时397/473个vOTU只在0或1人达到广泛检出，真实信息量稀疏。正式研究需要更多独立供者、跨队列重复及预先定义的信息过滤；扩量提高精度和可重复性评价能力，但不预定必须出现多少显著对象。
+
+本轮四张图服务测量与候选诊断，没有新增疾病关联检验，因而不添加P/Q星号。正式关联图将同时报告效应、区间、可测人数和校正范围。
+
+## 9. 最终方案有哪些实质调整
+
+1. 患者自主发现保持主线，258参考提供结构、功能与培养株追溯；参考交集是高价值连接证据，不是所有患者候选的强制入口。
+2. 主要端点明确为广泛覆盖检出；丰度为补充，部分信号独立报告，复制活动作为结构/覆盖合格子集的支线。
+3. 含开发患者来源成员的家族为主、G-only为补充；物理目录仍统一竞争测量；不同家族的FDR范围明确。
+4. 宿主可测性先核查，再在连接和共同支持足够的子集开展调整；B. hominis等分类缺口不填零。
+5. 复制支线依据本轮实际结果保留。功能沿用已完成PHROGs、defense、anti-defense和代谢同源结果，重点对象再审阅边界/系统完整性。
+6. 七开发＋两保留的边界保持；主目录、候选、方向和规则先冻结，再看保留队列效应。
+
+机器配置中`adopted`表示科学规则采用，`conditional`表示正式运行前需要有限实现/信息量核查，`deferred`表示本轮不开展。临床清单、稀疏模型后端和宿主子集接口仍需按pipeline清单接通；这不会改变已经确定的科学主线。
+
+## 10. 接下来做什么、需要多久
+
+| 顺序 | 具体操作 | 数据与产物 | 条件化时间规划 |
+|---|---|---|---|
+| 1 | 冻结本轮方案和测量规则，保留已完成结果 | 本报告、完整方案、JSON、四图及验收 | 本轮收尾完成后即可使用 |
+| 2 | 九队列临床/供者/run核对，先解决影响分组的具体冲突 | 去重和纳排表、每批合格runs、clinical_freeze | 公开来源齐备时约1–3个工作日；关键缺失需原作者资料 |
+| 3 | 参数化现有批量driver和正式统计接口 | 1个已完成样本复用检查＋1个新开发样本贯通 | 约1–2个工作日，可与临床核对并行 |
+| 4 | 两个其他开发来源各少量平衡样本核查可移植性 | 例如各4 CRC＋4对照；不按病毒阳性筛选 | 取决于下载/组装，单Spark预留约1–3天并据实测更新 |
+| 5 | 分批完成开发来源，冻结统一目录后全量测量 | 全部合格供者，避免每加几人重映射全部历史样本 | 按最终清单和实测CPU-hours规划数周；更大服务器可缩短 |
+| 6 | 开发关联、宿主/功能解释；冻结候选再验证 | 两保留来源验证、主候选与备选 | 计算规模确定后估时；实验按候选条件制定 |
+
+现有Feng候选池107人、214 runs、321 FASTQ，候选总量约490.7 GB；已有约71.9 GB通过下载收据复核，候选剩余约418.8 GB。实际合格数量和下载量需临床冻结，不把候选池当最终人数。现有10人不重下、不重组装。九队列清单见[next_cohort_inventory.tsv](../01_manifests/next_cohort_inventory.tsv)，下一批下载入口已实现临床冻结和manifest哈希检查，当前状态为`not_ready`，本轮没有偷偷扩量下载。
+
+## 11. 可复现记录和逐人耗时
+
+{mdtable(['供者','组别','输入clean reads','profile处理reads','线程','计算分钟'],qtab)}
+
+MetaPhlAn默认最短read长度过滤会使profile处理数低于输入clean reads，二者都保存；输入仍与原组装clean reads逐文件对应。线程为真实命令参数，不把Slurm内存申请当作实际峰值。实际运行代码在`../02_pipeline/`，profile、模拟命令及PropagAtE每样本命令均有收据，软件/数据库清单在`../01_manifests/`。大FASTQ、BAM和marker mapout保留Spark，代码、表、图、报告和校验记录同步本地。
+
+## 12. 本轮结果的科学价值
+
+现在已有一套可运行、可解释的测量路径，明确了近缘病毒归属是重要瓶颈，也获得了可追踪的复制活动对象。后续投入应优先用于跨队列重复、宿主/结构精化和实验可得性，而非无目的增加注释、不断改变阈值或强求所有功能类别出现显著结果。
+
+背景和方法依据见[纠错文档中的原文链接](../00_plan/评审事实与方法纠错.md)与[完整研究方案](../00_plan/CRC-PHIRE_修订后的完整研究方案.md)。本报告的具体数字均来自本轮真实表格；模拟结果已明确标识。
+'''
+    out=A/'08_reports/CRC-PHIRE_试跑后诊断与方案调整报告.md';out.write_text(md,encoding='utf-8')
+    docs=[out,A/'00_plan/CRC-PHIRE_修订后的完整研究方案.md',A/'00_plan/Pipeline调整清单与下一批操作.md',A/'00_plan/评审事实与方法纠错.md',A/'04_measurement_audit/measurement_decision.md']
+    for path in docs:
+        css='report.css' if path.parent.name=='08_reports' else '../08_reports/report.css'
+        subprocess.run(['/opt/bio/bin/quarto','pandoc',str(path),'--from=gfm','--to=html5','--standalone','--toc','--toc-depth=2','--metadata','lang=zh-CN','--metadata','pagetitle='+path.stem,'--css',css,'--output',str(path.with_suffix('.html'))],check=True)
+    manifest={'status':'generated_pending_visual_review','generated_berlin':stamp,'job_id':os.environ.get('SLURM_JOB_ID'),'diagnostic_report_sha256':sha(out),'html_files':[str(p.with_suffix('.html').relative_to(A)) for p in docs],'reference_linked_context_rows':len(joined),'independent_CRC_significance_added':False}
+    (A/'09_handoff/report_generation.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
+    print(json.dumps(manifest,ensure_ascii=False),flush=True)
+if __name__=='__main__':main()

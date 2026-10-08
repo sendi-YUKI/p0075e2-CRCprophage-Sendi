@@ -1,0 +1,228 @@
+{
+  "reads-assembly": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:fdb03ccc10358addd9704974425c12ebda6ac2f9cb67e7dcba0775b351d49912",
+    "lock_sha256": "d2370adcbd21b75c50f21f58fb1b4fc70e0a048747ce6c4243d4a258124a04ab",
+    "native_environment": "reads-assembly",
+    "native_manifest_sha256": "97798b88fea6a9fbc91bbac88a2f5a1a0f1e8183c8589cd0a837e937142f299b",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-assembly/.pixi/envs/default",
+    "native_runtime_fingerprint": "1a2cee3c6fe1fe685fd334f45e6b124924736a26c40798543df78c4b528a926b",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "reads-assembly",
+      "lock_sha256": "d2370adcbd21b75c50f21f58fb1b4fc70e0a048747ce6c4243d4a258124a04ab",
+      "manifest_sha256": "97798b88fea6a9fbc91bbac88a2f5a1a0f1e8183c8589cd0a837e937142f299b",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "bowtie2": {
+          "expected_version": "2.5.4",
+          "observed_version": "2.5.4"
+        },
+        "megahit": {
+          "expected_version": "1.2.9",
+          "observed_version": "1.2.9"
+        },
+        "quast": {
+          "expected_version": "5.3.0",
+          "observed_version": "5.3.0"
+        },
+        "samtools": {
+          "expected_version": "1.22.1",
+          "observed_version": "1.22.1"
+        },
+        "spades": {
+          "expected_version": "4.2.0",
+          "observed_version": "4.2.0"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-assembly:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  },
+  "reads-bakta": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:0a3d128031b2d4fabb44aee480c65b9affe2693e52d07862190edeae7c66355b",
+    "lock_sha256": "9a37b87d0f92f7f8bb233f05dbfab74eac657e977c55244adcea80b8d1d46206",
+    "native_environment": "reads-bakta",
+    "native_manifest_sha256": "bdbb109724591d712eaa3eb19475ee027e052ff091806c265604de641922c034",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-bakta/.pixi/envs/default",
+    "native_runtime_fingerprint": "dcb6aff5ea6cd231f678160a3b3f25fd008ae00efb1a98e2430d7f29c355fbb0",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "reads-bakta",
+      "lock_sha256": "9a37b87d0f92f7f8bb233f05dbfab74eac657e977c55244adcea80b8d1d46206",
+      "manifest_sha256": "bdbb109724591d712eaa3eb19475ee027e052ff091806c265604de641922c034",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "bakta": {
+          "expected_version": "1.11.4",
+          "observed_version": "1.11.4"
+        },
+        "ncbi-amrfinderplus": {
+          "expected_version": "4.2.7",
+          "observed_version": "4.2.7"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-bakta:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  },
+  "reads-fetch": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:d20916fe19c933916c09286aa35cb0962f9de218d30c688ac37f1526367084b3",
+    "lock_sha256": "989b619c5c1e6b0669c9af81ed1ab549a34fa6477944c6061a4a74e2ec4d5e8e",
+    "native_environment": "reads-fetch",
+    "native_manifest_sha256": "71165cceebed3034982718ce450b389b520b403022119e7e2a5e0485adcfab91",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-fetch/.pixi/envs/default",
+    "native_runtime_fingerprint": "ab9e02c6332298f8691e941b6999b79565c065127cd57097c4896a8f064c7a30",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "reads-fetch",
+      "lock_sha256": "989b619c5c1e6b0669c9af81ed1ab549a34fa6477944c6061a4a74e2ec4d5e8e",
+      "manifest_sha256": "71165cceebed3034982718ce450b389b520b403022119e7e2a5e0485adcfab91",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "ncbi-datasets-cli": {
+          "expected_version": "18.9.0",
+          "observed_version": "18.9.0"
+        },
+        "sra-tools": {
+          "expected_version": "3.2.1",
+          "observed_version": "3.2.1"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-fetch:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  },
+  "reads-metaphlan": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:1d1b951beb093ab1110f8488ec3b5b7898fa2b0e9320d066fb8bfa492a9059a9",
+    "lock_sha256": "7f0b97bb0fedb8f39e9eb34d9e3ac0f51dd3d9a872f2060f275094b2fc4119d1",
+    "native_environment": "reads-metaphlan",
+    "native_manifest_sha256": "25326162768a7b7d902ebe9d87e361d2b2c5ea1a84c75d493a7a8b3d844f5a92",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-metaphlan/.pixi/envs/default",
+    "native_runtime_fingerprint": "753db0db9f568354f99b5b3f38e7c43c7324b5f109ea2d0e75cb989ba395080b",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "reads-metaphlan",
+      "lock_sha256": "7f0b97bb0fedb8f39e9eb34d9e3ac0f51dd3d9a872f2060f275094b2fc4119d1",
+      "manifest_sha256": "25326162768a7b7d902ebe9d87e361d2b2c5ea1a84c75d493a7a8b3d844f5a92",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "bowtie2": {
+          "expected_version": "2.5.4",
+          "observed_version": "2.5.4"
+        },
+        "metaphlan": {
+          "expected_version": "4.2.4",
+          "observed_version": "4.2.4"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-metaphlan:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  },
+  "reads-qc": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:32226d0e01b3af31509d35ca01e99836cfe7e3530146c7f4631f927d67ca9dc7",
+    "lock_sha256": "d8f6cce02a12d962e9bf2fb073aeb5c195dc1fa64a45e44883a661d87dfbbde1",
+    "native_environment": "reads-qc",
+    "native_manifest_sha256": "22cf15b0eec61ce25bc21aa3ae5ceba858e322a6e74ce7e4ff4a379df0677928",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-qc/.pixi/envs/default",
+    "native_runtime_fingerprint": "dc53fe5eedd501ba75c1e4d642f39e2f85f9ae9674c98a69ac9c2de188854b71",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "reads-qc",
+      "lock_sha256": "d8f6cce02a12d962e9bf2fb073aeb5c195dc1fa64a45e44883a661d87dfbbde1",
+      "manifest_sha256": "22cf15b0eec61ce25bc21aa3ae5ceba858e322a6e74ce7e4ff4a379df0677928",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "bowtie2": {
+          "expected_version": "2.5.4",
+          "observed_version": "2.5.4"
+        },
+        "fastp": {
+          "expected_version": "0.24.0",
+          "observed_version": "0.24.0"
+        },
+        "fastqc": {
+          "expected_version": "0.12.1",
+          "observed_version": "0.12.1"
+        },
+        "multiqc": {
+          "expected_version": "1.32",
+          "observed_version": "1.32"
+        },
+        "samtools": {
+          "expected_version": "1.22.1",
+          "observed_version": "1.22.1"
+        },
+        "viromeqc": {
+          "expected_version": "1.0.2",
+          "observed_version": "1.0.2"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-qc:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  },
+  "viral-gene": {
+    "container": null,
+    "container_executed": false,
+    "legacy_container_reference": "sha256:bcb38bcbde0091f05795045013a9428176c9c4f35a6a21dbeca18e6e85c714f6",
+    "lock_sha256": "e456b830e5be0d5827ddc0f6accd3ce9c6cbc43725ad9b48880be47c607afbe5",
+    "native_environment": "viral-gene",
+    "native_manifest_sha256": "6d738f5b99bc9db8b3eef6a402290c532e818de2e7a2813c29b0c32c626e9ab1",
+    "native_prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-viral-gene/.pixi/envs/default",
+    "native_runtime_fingerprint": "63a7602da52a4efcb460eae60a4adccbf710b035febf5d8e5f7af6e8241e59d5",
+    "native_runtime_identity": {
+      "activation_env": {},
+      "environment": "viral-gene",
+      "lock_sha256": "e456b830e5be0d5827ddc0f6accd3ce9c6cbc43725ad9b48880be47c607afbe5",
+      "manifest_sha256": "6d738f5b99bc9db8b3eef6a402290c532e818de2e7a2813c29b0c32c626e9ab1",
+      "platform": "linux-aarch64",
+      "schema_version": 1,
+      "tools": {
+        "pyrodigal": {
+          "expected_version": "3.7.1",
+          "observed_version": "3.7.1"
+        },
+        "pyrodigal-gv": {
+          "expected_version": "0.3.2",
+          "observed_version": "0.3.2"
+        }
+      }
+    },
+    "platform": "linux-aarch64",
+    "runtime": "native-locked-prefix",
+    "software_execution_checked": true,
+    "tag": "crc-phage/viral-gene:locked",
+    "write_guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+  }
+}

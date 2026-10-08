@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "exit_status": 0,
+    "session_id": "a0698c2d-5425-483a-95cc-c436aaeadd61",
+    "current_target": "READS_B1_B2_BUILD",
+    "workflow": "B1",
+    "real_data_validated": false,
+    "scientifically_calibrated": false
+}

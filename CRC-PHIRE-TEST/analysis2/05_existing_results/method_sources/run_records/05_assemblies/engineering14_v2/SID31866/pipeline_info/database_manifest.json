@@ -1,0 +1,348 @@
+{
+  "reads_databases": {
+    "bakta": {
+      "amrfinder_database_version": "2026-08-07.1",
+      "amrfinder_source_lock": "/srv/CRC-PHIRE/projects/crc-pipeline/assets/viral_amrfinder_20260807.lock.json",
+      "amrfinder_source_lock_sha256": "8d2c50669a47673b9cbfad83bcd518a6a9a24ee3331b7dd3af392deeed38789b",
+      "full_bakta_annotation_tested": false,
+      "inventory": "/srv/CRC-PHIRE/databases/bakta/6.0-full/inventory.spark.json",
+      "inventory_sha256": "a60f4aafa338275ab2d40fdc1a3f7f38a4ed33490d47d15635fa7897bcfa623b",
+      "native_index_compatibility_checked": true,
+      "native_index_compatibility_scope": "Historical job729 flag covers AMRFinder fixed 2026-08-07.1 only; eight other used-index families require separate probe receipt",
+      "path": "/srv/CRC-PHIRE/databases/bakta/6.0-full/db",
+      "real_data_validated": false,
+      "source": {
+        "bytes": 31921769288,
+        "path": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/bakta-full-6.0-db.tar.xz",
+        "sha256": "48f9a7960bf456c61b1059edd4936909219f15be5c6d7f341cc141d6059ac562",
+        "source_reused": true,
+        "transfer_records": [
+          {
+            "bytes": 31921769288,
+            "extraction": "deferred_until_site_execution_policy_allows",
+            "filename": "bakta-full-6.0-db.tar.xz",
+            "id": "bakta",
+            "official_source": "https://zenodo.org/api/records/14916843/files/db.tar.xz/content",
+            "sha256": "48f9a7960bf456c61b1059edd4936909219f15be5c6d7f341cc141d6059ac562",
+            "source_SHA_reverified": true,
+            "source_filename": "db.tar.xz",
+            "source_path": "/srv/CRC-PHIRE/databases/bakta/6.0-full/db.tar.xz",
+            "source_reused": true,
+            "target_staging": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/bakta-full-6.0-db.tar.xz",
+            "version": "6.0-full"
+          }
+        ]
+      },
+      "status": "ready",
+      "symlinks": [
+        {
+          "path": "amrfinderplus-db/latest",
+          "target": "2026-08-07.1"
+        }
+      ],
+      "synthetic_amr_probe_executed": true,
+      "version": "6.0-full"
+    },
+    "human": {
+      "fasta": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47/GRCh38.primary_assembly.genome.fa",
+      "fasta_sha256": "e49b92b3e4f321bf254c042f25b726d9931c4d74c7523e8b6bb530e63b0cfd4b",
+      "files": [
+        {
+          "bytes": 991300137,
+          "path": "bowtie2/human.1.bt2l",
+          "sha256": "abd024f3d9c1e77dad5f07c3dded1f7e68c7463c5395fd19359512d1e6a85a47"
+        },
+        {
+          "bytes": 1474313884,
+          "path": "bowtie2/human.2.bt2l",
+          "sha256": "70b4de406ea666b16cb85c21f9dc9d4f46ff56dec927adf0cb43d3a282907c2f"
+        },
+        {
+          "bytes": 21500,
+          "path": "bowtie2/human.3.bt2l",
+          "sha256": "4714c623ae883855ffda2fc981c68117f1e875311fdd13efcccaf22152a263c6"
+        },
+        {
+          "bytes": 737156939,
+          "path": "bowtie2/human.4.bt2l",
+          "sha256": "cc0f2ba6e6e637780bc233ef30772558f9457df0fbd1fd4fb717d675caf9679b"
+        },
+        {
+          "bytes": 991300137,
+          "path": "bowtie2/human.rev.1.bt2l",
+          "sha256": "8bdb5e3d8749438e9cab1e67be4303a57756c7b1bfa303b2c51b0d709ce2302f"
+        },
+        {
+          "bytes": 1474313884,
+          "path": "bowtie2/human.rev.2.bt2l",
+          "sha256": "34fca9558c32136c1de3ea5ff6bbb466ced895fd7d1632f7202f0b85df26af2b"
+        },
+        {
+          "bytes": 3151417447,
+          "path": "GRCh38.primary_assembly.genome.fa",
+          "sha256": "e49b92b3e4f321bf254c042f25b726d9931c4d74c7523e8b6bb530e63b0cfd4b"
+        }
+      ],
+      "index_prefix": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47/bowtie2/human",
+      "native_index_receipt": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47/native_index.spark.json",
+      "native_index_receipt_sha256": "f59087dfcd21ef71e251a3b683834face1bf19e2191de3524d41ceac2eabedbe",
+      "path": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47",
+      "real_data_validated": false,
+      "source": {
+        "bytes": 845635028,
+        "path": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/GRCh38.primary_assembly.genome.fa.gz",
+        "sha256": "fca1b272425c11d5fa3ab11b2052e815d1b00de722b49617d7819cc998eb1fc1",
+        "source_reused": true,
+        "transfer_records": [
+          {
+            "bytes": 845635028,
+            "extraction": "deferred_until_site_execution_policy_allows",
+            "filename": "GRCh38.primary_assembly.genome.fa.gz",
+            "id": "human",
+            "official_source": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/GRCh38.primary_assembly.genome.fa.gz",
+            "sha256": "fca1b272425c11d5fa3ab11b2052e815d1b00de722b49617d7819cc998eb1fc1",
+            "source_SHA_reverified": true,
+            "source_filename": "GRCh38.primary_assembly.genome.fa.gz",
+            "source_path": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47/GRCh38.primary_assembly.genome.fa.gz",
+            "source_reused": true,
+            "target_staging": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/GRCh38.primary_assembly.genome.fa.gz",
+            "version": "GRCh38-GENCODE-v47-primary"
+          }
+        ]
+      },
+      "status": "ready",
+      "version": "GRCh38-GENCODE-v47-primary"
+    },
+    "metaphlan": {
+      "files": [
+        {
+          "bytes": 123,
+          "path": ".extracted_mpa_vJan25_CHOCOPhlAnSGB_202503.tar.json",
+          "sha256": "3f80cf2c8aa5f851fb2165471237129376d8fbab7ca01d430659aa56598750d3"
+        },
+        {
+          "bytes": 124,
+          "path": ".extracted_mpa_vJan25_CHOCOPhlAnSGB_202503_bt2.tar.json",
+          "sha256": "8af4e432933c4bf76def69050a48d9919f282a1eda418dbbd8206241340734fb"
+        },
+        {
+          "bytes": 6665962881,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.1.bt2l",
+          "sha256": "aa5abf2cef5403589fc0c930a804e1532f19570215468130e43487d5dfb3ddb4"
+        },
+        {
+          "bytes": 8612158876,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.2.bt2l",
+          "sha256": "733defb2c4370bf7d8c16d4b66443ec5c66e19c533a2045b022ad29e7570a825"
+        },
+        {
+          "bytes": 195304631,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.3.bt2l",
+          "sha256": "1a7311ccfabf8840d031c4a04c31d9b9d71a6c0b09003234fdbd67102d5a7bdf"
+        },
+        {
+          "bytes": 4306079434,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.4.bt2l",
+          "sha256": "4b8efbefcf2b409a09dff555abd702923ae8b11ea252dba9bd3263821227c05f"
+        },
+        {
+          "bytes": 2134075,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.nwk",
+          "sha256": "805290852b85af231c73647a8229b699f0875fd3c64bd9395bc8880f847b06ea"
+        },
+        {
+          "bytes": 461,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.nwk.source.json",
+          "sha256": "6cb302a7e88c846dc96a05945501f1c6466cf55417a4666b4a03fc5bcc5c0d36"
+        },
+        {
+          "bytes": 163915626,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.pkl",
+          "sha256": "e7d23a73a7959b4f41af0bbe403f4b5bbb7c1879528d376d146ee5294515df9a"
+        },
+        {
+          "bytes": 6665962881,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.rev.1.bt2l",
+          "sha256": "417b49a603fb3c2e8bbf5e064ea7448d68dcf378b8d403ff109dc33d07ffc955"
+        },
+        {
+          "bytes": 8612158876,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503.rev.2.bt2l",
+          "sha256": "e237e8099338fb99d0fa0771e04e6d0ae264458f31f4bd645cff9f222032ec86"
+        },
+        {
+          "bytes": 17191810575,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna",
+          "sha256": "96be52fa147d074df6a1eaaaf2024f1371bec6abf8469f6c29a342d07b847d99"
+        },
+        {
+          "bytes": 4772935883,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna.bz2",
+          "sha256": "771c92ad2e023b4b68b794475557ac5c344348dafef87ae1c14918df396e358f"
+        },
+        {
+          "bytes": 150936,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503_VINFO.csv",
+          "sha256": "7162e9895aba6f170797ad8d19e4d926ed0a5aea9c0888b54608249027497b14"
+        },
+        {
+          "bytes": 884015808,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna",
+          "sha256": "a65260d39b58df73246c0778792d3ad99d6976ba2a6d9cd4ca11d1dfdbc4a5f9"
+        },
+        {
+          "bytes": 181901092,
+          "path": "mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna.bz2",
+          "sha256": "2e20c5569c6c084a85c0ff1ef1837a536d4f939a235a3dc57d40fe4b35fdfbf1"
+        }
+      ],
+      "index": "mpa_vJan25_CHOCOPhlAnSGB_202503",
+      "installation_integrity_receipt": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/databases/20260923T141922001476Z-job729/metaphlan/metaphlan_installation_integrity.json",
+      "installation_integrity_receipt_sha256": "457d875b401346e8fb4aa4a3633c39456741d973b7a98ecd4610ec5435c3925a",
+      "manifest": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503.database_manifest.spark.json",
+      "manifest_sha256": "0eb83467a7d96098c0e3397cbce2ba659723ea5758974db705f28bf5219450ab",
+      "native_index_compatibility_checked": true,
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503",
+      "real_data_validated": false,
+      "required_memory_gb": 30,
+      "source_receipt": "/srv/CRC-PHIRE/projects/crc-pipeline/assets/spark_metaphlan_database.json",
+      "source_receipt_sha256": "b45d575a8eef81180dd12bdd8deb3a0d21491f95aa4def4a8b4f3d43b9e3d021",
+      "status": "ready",
+      "version": "mpa_vJan25_CHOCOPhlAnSGB_202503"
+    },
+    "viromeqc": {
+      "files": [
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.1.bt2",
+          "sha256": "5d7e14eb9662a433e30db3c0bac31a37c819a7764f7f8a535083b8a7978bd531"
+        },
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.2.bt2",
+          "sha256": "77443df4bcdf6b6f7abc6ede6ede9158dd31c8a75166b2ae485e9ed1eb92c466"
+        },
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.3.bt2",
+          "sha256": "0338681a30d9e0b6cc06a57b5f8d0cb725bb3f47afff92b7d3fc1fd30ee54415"
+        },
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.4.bt2",
+          "sha256": "cf84e9057c5e79891e876675e6c02a64e08af5c397965d151c2f0cd6f916c7de"
+        },
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.rev.1.bt2",
+          "sha256": "7bc8594717c83b2c984429fa36843670cce456653644f669a6eb164451022a64"
+        },
+        {
+          "path": "SILVA_132_LSURef_tax_silva.clean.rev.2.bt2",
+          "sha256": "8605a24d22acc76270457f73c197e047c1fac12047db6ea0f2a25b905a01f6e1"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.1.bt2",
+          "sha256": "d4b30f49b91fbb39b32a2e2665f64e91c3f7701d9ddce9146f6d790b81aecf44"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.2.bt2",
+          "sha256": "be50993a9c8db988a7d77945ad13e376305f3c97559aeeab5aaae94ddf2ea829"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.3.bt2",
+          "sha256": "7b98bd03d77974d15b3a4a1b3b98b6ca03e444fd8980fdfbe0e449029c20e871"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.4.bt2",
+          "sha256": "0146e20e2e78edc3f6b6f2ba13cc260b519a179337cd4a65e61a34512d5460f6"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.rev.1.bt2",
+          "sha256": "9025871528b4791167ea8f1b69c931db41b9419d708ee2e455465b64857a1a8d"
+        },
+        {
+          "path": "SILVA_132_SSURef_Nr99_tax_silva.clean.rev.2.bt2",
+          "sha256": "dc9e5544387dbacb64ac0de3aa99e32ada7dea81572cf98b55cd40b1316f6238"
+        },
+        {
+          "path": "amphora_bacteria.dmnd",
+          "sha256": "ed8315d65a73c20a37e001fbd8245e338ac193fa2bf577aca5b785e3dc5be792"
+        },
+        {
+          "path": "amphora_bacteria_294.dmnd",
+          "sha256": "bcedf6a0d6240317ef7f945441135e3ee123d6c81cfce35b941574a15b45d718"
+        }
+      ],
+      "native_index_compatibility_checked": true,
+      "path": "/srv/CRC-PHIRE/databases/viromeqc/zenodo-4020594/index",
+      "real_data_validated": false,
+      "sources": [
+        {
+          "bytes": 6261926,
+          "path": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/amphora_markers.zip",
+          "sha256": "864edb6e706ee99cf75d035dd49378b8e08564fe1545b74b733f4aa43ac2febb",
+          "source_reused": true,
+          "transfer_records": [
+            {
+              "bytes": 6261926,
+              "extraction": "deferred_until_site_execution_policy_allows",
+              "filename": "amphora_markers.zip",
+              "id": "viromeqc_amphora",
+              "official_source": "https://zenodo.org/api/records/4020594/files/amphora_markers.zip/content",
+              "sha256": "864edb6e706ee99cf75d035dd49378b8e08564fe1545b74b733f4aa43ac2febb",
+              "source_SHA_reverified": true,
+              "source_filename": "amphora_markers.zip",
+              "source_path": "/srv/CRC-PHIRE/databases/viromeqc/zenodo-4020594/amphora_markers.zip",
+              "source_reused": true,
+              "target_staging": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/amphora_markers.zip",
+              "version": "zenodo-4020594"
+            }
+          ]
+        },
+        {
+          "bytes": 813559850,
+          "path": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/SILVA_132_SSURef_Nr99_tax_silva.clean.zip",
+          "sha256": "49e9fdd5c307faf61ce87e5caa92d3cb72f4cf6e9962efa62efc3c586722fc68",
+          "source_reused": true,
+          "transfer_records": [
+            {
+              "bytes": 813559850,
+              "extraction": "deferred_until_site_execution_policy_allows",
+              "filename": "SILVA_132_SSURef_Nr99_tax_silva.clean.zip",
+              "id": "viromeqc_ssu",
+              "official_source": "https://zenodo.org/api/records/4020594/files/SILVA_132_SSURef_Nr99_tax_silva.clean.zip/content",
+              "sha256": "49e9fdd5c307faf61ce87e5caa92d3cb72f4cf6e9962efa62efc3c586722fc68",
+              "source_SHA_reverified": true,
+              "source_filename": "SILVA_132_SSURef_Nr99_tax_silva.clean.zip",
+              "source_path": "/srv/CRC-PHIRE/databases/viromeqc/zenodo-4020594/SILVA_132_SSURef_Nr99_tax_silva.clean.zip",
+              "source_reused": true,
+              "target_staging": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/SILVA_132_SSURef_Nr99_tax_silva.clean.zip",
+              "version": "zenodo-4020594"
+            }
+          ]
+        },
+        {
+          "bytes": 398871002,
+          "path": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/SILVA_132_LSURef_tax_silva_clean.zip",
+          "sha256": "e7e618e90afaf7cfe54545a2695363dcc2b6cb950460c817f76b8c8851935315",
+          "source_reused": true,
+          "transfer_records": [
+            {
+              "bytes": 398871002,
+              "extraction": "deferred_until_site_execution_policy_allows",
+              "filename": "SILVA_132_LSURef_tax_silva_clean.zip",
+              "id": "viromeqc_lsu",
+              "official_source": "https://zenodo.org/api/records/4020594/files/SILVA_132_LSURef_tax_silva_clean.zip/content",
+              "sha256": "e7e618e90afaf7cfe54545a2695363dcc2b6cb950460c817f76b8c8851935315",
+              "source_SHA_reverified": true,
+              "source_filename": "SILVA_132_LSURef_tax_silva_clean.zip",
+              "source_path": "/srv/CRC-PHIRE/databases/viromeqc/zenodo-4020594/SILVA_132_LSURef_tax_silva_clean.zip",
+              "source_reused": true,
+              "target_staging": "/srv/CRC-PHIRE/projects/.crc-pipeline-transfer/20260923/databases/SILVA_132_LSURef_tax_silva_clean.zip",
+              "version": "zenodo-4020594"
+            }
+          ]
+        }
+      ],
+      "status": "ready",
+      "version": "zenodo-4020594"
+    }
+  },
+  "verified_workflow_assets": {}
+}

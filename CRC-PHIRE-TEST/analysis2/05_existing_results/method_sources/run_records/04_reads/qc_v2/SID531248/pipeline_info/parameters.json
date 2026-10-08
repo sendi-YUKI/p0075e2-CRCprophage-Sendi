@@ -1,0 +1,10 @@
+{
+  "assembly_memory_gib": 40,
+  "assembly_threads": 16,
+  "database_manifest": "/srv/CRC-PHIRE/databases/reads_database_manifest.spark.json",
+  "human_index": "/srv/CRC-PHIRE/databases/human/GRCh38-GENCODE-v47/bowtie2/human",
+  "outdir": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248",
+  "preprocessing_profile": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/assets/profiles/reads_preprocessing_dev_v1.json",
+  "raw_reads_manifest": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248/r0/raw_reads_manifest.json",
+  "software_manifest": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248/pipeline_info/reads_tools.native.json"
+}

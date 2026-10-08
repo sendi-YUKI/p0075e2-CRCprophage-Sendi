@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "date": "2026-10-08",
+  "reviewer": "Codex visual inspection",
+  "figures": {
+    "Fig01_host_context.png": {
+      "sha256": "ca4a311ea9f3f213bf1e6d55546371a29a7d1f3368d5fd8457ffbfeab858b742",
+      "visual_review": "passed",
+      "reviewed": "labels_and_axes_legible_no_clipped_content_data_levels_and_captions_checked"
+    },
+    "Fig02_measurement_diagnosis.png": {
+      "sha256": "3ab83ebcd89c1b5328734f2e709c5439a1ecc7d2a22330ba155fb263550301d1",
+      "visual_review": "passed",
+      "reviewed": "labels_and_axes_legible_no_clipped_content_data_levels_and_captions_checked"
+    },
+    "Fig03_locus_coverage.png": {
+      "sha256": "46022a9645d5c935e7c436955d4c39d8119e890aab3316f3c007f3fa0d671401",
+      "visual_review": "passed",
+      "reviewed": "labels_and_axes_legible_no_clipped_content_data_levels_and_captions_checked"
+    },
+    "Fig04_replication_feasibility.png": {
+      "sha256": "163a0f96c2990d68b9c9de7d02723afee7695f92bd745a7d0799d39c1cfdc271",
+      "visual_review": "passed",
+      "reviewed": "labels_and_axes_legible_no_clipped_content_data_levels_and_captions_checked"
+    }
+  },
+  "host_figure_correction": "Moved bottom-row annotation away from nonreported data points; positive abundance values are not clipped to plotting floor."
+}

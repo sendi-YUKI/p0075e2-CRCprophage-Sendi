@@ -1,0 +1,4 @@
+group	shared_project	status	required_action
+ZELLER_FR_2014_vs_WIRBEL_DE_2019	PRJEB6070	pending_subject_mapping	Assign original French/German subset before any discovery/holdout manifest; deduplicate biosample and donor.
+THOMAS_IT_A_2019_vs_THOMAS_IT_B_2019	PRJNA447983	pending_original_center_mapping	Map original center and participant IDs; shared-study sensitivity; do not treat project twice.
+YACHIDA_JP_2019_vs_Thomas_Japan_subset	PRJDB4176	policy_fixed_not_a_separate_cohort	Do not count reused 80-sample Japanese subset as a tenth cohort; reconcile donor/timepoint within Yachida.

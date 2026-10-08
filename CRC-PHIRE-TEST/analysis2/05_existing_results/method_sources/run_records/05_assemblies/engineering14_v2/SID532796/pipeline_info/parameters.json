@@ -1,0 +1,8 @@
+{
+  "assembly_memory_gib": 40,
+  "assembly_threads": 16,
+  "clean_reads_manifest": "/srv/CRC-PHIRE/analysis1/04_reads/merged_v2/SID532796.json",
+  "database_manifest": "/srv/CRC-PHIRE/databases/reads_database_manifest.spark.json",
+  "enable_phispy": false,
+  "outdir": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID532796"
+}

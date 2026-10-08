@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "synthetic_preview": false,
+  "utc": "2026-10-08T07:59:12.195143+00:00",
+  "job_id": "1129",
+  "selected_occurrences": 20,
+  "maximum_occurrences": 20,
+  "selection": "M predicted provirus with mapped vOTU; broad G-M match first, then CheckV Complete/High, pooled detected donor count, length, occurrence ID; no P/effect selection",
+  "boundary_repeat_rule": "Exact same-orientation 15-60bp repeat in +/-250bp windows, Shannon entropy>=1.5; heuristic candidate only, not confirmed att; does not alter boundaries",
+  "junction_rule": "Existing same-sample assembly BAM; MAPQ>=20, exclude unmapped/secondary/supplementary/QCfail/duplicate; a continuous CIGAR block anchors >=20bp each side with baseQ>=20; fragment names deduplicated per boundary",
+  "interpretation": "Supports local assembly continuity at proposed boundary, not exact biological attachment site, patient host species, excision or inducibility. No reads is not evidence of biological absence. Same reads were used to assemble.",
+  "samtools_version": "samtools 1.22.1",
+  "bams": [
+    {
+      "sample_id": "SID31160",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering2_v1/SID31160/assemblies/units/SID31160_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/96/96afb5c7321c6396238c4547af6f8676c9e290a74be29cf043de498ca498fa8d",
+      "sha256": "96afb5c7321c6396238c4547af6f8676c9e290a74be29cf043de498ca498fa8d",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID31160.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID31512",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID31512/assemblies/units/SID31512_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/c1/c17f08600055461f8b6871108f97490bab2058cd7c1a0e4038e0ad4ee5c5459c",
+      "sha256": "c17f08600055461f8b6871108f97490bab2058cd7c1a0e4038e0ad4ee5c5459c",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID31512.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID31866",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID31866/assemblies/units/SID31866_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/68/68124b5bfd9a0f45f9c376668d4dde604aaeeea32ddb0ea59363db5669c473bd",
+      "sha256": "68124b5bfd9a0f45f9c376668d4dde604aaeeea32ddb0ea59363db5669c473bd",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID31866.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID530368",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530368/assemblies/units/SID530368_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/b6/b69892a3deb9d01bcb063b0358a0ffb5094bb5d67f0fa56bd674afe6aa5e8563",
+      "sha256": "b69892a3deb9d01bcb063b0358a0ffb5094bb5d67f0fa56bd674afe6aa5e8563",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID530368.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID530373",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373/assemblies/units/SID530373_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/66/66ed1eadb137c57f5459603f092eaec7876463b7450099b84b5763ee256be6e5",
+      "sha256": "66ed1eadb137c57f5459603f092eaec7876463b7450099b84b5763ee256be6e5",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID530373.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID531248",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID531248/assemblies/units/SID531248_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/33/3380d3898f180a5fb8dcea1cf87d3031ecf8dcc226bf1f60e730426613a73c43",
+      "sha256": "3380d3898f180a5fb8dcea1cf87d3031ecf8dcc226bf1f60e730426613a73c43",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID531248.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID531361",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID531361/assemblies/units/SID531361_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/ea/ea83c757b1d62cf0f3acf4db21d70542be4048abc6a787cef81352e05c8c57b8",
+      "sha256": "ea83c757b1d62cf0f3acf4db21d70542be4048abc6a787cef81352e05c8c57b8",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID531361.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID531469",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering2_v1/SID531469/assemblies/units/SID531469_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/f7/f7c502da554f5965e96fea2ea80ad23718be8d5f82711f8aff9de3a5862f4f35",
+      "sha256": "f7c502da554f5965e96fea2ea80ad23718be8d5f82711f8aff9de3a5862f4f35",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID531469.bai",
+      "status": "verified_existing_bam_new_external_index"
+    },
+    {
+      "sample_id": "SID532796",
+      "path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID532796/assemblies/units/SID532796_assembly/readback.bam",
+      "resolved_path": "/mnt/nas/m5b/user/sendi/CRC-PHIRE-TEST/analysis1/archives/completed_intermediates_v1/0a/0a5d3dfac681204f531d4d1d444913e306e4a09ef1dcef694754eb00839527d9",
+      "sha256": "0a5d3dfac681204f531d4d1d444913e306e4a09ef1dcef694754eb00839527d9",
+      "index": "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/candidate_review/bam_indexes/SID532796.bai",
+      "status": "verified_existing_bam_new_external_index"
+    }
+  ],
+  "input_sha256": {
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/prophage_evidence/evidence_manifest.json": "1b82e9bff71c8aa24debd792fc356f6a9c487e88550cdae9d771fa1ad01d5024",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/exploratory/exploratory_manifest.json": "229d5cdec6fcd2051aa6f6cee052883c976e3a2629391304f66beed167081c97",
+    "/srv/CRC-PHIRE/analysis1/12_reports/pilot10/G_M_sequence_matches.tsv": "a3b22260db4447e02a13bf1c6a5c107c574cabc5c50e6f036205e937dc58d805",
+    "/srv/CRC-PHIRE/analysis1/01_manifests/pilot10_frozen_assemblies.json": "a90f70ad63705ccdf37e9b8e150bb285d443a881dffd233e1664c40ea203ecb1",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/pipeline_info/terminal_output_manifest.json": "ea48d3f18d7f66af97e785860add3cbbf0695069abad5b44506ad4a32411200d",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/genes/gene_table.tsv": "39ca22bf081c1d971048e5ae7de4a3678666dac1c00182c7f07aa20db7fefe7e",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/genes/gene_calling_status.json": "7eb8a72e72ea1610e6c85e1bb3435f7c236a5b51b4e50d386b37d143f9279358",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/functions/function_hits.tsv": "6c65266f3de9192f89db878b942b867a0dd984e3a8b0bfde41aee0392b6471d1",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/functions/viral_function_status.json": "d8a5165f2946ec6addd9c330644a1ede801834bc1e2704c641a5b869dcb872bd",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/functions/systems.tsv": "779fbd4337dd5dd488b9926e0d5dc36c87fe1fed9fcf3c979a46b0684ccc23e9",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/functions/system_hits.tsv": "05e60165ba9c848bbcf074fc11e5d150cbe2913d6bd4b232a7a921e67cf0ea2e",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/viral_kofam/kofam/viral_member_ko_counts.tsv": "289a692ec79eed1559705c327716c6b2a9aff7a91417d41b2e2b65df0000d927",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/viral_kofam/kofam/viral_ko_manifest.json": "7e99437bb5981f7983f319d9e9671ee8a790228e2e857f864464fe0ae4ad29ca",
+    "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined/catalog/vOTU_members.tsv": "42214925b0bf49f3faac6751e6615873da54bfc23ded1c4435aded41e412081a",
+    "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/assets/spark_dependencies.json": "a9edb8148c9df6605b30778485c7788adc4466494b9f39bc182f597c57cb40d5",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering2_v1/SID31160/assemblies/units/SID31160_assembly/assembly.fna": "41efce10e6c8695b55fa6fc266055fadb7059674cc0bc75c170a59cd882c9934",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID31160.json": "5a15a7687eb5db32fa3ea02f651e36ec0cf1a0b46866325dd51d191df55c017a",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID31512/assemblies/units/SID31512_assembly/assembly.fna": "62c6ff40282fbdc827422fdf194c994e1b5d562969d1dfdca41aaf5001bdafe6",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID31512.json": "18f4fa9a213635ed67fb6c2933a580782b32f279a676402c7f520a54fb6f96ad",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID31866/assemblies/units/SID31866_assembly/assembly.fna": "73a5f2ec7a1fbdad21d5df690440b9e45aa63cb0298befa48d84341c4454e081",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID31866.json": "f2cd0581f589b76fc0c8f522d94269989e0aa0e88744a23dff0775d769f67b07",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530368/assemblies/units/SID530368_assembly/assembly.fna": "d3e25939894d1db6f2645eb9c7874ba1460e68dcdf82f71c958b7fa8603435c5",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID530368.json": "743d0e31cd7f744407a5b7b0917e6ff77aba823210928d75cf582a8d6bcc24b1",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373/assemblies/units/SID530373_assembly/assembly.fna": "a595af98ed800f7f04cea810e5028df5fc3cd14c72e107381d820d78279ccec6",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID530373.json": "e1a73feefb61b28338f51c3deda5b93c01a3f5944db0186ee5d5355b97eda3f6",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID531248/assemblies/units/SID531248_assembly/assembly.fna": "e163e4d834bfd4febbe3abb22cd8e6dab44d8e933ed225e5d8b31e63f9d5f47d",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID531248.json": "34ffdd23d1976470667e2ae470f1285054b52371410312c19c0f6910f329fb96",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID531361/assemblies/units/SID531361_assembly/assembly.fna": "a7bd65b305ed83992cca53cdacd21f46ca6f92a319bcea41abe937fc9b86e265",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID531361.json": "28efd7302dbf4c4ed6d929c97a6f712c696b084db43c82f3834a41b42c8178ab",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering2_v1/SID531469/assemblies/units/SID531469_assembly/assembly.fna": "67e3a3e072d68a4febba3526e500953a35e02d5bab3854d7eb7f9d907abe25f2",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID531469.json": "eddf27c0d04670270fdcd71178efb7921eb29a74585689366c7428a8a8279427",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID532796/assemblies/units/SID532796_assembly/assembly.fna": "852f35aadad3c1974c0576bd1361f3f7d36f41bf28704ae00f01e6d0c0fb838b",
+    "/srv/CRC-PHIRE/analysis1/13_handoff/archive_SID532796.json": "446bb72810446b7a6e1e2e7a20bf7a20866bcdc94d4f40d8a066d35c1fbd8c5c"
+  },
+  "script_sha256": "874f8224bfe2937238e888ab7b71d80672274587599b094fea84c85a4d16aa5d",
+  "outputs": {
+    "candidate_gene_context.tsv": "44fc3b7206e3fa94799f41878878ae7afdb60612561f2c486e80720adca02604",
+    "junction_read_support.tsv": "3967787e6e532a6cb8cf57eaed269d2da425ce1de363b01980828a5792e0037c",
+    "boundary_repeat_candidates.tsv": "548ec701fb335cf6d02e34c9d43af076423e971259990311a352ad5230c3ba30",
+    "selected_occurrences.tsv": "8c42a3d67d10568ecc187a0db47b2316c2bed07a0b3e7eb6dba2dbc827e19451",
+    "commands.json": "460bf31ea81971d9acedbec3bdd1129f7bb7778157b8d3db8ad73ec14711204f",
+    "bam_indexes/SID531469.bai": "d6a825f4c4da5d706a5c9a6c1aaeeb17d3e0e589cdc58659f537664c1e867daf",
+    "bam_indexes/SID31866.bai": "debfb9b4ed00db6a389a964ac8476961663c28012f0c5c08707c78ecc95f7f49",
+    "bam_indexes/SID531248.bai": "cdc616cdda66dc251342322c5f19c46952502ee98a91dc95a0bbbbc0572eb2f7",
+    "bam_indexes/SID531361.bai": "203272813014fbfb23548eee690456f31de039620bb0f60049cd4e78d1e1b052",
+    "bam_indexes/SID530368.bai": "aaa8d8391172b8eb9708f4c7fb68b1a4da6a7f44e33fa85036f29d603ce88fb1",
+    "bam_indexes/SID31160.bai": "46d068563ae8296e19ffae147d857a098f83cd5092e590ff8cb25ef8425ddd47",
+    "bam_indexes/SID530373.bai": "07b8e3f28ce4c1b3b8392992992b4c67535366d343d1636bf831fece580bb82d",
+    "bam_indexes/SID31512.bai": "c83eb5eb15458ccb9a01079fe7cd1fa8a95e92315a79f7f8cfa77383a747ddcb",
+    "bam_indexes/SID532796.bai": "3f8f183e0580d0aaeda14cf3f8d497608899bf81bade9f5a0ba2b001179be5f9"
+  }
+}

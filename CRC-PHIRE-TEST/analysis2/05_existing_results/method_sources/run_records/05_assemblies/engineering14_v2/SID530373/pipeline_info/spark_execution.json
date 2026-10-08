@@ -1,0 +1,51 @@
+{
+  "allocation": {
+    "account": "lab",
+    "alloc_tres": "cpu=20,mem=110G,node=1,billing=20",
+    "cgroup": "0::/system.slice/spark-d3de_slurmstepd.scope/job_1090/step_batch/user/task_0",
+    "cpus": 20,
+    "job_id": "1090",
+    "memory_mib": 112640,
+    "partition": "main"
+  },
+  "args": [
+    "--clean-reads-manifest",
+    "/srv/CRC-PHIRE/analysis1/04_reads/merged_v2/SID530373.json",
+    "--assembly-threads",
+    "16",
+    "--assembly-memory-gib",
+    "40",
+    "--outdir",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373"
+  ],
+  "command": [
+    "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/bin/run-stage",
+    "assembly",
+    "--clean-reads-manifest",
+    "/srv/CRC-PHIRE/analysis1/04_reads/merged_v2/SID530373.json",
+    "--assembly-threads",
+    "16",
+    "--assembly-memory-gib",
+    "40",
+    "--outdir",
+    "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373"
+  ],
+  "dependencies_sha256": "a9edb8148c9df6605b30778485c7788adc4466494b9f39bc182f597c57cb40d5",
+  "entry": "assembly",
+  "execution_id": "analysis1-assembly-SID530373-v2",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T08:14:38.235723+00:00",
+  "native_config_sha256": "9600e847bef0367bc36b3613cb4f639e821fc52fc48990ad1f915ec971fbef76",
+  "nextflow_session_id": "c1977fd5-cc89-438b-b6af-c2b89ed31518",
+  "outdir": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373",
+  "pipeline_state_path": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID530373/pipeline_info/stage_state.json",
+  "pipeline_state_sha256": "6e64e3ba4977fcad7fa7a6f586b39bdca7a693a559667d0c257724770eac1279",
+  "real_data_validated": false,
+  "resume_requested": false,
+  "runtime": "native-locked-prefix",
+  "schema_version": 1,
+  "scientifically_calibrated": false,
+  "started_utc": "2026-10-06T07:39:47.406669+00:00",
+  "status": "completed",
+  "target": "SPARK_PORTABILITY_BUILD"
+}

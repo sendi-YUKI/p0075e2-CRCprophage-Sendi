@@ -1,0 +1,236 @@
+{
+  "checked_utc": "2026-10-06T02:16:25.423061+00:00",
+  "source": "01_manifests\\sources\\Thomas2019_author_nine_cohorts.tsv",
+  "source_sha256": "20686a92b82b31f6c63ddead29b987b4b3abd8824ed80ae031a1c61299938c42",
+  "author_page": "https://segatalab.cibio.unitn.it/data/Thomas_et_al.html",
+  "cohort_group_counts": {
+    "FengQ_2015": {
+      "control": 61,
+      "adenoma": 47,
+      "CRC": 46
+    },
+    "HanniganGD_2017": {
+      "adenoma": 27,
+      "control": 28,
+      "CRC": 27
+    },
+    "ThomasAM_2019_a": {
+      "control": 24,
+      "adenoma": 27,
+      "CRC": 29,
+      "IBD": 13
+    },
+    "ThomasAM_2019_b": {
+      "CRC": 32,
+      "control": 28
+    },
+    "ThomasAM_2019_c": {
+      "control": 40,
+      "CRC": 40
+    },
+    "VogtmannE_2016": {
+      "control": 52,
+      "CRC": 52
+    },
+    "WirbelJ_2018": {
+      "CRC": 60,
+      "control": 65
+    },
+    "YuJ_2015": {
+      "CRC": 75,
+      "control": 53
+    },
+    "ZellerG_2014": {
+      "control": 61,
+      "adenoma": 42,
+      "CRC": 53
+    }
+  },
+  "engineering16_checks": [
+    {
+      "sample_id": "SID531469",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC"
+    },
+    {
+      "sample_id": "SID530373",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC"
+    },
+    {
+      "sample_id": "SID31866",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;fatty_liver"
+    },
+    {
+      "sample_id": "SID531361",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;hypertension"
+    },
+    {
+      "sample_id": "SID531248",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;fatty_liver;hypertension"
+    },
+    {
+      "sample_id": "SID31285",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;fatty_liver;T2D;hypertension"
+    },
+    {
+      "sample_id": "SID531382",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;hypertension"
+    },
+    {
+      "sample_id": "SID531277",
+      "group": "CRC",
+      "author_group": "CRC",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "CRC;fatty_liver"
+    },
+    {
+      "sample_id": "SID31160",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "hypertension"
+    },
+    {
+      "sample_id": "SID530368",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "hypertension"
+    },
+    {
+      "sample_id": "SID532796",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "fatty_liver;hypertension"
+    },
+    {
+      "sample_id": "SID530295",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "none"
+    },
+    {
+      "sample_id": "SID31512",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "fatty_liver"
+    },
+    {
+      "sample_id": "SID530052",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "fatty_liver"
+    },
+    {
+      "sample_id": "SID31416",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "T2D;hypertension"
+    },
+    {
+      "sample_id": "SID31360",
+      "group": "control",
+      "author_group": "control",
+      "group_agrees": true,
+      "age_agrees": true,
+      "sex_agrees": true,
+      "subject_agrees": true,
+      "author_disease": "hypertension"
+    }
+  ],
+  "engineering16_status": "all16_group_age_sex_subject_consistent_with_2019_author_metadata",
+  "control_disease_flags": [
+    {
+      "dataset_name": "ThomasAM_2019_a",
+      "sampleID": "LILT_GF06_16",
+      "subjectID": "GF06",
+      "study_condition": "control",
+      "disease": "metastases",
+      "NCBI_accession": "NA"
+    },
+    {
+      "dataset_name": "ThomasAM_2019_a",
+      "sampleID": "LILT_VF28_T016",
+      "subjectID": "VF28",
+      "study_condition": "control",
+      "disease": "hypertension;metastases",
+      "NCBI_accession": "NA"
+    }
+  ],
+  "limitations": [
+    "Author-deposited 2019 integration metadata; Feng 2015 clinical supplement not yet independently parsed.",
+    "Do not use author cohort counts as final eligibility: deduplicate donors, verify runs and primary clinical criteria.",
+    "Control disease flags require clinical clarification or exclusion from primary healthy-control analysis; do not silently relabel.",
+    "Author nine-cohort dataset is not identical to this project nine-cohort selection."
+  ]
+}

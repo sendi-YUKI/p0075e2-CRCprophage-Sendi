@@ -1,0 +1,12 @@
+[
+  {
+    "container_executed": false,
+    "environment": "reads-qc",
+    "legacy_container_reference": "sha256:32226d0e01b3af31509d35ca01e99836cfe7e3530146c7f4631f927d67ca9dc7",
+    "lock_sha256": "d8f6cce02a12d962e9bf2fb073aeb5c195dc1fa64a45e44883a661d87dfbbde1",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-qc/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "nonreported_display_floor_percent": 1e-05,
+  "floor_is_not_abundance": true,
+  "positive_values_not_clipped": true
+}

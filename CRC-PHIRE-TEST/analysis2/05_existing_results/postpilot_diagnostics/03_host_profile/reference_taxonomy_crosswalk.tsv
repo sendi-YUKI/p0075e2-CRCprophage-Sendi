@@ -1,0 +1,5 @@
+reference_taxon	reference_genomes	metaphlan_species_label	resolution
+Bacteroides fragilis (division I)	123	Bacteroides_fragilis	species_label_only_division_discrimination_not_validated
+Bacteroides hominis / historical B. fragilis division II	19	Bacteroides_hominis	exact_label_absent_in_current_database
+Fusobacterium animalis	93	Fusobacterium_animalis	species_label_available
+Parvimonas micra	23	Parvimonas_micra	species_label_available

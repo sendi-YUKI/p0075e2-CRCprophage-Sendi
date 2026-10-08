@@ -1,0 +1,20 @@
+{
+  "catalog/catalog_manifest.json": "2441d155ad5583f9ca21467eee36a9c2fccc5cc5485fc6c59c4de5a279138648",
+  "catalog/viral_sequence_master.tsv": "be4f00931d252b401a843a830a1d0bd07e63d23569be1df0bcfdff42d217877e",
+  "catalog/source_occurrences.tsv": "5f2a3aeb12f8c82d7fddb15b1270db4707b3fc93dd5e8c618af80401daf02acf",
+  "catalog/vOTU_members.tsv": "42214925b0bf49f3faac6751e6615873da54bfc23ded1c4435aded41e412081a",
+  "catalog/vOTU_representatives.tsv": "a037926be32b71925738a5242d529bd3a5d7ea524ed5bed47dbbb148049a9ab5",
+  "catalog/vOTU_representatives.fna": "b07b8b3c607b54a95eb0d06d30bf3549959c004c659533ef77e884e2d5e8926f",
+  "catalog/occurrence_votu_membership.tsv": "e6d1c5edb485267090ff0050bf09a1555fcbd1844858da6dfa931a07b9f7a7c2",
+  "genes/gene_calling_status.json": "7eb8a72e72ea1610e6c85e1bb3435f7c236a5b51b4e50d386b37d143f9279358",
+  "crosswalk/gene_set_crosswalk.tsv": "c5b94c40114d6c8396d05b75e3f5ea79679ba25839b4d2470aad4b4bf7f08be8",
+  "crosswalk/crosswalk_manifest.json": "b00c0369192d36a40ea273c76a6dd51f3d7ea1f665340e7530a9635ac2e7ba59",
+  "functions/viral_function_status.json": "d8a5165f2946ec6addd9c330644a1ede801834bc1e2704c641a5b869dcb872bd",
+  "summary/summary_manifest.json": "229d3ed5785917024f2eaaaa7321cb5be0f74ec555ea769085522b390fb8c24d",
+  "summary/votu_function_summary.tsv": "1e69393cbd1419994a620b2c50d05ea08b63168061c9076e644eb9db39d5e285",
+  "evidence_summary/summary_manifest.json": "aec9a44e350025c130275c8f5cd78e9df30f29dcd716840fa6b4f55157a7445d",
+  "evidence_summary/OUTPUTS.md": "dda158957754e7a7fd39159c021cc2e6841520d21bc8ca7577b184c888a465b7",
+  "evidence_summary/source_host_connections.tsv": "c1761d699f49079538f966e7e363ed3f159bade4c17631fc86bed484a79e63bb",
+  "evidence_summary/sequence_evidence.tsv": "b7266a7e603d07ab00280f6d9ef1600e5ff4cdba03ba9af80423539329087340",
+  "viral_kofam/kofam/viral_ko_manifest.json": "7e99437bb5981f7983f319d9e9671ee8a790228e2e857f864464fe0ae4ad29ca"
+}

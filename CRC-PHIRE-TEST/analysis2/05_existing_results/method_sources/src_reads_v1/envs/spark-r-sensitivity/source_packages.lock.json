@@ -1,0 +1,34 @@
+[
+  {
+    "package": "enrichwith",
+    "version": "0.5.0",
+    "url": "https://cloud.r-project.org/src/contrib/enrichwith_0.5.0.tar.gz",
+    "sha256": "fd1c07136409b40bf8246400ef784bacfe74a8a0db19fa695a80a38b46e46e07",
+    "bytes": 126233,
+    "install_seconds": 3.817
+  },
+  {
+    "package": "statmod",
+    "version": "1.5.2",
+    "url": "https://cloud.r-project.org/src/contrib/statmod_1.5.2.tar.gz",
+    "sha256": "5f83d82043c5e26f1048fc0139580da1b7e40becf95fb4cb26ed3afcd46a581d",
+    "bytes": 93227,
+    "install_seconds": 3.886
+  },
+  {
+    "package": "nleqslv",
+    "version": "3.3.7",
+    "url": "https://cloud.r-project.org/src/contrib/nleqslv_3.3.7.tar.gz",
+    "sha256": "6f29ad65049338006a52e457dbbeba529813b6dd952c4d774ef8b9c42193ef75",
+    "bytes": 99147,
+    "install_seconds": 3.932
+  },
+  {
+    "package": "brglm2",
+    "version": "1.1.0",
+    "url": "https://cloud.r-project.org/src/contrib/brglm2_1.1.0.tar.gz",
+    "sha256": "687579d31ef9e222ce893393fe45eec3f45bda1bd22e2d5d0e9273783eed8e0a",
+    "bytes": 2369720,
+    "install_seconds": 7.651
+  }
+]

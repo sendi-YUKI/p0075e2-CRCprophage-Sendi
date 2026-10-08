@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_local_links": 29,
+  "html_reports": 5,
+  "figure_files": 12,
+  "donors": 10,
+  "loci": 382,
+  "figure_visual_review": "separate_receipt_required",
+  "notes": "No new CRC significance test performed; historical FDR result retained."
+}

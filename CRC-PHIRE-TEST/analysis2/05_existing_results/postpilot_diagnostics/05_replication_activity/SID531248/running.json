@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/02_pipeline/propagate_env/bin/python",
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/02_pipeline/PropagAtE/Propagate/Propagate",
+    "-f",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/replication/SID531248/native_selected_contigs.fna",
+    "-b",
+    "/srv/CRC-PHIRE/analysis1/work/postpilot_adjustment/replication/SID531248/native_selected_contigs.bam",
+    "-v",
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/05_replication_activity/SID531248/coordinates.tsv",
+    "-o",
+    "/srv/CRC-PHIRE/analysis1/14_postpilot_adjustment/05_replication_activity/SID531248/propagate",
+    "-t",
+    "2",
+    "-p",
+    "0.97",
+    "-c",
+    "2.0",
+    "-e",
+    "0.70",
+    "--mask",
+    "150",
+    "--min",
+    "1.0",
+    "--breadth",
+    "0.5"
+  ],
+  "source_bam": "/srv/CRC-PHIRE/analysis1/05_assemblies/engineering14_v2/SID531248/assemblies/units/SID531248_assembly/readback.bam",
+  "source_sha256": "3380d3898f180a5fb8dcea1cf87d3031ecf8dcc226bf1f60e730426613a73c43"
+}

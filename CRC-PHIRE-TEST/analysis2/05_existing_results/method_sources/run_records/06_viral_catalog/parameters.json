@@ -1,0 +1,19 @@
+{
+  "assembly_manifest": "/srv/CRC-PHIRE/analysis1/01_manifests/pilot10_imported_primary_assemblies.json",
+  "assembly_memory_gib": 40,
+  "assembly_threads": 16,
+  "canonical_gene_tables": null,
+  "catalog_scope": "combined_exploratory",
+  "checkv_db": "/srv/CRC-PHIRE/databases/checkv/1.5/checkv-db-v1.5",
+  "database_manifest": "/srv/CRC-PHIRE/databases/reads_database_manifest.spark.json",
+  "enable_viral_kofam": true,
+  "functions_db": "/srv/CRC-PHIRE/databases/core/functions",
+  "genomad_db": "/srv/CRC-PHIRE/databases/genomad/1.9/genomad_db",
+  "kofam_db": "/srv/CRC-PHIRE/databases/kofam/2026-08-02",
+  "kofam_db_manifest_sha256": "b9dabf80e892806fa8fc81f1dde951eafa5f30fabdadb04f77e085fcbbff98fa",
+  "legacy_catalog": "/srv/CRC-PHIRE/analysis1/03_reference/reference258_raw_v1",
+  "legacy_source_manifest": "/srv/CRC-PHIRE/analysis1/01_manifests/pilot10_reference258_sources.json",
+  "outdir": "/srv/CRC-PHIRE/analysis1/06_viral_catalog/pilot10_combined",
+  "viral_evidence_tools": "",
+  "viral_gene_container": "sha256:bcb38bcbde0091f05795045013a9428176c9c4f35a6a21dbeca18e6e85c714f6"
+}

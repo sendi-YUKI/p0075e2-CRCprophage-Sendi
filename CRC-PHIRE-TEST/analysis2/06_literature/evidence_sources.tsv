@@ -1,0 +1,22 @@
+source_id	publication_or_access_date	evidence	use_and_limit	url	evidence_type
+CRC2025	2025	18队列3741份粪便宏基因组；阶段和菌株层面重复关联	支持多宿主/种内框架，不提供本项目每份genome疾病标签	https://www.nature.com/articles/s41591-025-03693-9	primary_paper_or_official_resource
+CRC2019	2019	多队列CRC宏基因组分析，重复细菌与功能信号	宿主选择依据；不能按属自动分配疾病方向	https://www.nature.com/articles/s41591-019-0405-7	primary_paper_or_official_resource
+QMP2024	2024	589人定量微生物组与混杂分析，16S结合流式	混杂与定量背景；不是本项目shotgun发现队列	https://www.nature.com/articles/s41591-024-02963-2	primary_paper_or_official_resource
+VIROME2023	2023	1282样本九研究，病毒目录及公共细菌资源宿主关联	培养/MAG参考帮助宿主连接；匹配证据等级需区分	https://pmc.ncbi.nlm.nih.gov/articles/PMC10334131/	primary_paper_or_official_resource
+FNA2024	2024	Fusobacterium菌株/谱系与CRC生态位	支持谱系视角；分类名称结合后续修订	https://www.nature.com/articles/s41586-024-07182-w	primary_paper_or_official_resource
+FNTAX2025	2025	Fusobacterium类群分类修订与新种描述	保留新旧标签；实际序列对应待核查	https://journals.asm.org/doi/10.1128/mbio.00941-25	primary_paper_or_official_resource
+BF2026	2026	B. fragilis分离株prophage及CRC宏基因组测量	可参考双数据来源；临床体位/年龄来源需辨别	https://www.nature.com/articles/s43856-026-01403-1	primary_paper_or_official_resource
+PROPHAGE2025	2025	肠道prophage资源与fucosylation/colitis实验	支持计算到实验路径，疾病为肠炎，不能当CRC机制证实	https://www.nature.com/articles/s41467-025-66733-5	primary_paper_or_official_resource
+GPD2021	2021	28060宏基因组与2898培养genome构建肠道phage资源	支持资源互补；不是各背景菌CRC方向的直接依据	https://pmc.ncbi.nlm.nih.gov/articles/PMC7895897/	primary_paper_or_official_resource
+BUTYRICICOCCUS2020	2020	Butyricicoccus结肠癌动物模型研究	仅临床前潜在保护；不等于人群耗竭或干预有效	https://pmc.ncbi.nlm.nih.gov/articles/PMC7577080/	primary_paper_or_official_resource
+AKK2021	2021	CRC相关微生物panel包含Akkermansia富集信号	不预设Akkermansia在CRC中保护	https://www.nature.com/articles/s41598-021-82465-0	primary_paper_or_official_resource
+FPER2026	2026	F. periodonticum的CRC关联与机制线索	新增聚焦宿主；不等于已跨全部队列重复	https://www.nature.com/articles/s41467-026-74591-y	primary_paper_or_official_resource
+HIBC2025	2025	人肠道培养菌资源及分类拓展	属级检索可补新种，但培养可获得性仍逐株核查	https://www.nature.com/articles/s41467-025-59229-9	primary_paper_or_official_resource
+PGENOTOX2022	2022	Colibactin相关prophage诱导机制	E. coli机制背景；不宣称全部菌株携带相关基因	https://www.nature.com/articles/s41586-022-04444-3	primary_paper_or_official_resource
+CHECKM2	2023	CheckM2序列质量估计方法	正式统一QC参考，metadata筛查不替代实际运行	https://pubmed.ncbi.nlm.nih.gov/37500759/	primary_paper_or_official_resource
+GENOMAD	2023	病毒/质粒识别和provirus位置调用	保存原始边界与分数	https://www.nature.com/articles/s41587-023-01953-y	primary_paper_or_official_resource
+CHECKV	2020/2021	病毒完整度/污染评价与目录去冗余方法	95% ANI/85% AF有方法先例；需明确本项目分母	https://www.nature.com/articles/s41587-020-00774-7	primary_paper_or_official_resource
+DEFENSEFINDER	2022	基于系统模型的防御体系识别	系统与单个组件不混淆	https://www.nature.com/articles/s41467-022-30269-9	primary_paper_or_official_resource
+PROPAGATE	2022	按prophage与宿主覆盖估计相对活动	后续实验验证具体诱导/功能	https://journals.asm.org/doi/10.1128/msystems.00084-22	primary_paper_or_official_resource
+NCBI_DATASETS	accessed 2026-10-08	官方组装、BioSample、版本及下载API	本地实际分页检索来源	https://www.ncbi.nlm.nih.gov/datasets/docs/v2/api/rest-api/	primary_paper_or_official_resource
+UHGG	resource	公共肠道基因组资源	仅辅助宿主，不要求下载全库或将MAG算培养株	https://www.ebi.ac.uk/about/news/updates-from-data-resources/uhgg-v20-released-mgnify/	primary_paper_or_official_resource

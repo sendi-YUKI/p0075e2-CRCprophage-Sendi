@@ -1,0 +1,38 @@
+{
+  "reads-assembly": {
+    "container": "sha256:fdb03ccc10358addd9704974425c12ebda6ac2f9cb67e7dcba0775b351d49912",
+    "lock_sha256": "603b75509fd46a96fc353f018179df6337160e4a7b50598de2b14b6000cb979b",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-assembly:locked"
+  },
+  "reads-bakta": {
+    "container": "sha256:0a3d128031b2d4fabb44aee480c65b9affe2693e52d07862190edeae7c66355b",
+    "lock_sha256": "d6317e17fc8b2d1c6aa9afba442f95075b6bf3fcf109c8ee408657376e12b3b9",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-bakta:locked"
+  },
+  "reads-fetch": {
+    "container": "sha256:d20916fe19c933916c09286aa35cb0962f9de218d30c688ac37f1526367084b3",
+    "lock_sha256": "f691034353b79404d7fba0f5d822c45f1053859db7bd9694b1e9683ddf8be11c",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-fetch:locked"
+  },
+  "reads-metaphlan": {
+    "container": "sha256:1d1b951beb093ab1110f8488ec3b5b7898fa2b0e9320d066fb8bfa492a9059a9",
+    "lock_sha256": "c3b94dbb306ec41fbd73fc254b559754baead7658a7f66116b948b951d5c0f26",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-metaphlan:locked"
+  },
+  "reads-qc": {
+    "container": "sha256:32226d0e01b3af31509d35ca01e99836cfe7e3530146c7f4631f927d67ca9dc7",
+    "lock_sha256": "a1cf069f2ab5c14bc89e3f763e39af2de006e43e29fe4737815061f90de1b41b",
+    "software_execution_checked": true,
+    "tag": "crc-phage/reads-qc:locked"
+  },
+  "viral-gene": {
+    "container": "sha256:bcb38bcbde0091f05795045013a9428176c9c4f35a6a21dbeca18e6e85c714f6",
+    "lock_sha256": "86e10077f0c801e7f6ae5ee3094cc72b4796ef6e83754ebd5d40f72b2fb27aa6",
+    "software_execution_checked": true,
+    "tag": "crc-phage/viral-gene:locked"
+  }
+}

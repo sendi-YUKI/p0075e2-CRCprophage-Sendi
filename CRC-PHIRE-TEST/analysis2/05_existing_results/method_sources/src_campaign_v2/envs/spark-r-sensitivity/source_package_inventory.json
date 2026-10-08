@@ -1,0 +1,807 @@
+[
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/CITATION",
+    "sha256": "2cd2c21b494639717eb4edbeb1cb775ae779e5edc8c206884fd43c21ab88588a",
+    "bytes": 366
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/DESCRIPTION",
+    "sha256": "d8390533c6669e4c938d2d117bcbbb542f4ecdfe0631ec6b6a0f67fbb05ec84f",
+    "bytes": 1745
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/INDEX",
+    "sha256": "2efe355acc3342b78adb91471d7ad3f2df90d55f3e26f8d62a6291b76addf175",
+    "bytes": 6819
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/Rd.rds",
+    "sha256": "c7b8002fd38bbfbbbc7d238c92533fff2f7f1b3134ada8dd4df2e06a4f293b3d",
+    "bytes": 1614
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/data.rds",
+    "sha256": "56200f9fe9a23d2ae0df2d307957463c47b3a30a8fc3de2100bc4d947c2f8ec3",
+    "bytes": 145
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/features.rds",
+    "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9",
+    "bytes": 123
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/hsearch.rds",
+    "sha256": "9973ca40e0015beab218a92054328badbc55eca1373464e330483e7318a49708",
+    "bytes": 1423
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/links.rds",
+    "sha256": "8d5e4e44192d5f4ddb6d9a0abd93e0a0b0b925c950d603479638b630cc76dfea",
+    "bytes": 675
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/nsInfo.rds",
+    "sha256": "5d5183c4cc996ecfea9864e430433a7221a89ad77ad49b4284311c0b5ef89eae",
+    "bytes": 447
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/package.rds",
+    "sha256": "c5997b27a3832ba3b399e427c89ad7f892740862abbda55444a3deb9d4da7c64",
+    "bytes": 1430
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/Meta/vignette.rds",
+    "sha256": "b6236dc497847cbf06ff47511c5df7faafc8a8682577ade1870a5ead43a3f1b7",
+    "bytes": 305
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/NAMESPACE",
+    "sha256": "a9f152e5b09c5f471e7bd3513983b919679b35201bb311c32cca2b269ddf98bd",
+    "bytes": 1451
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/NEWS.md",
+    "sha256": "14b7c605b8106bb251597c3c9e0bd1d95cbdd425972629abf31da1bda4df27e0",
+    "bytes": 5304
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/R/enrichwith",
+    "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+    "bytes": 1058
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/R/enrichwith.rdb",
+    "sha256": "e0543f96604a4c6c6fe3299a3fc70564b16b68d939d3a8d403aa1ebc363ad7ad",
+    "bytes": 118208
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/R/enrichwith.rdx",
+    "sha256": "4d9f9709ceee4f84a377a58b5560a4bf7aa4ea2bc3ed01547533df915c26f581",
+    "bytes": 1343
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/WORDLIST",
+    "sha256": "f02530ea65c93bcb0122a15afb44473487cf44e45f9c662c966418fba9cde1b7",
+    "bytes": 238
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/data/Rdata.rdb",
+    "sha256": "39afa152d9dc9505b1ff56eb40bb3a2bdcaba1b09b3b4888b9a033d8091b9c8f",
+    "bytes": 573
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/data/Rdata.rds",
+    "sha256": "11dbf9d2966a0699613804b39f1281e86ed5773a48772e11b2fee295d6901733",
+    "bytes": 85
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/data/Rdata.rdx",
+    "sha256": "a16d6236ffa4221bf4a1f55a6f186ef5316dd72ee88c4714d4a126c08f2078af",
+    "bytes": 150
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/dev_resids.R",
+    "sha256": "978c62b8619966ad7187550c96b4ceefadd6b6512b91591bde1dc7e153ce9e92",
+    "bytes": 1351
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/GLMs.R",
+    "sha256": "a315fb79ddd96a6e6d1f743766c1ae66729673b807272ba1149b76ae81e1ff86",
+    "bytes": 6950
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/GLMs.Rmd",
+    "sha256": "9f2628491dc5e3e9e246f55afc7b4f4a354f983b364cb8bcbf9e17f97f338fe5",
+    "bytes": 13521
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/GLMs.html",
+    "sha256": "7a570caa59600046da9ed719d69214f13cc8a528508d2ab6e812306f7fe6d3aa",
+    "bytes": 102239
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/bias.R",
+    "sha256": "f568ae858768d4b1ce8eab906d9468353e73bda25432299d909662a2bf91c4c1",
+    "bytes": 3008
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/bias.Rmd",
+    "sha256": "889eba994359ab818154f9078a188f572fb742d0cd27779dc0f8c1a101abacb1",
+    "bytes": 10208
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/bias.html",
+    "sha256": "5a20e7db3485fa175e9ad52cd33f1e9d678cf3684201e27e912a3030e68489df",
+    "bytes": 34154
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/exponential_family.R",
+    "sha256": "1be6aa10b8c76054257aef100e63fb5e62b6f53ac74008fe7c811518b0d89807",
+    "bytes": 1178
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/exponential_family.Rmd",
+    "sha256": "984cbcca19f6a543f0e5fa021410d2dad4b57073033f7a0b5866f675d869d28d",
+    "bytes": 5284
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/exponential_family.html",
+    "sha256": "66d900188e20b70d378506d847731fc8d425384352a7ebe264f11520f78eb407",
+    "bytes": 22420
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/doc/index.html",
+    "sha256": "241e478d17adf9a9f88b0f6e58b3203db674440bdc2afbdb057f1260b55a6a44",
+    "bytes": 2553
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/help/AnIndex",
+    "sha256": "bbb6a7002f7bcfc8e9235cf4c28975acf93a832f05c43a9f6132adb3a507847b",
+    "bytes": 2036
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/help/aliases.rds",
+    "sha256": "da09c02ce19069e418bf0e725ec041af9e2deb6ab393f20d2f95527ea9deda38",
+    "bytes": 418
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/help/enrichwith.rdb",
+    "sha256": "608af2eaba44cd46a70dd5ae63dc9671cd9011efb8918775585bf274ca9eba39",
+    "bytes": 93817
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/help/enrichwith.rdx",
+    "sha256": "d20ecde61f5d93cdc296f7128b122f7081d57d131a0bf4b6bcb0d6151f61de9f",
+    "bytes": 1098
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/help/paths.rds",
+    "sha256": "e0a73ced72f1917c466cbb5a5ca6b8e893b08dade3c3db3f3a336c12a1918b5a",
+    "bytes": 481
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/html/00Index.html",
+    "sha256": "0ce9b3e92d5d7def58691688690e1c4ed57d28b13e6b20f35274facb97ff43ec",
+    "bytes": 10094
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/html/R.css",
+    "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b",
+    "bytes": 1844
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/templates/template_compute_component.R",
+    "sha256": "d21dbecafd219a64e6faa62242ef8a1dd2fc671edc9c3fcef5868e4a4757b126",
+    "bytes": 433
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/templates/template_enrich.R",
+    "sha256": "ba591145168d39ae14a5f5cf936a45a20631967e9c1f784468021ecb1b6f3167",
+    "bytes": 1372
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/enrichwith/templates/template_get_enrichment_options.R",
+    "sha256": "e1c0c6b81cd3d02aded85651fcd836d27e0182cca2c9aafba1ae300dbeb10c70",
+    "bytes": 2153
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/CITATION",
+    "sha256": "effadab1ee1a2125880eb1981b7f5da149b8f3539ac3df16dfb78796569c60c1",
+    "bytes": 3531
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/DESCRIPTION",
+    "sha256": "7ee3c533ecffbedcb87bf6aaa3ae2afd82ba0458e2b5dd1e1e3b66b0d8e7e4aa",
+    "bytes": 1785
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/INDEX",
+    "sha256": "80fe7744e002db35b88b42dad78a1a938f62aec6b39853cea62e3128e2d04fa8",
+    "bytes": 2148
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/Rd.rds",
+    "sha256": "e362912798fe418429b679f3248b362056a6f1a9ca117cefb9095d7c76d10c62",
+    "bytes": 1712
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/data.rds",
+    "sha256": "60045f272552be500923e779af8eb122961ca1277ce5d11904b24c99f7d98fb8",
+    "bytes": 117
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/features.rds",
+    "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9",
+    "bytes": 123
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/hsearch.rds",
+    "sha256": "6f24f0ba960aad8397d0ff2336d2dfe099df24921e95fa2671c9bb1740e7fed5",
+    "bytes": 1681
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/links.rds",
+    "sha256": "15e01ba5e9894ad537af81c878cdf7e55b5b18bf0cf181ba128309915942b8c9",
+    "bytes": 714
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/nsInfo.rds",
+    "sha256": "4acf3893049bc958f0335bfdef3e5cfdbad8031666a1762b2451a260ab70c375",
+    "bytes": 899
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/Meta/package.rds",
+    "sha256": "b6e1b8aa8d78b4a7da730bba9d787fd910ec24b6ac7c39680e3db6d35f2ee442",
+    "bytes": 1177
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/NAMESPACE",
+    "sha256": "167189bb507181955d95ca92c3b2b8a0b903bd8ca4ffbf7662129f1f77b6b1e6",
+    "bytes": 1495
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/NEWS",
+    "sha256": "9a89e1969025cdf6075a95a1bd4df6f8fefe49698a59890192b23267d2e83e5d",
+    "bytes": 18355
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/R/statmod",
+    "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+    "bytes": 1058
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/R/statmod.rdb",
+    "sha256": "713213a6cd413d595811de5cbbc667f5a3e34a693be2a29a783a9a8c584996bb",
+    "bytes": 151141
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/R/statmod.rdx",
+    "sha256": "d82c8c2663e7302006f82c40eeca8c2719c5151c79a6fb6ce538b2a6b2264c99",
+    "bytes": 1067
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/data/welding.rdata",
+    "sha256": "206af06f9a6b9c8ce3ffc42b15b09e4eca8048dcbae65989aeb90d4e27b507b6",
+    "bytes": 1252
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/help/AnIndex",
+    "sha256": "9a52b4daf94f6e6e363066360d83b5c9b87b8053dddb8f18c334dcf0da66eb05",
+    "bytes": 1264
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/help/aliases.rds",
+    "sha256": "194729d0b533f93decaee5d9c9cdd345422710981a15879d78edce5951d4baa4",
+    "bytes": 611
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/help/paths.rds",
+    "sha256": "3f30b0739f66e33bb073160208761e9e02f09aca619d43ebf07199d5819699c1",
+    "bytes": 380
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/help/statmod.rdb",
+    "sha256": "273e2cee0c8cc0eccbb8ce710bc81c9133d12452054cb64d714e38bb704c205e",
+    "bytes": 118638
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/help/statmod.rdx",
+    "sha256": "13a47380d2c4b5ce04cf1242495bdbe8e4eaca203d4c2543023f89fcd6bbaa5a",
+    "bytes": 787
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/html/00Index.html",
+    "sha256": "3565f5d324b276e431dcca87f03fb939fa5b2db03a58abad153414dba3362903",
+    "bytes": 8337
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/html/R.css",
+    "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b",
+    "bytes": 1844
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/statmod/libs/statmod.so",
+    "sha256": "b21b7d887cf4f4361a22c1482961a029147400ad0a5f01d7fe154330ed5a4282",
+    "bytes": 71352
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/DESCRIPTION",
+    "sha256": "e3110daba29bba4108b10d5146d15878739f74bc1fab3772f80039e192a19e45",
+    "bytes": 1466
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/INDEX",
+    "sha256": "540f95eae017ca1bc7cc77f2f792efeb1c130ee720fc5334f5637589ad0c72e8",
+    "bytes": 485
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/Rd.rds",
+    "sha256": "5cee948b27117441cabf65bf244cf46249c9909b6c7d3719beb3a21c93769373",
+    "bytes": 564
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/features.rds",
+    "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9",
+    "bytes": 123
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/hsearch.rds",
+    "sha256": "028c146527966ea900de9a031a7a4a48b9d2554a3e975010fa71c7cf3e8690f8",
+    "bytes": 597
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/links.rds",
+    "sha256": "061a3eb78aaff99f37d1a51bec12260dba79c1b1e1f926d2cfd54309c7dac241",
+    "bytes": 223
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/nsInfo.rds",
+    "sha256": "2204ba226321fa27e2883f282886470dabcc5e45e9ab514cef1a34bfd4c2c38c",
+    "bytes": 326
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/Meta/package.rds",
+    "sha256": "2a29a21c5f83140f1e00a79df10aa8415bf4b11cee5a54d7df6ef0512f584b13",
+    "bytes": 1097
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/NAMESPACE",
+    "sha256": "619dee8af4ba824cf91b1581e2fee8386f48300df8a4dd281b5a31b9a1751c34",
+    "bytes": 180
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/NEWS",
+    "sha256": "18a687e3723ed70e01db9a5a124541eee6de08e2dba30d1ba9c9a0c2f916174b",
+    "bytes": 11224
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/R/nleqslv",
+    "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+    "bytes": 1058
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/R/nleqslv.rdb",
+    "sha256": "ed5956fd8149f2724fe958fa075a28a0f2c0adf723d0dac748dcc0371a8dc74e",
+    "bytes": 12873
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/R/nleqslv.rdx",
+    "sha256": "49ecc866ca5df5ae163b4c690338166d7ee66c5048ad0a42070fd076a679bb05",
+    "bytes": 309
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/AnIndex",
+    "sha256": "ddd1de55f60d0c115eb52c278651f72d9b51b6252dd2aae9d81414a5baf1f235",
+    "bytes": 272
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/aliases.rds",
+    "sha256": "9be7e5f187498f40bc8782267643158445cdf79bdfe214baddede1f773c2737f",
+    "bytes": 177
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/figures/logo.svg",
+    "sha256": "193e27c5c231eb02d4bdd13ec5656419474065f4caefa36c2a362a64ac4c115b",
+    "bytes": 32524
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/nleqslv.rdb",
+    "sha256": "fcf7f11750e17572bd90224c355dad6602c8eff1b3f254ec48a3b808c11d0e9b",
+    "bytes": 46383
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/nleqslv.rdx",
+    "sha256": "ae2e775305a0e5f1a36728395157cd8ff8a428c553345bfa7ec66f9463600ce0",
+    "bytes": 309
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/help/paths.rds",
+    "sha256": "d061e07790ffe1ea66a64128b839c162dd7e00553bc896509a124ac6559141bd",
+    "bytes": 207
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/html/00Index.html",
+    "sha256": "ac9c1602a4735d39513917e13745a7db3a9db96365cfffd12cef0a8208c10784",
+    "bytes": 2002
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/html/R.css",
+    "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b",
+    "bytes": 1844
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/nleqslv/libs/nleqslv.so",
+    "sha256": "d2a26f74b50839dbfb7cfe209d394ddfb3fec49e6337bcb4de9c8f37a92921c2",
+    "bytes": 142720
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/CITATION",
+    "sha256": "99269eed7e9452e1799d581be5c2fb8ef2e16e1413266b99200fd5589397a00f",
+    "bytes": 2061
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/DESCRIPTION",
+    "sha256": "dd45d70a818a8aa153449f9c73fa954dfc541a07f947ce6512ff8064c38d2b43",
+    "bytes": 3709
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/INDEX",
+    "sha256": "cc6bf4e6ccf5990ce3b5fb1ce831ee39d35f7e3376f9f89424b64796335cdc78",
+    "bytes": 4771
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/Rd.rds",
+    "sha256": "1e4ad0826e7528b6b484d8105ff01d9b1317d6978ada128043cf187d23d3c8e4",
+    "bytes": 2096
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/data.rds",
+    "sha256": "2882dd6ba95990aed36f2a45a3e8d49dcaa348e5092a2d2e935fe96e4aacdde2",
+    "bytes": 398
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/features.rds",
+    "sha256": "300f8aed8517c56777a8c03af5585c7c8a1272f758703fb47366d92d190c82c9",
+    "bytes": 123
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/hsearch.rds",
+    "sha256": "6537dae0a0fa73476ec681a3d7c16fdebfa5b2ba759711519e3ac0bd65ba82aa",
+    "bytes": 1940
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/links.rds",
+    "sha256": "27cd74eb8da999f7ff960de58c5f7a204e27efea86cc56db320d8005597d27ef",
+    "bytes": 795
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/nsInfo.rds",
+    "sha256": "79d6f6345f1a599ea23592ed461b6ff8729222ab212c5ff9cdfc9cd85a7f3bc2",
+    "bytes": 681
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/package.rds",
+    "sha256": "e938da530934cf389e36796dfd80f7bdadc437b51567c2e859304a4471e3ac25",
+    "bytes": 2224
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/Meta/vignette.rds",
+    "sha256": "ecbb4da316b3a9e1d4328f5f2ac1777c2bce06c4893a8edc2a94c3450bf0c0a5",
+    "bytes": 398
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/NAMESPACE",
+    "sha256": "74569c40d9108fc2423a927c6d59a5d27e459389d8d19d29be3dc7656a73363b",
+    "bytes": 1832
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/NEWS.md",
+    "sha256": "2324d61e8714878f0eaf2206a6708d77aeb9125ee16ddb36820960ca87ec213d",
+    "bytes": 13710
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/R/brglm2",
+    "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759",
+    "bytes": 1058
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/R/brglm2.rdb",
+    "sha256": "78d23e5c8cd655d03e305220a7135bb6d84dbc6b66c403d82fe11cbfe62bacc0",
+    "bytes": 280060
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/R/brglm2.rdx",
+    "sha256": "9e72228da64c4a7dab386270d4390a13721367bdb1354f0ac6d1ef7063197494",
+    "bytes": 1440
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/WORDLIST",
+    "sha256": "7545a1cac15f60db0595667b59fd42dba98bf48fe42ae6a30b658ecdfcdc159f",
+    "bytes": 1031
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/data/Rdata.rdb",
+    "sha256": "ed6feeacdbc074c2ddb67e7219673adb58f2fa0c78e183e889c2235bdeb3384f",
+    "bytes": 2272953
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/data/Rdata.rds",
+    "sha256": "8d6a3328641e6cf8a93e2f7a29ecfd63961f6d23c96681adf53123bb465fc1bb",
+    "bytes": 180
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/data/Rdata.rdx",
+    "sha256": "0dfd351dd6b177723b008f1d6e92f711dec8aa1fda204d596591b8a978f76eb7",
+    "bytes": 282
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/adjacent.R",
+    "sha256": "6bc79143eb364fefba21809f6295f85a58437952ddb150572864c86025e4566d",
+    "bytes": 1788
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/adjacent.Rmd",
+    "sha256": "7463ad9bfbb584eb4a075551259c7c37c8bad80d57036474ffa1f393503de30f",
+    "bytes": 4823
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/adjacent.html",
+    "sha256": "ef1f292fd88e3495c616af468d9a72dca651f64b40538edf7ce71132ba3428f5",
+    "bytes": 34836
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/expo.R",
+    "sha256": "cced71a0a7eaba9dbc9fe7fca4c387b455b2c6fad508f343f74ef87f533c56ce",
+    "bytes": 1716
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/expo.Rmd",
+    "sha256": "f3565487a270bf4db2d69bb58b4f3468d336b2607ad47121f34734abbb593806",
+    "bytes": 6119
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/expo.html",
+    "sha256": "9a76c580fc7450cd2739c4aac12b169d4e46115002c5f3e48c910e14c595c76e",
+    "bytes": 39563
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/index.html",
+    "sha256": "1436e5cd18225b9f43de8ad6f3686dfb4ac6dd39c8265a17b6d5d7be17c13b55",
+    "bytes": 3673
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/iteration.R",
+    "sha256": "934500da0b3d1f5c5f2f3de371b74356c987bd59b0fda6c637e6229db3ecfa63",
+    "bytes": 178
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/iteration.Rmd",
+    "sha256": "7bd7d0f0e9ad27a018410a6c9ade1e231d6bd088a928746cfe1020415a5f767f",
+    "bytes": 16411
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/iteration.html",
+    "sha256": "2292843093df97bec607c13e8bc3639126007bc2fecd4de04de133385f765b4c",
+    "bytes": 32205
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/multinomial.R",
+    "sha256": "1e5a4a1b6798a5ccb4fc7c88475703847f2d1f1438518319ae634022ae82c813",
+    "bytes": 1883
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/multinomial.Rmd",
+    "sha256": "1cd088cbddc25b17739cda576b4c104bb3b6e58fe35126982f40e53d6ac825b7",
+    "bytes": 5187
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/multinomial.html",
+    "sha256": "d698316ad348e85375210f6596665b994e41d6623f95953917dbb1484b8aa7e7",
+    "bytes": 79801
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/negativeBinomial.R",
+    "sha256": "d276822ba88614d3d8ce7b646cbe7eafa332286469422c92bb0b66698d60e83e",
+    "bytes": 2577
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/negativeBinomial.Rmd",
+    "sha256": "328cbf475badc177b75c62dd44490cff9e3a04662770dea4ab5c4bf95ef36c13",
+    "bytes": 9157
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/doc/negativeBinomial.html",
+    "sha256": "fbbffcb2abce998acc6a59203c33852599abf64cf72182101bb86bfd13d87fc6",
+    "bytes": 32163
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/AnIndex",
+    "sha256": "ffb9f03054ad16026896c22cac4eb19ff561b94e13054e2c81cbb56163a34c24",
+    "bytes": 1555
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/aliases.rds",
+    "sha256": "d0001af3f541b7186dd191aaef43d377ceb15bdf9f6dda78f71a6977b175aedf",
+    "bytes": 543
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/brglm2.rdb",
+    "sha256": "8213f7ac60ceefed93415803f3230d0904bb4b69afb0dae4c030a23aba913c65",
+    "bytes": 188581
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/brglm2.rdx",
+    "sha256": "0848176233bb50a6b7b23772532281de4c560cab03364e92b8d01b930f37c89b",
+    "bytes": 1117
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/figures/README-unnamed-chunk-11-1.png",
+    "sha256": "e907a388f6a3ac4b89f52474bdcd6497f97c0e68081704d3908bfad8b5646b58",
+    "bytes": 35494
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/figures/README-unnamed-chunk-6-1.png",
+    "sha256": "62b4a5632787c2f2305690576a1f33004c9df5e0cd50766ffea350b26335306f",
+    "bytes": 65500
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/figures/hex_brglm2.svg",
+    "sha256": "721a651dee4db9f6ac8d27aa9e9730837db3fa9e706549aa876cde408da080a7",
+    "bytes": 46134
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/help/paths.rds",
+    "sha256": "d85bda3052519fb33adfa6df9c31b170e198efb384f64e8600442a952df1e9ca",
+    "bytes": 497
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/html/00Index.html",
+    "sha256": "8c7bb60837b4b970c419af4c5073cb0baf1ee6fdea719c32a48c6529b42826e8",
+    "bytes": 10450
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/html/R.css",
+    "sha256": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b",
+    "bytes": 1844
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/libs/brglm2.so",
+    "sha256": "0678127d9ac063e1484bf42616b8adfe6e68b357d432a6c54a664ccf8794b84b",
+    "bytes": 70000
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/simulation/ordinal.superiority.R",
+    "sha256": "d366dfd42be56cc984e861e3b4021bb9aa8f8b2f4c27f74b8e9405adcb8a9ab1",
+    "bytes": 1364
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/brpr.R",
+    "sha256": "0a47cb5613f2ca20243150d909198aed12c12c650bba03a91cf456aba0685c65",
+    "bytes": 6217
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/mbrpr.R",
+    "sha256": "35457ad89f749ee42d8a196a95e6b1d86f72a19ca56d3ec1269b0adc6d7ab35e",
+    "bytes": 1764
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-binomial.R",
+    "sha256": "ef0e948f9a5617957f88e7f25bd36382e91b748ccbbd781fc0fbd5033a73967a",
+    "bytes": 1781
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-bracl.R",
+    "sha256": "07bc3635cabe254c242240cdea78be3b785758dd6e623e97f34e028c58fbd563",
+    "bytes": 6104
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-brglmControl.R",
+    "sha256": "01b9835ff82b828229709a9d14d02ca1e503eb3636871fdaf2e16c2b7c3f0b75",
+    "bytes": 3252
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-brnp.R",
+    "sha256": "01d19f9abe18070df5cc9958b0617ebf1f406465cc9e31bb6da672d2adb9daa5",
+    "bytes": 5582
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-checkinfinite.R",
+    "sha256": "31e5e376a31d6938d7d1c39debf915a84033dfc78d71f9911c16ec43e1a168b8",
+    "bytes": 318
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-correction.R",
+    "sha256": "91fb0e0f8e697811046a0e264336f05f2a27ec30af50aecb031572d5fa0ca6df",
+    "bytes": 905
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-dispersion.R",
+    "sha256": "52cc03ae1352373893d218a1a36c8838297d54d70f6ccdb9a1792a8a6e6da6f2",
+    "bytes": 1305
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-expo.R",
+    "sha256": "4558145aa29f380aec4ce524cdf1101e25bf6457035e50610bdbb02ea7dded12",
+    "bytes": 5527
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-gamma.R",
+    "sha256": "5c110b9f39ba58ca7bac34debd4bdfd8410842ab242230dda2f4f997466531f3",
+    "bytes": 837
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-jeffreys.R",
+    "sha256": "d2ab33ad07a54c9ff6660f0aab1cf01cbf527266d830b950a704fc19e1f44ee7",
+    "bytes": 2501
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-mdyplFit.R",
+    "sha256": "944dcdfb3e1c26eb9f9782bd7229fccc6fc711ad03af217821b97f147c047c00",
+    "bytes": 3511
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-median-dispersion.R",
+    "sha256": "6f031799f4afbcb5c96be7b20b98c238916d6197850356cacac9610c491d0d5b",
+    "bytes": 507
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-median-poisson.R",
+    "sha256": "3ee77c6a73d28284f1b982bc4765ef4d4972377034018ae6572c4230fe46923d",
+    "bytes": 973
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-mis.R",
+    "sha256": "e268afc789b213f50bf8291d9dbf033007255ae1c12e1eaf4138a7b4b11f46b6",
+    "bytes": 1017
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-multinom-binom.R",
+    "sha256": "8cb5d2b2dfbfb2602872518cff74be5068b4ba9d1ea6efa92624d6af8311985a",
+    "bytes": 1136
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-multinom.R",
+    "sha256": "6eb17ea0f8600785210c4b5285388182dee4b8e9e0a4c9fb448e8aaea17a5910",
+    "bytes": 8641
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-ordinal_superiority.R",
+    "sha256": "56dbd591160be1a8f1b384a282f135df57747dedfc403f9d45d46c7725d32e6f",
+    "bytes": 5914
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-poisson.R",
+    "sha256": "227313a2f643edf8c8624b8c7ed3835a67c2de589973b73f89372f5617b9080e",
+    "bytes": 1403
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-print.R",
+    "sha256": "ecef7eaea6115e18f841a0817b71292abcce26a08fb9ef218d6524a806921a50",
+    "bytes": 2481
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-se.R",
+    "sha256": "7f04432041ec681b801b8deafacf565dbe998a590d9279d73e6ed53a87aca35d",
+    "bytes": 3021
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-singular.R",
+    "sha256": "65fd03de73da0df9f7524493333445d6c99225ce186f5beb92bddc4d5ae3b2e7",
+    "bytes": 646
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-start.R",
+    "sha256": "643964eb4f28cad39622c7758621d0143455a5bc6726b19c1f6b557b9ae95ae7",
+    "bytes": 731
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-summary_mdyplFit.R",
+    "sha256": "f6111d81df2cbbf98182b668efaa55f8f78fb0dccc68b3b5e1ae9e0ac99fae50",
+    "bytes": 1968
+  },
+  {
+    "path": ".pixi/envs/default/lib/R/library/brglm2/tinytest/test-transformation.R",
+    "sha256": "4523c5b1bc002b3571163532af2f0bdf9ecd4dfa05b327d3686d3706e79a7920",
+    "bytes": 1533
+  }
+]

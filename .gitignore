@@ -1,0 +1,16 @@
+# Scientific large data and local execution state
+**/fasta/
+**/raw/
+**/archive/
+**/__pycache__/
+*.fastq*
+*.fq*
+*.bam
+*.bai
+*.cram
+*.fna*
+*.fasta*
+.env
+*.pem
+*.key
+**/github_workspace/

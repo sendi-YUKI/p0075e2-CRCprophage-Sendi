@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-10-06T02:12:34.480790+00:00",
+  "status": "validated_raw_primary_union",
+  "genomes": 258,
+  "raw_candidates": 812,
+  "by_candidate_type": {
+    "full_contig_virus": 271,
+    "provirus_locus": 541
+  },
+  "by_checkv_quality": {
+    "Low-quality": 231,
+    "Not-determined": 158,
+    "Medium-quality": 216,
+    "High-quality": 202,
+    "Complete": 5
+  },
+  "length_ge5000": 666,
+  "zero_candidate_genomes": 46,
+  "sources": [
+    {
+      "source": "/srv/CRC-PHIRE/projects/crc-pipeline/results/aimbeta_catalog_integration_20261002/a1_completed_1067",
+      "validated_outputs": {
+        "prophage_master.tsv": "391be79552ccd137f56fb3d28839f871911023d204dcf0e28859654e5a7244e3",
+        "caller_hits.tsv": "76188e46cff2fdbeb6291842ec0278ab52fa08e20809a14a7ff6d4c1bbd028de",
+        "checkv_quality.tsv": "88a60432f1eb1afc8bd72068d23ec5a80581a2146518125d44ac252434820739",
+        "coordinate_mapping.tsv": "b8fff1040a3a79410e6c2d29d238384ffef9756778fc0db79d6fbddd04ee1d85",
+        "contig_map.tsv": "51d4fa36fd544ec137eacd733edaafca62ccde1b84c1c0479de1af7b8a5fe191",
+        "genome_stats.tsv": "cefac022c85f551fd07aad35e7d73ee1a767e5b0a86d71b8b02e38b04fe31320",
+        "sample_status.tsv": "74fb09bd64343c72954b3bacde403b00bdfeda0aff5724078e689d72d0c9f3de",
+        "stage_counts.tsv": "5e4e9a2f04dfd9650d4ee2cf93da0ddf0ee1246c05b355985f6f9a1d8ac25493",
+        "report.html": "e64423d945a3c85aec2690cb3d0dc8c6244e6bf6858b293a898b88f9549c12df",
+        "candidates.fna": "67f6d21688402ae55593dd1a9ff7fd6d948a252d25c5b03ffbb1f16590446745",
+        "data_manifests.json": "f1b1c8807f2fc2667c618e0ee1a17c2ed50dff6394b158ade32b1d0434a50b25",
+        "aggregate_manifest.json": "235917f3dfc9fc0708680eb950f96282abba722c0b7d9cf4e7bd05718f93820f"
+      }
+    },
+    {
+      "source": "/srv/CRC-PHIRE/analysis1/03_reference/a1_remaining242",
+      "validated_outputs": {
+        "prophage_master.tsv": "96bec73300da5582ba20321eec66419e2ca3d4e80393f0cc66474b67200dcca0",
+        "caller_hits.tsv": "bbf25f32525a81b7a96daded680c70104991f98fd29485ca67ed0e35688823e1",
+        "checkv_quality.tsv": "10fcfde5641a193dca72c4da0edf075b1e1650960fc27299673f94354b53483d",
+        "coordinate_mapping.tsv": "d1a73ab83b670fb8f69d87ce3f6f3c6bd653a403aa9c7b90b487940639186ab5",
+        "contig_map.tsv": "590978639a03d37d59e588c723883ee7626c198c409ce004ebc321a85737c3c7",
+        "genome_stats.tsv": "206ff6e338550420b099af743108ca615f2017162745d7cfe6d18f61e1444f53",
+        "sample_status.tsv": "4b838faae048decf5e12432ad0c797322fb4923a2a65af2e0c14be220fbbe471",
+        "stage_counts.tsv": "b2cae2c22bfd746c79a8e0d1d3e2aa9c55ac9b45c4edb2ae2a418588da54f3b0",
+        "report.html": "e12f52c168262598c5bcd39eed56616b4b6d0a4591c2192b33967b81d19d3823",
+        "candidates.fna": "dea75b618126ce8ff8a9defbe80aa966f7f1d72896a2b56eee81e1ad212f0655",
+        "data_manifests.json": "70f926b4cdd907abd4bea13952bbe89a0ac3d343fb8f1f8eecd70a73d75fa536",
+        "aggregate_manifest.json": "adf39ceb20eb84375c501408c9aa037e5ad3116a60227827bf4e76d06424f658"
+      }
+    }
+  ],
+  "files": {
+    "checkv_quality.tsv": "b7c406c032bb846b5c129c6fe3ed3e06f5c92c2d7d75764dc41163d3f6c3b908",
+    "candidates.fna": "e3aa090ae8eab085959c6e2c55475a9f55d1812b9d9a85e4e3429b466b83411b",
+    "contig_map.tsv": "4f03178d1178e029161189ef7f44d560e5fcd6b470a38767e83e937032f2a6e3",
+    "caller_hits.tsv": "479937befacebc75ce203da3bf84cf9901f3196a245348952869b246af8b7ab9",
+    "prophage_master.tsv": "52e8bea25153910437c1016934b3491f9ed7ef100a627de38c857d00a026ce0a",
+    "genome_stats.tsv": "22471df36a022c2aa10ccfbb604b39ac56270174044ee676ea38b866c37683c5",
+    "sample_status.tsv": "1e8287e70284d94525dd237b97d6525b8b64c63f17e92e7d84a44cc4bd831a4b",
+    "coordinate_mapping.tsv": "f59d0a317f69a5195e636c3a15a4b5c624f336eaa605710acfc897fd89d25071"
+  },
+  "limitations": [
+    "Raw caller output; length summary is descriptive, not final filtering.",
+    "Provirus-locus prediction is not independent integration validation.",
+    "Full-contig virus is not automatically a prophage.",
+    "Taxonomy, boundary review, final evidence tiers, vOTU catalog and function work remain."
+  ]
+}

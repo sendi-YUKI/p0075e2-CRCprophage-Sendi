@@ -1,0 +1,17 @@
+{
+  "status": "generated_pending_visual_review",
+  "part": "core",
+  "matplotlib": "3.11.2",
+  "files": {
+    "Fig03_locus_coverage.pdf": "b553ae50397ea305a4cc8844adc66e3e0c89f156364d92b418f117c6d69040be",
+    "Fig03_locus_coverage.svg": "d087ef04f837f971913407647518250f5a851d36b61fe725f3fa05c992e774f8",
+    "Fig04_replication_feasibility.pdf": "b26d342859e0dc5f94aa64c290ca9298509370fa78a940bb72d94149bc68f8c7",
+    "Fig04_replication_feasibility.svg": "454efe6993c869bd140951bf37412e4f9c064a671bad040d59d06c037f3bc96a",
+    "Fig02_measurement_diagnosis.svg": "ebd98e806ccb4db95986877ed10c6e4649dae953b15ee1baed9664c0330770b8",
+    "Fig02_measurement_diagnosis.pdf": "9462ba215db35b298246a40972bdbab9be9c20a5455e84f5033ccb546af184e3",
+    "Fig03_locus_coverage.png": "46022a9645d5c935e7c436955d4c39d8119e890aab3316f3c007f3fa0d671401",
+    "Fig04_replication_feasibility.png": "163a0f96c2990d68b9c9de7d02723afee7695f92bd745a7d0799d39c1cfdc271",
+    "Fig02_measurement_diagnosis.png": "3ab83ebcd89c1b5328734f2e709c5439a1ecc7d2a22330ba155fb263550301d1"
+  },
+  "synthetic_only_in_Fig02_panels_C_D": true
+}

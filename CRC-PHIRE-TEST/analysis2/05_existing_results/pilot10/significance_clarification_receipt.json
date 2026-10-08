@@ -1,0 +1,40 @@
+{
+  "status": "presentation_updated_without_reanalysis",
+  "created_utc": "2026-10-08T08:20:39.447487+00:00",
+  "summary": [
+    {
+      "endpoint": "检出率差异",
+      "tested": 342,
+      "nominal_p_lt_005": 1,
+      "global_q_le_005": 0,
+      "not_tested": 131,
+      "minimum_p": 0.047619047619047616
+    },
+    {
+      "endpoint": "丰度差异",
+      "tested": 473,
+      "nominal_p_lt_005": 19,
+      "global_q_le_005": 0,
+      "not_tested": 0,
+      "minimum_p": 0.007936507936507936
+    }
+  ],
+  "global_test_family_size": 815,
+  "nominal_unique_votus": 19,
+  "all_valid_global_q": 1.0,
+  "script_sha256": "88e9b12aab61c9a0c6affb188ae884cfb091ab66c5e3e2789fee3e63db253e09",
+  "inputs": {
+    "12_reports/pilot10/exploratory/votu_differential.tsv": "9a35c6abaff91d4f9ce48055d8c6b0af7423b0aeb2efec06310dd40b1f9b22c4",
+    "12_reports/pilot10/exploratory/exploratory_manifest.json": "229d5cdec6fcd2051aa6f6cee052883c976e3a2629391304f66beed167081c97",
+    "12_reports/pilot10/visual_review_acceptance.json": "3855129abc0c5e240f549ac0416083807824c7a76db5a2436d722cd630b783a9",
+    "12_reports/pilot10/完整先导结果报告.md": "11129c48fef71c9feb0e73e3b1d7ad6211ad65862b2243125585776e04753f3c",
+    "12_reports/pilot10/完整先导结果报告.html": "33cf1c7af33bc7c47473a06ac688c9837f587624def3219558d268c7da86b281"
+  },
+  "outputs": {
+    "完整先导结果报告_含显著性说明.md": "999e404294ae83e4ad4c49635d491a05fa713377ae9e2ae370aea8cff8647e03",
+    "完整先导结果报告_含显著性说明.html": "b3ec52210fd3cbfba3bf620c1981f58082d27d4ce3b9cbcde01282e6b1255b27"
+  },
+  "original_results_unchanged": true,
+  "figure_captions_clarified": 7,
+  "image_files_unchanged": true
+}

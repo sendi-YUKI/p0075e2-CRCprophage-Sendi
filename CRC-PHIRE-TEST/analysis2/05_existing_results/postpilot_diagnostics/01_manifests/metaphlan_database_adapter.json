@@ -1,0 +1,140 @@
+{
+  "schema_version": "1.0",
+  "index": "mpa_vJan25_CHOCOPhlAnSGB_202503",
+  "status": "ready",
+  "architecture": "aarch64",
+  "slurm_job_id": "728",
+  "archives": [
+    {
+      "url": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/bowtie2_indexes/mpa_vJan25_CHOCOPhlAnSGB_202503_bt2.tar",
+      "bytes": 35057633280,
+      "md5": "75810d09663cb0fe10eb063584ed1eaa",
+      "sha256": "131e021f4967f5461fb81ef510ffec330bc1c28754cc055061686c4ba00b13eb",
+      "official_md5": "75810d09663cb0fe10eb063584ed1eaa",
+      "path": "/srv/CRC-PHIRE/databases/archives/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503_bt2.tar"
+    },
+    {
+      "url": "https://cmprod1.cibio.unitn.it/biobakery4/metaphlan_databases/mpa_vJan25_CHOCOPhlAnSGB_202503.tar",
+      "bytes": 5118914560,
+      "md5": "f5d0b70b22eb6450c344ba44429b5c9c",
+      "sha256": "9f26337ad06c2703ada290db0afb901c6f08f7dcee492e9e3f8e2fac32aba3de",
+      "official_md5": "f5d0b70b22eb6450c344ba44429b5c9c",
+      "path": "/srv/CRC-PHIRE/databases/archives/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503.tar"
+    }
+  ],
+  "scientifically_calibrated": false,
+  "database_dir": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503",
+  "files": [
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/.extracted_mpa_vJan25_CHOCOPhlAnSGB_202503.tar.json",
+      "bytes": 123,
+      "sha256": "3f80cf2c8aa5f851fb2165471237129376d8fbab7ca01d430659aa56598750d3"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/.extracted_mpa_vJan25_CHOCOPhlAnSGB_202503_bt2.tar.json",
+      "bytes": 124,
+      "sha256": "8af4e432933c4bf76def69050a48d9919f282a1eda418dbbd8206241340734fb"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.1.bt2l",
+      "bytes": 6665962881,
+      "sha256": "aa5abf2cef5403589fc0c930a804e1532f19570215468130e43487d5dfb3ddb4"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.2.bt2l",
+      "bytes": 8612158876,
+      "sha256": "733defb2c4370bf7d8c16d4b66443ec5c66e19c533a2045b022ad29e7570a825"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.3.bt2l",
+      "bytes": 195304631,
+      "sha256": "1a7311ccfabf8840d031c4a04c31d9b9d71a6c0b09003234fdbd67102d5a7bdf"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.4.bt2l",
+      "bytes": 4306079434,
+      "sha256": "4b8efbefcf2b409a09dff555abd702923ae8b11ea252dba9bd3263821227c05f"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.nwk",
+      "bytes": 2134075,
+      "sha256": "805290852b85af231c73647a8229b699f0875fd3c64bd9395bc8880f847b06ea"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.pkl",
+      "bytes": 163915626,
+      "sha256": "e7d23a73a7959b4f41af0bbe403f4b5bbb7c1879528d376d146ee5294515df9a"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.rev.1.bt2l",
+      "bytes": 6665962881,
+      "sha256": "417b49a603fb3c2e8bbf5e064ea7448d68dcf378b8d403ff109dc33d07ffc955"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503.rev.2.bt2l",
+      "bytes": 8612158876,
+      "sha256": "e237e8099338fb99d0fa0771e04e6d0ae264458f31f4bd645cff9f222032ec86"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna",
+      "bytes": 17191810575,
+      "sha256": "96be52fa147d074df6a1eaaaf2024f1371bec6abf8469f6c29a342d07b847d99"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna.bz2",
+      "bytes": 4772935883,
+      "sha256": "771c92ad2e023b4b68b794475557ac5c344348dafef87ae1c14918df396e358f"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503_VINFO.csv",
+      "bytes": 150936,
+      "sha256": "7162e9895aba6f170797ad8d19e4d926ed0a5aea9c0888b54608249027497b14"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna",
+      "bytes": 884015808,
+      "sha256": "a65260d39b58df73246c0778792d3ad99d6976ba2a6d9cd4ca11d1dfdbc4a5f9"
+    },
+    {
+      "path": "/srv/CRC-PHIRE/databases/metaphlan/mpa_vJan25_CHOCOPhlAnSGB_202503/mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna.bz2",
+      "bytes": 181901092,
+      "sha256": "2e20c5569c6c084a85c0ff1ef1837a536d4f939a235a3dc57d40fe4b35fdfbf1"
+    }
+  ],
+  "lock_sha256": "7f0b97bb0fedb8f39e9eb34d9e3ac0f51dd3d9a872f2060f275094b2fc4119d1",
+  "probe_inputs": [
+    {
+      "source": "/srv/CRC-PHIRE/projects/crc-pipeline/data/baseline/tests_data/GCF_000005845.2.fna",
+      "sha256": "53bb6a51b6e92139ced1e38f74b7938781027c52200922ff03718c2237d23bb4",
+      "read_length": 150,
+      "derived_reads": 3001
+    },
+    {
+      "source": "/srv/CRC-PHIRE/projects/crc-pipeline/data/baseline/tests_data/GCF_000009045.1.fna",
+      "sha256": "59c09816fb55fb1a0b42d0715f627bb42018a19c6bf933c9cb37f6058ee4737e",
+      "read_length": 150,
+      "derived_reads": 3001
+    }
+  ],
+  "probe_scope": "deterministic fragments of the existing two baseline genomes; execution portability only",
+  "real_tool_execution": true,
+  "real_metagenome_validated": false,
+  "profile": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability_20260923/metaphlan/profile.tsv",
+  "database_files": {
+    ".extracted_mpa_vJan25_CHOCOPhlAnSGB_202503.tar.json": "3f80cf2c8aa5f851fb2165471237129376d8fbab7ca01d430659aa56598750d3",
+    ".extracted_mpa_vJan25_CHOCOPhlAnSGB_202503_bt2.tar.json": "8af4e432933c4bf76def69050a48d9919f282a1eda418dbbd8206241340734fb",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.1.bt2l": "aa5abf2cef5403589fc0c930a804e1532f19570215468130e43487d5dfb3ddb4",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.2.bt2l": "733defb2c4370bf7d8c16d4b66443ec5c66e19c533a2045b022ad29e7570a825",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.3.bt2l": "1a7311ccfabf8840d031c4a04c31d9b9d71a6c0b09003234fdbd67102d5a7bdf",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.4.bt2l": "4b8efbefcf2b409a09dff555abd702923ae8b11ea252dba9bd3263821227c05f",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.nwk": "805290852b85af231c73647a8229b699f0875fd3c64bd9395bc8880f847b06ea",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.pkl": "e7d23a73a7959b4f41af0bbe403f4b5bbb7c1879528d376d146ee5294515df9a",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.rev.1.bt2l": "417b49a603fb3c2e8bbf5e064ea7448d68dcf378b8d403ff109dc33d07ffc955",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503.rev.2.bt2l": "e237e8099338fb99d0fa0771e04e6d0ae264458f31f4bd645cff9f222032ec86",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna": "96be52fa147d074df6a1eaaaf2024f1371bec6abf8469f6c29a342d07b847d99",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503_SGB.fna.bz2": "771c92ad2e023b4b68b794475557ac5c344348dafef87ae1c14918df396e358f",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503_VINFO.csv": "7162e9895aba6f170797ad8d19e4d926ed0a5aea9c0888b54608249027497b14",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna": "a65260d39b58df73246c0778792d3ad99d6976ba2a6d9cd4ca11d1dfdbc4a5f9",
+    "mpa_vJan25_CHOCOPhlAnSGB_202503_VSG.fna.bz2": "2e20c5569c6c084a85c0ff1ef1837a536d4f939a235a3dc57d40fe4b35fdfbf1"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "allocation": {
+    "account": "lab",
+    "alloc_tres": "cpu=20,mem=110G,node=1,billing=20",
+    "cgroup": "0::/system.slice/spark-d3de_slurmstepd.scope/job_1087/step_batch/user/task_0",
+    "cpus": 20,
+    "job_id": "1087",
+    "memory_mib": 112640,
+    "partition": "main"
+  },
+  "container_isolation": false,
+  "dependency_manifest_sha256": "a9edb8148c9df6605b30778485c7788adc4466494b9f39bc182f597c57cb40d5",
+  "environments": {
+    "python": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:07:00.288911+00:00",
+      "installed": true,
+      "lock_sha256": "c278b72dbed8f4da3c65ea97821f761f325ad7f82995e89662d26911e4d254f8",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-python/pixi.toml",
+      "manifest_sha256": "90abe01516ac8be662b4113f1751ba9c6b82d6ee90452abc3e2ad92823be3fcc",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/python",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-python/.pixi/envs/default",
+      "runtime_fingerprint": "ffe5a2894e8d95d10fd54b5f284fb4ef1938db0eae2f4dadc88fd4a16b248bd9",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "python",
+        "lock_sha256": "c278b72dbed8f4da3c65ea97821f761f325ad7f82995e89662d26911e4d254f8",
+        "manifest_sha256": "90abe01516ac8be662b4113f1751ba9c6b82d6ee90452abc3e2ad92823be3fcc",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "nf-core": {
+            "expected_version": "4.1.0",
+            "observed_version": "4.1.0"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:06:56.262628+00:00",
+      "status": "ready",
+      "tools": {
+        "nf-core": {
+          "expected_version": "4.1.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/python/nf-core.log",
+          "observed_version": "4.1.0",
+          "probe": [
+            "nf-core",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "reads-qc": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:06:17.156002+00:00",
+      "installed": true,
+      "lock_sha256": "d8f6cce02a12d962e9bf2fb073aeb5c195dc1fa64a45e44883a661d87dfbbde1",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-qc/pixi.toml",
+      "manifest_sha256": "22cf15b0eec61ce25bc21aa3ae5ceba858e322a6e74ce7e4ff4a379df0677928",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-reads-qc/.pixi/envs/default",
+      "runtime_fingerprint": "dc53fe5eedd501ba75c1e4d642f39e2f85f9ae9674c98a69ac9c2de188854b71",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "reads-qc",
+        "lock_sha256": "d8f6cce02a12d962e9bf2fb073aeb5c195dc1fa64a45e44883a661d87dfbbde1",
+        "manifest_sha256": "22cf15b0eec61ce25bc21aa3ae5ceba858e322a6e74ce7e4ff4a379df0677928",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "bowtie2": {
+            "expected_version": "2.5.4",
+            "observed_version": "2.5.4"
+          },
+          "fastp": {
+            "expected_version": "0.24.0",
+            "observed_version": "0.24.0"
+          },
+          "fastqc": {
+            "expected_version": "0.12.1",
+            "observed_version": "0.12.1"
+          },
+          "multiqc": {
+            "expected_version": "1.32",
+            "observed_version": "1.32"
+          },
+          "samtools": {
+            "expected_version": "1.22.1",
+            "observed_version": "1.22.1"
+          },
+          "viromeqc": {
+            "expected_version": "1.0.2",
+            "observed_version": "1.0.2"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:05:55.775947+00:00",
+      "status": "ready",
+      "tools": {
+        "bowtie2": {
+          "expected_version": "2.5.4",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/bowtie2.log",
+          "observed_version": "2.5.4",
+          "probe": [
+            "bowtie2",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "fastp": {
+          "expected_version": "0.24.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/fastp.log",
+          "observed_version": "0.24.0",
+          "probe": [
+            "fastp",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "fastqc": {
+          "expected_version": "0.12.1",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/fastqc.log",
+          "observed_version": "0.12.1",
+          "probe": [
+            "fastqc",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "multiqc": {
+          "expected_version": "1.32",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/multiqc.log",
+          "observed_version": "1.32",
+          "probe": [
+            "multiqc",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "samtools": {
+          "expected_version": "1.22.1",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/samtools.log",
+          "observed_version": "1.22.1",
+          "probe": [
+            "samtools",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "viromeqc": {
+          "expected_version": "1.0.2",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/reads-qc/viromeqc.log",
+          "observed_version": "1.0.2",
+          "probe": [
+            "viromeQC.py",
+            "--help"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    }
+  },
+  "filesystem_write_protection": "Landlock ABI>=3; task and approved output writes plus recorded POSIX IPC; inputs/databases denied",
+  "guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce",
+  "network_or_metadata_chmod_isolation": false,
+  "platform": "linux-aarch64",
+  "posix_ipc_policy": {
+    "allowed_access": [
+      "WRITE_FILE",
+      "TRUNCATE",
+      "MAKE_REG",
+      "REMOVE_FILE"
+    ],
+    "dac_uid_and_sticky_bit_preserved": true,
+    "denied_additional_access": [
+      "MAKE_DIR",
+      "REMOVE_DIR",
+      "MAKE_SYM",
+      "MAKE_CHAR",
+      "MAKE_BLOCK",
+      "MAKE_SOCK",
+      "MAKE_FIFO",
+      "REFER"
+    ],
+    "ipc_namespace_isolation": false,
+    "limitation": "Landlock cannot restrict this grant by generated IPC filename prefix; existing DAC-permitted same-user shm is reachable",
+    "path": "/dev/shm",
+    "purpose": "standard POSIX shared memory and named semaphores; scientific inputs and databases forbidden here",
+    "same_uid_ipc_isolation": false,
+    "version": "posix_ipc_shm_v1"
+  },
+  "readonly_mounts_enforced": false,
+  "runtime": "native-locked-prefix",
+  "runtime_adapter_sha256": "99e7d6fc6d8a9386917b77cad31994b4ae9c8313f959dff37b0f20f3c6c57766",
+  "site_manifest_sha256": "1251d19a4ba83e93615ed4357893f4918b441c58e5384e761140f72ae0457be2",
+  "task_shell_sha256": "e8e8c124e20c5ef617256e28fba1cd3943b1826b6736a93c3ebe961f40acf988",
+  "validation": "input_database_checksums_and_Landlock_data_write_guard"
+}

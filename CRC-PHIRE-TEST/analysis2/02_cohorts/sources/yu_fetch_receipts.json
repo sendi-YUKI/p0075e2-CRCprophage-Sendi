@@ -1,0 +1,17 @@
+[
+  {
+    "file": "YuJ_2015_sample.tsv",
+    "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YuJ_2015/YuJ_2015_sample.tsv",
+    "sha256": "25be60ce6accd22981ac4f2743a1a1c6fb7ad8a457546ff6c3d392810f34c092"
+  },
+  {
+    "file": "YuJ_2015_study.tsv",
+    "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YuJ_2015/YuJ_2015_study.tsv",
+    "sha256": "e1ff9b1265e9ebbceb068f4846dd7ed31a1001eae5d230ae0ec60efdcbe9e6cb"
+  },
+  {
+    "file": "YuJ_2015_sra_meta.tsv",
+    "url": "https://raw.githubusercontent.com/waldronlab/curatedMetagenomicDataCuration/70d713802f8959e03eb7944b69e8fd5a4ea3da8c/inst/curated/YuJ_2015/YuJ_2015_sra_meta.tsv",
+    "sha256": "0997f060c2f3a0d573290729c18aad7b38148f9009a64ce86291c5b3ceb3fdca"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "profiles": [
+    {
+      "profile_id": "pilot10_broad_detection_75",
+      "status": "provisional",
+      "breadth_field": "breadth_full",
+      "breadth_min": 0.75,
+      "assigned_fragments_min": 1,
+      "mean_depth_min": 0,
+      "require_mappability": false,
+      "unique_mappability_min": 0.5,
+      "research_eligible": false
+    }
+  ],
+  "note": "Frozen v4: >=75% of full viral length covered at >=1x after mapping filters. No extra mean-depth threshold. Below-threshold is not biological absence; per-readset results require donor depth union."
+}

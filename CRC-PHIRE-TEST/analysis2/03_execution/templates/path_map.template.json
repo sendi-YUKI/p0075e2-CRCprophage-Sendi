@@ -1,0 +1,9 @@
+{
+  "status": "template",
+  "PROJECT_ROOT": "SET_BY_JINLONG",
+  "DATA_ROOT": "PRIVATE_SERVER_DATA_ROOT",
+  "DATABASE_ROOT": "PRIVATE_DATABASE_ROOT",
+  "RESULTS_ROOT": "SET_BY_JINLONG",
+  "SMALL_FILE_RETURN": "researcher_git_checkout",
+  "publish_credentials": false
+}

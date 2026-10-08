@@ -1,0 +1,33 @@
+#!/usr/bin/python3
+"""Scoped Nextflow launcher adding audited resource-only configuration."""
+from pathlib import Path
+from datetime import datetime, timezone
+import hashlib, json, os, sys
+
+ROOT = Path('/srv/CRC-PHIRE/analysis1')
+REAL = Path('/srv/CRC-PHIRE/.local/share/crc-phage/tools/nextflow/25.10.4/aarch64/nextflow')
+CONFIG = ROOT/'02_pipeline/pilot10_runtime_limits.config'
+SOURCES = {ROOT/'02_pipeline/src_pilot6_imported': 'main_viral.nf',
+           ROOT/'02_pipeline/src_pilot6_measurement': 'main_cohort.nf'}
+args = sys.argv[1:]
+cwd = Path.cwd().resolve()
+changed = False
+if args and args[0] == 'run':
+    if cwd not in SOURCES or len(args)<2 or Path(args[1]).resolve() != cwd/SOURCES[cwd]:
+        raise SystemExit('Scoped pilot10 launcher refuses a different workflow')
+    if not os.environ.get('SLURM_JOB_ID'):
+        raise SystemExit('Real workflow requires Slurm')
+    args += ['-c', str(CONFIG)]
+    changed = True
+elif 'config' in args and cwd in SOURCES:
+    idx = args.index('config')
+    args[idx:idx] = ['-c', str(CONFIG)]
+    changed = True
+if changed:
+    record = dict(utc=datetime.now(timezone.utc).isoformat(),job_id=os.environ.get('SLURM_JOB_ID'),
+                  cwd=str(cwd),command=[str(REAL)]+args,
+                  config_sha256=hashlib.sha256(CONFIG.read_bytes()).hexdigest(),
+                  launcher_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest())
+    target=ROOT/'13_handoff'/('pilot10_runtime_invocation_'+os.environ.get('SLURM_JOB_ID','configcheck')+'_'+cwd.name+'.json')
+    target.write_text(json.dumps(record,indent=2))
+os.execv(str(REAL), [str(REAL)]+args)

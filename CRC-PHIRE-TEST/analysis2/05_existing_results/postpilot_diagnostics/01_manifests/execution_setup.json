@@ -1,0 +1,28 @@
+{
+  "captured": "2026-10-08T14:32:58.916618+02:00",
+  "scope": "existing258_reference_plus10_Feng_donors_postpilot_diagnostics",
+  "inputs": {
+    "CRC-PHIRE_试跑后计划调整_执行Prompt_2026-10-08.md": "afa638af18af8e0026de145ef1babed24ec1de8ba098d5ef82bc42d485b38a70",
+    "CRC-PHIRE_analysis1_启动执行Prompt_v1_2026-10-05.md": "36e428c1f948ec79d8799f0782aa8f62d65ba3f029ee8aec1e1561077b7cb212",
+    "00_plan\\CRC-PHIRE_综合研究与Codex执行计划_v4_全量先导版_2026-10-05.md": "762c688937f79fc5ca4b535b56882c14477745a7abf113240ce963c2c268a642",
+    "00_plan\\CRC-PHIRE_先导结果评审与方案修订建议_2026-10-08.md": "66bbcc4870f67e36d8ae1987a22e5ffe336b2c52cbb5cf1c5439abbb45c4c1b6",
+    "00_plan\\Figure_展示规范与输出清单.md": "767edd6185afb9570375ba37d709169c1eff5c3f4486dcceb3c04218669842f5",
+    "12_reports\\pilot10\\完整先导结果报告_含显著性说明.md": "999e404294ae83e4ad4c49635d491a05fa713377ae9e2ae370aea8cff8647e03",
+    "13_handoff\\next_actions.md": "f9a7be11e282198ed2ab3a93fef6c5b08c2a5fbbf083dc68140b97f678a48143",
+    "13_handoff\\resume_prompt.md": "4a224dccacc47deab629fc31f617d437245cc4192501f4df9a6eec2d89c840bf"
+  },
+  "jobs": {
+    "1132": "failed_database_manifest_schema_preflight_no_mapping",
+    "1133": "host_profiles_database_adapter",
+    "1134": "native_assembly_382_locus_PropagAtE",
+    "1135": "measurement_and_factual_audit_afterok1134",
+    "1136": "bounded_synthetic_calibration_afterok1135"
+  },
+  "source_parent": {
+    "02_pipeline\\src_pilot6_measurement\\bin\\cohort_tools.py": "f2945e31f95210a643ed7d440069aefcfa1bdcccdfa5b1f27303cb173adfa377",
+    "02_pipeline\\src_pilot6_measurement\\bin\\cohort_measure.py": "769b8183190f9a4feb2195ffff7d91d02e3e3e9fe7bde5e447d3309e2af8e346",
+    "02_pipeline\\pilot10_candidate_review.py": "874f8224bfe2937238e888ab7b71d80672274587599b094fea84c85a4d16aa5d"
+  },
+  "propagate_commit": "d67f6f74de2b20290339ad7fc7721e6bf02c8f1a",
+  "shared_environment_modified": false
+}

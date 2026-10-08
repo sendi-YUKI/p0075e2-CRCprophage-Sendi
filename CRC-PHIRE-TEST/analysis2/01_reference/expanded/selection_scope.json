@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-08",
+  "stage": "metadata_preselection_not_final_sequence_QC",
+  "taxa": [
+    {
+      "key": "fusobacterium_animalis",
+      "query": "Fusobacterium animalis",
+      "role": "deep",
+      "disease_direction": "CRC_enriched_lineage_dependent",
+      "candidate_budget_cap": 180,
+      "source_ids": [
+        "FNA2024",
+        "FNTAX2025",
+        "CRC2025"
+      ],
+      "interpretation": "保留旧名与新种/谱系对应；不把旧Fna C1/C2当永恒分类",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_nucleatum",
+      "query": "Fusobacterium nucleatum",
+      "role": "deep",
+      "disease_direction": "CRC_enriched_lineage_dependent",
+      "candidate_budget_cap": 120,
+      "source_ids": [
+        "CRC2025",
+        "FNTAX2025"
+      ],
+      "interpretation": "查询包含子类群时全局去重复；宿主/口腔与肠道来源分开",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_polymorphum",
+      "query": "Fusobacterium polymorphum",
+      "role": "lineage_context",
+      "disease_direction": "CRC_enriched_lineage_dependent",
+      "candidate_budget_cap": 70,
+      "source_ids": [
+        "CRC2025",
+        "FNTAX2025"
+      ],
+      "interpretation": "Fn复合群的谱系覆盖",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_vincentii",
+      "query": "Fusobacterium vincentii",
+      "role": "lineage_context",
+      "disease_direction": "CRC_enriched_lineage_dependent",
+      "candidate_budget_cap": 70,
+      "source_ids": [
+        "CRC2025",
+        "FNTAX2025"
+      ],
+      "interpretation": "Fn复合群的谱系覆盖",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_watanabei",
+      "query": "Fusobacterium watanabei",
+      "role": "taxonomy_context",
+      "disease_direction": "unresolved_taxonomic_context",
+      "candidate_budget_cap": 40,
+      "source_ids": [
+        "FNTAX2025"
+      ],
+      "interpretation": "新分类参考；不外推疾病方向",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_paranimalis",
+      "query": "Fusobacterium paranimalis",
+      "role": "taxonomy_context",
+      "disease_direction": "unresolved_taxonomic_context",
+      "candidate_budget_cap": 40,
+      "source_ids": [
+        "FNTAX2025"
+      ],
+      "interpretation": "保留分类争议和类型株锚点",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "fusobacterium_periodonticum",
+      "query": "Fusobacterium periodonticum",
+      "role": "focused",
+      "disease_direction": "CRC_association_with_recent_mechanistic_support",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "FPER2026"
+      ],
+      "interpretation": "新增研究线索，不等同多队列普适结论",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "parvimonas_micra",
+      "query": "Parvimonas micra",
+      "role": "deep",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 180,
+      "source_ids": [
+        "CRC2025",
+        "QMP2024"
+      ],
+      "interpretation": "多来源种内prophage覆盖；CRC来源不是参考纳入硬条件",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "peptostreptococcus_anaerobius",
+      "query": "Peptostreptococcus anaerobius",
+      "role": "deep",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 150,
+      "source_ids": [
+        "QMP2024",
+        "CRC2019"
+      ],
+      "interpretation": "重复关联和机制关注宿主",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "peptostreptococcus_stomatis",
+      "query": "Peptostreptococcus stomatis",
+      "role": "deep",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 120,
+      "source_ids": [
+        "CRC2025",
+        "CRC2019"
+      ],
+      "interpretation": "不与P. anaerobius合并；公开培养genome可能较少",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bacteroides_fragilis",
+      "query": "Bacteroides fragilis",
+      "role": "deep",
+      "disease_direction": "strain_dependent_mixed",
+      "candidate_budget_cap": 200,
+      "source_ids": [
+        "BF2026",
+        "CRC2025"
+      ],
+      "interpretation": "ETBF/NTBF依基因证据；不把整个物种等同致病",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bacteroides_hominis",
+      "query": "Bacteroides hominis",
+      "role": "lineage_context",
+      "disease_direction": "unresolved_taxonomic_context",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "BF2026"
+      ],
+      "interpretation": "历史division II单列；当前taxonomy与旧标签核查",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "gemella_morbillorum",
+      "query": "Gemella morbillorum",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "CRC2025",
+        "CRC2019"
+      ],
+      "interpretation": "口腔/肠道/临床体位分开",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "solobacterium_moorei",
+      "query": "Solobacterium moorei",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "CRC2019",
+        "CRC2025"
+      ],
+      "interpretation": "补足反复出现的口腔相关CRC宿主",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "porphyromonas_asaccharolytica",
+      "query": "Porphyromonas asaccharolytica",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "QMP2024",
+        "CRC2019"
+      ],
+      "interpretation": "定量混杂调整后仍有支持",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "porphyromonas_somerae",
+      "query": "Porphyromonas somerae",
+      "role": "focused",
+      "disease_direction": "CRC_association_context_dependent",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "CRC2019",
+        "CRC2025"
+      ],
+      "interpretation": "不将属级方向直接推广所有种",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "prevotella_intermedia",
+      "query": "Prevotella intermedia",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "QMP2024",
+        "CRC2019"
+      ],
+      "interpretation": "口腔来源可作参考，不能当健康人对照",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "anaerococcus_vaginalis",
+      "query": "Anaerococcus vaginalis",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "QMP2024"
+      ],
+      "interpretation": "补足混杂调整后支持的宿主",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "dialister_pneumosintes",
+      "query": "Dialister pneumosintes",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "QMP2024",
+        "CRC2025"
+      ],
+      "interpretation": "补足混杂调整后支持的宿主",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "hungatella_hathewayi",
+      "query": "Hungatella hathewayi",
+      "role": "focused",
+      "disease_direction": "CRC_enriched",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "CRC2025",
+        "VIROME2023"
+      ],
+      "interpretation": "种内与旧Clostridium标签交叉核查",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "clostridium_symbiosum",
+      "query": "Clostridium symbiosum",
+      "role": "focused",
+      "disease_direction": "CRC_association_context_dependent",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "CRC2019",
+        "CRC2025"
+      ],
+      "interpretation": "数据库新旧分类分别保留",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "streptococcus_gallolyticus",
+      "query": "Streptococcus gallolyticus",
+      "role": "focused",
+      "disease_direction": "CRC_relevant_clinical_association",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "CRC2019"
+      ],
+      "interpretation": "临床宿主资源；血培养不等同粪便病例对照",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "faecalibacterium",
+      "query": "Faecalibacterium",
+      "role": "deep_depleted_background",
+      "disease_direction": "control_associated_subset_direction_not_genus_wide",
+      "candidate_budget_cap": 200,
+      "source_ids": [
+        "VIROME2023",
+        "CRC2019",
+        "HIBC2025"
+      ],
+      "interpretation": "属级检索覆盖F. prausnitzii复合群的新种；逐种解释",
+      "scope_rank": "genus",
+      "api_filters": {}
+    },
+    {
+      "key": "roseburia",
+      "query": "Roseburia",
+      "role": "deep_depleted_background",
+      "disease_direction": "control_associated_subset_direction_not_genus_wide",
+      "candidate_budget_cap": 160,
+      "source_ids": [
+        "VIROME2023",
+        "CRC2019"
+      ],
+      "interpretation": "属级检索补种内/种间覆盖，不宣称全属保护",
+      "scope_rank": "genus",
+      "api_filters": {}
+    },
+    {
+      "key": "agathobacter_rectalis",
+      "query": "Agathobacter rectalis",
+      "role": "depleted_background",
+      "disease_direction": "control_associated",
+      "candidate_budget_cap": 150,
+      "source_ids": [
+        "VIROME2023"
+      ],
+      "interpretation": "旧Eubacterium rectale名称对应；耗竭不等同保护",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "anaerostipes_hadrus",
+      "query": "Anaerostipes hadrus",
+      "role": "ecological_context",
+      "disease_direction": "context_dependent",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "CRC2025"
+      ],
+      "interpretation": "肠道功能/谱系背景；不预设CRC方向",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "coprococcus_comes",
+      "query": "Coprococcus comes",
+      "role": "ecological_context",
+      "disease_direction": "direction_not_prespecified",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "GPD2021"
+      ],
+      "interpretation": "常见肠道发酵生态背景，未据此宣称CRC耗竭",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bifidobacterium_longum",
+      "query": "Bifidobacterium longum",
+      "role": "ecological_context",
+      "disease_direction": "control_association_context_dependent",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "CRC2019"
+      ],
+      "interpretation": "种/亚种和年龄来源需区分，不预设保护",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bifidobacterium_adolescentis",
+      "query": "Bifidobacterium adolescentis",
+      "role": "ecological_context",
+      "disease_direction": "direction_not_prespecified",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "GPD2021"
+      ],
+      "interpretation": "补充非CRC富集的肠道宿主背景",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "akkermansia_muciniphila",
+      "query": "Akkermansia muciniphila",
+      "role": "ecological_context",
+      "disease_direction": "context_dependent",
+      "candidate_budget_cap": 100,
+      "source_ids": [
+        "AKK2021",
+        "CRC2025"
+      ],
+      "interpretation": "CRC中可富集，不能自动列为保护菌",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bacteroides_uniformis",
+      "query": "Bacteroides uniformis",
+      "role": "ecological_context",
+      "disease_direction": "direction_not_prespecified",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "GPD2021"
+      ],
+      "interpretation": "常见肠道Bacteroides背景，避免只看B. fragilis",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "bacteroides_thetaiotaomicron",
+      "query": "Bacteroides thetaiotaomicron",
+      "role": "ecological_context",
+      "disease_direction": "direction_not_prespecified",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "GPD2021"
+      ],
+      "interpretation": "可实验宿主及功能背景，不预设疾病方向",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "phocaeicola_vulgatus",
+      "query": "Phocaeicola vulgatus",
+      "role": "ecological_context",
+      "disease_direction": "context_dependent",
+      "candidate_budget_cap": 80,
+      "source_ids": [
+        "CRC2019"
+      ],
+      "interpretation": "旧Bacteroides vulgatus；高丰度近缘背景",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "phocaeicola_dorei",
+      "query": "Phocaeicola dorei",
+      "role": "ecological_context",
+      "disease_direction": "context_dependent",
+      "candidate_budget_cap": 60,
+      "source_ids": [
+        "CRC2019"
+      ],
+      "interpretation": "旧Bacteroides dorei；与vulgatus分开",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    },
+    {
+      "key": "escherichia_coli",
+      "query": "Escherichia coli",
+      "role": "mechanistic_context",
+      "disease_direction": "strain_gene_dependent",
+      "candidate_budget_cap": 150,
+      "source_ids": [
+        "CRC2025",
+        "PGENOTOX2022"
+      ],
+      "interpretation": "仅RefSeq完整组装盘点作为有界结构背景；不是E. coli全物种穷尽检索",
+      "scope_rank": "named_taxon",
+      "api_filters": {
+        "filters.assembly_source": "refseq",
+        "filters.assembly_level": "complete_genome"
+      }
+    },
+    {
+      "key": "butyricicoccus_pullicaecorum",
+      "query": "Butyricicoccus pullicaecorum",
+      "role": "experimental_context",
+      "disease_direction": "potential_protective_preclinical_only",
+      "candidate_budget_cap": 30,
+      "source_ids": [
+        "BUTYRICICOCCUS2020"
+      ],
+      "interpretation": "动物实验依据；非人类型株只作实验/分类背景，单列不伪装患者宿主",
+      "scope_rank": "named_taxon",
+      "api_filters": {}
+    }
+  ],
+  "sources": {
+    "CRC2025": "https://www.nature.com/articles/s41591-025-03693-9",
+    "CRC2019": "https://www.nature.com/articles/s41591-019-0405-7",
+    "QMP2024": "https://www.nature.com/articles/s41591-024-02963-2",
+    "VIROME2023": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10334131/",
+    "FNA2024": "https://www.nature.com/articles/s41586-024-07182-w",
+    "FNTAX2025": "https://journals.asm.org/doi/10.1128/mbio.00941-25",
+    "BF2026": "https://www.nature.com/articles/s43856-026-01403-1",
+    "PROPHAGE2025": "https://www.nature.com/articles/s41467-025-66733-5",
+    "GPD2021": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7895897/",
+    "BUTYRICICOCCUS2020": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7577080/",
+    "AKK2021": "https://www.nature.com/articles/s41598-021-82465-0",
+    "FPER2026": "https://www.nature.com/articles/s41467-026-74591-y",
+    "HIBC2025": "https://www.nature.com/articles/s41467-025-59229-9",
+    "PGENOTOX2022": "https://www.nature.com/articles/s41586-022-04444-3"
+  },
+  "selection_rules": {
+    "source": "NCBI Datasets v2 current taxonomy; exclude API-labelled MAGs",
+    "metadata_QC": "standard >=90 completeness and <=5 contamination if reported; warnings usually review; conditional complete/type anchors >=70,<=15,<=200 contigs require mandatory re-QC, not final pass",
+    "fragmentation": "<=200 contigs preferred; 201-500 reserve unless otherwise justified; >500 excluded from main preselection",
+    "priority": "human gut then other human then unknown; nonhuman normally exclude except type/experimental anchors separate",
+    "duplicate": "paired GCA/GCF one preferred assembly; same BioSample one best assembly; named-strain aliases audited separately",
+    "representativity": "rank quality within BioProject/country/body-site strata then round-robin; preserve type anchors; no claimed sequence phylogenetic dereplication",
+    "old258": "no automatic retention privilege; current metadata and same rules; individually reconciled",
+    "missing_checkm": "not equivalent to passing QC; Jinlong evaluates from sequence",
+    "no_new_FASTA_here": true,
+    "no_disease_pvalue_selection": true,
+    "taxonomy": "Inconclusive retained conditionally; explicit non-OK conflicts review",
+    "assembly_status": "prefer current; suppressed pair is flagged for suppression-reason review",
+    "disease": "all isolate disease-comparison eligibility false until adjudicated",
+    "strain_aliases": "same taxon/name across BioSamples flagged; no claim of sequence-level dereplication"
+  }
+}

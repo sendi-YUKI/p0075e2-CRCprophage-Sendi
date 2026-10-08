@@ -1,0 +1,12 @@
+{
+  "status": "candidate_inventory_not_clinical_freeze",
+  "cohorts": 9,
+  "feng_candidates": 107,
+  "feng_candidate_runs": 214,
+  "feng_candidate_bytes": 490654560109,
+  "feng_receipt_verified_bytes": 71880930564,
+  "feng_remaining_candidate_download_bytes": 418773629545,
+  "already_diagnosed_donors": 10,
+  "new_download_submitted": false,
+  "actual_next_download_job_id": null
+}

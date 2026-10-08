@@ -1,0 +1,500 @@
+{
+  "allocation": {
+    "account": "lab",
+    "alloc_tres": "cpu=20,mem=110G,node=1,billing=20",
+    "cgroup": "0::/system.slice/spark-d3de_slurmstepd.scope/job_1110/step_batch/user/task_0",
+    "cpus": 20,
+    "job_id": "1110",
+    "memory_mib": 112640,
+    "partition": "main"
+  },
+  "container_isolation": false,
+  "dependency_manifest_sha256": "a9edb8148c9df6605b30778485c7788adc4466494b9f39bc182f597c57cb40d5",
+  "environments": {
+    "core-blast": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:09:26.529025+00:00",
+      "installed": true,
+      "lock_sha256": "253f15c0114311569228200416463dfa67cf4fb6b651f9c55f091a67309b69b6",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-blast/pixi.toml",
+      "manifest_sha256": "b0b1ac8760baed89acb850f264194698ea565684b3b43502afb00454f775f25d",
+      "native_source": {
+        "architecture": "aarch64",
+        "binary_sha256": {
+          "blastdbcmd": "d09fd58a02e42cc5b3b3f92f3292eb73b6952ee449e8760d299fc5e079458d06",
+          "blastn": "9f1c33765bd35136625088e204945e332afd524d49b2eb57439478fd09b2ba34",
+          "blastp": "28cb6cc9fe4e350d500135e40a539372cb9f93cde1dd74025c55c94b76a09eab",
+          "makeblastdb": "0dd7ef79f751d454d89565fbdbca5abd54528ed66859801654c7d7a9ca4ac40e"
+        },
+        "bytes": 243442823,
+        "expected_md5": "5f9d49b999346e0ddb6637b71af4b22a",
+        "path": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-blast/native/blast-2.17.0/source.tar.gz",
+        "sha256": "cb9ac252a1ac8767d90b0bf0a38486f3cb94f71ef9b6b8d194ded19b30250daf",
+        "url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-aarch64-linux.tar.gz"
+      },
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-blast",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-blast/.pixi/envs/default",
+      "runtime_fingerprint": "2b5d794350411984556f97ceeae6d40f1017ea1645ed39d5d6a3c740e318e145",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "core-blast",
+        "installation": "official_aarch64_archive_extracted; prefix_bin_symlinks; no_recompile",
+        "lock_sha256": "253f15c0114311569228200416463dfa67cf4fb6b651f9c55f091a67309b69b6",
+        "manifest_sha256": "b0b1ac8760baed89acb850f264194698ea565684b3b43502afb00454f775f25d",
+        "native_source": {
+          "architecture": "aarch64",
+          "binary_sha256": {
+            "blastdbcmd": "d09fd58a02e42cc5b3b3f92f3292eb73b6952ee449e8760d299fc5e079458d06",
+            "blastn": "9f1c33765bd35136625088e204945e332afd524d49b2eb57439478fd09b2ba34",
+            "blastp": "28cb6cc9fe4e350d500135e40a539372cb9f93cde1dd74025c55c94b76a09eab",
+            "makeblastdb": "0dd7ef79f751d454d89565fbdbca5abd54528ed66859801654c7d7a9ca4ac40e"
+          },
+          "bytes": 243442823,
+          "expected_md5": "5f9d49b999346e0ddb6637b71af4b22a",
+          "sha256": "cb9ac252a1ac8767d90b0bf0a38486f3cb94f71ef9b6b8d194ded19b30250daf",
+          "url": "https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.17.0/ncbi-blast-2.17.0+-aarch64-linux.tar.gz"
+        },
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "blast": {
+            "expected_version": "2.17.0",
+            "observed_version": "2.17.0"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:08:59.524081+00:00",
+      "status": "ready",
+      "tools": {
+        "blast": {
+          "expected_version": "2.17.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-blast/blast.log",
+          "observed_version": "2.17.0",
+          "probe": [
+            "blastn",
+            "-version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "core-checkv": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:12:13.331699+00:00",
+      "installed": true,
+      "lock_sha256": "d31333775068dd0f02fc069bbb32142d9748665a7cf597fd29fe85274b0485e3",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/pixi.toml",
+      "manifest_sha256": "c8d14a395389e279cb046174cc4fe466d296c0c659fddfb2ec92b0ded3c15dd2",
+      "native_source": {
+        "architecture": "aarch64",
+        "binary_sha256": "809d49f91de6c115ede37edc2a3e2797322db8af3cc311e37b6ab1d21940f590",
+        "bytes": 19028649,
+        "commit": "af4fc6484250c497c6b1f1a08f734764dc5d2ed4",
+        "expected_md5": null,
+        "path": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/native/diamond-2.1.8/source.tar.gz",
+        "sha256": "66cd7c56dce2736bb4786d1c2bdf2ceeef819ec866c3e7a45e67807dfd4e2ff5",
+        "url": "https://codeload.github.com/bbuchfink/diamond/tar.gz/af4fc6484250c497c6b1f1a08f734764dc5d2ed4"
+      },
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-checkv",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/.pixi/envs/default",
+      "previous_attempt_error": "command failed (2): /srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-checkv/checkv.log",
+      "runtime_fingerprint": "799a3bd37cb604d3b37955a5824d44bbec1f6ca4f315e85a7a4d4fc6cfc90041",
+      "runtime_identity": {
+        "activation_env": {},
+        "build_commands": [
+          [
+            [
+              "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-build-tools/.pixi/envs/default/bin/cmake",
+              "-S",
+              "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/native/diamond-2.1.8/diamond-af4fc6484250c497c6b1f1a08f734764dc5d2ed4",
+              "-B",
+              "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/native/diamond-2.1.8/build",
+              "-DCMAKE_BUILD_TYPE=Release",
+              "-DAARCH64=ON",
+              "-DX86=OFF",
+              "-DCMAKE_PREFIX_PATH=/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-build-tools/.pixi/envs/default",
+              "-DCMAKE_C_COMPILER=/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-build-tools/.pixi/envs/default/bin/aarch64-conda-linux-gnu-gcc",
+              "-DCMAKE_CXX_COMPILER=/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-build-tools/.pixi/envs/default/bin/aarch64-conda-linux-gnu-g++"
+            ],
+            [
+              "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-build-tools/.pixi/envs/default/bin/cmake",
+              "--build",
+              "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/native/diamond-2.1.8/build",
+              "-j",
+              "6"
+            ]
+          ]
+        ],
+        "build_tools_lock_sha256": "e12809b7e338362a58deffeca7da36249772d61bba85caae8bced5cb4f1850a7",
+        "environment": "core-checkv",
+        "lock_sha256": "d31333775068dd0f02fc069bbb32142d9748665a7cf597fd29fe85274b0485e3",
+        "manifest_sha256": "c8d14a395389e279cb046174cc4fe466d296c0c659fddfb2ec92b0ded3c15dd2",
+        "native_source": {
+          "architecture": "aarch64",
+          "binary_sha256": "809d49f91de6c115ede37edc2a3e2797322db8af3cc311e37b6ab1d21940f590",
+          "bytes": 19028649,
+          "commit": "af4fc6484250c497c6b1f1a08f734764dc5d2ed4",
+          "expected_md5": null,
+          "sha256": "66cd7c56dce2736bb4786d1c2bdf2ceeef819ec866c3e7a45e67807dfd4e2ff5",
+          "url": "https://codeload.github.com/bbuchfink/diamond/tar.gz/af4fc6484250c497c6b1f1a08f734764dc5d2ed4"
+        },
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "checkv": {
+            "expected_version": "1.0.3",
+            "observed_version": "1.0.3"
+          },
+          "diamond": {
+            "expected_version": "2.1.8",
+            "observed_version": "2.1.8"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:12:07.084327+00:00",
+      "status": "ready",
+      "tools": {
+        "checkv": {
+          "expected_version": "1.0.3",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-checkv/checkv.log",
+          "observed_version": "1.0.3",
+          "probe": [
+            "checkv",
+            "--help"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "diamond": {
+          "expected_version": "2.1.8",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-checkv/diamond.log",
+          "observed_version": "2.1.8",
+          "probe": [
+            "diamond",
+            "version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "core-functions": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:12:14.065778+00:00",
+      "installed": true,
+      "lock_sha256": "7457bc691d15daad253f6225c343b166622b41dd229a7ce58bb6a36c27da72e1",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-functions/pixi.toml",
+      "manifest_sha256": "e92640a8fc3a43eb29e48b6ea67e40a5b547713864d96e17e264d433b20ff218",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-functions",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-functions/.pixi/envs/default",
+      "previous_attempt_error": "command failed (2): /srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-functions/mdmparis-defense-finder.log",
+      "runtime_fingerprint": "1332d5d3ae74626969dcc65346825e20ac069201f3bd6f4a11e34c8cdb4bca0b",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "core-functions",
+        "lock_sha256": "7457bc691d15daad253f6225c343b166622b41dd229a7ce58bb6a36c27da72e1",
+        "manifest_sha256": "e92640a8fc3a43eb29e48b6ea67e40a5b547713864d96e17e264d433b20ff218",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "MacSyFinder": {
+            "expected_version": "2.1.4",
+            "observed_version": "2.1.4"
+          },
+          "hmmer": {
+            "expected_version": "3.4",
+            "observed_version": "3.4"
+          },
+          "mdmparis-defense-finder": {
+            "expected_version": "3.0.0",
+            "observed_version": "3.0.0"
+          },
+          "pyhmmer": {
+            "expected_version": "0.12.0",
+            "observed_version": "0.12.0"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:12:13.332933+00:00",
+      "status": "ready",
+      "tools": {
+        "MacSyFinder": {
+          "expected_version": "2.1.4",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-functions/MacSyFinder.log",
+          "observed_version": "2.1.4",
+          "probe": [
+            "macsyfinder",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "hmmer": {
+          "expected_version": "3.4",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-functions/hmmer.log",
+          "observed_version": "3.4",
+          "probe": [
+            "hmmsearch",
+            "-h"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "mdmparis-defense-finder": {
+          "expected_version": "3.0.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-functions/mdmparis-defense-finder.log",
+          "observed_version": "3.0.0",
+          "probe": [
+            "defense-finder",
+            "--help"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "pyhmmer": {
+          "expected_version": "0.12.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T131207Z-job725/core-functions/pyhmmer.log",
+          "observed_version": "0.12.0",
+          "probe": [
+            "python",
+            "-c",
+            "import pyhmmer; print(pyhmmer.__version__)"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "core-genomad": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:07:28.886066+00:00",
+      "installed": true,
+      "lock_sha256": "c6c737b7c7ce12723466a61574e2dff99bdca11f1f054e6b4f3c8b3938a669db",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-genomad/pixi.toml",
+      "manifest_sha256": "0619da44a63f34410b7aa22faf7e27626c6fa990d67eb41857277b3fa4a702af",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-genomad",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-genomad/.pixi/envs/default",
+      "runtime_fingerprint": "6ad80d9e78d48ad0c52268d6107430e2bd4e86a4464e87cbbf2b749bc52499c5",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "core-genomad",
+        "lock_sha256": "c6c737b7c7ce12723466a61574e2dff99bdca11f1f054e6b4f3c8b3938a669db",
+        "manifest_sha256": "0619da44a63f34410b7aa22faf7e27626c6fa990d67eb41857277b3fa4a702af",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "aragorn": {
+            "expected_version": "1.2.41",
+            "observed_version": "1.2.41"
+          },
+          "genomad": {
+            "expected_version": "1.12.0",
+            "observed_version": "1.12.0"
+          },
+          "mmseqs2": {
+            "expected_version": "18.8cc5c",
+            "observed_version": "18.8cc5c"
+          },
+          "tensorflow": {
+            "expected_version": "2.21.0",
+            "observed_version": "2.21.0"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:07:00.289866+00:00",
+      "status": "ready",
+      "tools": {
+        "aragorn": {
+          "expected_version": "1.2.41",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-genomad/aragorn.log",
+          "observed_version": "1.2.41",
+          "probe": [
+            "aragorn",
+            "-h"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "genomad": {
+          "expected_version": "1.12.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-genomad/genomad.log",
+          "observed_version": "1.12.0",
+          "probe": [
+            "genomad",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "mmseqs2": {
+          "expected_version": "18.8cc5c",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-genomad/mmseqs2.log",
+          "observed_version": "18.8cc5c",
+          "probe": [
+            "mmseqs",
+            "version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "tensorflow": {
+          "expected_version": "2.21.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/core-genomad/tensorflow.log",
+          "observed_version": "2.21.0",
+          "probe": [
+            "python",
+            "-c",
+            "import tensorflow as t; print(t.__version__)"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "python": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:07:00.288911+00:00",
+      "installed": true,
+      "lock_sha256": "c278b72dbed8f4da3c65ea97821f761f325ad7f82995e89662d26911e4d254f8",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-python/pixi.toml",
+      "manifest_sha256": "90abe01516ac8be662b4113f1751ba9c6b82d6ee90452abc3e2ad92823be3fcc",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/python",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-python/.pixi/envs/default",
+      "runtime_fingerprint": "ffe5a2894e8d95d10fd54b5f284fb4ef1938db0eae2f4dadc88fd4a16b248bd9",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "python",
+        "lock_sha256": "c278b72dbed8f4da3c65ea97821f761f325ad7f82995e89662d26911e4d254f8",
+        "manifest_sha256": "90abe01516ac8be662b4113f1751ba9c6b82d6ee90452abc3e2ad92823be3fcc",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "nf-core": {
+            "expected_version": "4.1.0",
+            "observed_version": "4.1.0"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:06:56.262628+00:00",
+      "status": "ready",
+      "tools": {
+        "nf-core": {
+          "expected_version": "4.1.0",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/python/nf-core.log",
+          "observed_version": "4.1.0",
+          "probe": [
+            "nf-core",
+            "--version"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    },
+    "viral-gene": {
+      "activation_env": {},
+      "actual_execution_checked": true,
+      "completed_utc": "2026-09-23T13:06:52.772621+00:00",
+      "installed": true,
+      "lock_sha256": "e456b830e5be0d5827ddc0f6accd3ce9c6cbc43725ad9b48880be47c607afbe5",
+      "manifest": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-viral-gene/pixi.toml",
+      "manifest_sha256": "6d738f5b99bc9db8b3eef6a402290c532e818de2e7a2813c29b0c32c626e9ab1",
+      "output": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/viral-gene",
+      "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-viral-gene/.pixi/envs/default",
+      "runtime_fingerprint": "63a7602da52a4efcb460eae60a4adccbf710b035febf5d8e5f7af6e8241e59d5",
+      "runtime_identity": {
+        "activation_env": {},
+        "environment": "viral-gene",
+        "lock_sha256": "e456b830e5be0d5827ddc0f6accd3ce9c6cbc43725ad9b48880be47c607afbe5",
+        "manifest_sha256": "6d738f5b99bc9db8b3eef6a402290c532e818de2e7a2813c29b0c32c626e9ab1",
+        "platform": "linux-aarch64",
+        "schema_version": 1,
+        "tools": {
+          "pyrodigal": {
+            "expected_version": "3.7.1",
+            "observed_version": "3.7.1"
+          },
+          "pyrodigal-gv": {
+            "expected_version": "0.3.2",
+            "observed_version": "0.3.2"
+          }
+        }
+      },
+      "site_checked": true,
+      "started_utc": "2026-09-23T13:06:51.240628+00:00",
+      "status": "ready",
+      "tools": {
+        "pyrodigal": {
+          "expected_version": "3.7.1",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/viral-gene/pyrodigal.log",
+          "observed_version": "3.7.1",
+          "probe": [
+            "python",
+            "-c",
+            "import pyrodigal; print(pyrodigal.__version__)"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        },
+        "pyrodigal-gv": {
+          "expected_version": "0.3.2",
+          "log": "/srv/CRC-PHIRE/projects/crc-pipeline/results/spark_portability/dependencies/20260923T130552Z-job724/viral-gene/pyrodigal-gv.log",
+          "observed_version": "0.3.2",
+          "probe": [
+            "python",
+            "-c",
+            "import pyrodigal_gv; print(pyrodigal_gv.__version__)"
+          ],
+          "probe_executed": true,
+          "version_checked": true
+        }
+      }
+    }
+  },
+  "filesystem_write_protection": "Landlock ABI>=3; task and approved output writes plus recorded POSIX IPC; inputs/databases denied",
+  "guard_sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce",
+  "network_or_metadata_chmod_isolation": false,
+  "platform": "linux-aarch64",
+  "posix_ipc_policy": {
+    "allowed_access": [
+      "WRITE_FILE",
+      "TRUNCATE",
+      "MAKE_REG",
+      "REMOVE_FILE"
+    ],
+    "dac_uid_and_sticky_bit_preserved": true,
+    "denied_additional_access": [
+      "MAKE_DIR",
+      "REMOVE_DIR",
+      "MAKE_SYM",
+      "MAKE_CHAR",
+      "MAKE_BLOCK",
+      "MAKE_SOCK",
+      "MAKE_FIFO",
+      "REFER"
+    ],
+    "ipc_namespace_isolation": false,
+    "limitation": "Landlock cannot restrict this grant by generated IPC filename prefix; existing DAC-permitted same-user shm is reachable",
+    "path": "/dev/shm",
+    "purpose": "standard POSIX shared memory and named semaphores; scientific inputs and databases forbidden here",
+    "same_uid_ipc_isolation": false,
+    "version": "posix_ipc_shm_v1"
+  },
+  "readonly_mounts_enforced": false,
+  "runtime": "native-locked-prefix",
+  "runtime_adapter_sha256": "99e7d6fc6d8a9386917b77cad31994b4ae9c8313f959dff37b0f20f3c6c57766",
+  "site_manifest_sha256": "1251d19a4ba83e93615ed4357893f4918b441c58e5384e761140f72ae0457be2",
+  "task_shell_sha256": "e8e8c124e20c5ef617256e28fba1cd3943b1826b6736a93c3ebe961f40acf988",
+  "validation": "input_database_checksums_and_Landlock_data_write_guard"
+}

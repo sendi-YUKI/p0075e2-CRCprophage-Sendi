@@ -1,0 +1,62 @@
+[
+  {
+    "container_executed": false,
+    "environment": "core-blast",
+    "legacy_container_reference": "community.wave.seqera.io/library/blast:2.17.0--d4fb881691596759@sha256:7f0f18604de90429273e086528b050ad4db0e8bb2eff5a63576afc38e222d27b",
+    "lock_sha256": "253f15c0114311569228200416463dfa67cf4fb6b651f9c55f091a67309b69b6",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-blast/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  },
+  {
+    "container_executed": false,
+    "environment": "core-genomad",
+    "legacy_container_reference": "community.wave.seqera.io/library/genomad:1.12.0--27836e6e665e84b5@sha256:da41ec2aed8f7288501c19eed915632564e98b767cf639f03453e74ebe9a60b5",
+    "lock_sha256": "c6c737b7c7ce12723466a61574e2dff99bdca11f1f054e6b4f3c8b3938a669db",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-genomad/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  },
+  {
+    "container_executed": false,
+    "environment": "python",
+    "legacy_container_reference": "python:3.12.13-bookworm@sha256:3cd9086bdb30f7c9bc08a3fa621d9842e0d3f6f9291aeb4677e0547817c10b12",
+    "lock_sha256": "c278b72dbed8f4da3c65ea97821f761f325ad7f82995e89662d26911e4d254f8",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-python/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  },
+  {
+    "container_executed": false,
+    "environment": "core-checkv",
+    "legacy_container_reference": "quay.io/biocontainers/checkv:1.0.3--pyhdfd78af_0@sha256:e71b0ab781af9a1093fcf160beee587cc96aa50ff7c1a2b078166201fa390725",
+    "lock_sha256": "d31333775068dd0f02fc069bbb32142d9748665a7cf597fd29fe85274b0485e3",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-checkv/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  },
+  {
+    "container_executed": false,
+    "environment": "core-functions",
+    "legacy_container_reference": "sha256:5bcc494406a8137d2103870fa7d3e71e46ec357c3b9af6b2e6ff770090b603f4",
+    "lock_sha256": "7457bc691d15daad253f6225c343b166622b41dd229a7ce58bb6a36c27da72e1",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-core-functions/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  },
+  {
+    "container_executed": false,
+    "environment": "viral-gene",
+    "legacy_container_reference": "sha256:bcb38bcbde0091f05795045013a9428176c9c4f35a6a21dbeca18e6e85c714f6",
+    "lock_sha256": "e456b830e5be0d5827ddc0f6accd3ce9c6cbc43725ad9b48880be47c607afbe5",
+    "platform": "linux-aarch64",
+    "prefix": "/srv/CRC-PHIRE/projects/crc-pipeline/envs/spark-viral-gene/.pixi/envs/default",
+    "readonly_mounts_enforced": false,
+    "runtime": "native-locked-prefix"
+  }
+]

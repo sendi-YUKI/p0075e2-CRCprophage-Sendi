@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-08",
+  "scope": "postpilot_design_decisions_not_claim_of_completed_formal_analysis",
+  "decisions": {
+    "main_question": {"status": "adopted", "value": "cross_cohort_CRC_sequence_association_with_host_integration_function_explanation"},
+    "main_endpoint": {"status": "adopted", "value": "broad_sequence_detection"},
+    "breadth": {"status": "adopted", "primary": 0.75, "sensitivity_partial_signal": 0.30, "denominator": "whole_viral_reference_without_host_flanks", "selection_basis": "limited_technical_calibration_and_real_coverage_not_disease_pvalues"},
+    "read_allocation": {"status": "adopted", "method": "existing_competitive_conservative_fragment_assignment", "identity_min": 0.95, "aligned_query_fraction_min": 0.90, "mapq_min": 20, "base_quality_min": 20, "audit_k": 20, "ambiguous_nondetection": "NA", "zero_interpretation": "below_defined_detection_threshold"},
+    "measurement_groups": {"status": "conditional", "value": "validate_only_specific_indistinguishable_targets_if_needed", "unvalidated_EM_or_graph_components": false},
+    "catalog": {"status": "adopted", "value": "deduplicate_G_union_M_discovery", "holdout_sequences_in_discovery": false, "minimum_viral_length_bp": 5000, "quality_rule": "retain_existing_qualified_catalog_policy_and_separate_low_unknown_quality"},
+    "families": {"status": "adopted", "primary": "contains_M_discovery_member", "supplement": "G_only", "shared_G_M_identity": "count_once_in_primary", "correction": "BH_within_predefined_family", "q": 0.05, "combined_family_FDR_claim": false},
+    "formal_information_filter": {"status": "conditional", "freeze_before_disease_effects": true, "pooled_prevalence_min": 0.05, "pooled_detected_min": 20, "pooled_nondetected_min": 20, "detected_in_discovery_cohorts_min": 2, "meta_estimable_cohorts_min": 3, "reason": "project_sparse_information_rule; verify_compatibility_with_test_null_and_missingness_before_formal_execution", "below_filter": "retain_descriptive_supplement"},
+    "cohort_model": {"status": "conditional", "outcome": "broad_detection", "predictors": ["CRC", "age", "sex", "log_clean_bases"], "sparse_or_separation": "validated_Firth_or_bias_reduction_backend_required", "status_if_unestimable": "NA_with_reason", "choose_model_by_pvalue": false},
+    "meta_analysis": {"status": "conditional", "method": "random_effects_REML_with_small_sample_interval_review", "required_outputs": ["effect", "SE", "CI", "tau2", "I2", "estimable_cohorts", "leave_one_cohort_out"], "thomas_AB_block_sensitivity": true},
+    "abundance": {"status": "conditional", "role": "supplement", "raw_counts_required_for_count_models": true, "ambiguous_cells_to_zero": false, "model_to_validate_before_formal_effect_testing": true},
+    "host_adjustment": {"status": "conditional", "requirements": ["credible_link_at_matching_taxonomic_rank", "measurable_host", "common_abundance_support", "adequate_events"], "before_after_same_donors": true, "causal_mediation_claim": false},
+    "replication": {"status": "adopted", "role": "evidence_qualified_subset_branch", "tool": "PropagAtE_v1.1.0", "commit": "d67f6f74de2b20290339ad7fc7721e6bf02c8f1a", "identity": 0.97, "ratio": 2.0, "cohen_d": 0.7, "viral_mean_depth_min": 1, "viral_breadth_min": 0.5, "end_mask_bp": 150, "project_host_bp_min": 1000, "project_host_mean_min": 1, "project_host_breadth_min": 0.5, "local_flank_sensitivity_bp": 5000, "input": "same_sample_original_assembly_readback_BAM", "interpretation": "replication_compatible_candidate_for_followup", "unmeasurable_to_dormant": false},
+    "functional_inference": {"status": "adopted", "representative_to_members_unconditional_transfer": false, "AMG": "metabolic_homology_candidate_then_context_review", "defense": "complete_system_partial_component_boundary_uncertain_separate", "adjust_for": ["length", "quality", "host_lineage", "donor_dependence"]},
+    "holdout": {"status": "adopted", "cohorts": ["WIRBEL_DE_2019", "YANG_CN_2021"], "candidate_and_direction_freeze_before_effects": true, "candidate_validation_correction": "Holm_FWER_0.05", "technical_QC_allowed_before_freeze": true},
+    "isolate_disease_comparison": {"status": "deferred", "current_eligible_genomes": 0, "reason": "clinical_and_study_body_site_phylogeny_requirements_not_met"},
+    "global_MAG_VFDB_ARG_ML": {"status": "deferred", "current_round": false},
+    "wetlab": {"status": "conditional", "main_candidates": 1, "backup_candidates": 1, "candidate_need_not_show_replication_increase": true}
+  }
+}

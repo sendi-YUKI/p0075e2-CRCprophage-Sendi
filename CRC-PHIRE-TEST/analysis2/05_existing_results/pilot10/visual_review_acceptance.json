@@ -1,0 +1,16 @@
+{
+  "status": "seven_png_figures_visually_reviewed_and_local_links_verified",
+  "utc": "2026-10-08T08:06:46.238300+00:00",
+  "review_scope": "All seven rendered PNGs inspected for missing panels, clipping, overlaps, labels and legends. SVG/PDF output hashes verified; no independent scientific validation implied. Original generation receipts retain their historical pending-review status.",
+  "figures": {
+    "extended_figures\\Fig06_evidence_quality.png": "a83c0b030f53a604858f3ec3de04d229b818cdc725f98bcd15f39bb9957952ca",
+    "extended_figures\\Fig07_exploratory_comparison.png": "20ba655d50712dd1e971997129ce71da657d2d8f2a556b2f0db48d13e89196e5",
+    "figures\\Fig01_design_and_discovery.png": "b6824dc7fb257d420c0b5e3a5ad2aabce8eb385e1ef6e227371ae0825f188245",
+    "figures\\Fig02_sequence_and_reference_links.png": "96709b2617bb510c9c94b1430ecada78c3be850e73e10fa309966758afbaf4e8",
+    "figures\\Fig03_donor_heatmap_and_points.png": "9260875f0500f1c9148f9df90cc27bd662048cdae1349edc372a1064a4a4244e",
+    "figures\\Fig04_sequence_function_evidence.png": "6e93455c7e5a54232686bc0768d00d054214e32a26b1a18a9ecde2677b08addb",
+    "figures\\Fig05_candidate_gene_context.png": "fe035c59982d0625c06f904e805a519e8b6f467f726b99a0b74d1eae4de48ce8"
+  },
+  "internal_links_verified": 66,
+  "local_manifest_entries_verified": 74
+}

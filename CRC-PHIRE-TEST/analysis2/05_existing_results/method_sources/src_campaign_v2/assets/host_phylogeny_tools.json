@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "platform": "linux-aarch64",
+  "environments": {
+    "host-core": "envs/spark-host-core-source",
+    "host-tree": "envs/spark-host-tree"
+  },
+  "tools": {
+    "panaroo": "1.8.0",
+    "mafft": "7.525",
+    "iqtree": "2.4.0"
+  },
+  "refind_mode": "off",
+  "new_gene_prediction": false,
+  "scientific_defaults_changed": false,
+  "real_validation": "not_executed"
+}

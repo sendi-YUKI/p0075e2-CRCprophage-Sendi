@@ -1,0 +1,43 @@
+{
+  "allocation": {
+    "account": "lab",
+    "alloc_tres": "cpu=20,mem=110G,node=1,billing=20",
+    "cgroup": "0::/system.slice/spark-d3de_slurmstepd.scope/job_1090/step_batch/user/task_0",
+    "cpus": 20,
+    "job_id": "1090",
+    "memory_mib": 112640,
+    "partition": "main"
+  },
+  "args": [
+    "--samplesheet",
+    "/srv/CRC-PHIRE/analysis1/01_manifests/SID531248_reads.tsv",
+    "--outdir",
+    "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248"
+  ],
+  "command": [
+    "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/bin/run-stage",
+    "reads",
+    "--samplesheet",
+    "/srv/CRC-PHIRE/analysis1/01_manifests/SID531248_reads.tsv",
+    "--outdir",
+    "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248"
+  ],
+  "dependencies_sha256": "a9edb8148c9df6605b30778485c7788adc4466494b9f39bc182f597c57cb40d5",
+  "entry": "reads",
+  "execution_id": "analysis1-reads-SID531248-v2",
+  "exit_code": 0,
+  "finished_utc": "2026-10-06T12:13:54.599710+00:00",
+  "native_config_sha256": "9600e847bef0367bc36b3613cb4f639e821fc52fc48990ad1f915ec971fbef76",
+  "nextflow_session_id": "58cf3a68-c16b-4d10-abd8-cf96ec581468",
+  "outdir": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248",
+  "pipeline_state_path": "/srv/CRC-PHIRE/analysis1/04_reads/qc_v2/SID531248/pipeline_info/stage_state.json",
+  "pipeline_state_sha256": "38eccbf37b32b8da078fc42f48e052743110c86c0d874aa81dcb02db0c29bf90",
+  "real_data_validated": false,
+  "resume_requested": false,
+  "runtime": "native-locked-prefix",
+  "schema_version": 1,
+  "scientifically_calibrated": false,
+  "started_utc": "2026-10-06T11:26:39.759880+00:00",
+  "status": "completed",
+  "target": "SPARK_PORTABILITY_BUILD"
+}

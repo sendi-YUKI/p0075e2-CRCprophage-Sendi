@@ -1,0 +1,472 @@
+[
+  {
+    "key": "fusobacterium_animalis",
+    "query": "Fusobacterium animalis",
+    "records": 182,
+    "reported_total": 182,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_nucleatum",
+    "query": "Fusobacterium nucleatum",
+    "records": 237,
+    "reported_total": 237,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_polymorphum",
+    "query": "Fusobacterium polymorphum",
+    "records": 273,
+    "reported_total": 273,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_vincentii",
+    "query": "Fusobacterium vincentii",
+    "records": 70,
+    "reported_total": 70,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_watanabei",
+    "query": "Fusobacterium watanabei",
+    "records": 36,
+    "reported_total": 36,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_paranimalis",
+    "query": "Fusobacterium paranimalis",
+    "records": 1,
+    "reported_total": 1,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "fusobacterium_periodonticum",
+    "query": "Fusobacterium periodonticum",
+    "records": 18,
+    "reported_total": 18,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "parvimonas_micra",
+    "query": "Parvimonas micra",
+    "records": 75,
+    "reported_total": 75,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "peptostreptococcus_anaerobius",
+    "query": "Peptostreptococcus anaerobius",
+    "records": 74,
+    "reported_total": 74,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "peptostreptococcus_stomatis",
+    "query": "Peptostreptococcus stomatis",
+    "records": 4,
+    "reported_total": 4,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bacteroides_fragilis",
+    "query": "Bacteroides fragilis",
+    "records": 2966,
+    "reported_total": 2966,
+    "pages": 3,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bacteroides_hominis",
+    "query": "Bacteroides hominis",
+    "records": 299,
+    "reported_total": 299,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "gemella_morbillorum",
+    "query": "Gemella morbillorum",
+    "records": 28,
+    "reported_total": 28,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "solobacterium_moorei",
+    "query": "Solobacterium moorei",
+    "records": 16,
+    "reported_total": 16,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "porphyromonas_asaccharolytica",
+    "query": "Porphyromonas asaccharolytica",
+    "records": 6,
+    "reported_total": 6,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "porphyromonas_somerae",
+    "query": "Porphyromonas somerae",
+    "records": 14,
+    "reported_total": 14,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "prevotella_intermedia",
+    "query": "Prevotella intermedia",
+    "records": 78,
+    "reported_total": 78,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "anaerococcus_vaginalis",
+    "query": "Anaerococcus vaginalis",
+    "records": 18,
+    "reported_total": 18,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "dialister_pneumosintes",
+    "query": "Dialister pneumosintes",
+    "records": 8,
+    "reported_total": 8,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "hungatella_hathewayi",
+    "query": "Hungatella hathewayi",
+    "records": 81,
+    "reported_total": 81,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "clostridium_symbiosum",
+    "query": "Clostridium symbiosum",
+    "records": 176,
+    "reported_total": 176,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "streptococcus_gallolyticus",
+    "query": "Streptococcus gallolyticus",
+    "records": 134,
+    "reported_total": 134,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "faecalibacterium",
+    "query": "Faecalibacterium",
+    "records": 544,
+    "reported_total": 544,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "roseburia",
+    "query": "Roseburia",
+    "records": 253,
+    "reported_total": 253,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "agathobacter_rectalis",
+    "query": "Agathobacter rectalis",
+    "records": 285,
+    "reported_total": 285,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "anaerostipes_hadrus",
+    "query": "Anaerostipes hadrus",
+    "records": 201,
+    "reported_total": 201,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "coprococcus_comes",
+    "query": "Coprococcus comes",
+    "records": 163,
+    "reported_total": 163,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bifidobacterium_longum",
+    "query": "Bifidobacterium longum",
+    "records": 2876,
+    "reported_total": 2876,
+    "pages": 3,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bifidobacterium_adolescentis",
+    "query": "Bifidobacterium adolescentis",
+    "records": 1621,
+    "reported_total": 1621,
+    "pages": 2,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "akkermansia_muciniphila",
+    "query": "Akkermansia muciniphila",
+    "records": 525,
+    "reported_total": 525,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bacteroides_uniformis",
+    "query": "Bacteroides uniformis",
+    "records": 1216,
+    "reported_total": 1216,
+    "pages": 2,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "bacteroides_thetaiotaomicron",
+    "query": "Bacteroides thetaiotaomicron",
+    "records": 1360,
+    "reported_total": 1360,
+    "pages": 2,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "phocaeicola_vulgatus",
+    "query": "Phocaeicola vulgatus",
+    "records": 1799,
+    "reported_total": 1799,
+    "pages": 2,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "phocaeicola_dorei",
+    "query": "Phocaeicola dorei",
+    "records": 501,
+    "reported_total": 501,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  },
+  {
+    "key": "escherichia_coli",
+    "query": "Escherichia coli",
+    "records": 5459,
+    "reported_total": 5459,
+    "pages": 6,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude",
+      "filters.assembly_source": "refseq",
+      "filters.assembly_level": "complete_genome"
+    }
+  },
+  {
+    "key": "butyricicoccus_pullicaecorum",
+    "query": "Butyricicoccus pullicaecorum",
+    "records": 11,
+    "reported_total": 11,
+    "pages": 1,
+    "status": "complete",
+    "error": "",
+    "filters": {
+      "page_size": 1000,
+      "filters.is_metagenome_derived": "metagenome_derived_exclude"
+    }
+  }
+]

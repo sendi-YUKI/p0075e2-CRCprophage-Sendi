@@ -1,0 +1,7 @@
+n_per_group	alpha	assumed_case_prevalence	assumed_control_prevalence	exact_power	scope
+5	0.05	0.224	0.026	0.009123820706268996	illustrative_species_prevalence_NOT_prophage_power
+5	5e-05	0.224	0.026	0.0	illustrative_species_prevalence_NOT_prophage_power
+25	0.05	0.224	0.026	0.3798376312728295	illustrative_species_prevalence_NOT_prophage_power
+25	5e-05	0.224	0.026	0.0006209607228231394	illustrative_species_prevalence_NOT_prophage_power
+50	0.05	0.224	0.026	0.8202647246178895	illustrative_species_prevalence_NOT_prophage_power
+50	5e-05	0.224	0.026	0.07417263745244217	illustrative_species_prevalence_NOT_prophage_power

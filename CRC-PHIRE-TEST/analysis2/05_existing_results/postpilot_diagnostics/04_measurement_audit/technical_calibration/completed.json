@@ -1,0 +1,7 @@
+{
+  "status": "completed",
+  "selected_targets": 11,
+  "synthetic_scenarios": 4,
+  "negative_interpretation": "bounded_challenge_not_global_specificity_or_real_disease_control",
+  "new_mapping_of_patients": false
+}

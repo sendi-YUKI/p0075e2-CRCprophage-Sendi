@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-06T12:09:39.989819+00:00",
+  "subjects": 48,
+  "runs": 64,
+  "fastq_files": 112,
+  "total_expected_bytes": 192974876349,
+  "seed": "CRC-PHIRE-analysis2-pilot48-v1",
+  "rule": "retain existing Feng16; new cohorts select2/group(CRC/control)/sex(F/M)/age(<65,>=65) by SHA256 rank; no phage outcomes used",
+  "counts": {
+    "FENG_AT_2015": {
+      "CRC": 8,
+      "control": 8
+    },
+    "THOMAS_IT_B_2019": {
+      "CRC": 8,
+      "control": 8
+    },
+    "YU_CN_2015": {
+      "CRC": 8,
+      "control": 8
+    }
+  },
+  "limits": [
+    "Technical pilot roster, not powered CRC association design.",
+    "Treatment timing unknown; study controls not assumed universally healthy.",
+    "Selected new32 disease labels agree across author and curation; final clinical reconciliation remains.",
+    "Missing-age exclusion is for balanced pilot selection only, not mandatory formal exclusion."
+  ]
+}

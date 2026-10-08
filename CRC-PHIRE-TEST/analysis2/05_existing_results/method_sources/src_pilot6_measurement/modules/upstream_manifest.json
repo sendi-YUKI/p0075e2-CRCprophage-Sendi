@@ -1,0 +1,54 @@
+[
+  {
+    "path": "modules/nf-core/genomad/endtoend/main.nf",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/781f2625386fe0bf2f337c7b99f56e618c59fc99/modules/nf-core/genomad/endtoend/main.nf",
+    "commit": "781f2625386fe0bf2f337c7b99f56e618c59fc99",
+    "sha256": "77de976f19279802fa9c20852c5ff37b9f95be9c7a778b43c9007dca653f1593",
+    "modified": true,
+    "upstream_sha256": "77de976f19279802fa9c20852c5ff37b9f95be9c7a778b43c9007dca653f1593",
+    "local_sha256": "a3a447d793b43e9ccf0c16d75281b537fd69de1136589ae3079dbd5733a04e49",
+    "local_patch": "modules/local_patches/genomad_endtoend_main.nf.patch",
+    "local_patch_sha256": "fa0a8f0ed98ff145482e3a2ef20fb5962b7dd758f8452f17ae86f7b55bdf29e6",
+    "modification_reason": "Explicit native runtime cache identity in script/stub comments; replace Bash-only eval version outputs with actual task-written version paths. Scientific commands, versions, DB versions and upstream metadata preserved; version channel third tuple member is now a path, and no current workflow consumes it."
+  },
+  {
+    "path": "modules/nf-core/genomad/endtoend/environment.yml",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/781f2625386fe0bf2f337c7b99f56e618c59fc99/modules/nf-core/genomad/endtoend/environment.yml",
+    "commit": "781f2625386fe0bf2f337c7b99f56e618c59fc99",
+    "sha256": "33fa99418c5bfcbfbd743f2f371f42090506f71cd228d62300972fc568f09eaf",
+    "modified": false
+  },
+  {
+    "path": "modules/nf-core/genomad/endtoend/meta.yml",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/781f2625386fe0bf2f337c7b99f56e618c59fc99/modules/nf-core/genomad/endtoend/meta.yml",
+    "commit": "781f2625386fe0bf2f337c7b99f56e618c59fc99",
+    "sha256": "5c8e2d1dc60f645dc63ea4bec60fcf2f17820d7701c4e77a30fb0c120c2edcd3",
+    "modified": false
+  },
+  {
+    "path": "modules/nf-core/checkv/endtoend/main.nf",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/6d46786420b4d7bc88eba026eb389c0c5535d120/modules/nf-core/checkv/endtoend/main.nf",
+    "commit": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+    "sha256": "c02490820c364b1f4af12245ff2fe91e46f11bae0dafcf4f3ff1cc1cb94b8cf2",
+    "modified": true,
+    "upstream_sha256": "c02490820c364b1f4af12245ff2fe91e46f11bae0dafcf4f3ff1cc1cb94b8cf2",
+    "local_sha256": "24f2bb9fc09e90e551677fe63bfaabc047781d3faf284dd46e9031ee07c9bc8f",
+    "local_patch": "modules/local_patches/checkv_endtoend_main.nf.patch",
+    "local_patch_sha256": "2887425a040633c47b1ad9fefeaf547a69084e220b2cbd142b7e82a59aba9593",
+    "modification_reason": "Explicit native runtime cache identity in script/stub comments; replace Bash-only eval version outputs with actual task-written version paths. Scientific commands, versions, DB versions and upstream metadata preserved; version channel third tuple member is now a path, and no current workflow consumes it."
+  },
+  {
+    "path": "modules/nf-core/checkv/endtoend/environment.yml",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/6d46786420b4d7bc88eba026eb389c0c5535d120/modules/nf-core/checkv/endtoend/environment.yml",
+    "commit": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+    "sha256": "12cd3bcf47c12a150a23dabee1987a2244bc2e6cacce526509c1bb7a4a54b34b",
+    "modified": false
+  },
+  {
+    "path": "modules/nf-core/checkv/endtoend/meta.yml",
+    "url": "https://raw.githubusercontent.com/nf-core/modules/6d46786420b4d7bc88eba026eb389c0c5535d120/modules/nf-core/checkv/endtoend/meta.yml",
+    "commit": "6d46786420b4d7bc88eba026eb389c0c5535d120",
+    "sha256": "6083598182e9017cf9d7b4a38cff4fd987976eafd53f7d772bbb96c4fd2a3ed7",
+    "modified": false
+  }
+]
