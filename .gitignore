@@ -14,3 +14,14 @@
 *.pem
 *.key
 **/github_workspace/
+
+# analyses/data/:分析数据与 HPC 回迁结果,只放行顶层 README
+analyses/data/*
+!analyses/data/README.md
+
+# hpc/:与 HMGU HPC 的大文件中转区,只放行 README 与 bundle 的 scripts/,约定见 hpc/README.md
+hpc/**
+!hpc/**/
+!hpc/README.md
+!hpc/*/README.md
+!hpc/*/scripts/**
