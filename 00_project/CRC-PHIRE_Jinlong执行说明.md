@@ -8,7 +8,7 @@
 
 ## 按以下顺序执行
 
-1. 阅读[全局研究计划](CRC-PHIRE_全局研究计划.md)、[参考选择说明](../01_reference/expanded/参考集合选择说明.md)和[pilot综合报告](../05_existing_results/CRC-PHIRE_pilot方法结果与正式研究启示.md)。将实际数据根、代码与结果同步位置填入[路径模板](../03_execution/templates/path_map.template.json)，准备自有workflow并记录Git commit与环境。内部连接信息在私下安全渠道填写。
+1. 阅读[全局研究计划](CRC-PHIRE_全局研究计划.md)、[参考选择说明](../01_reference/expanded/参考集合选择说明.md)和[Sendi试跑报告](../05_existing_results/CRC-PHIRE_Sendi试跑方法结果与正式研究参考.md)。将实际数据根、代码与结果同步位置填入[路径模板](../03_execution/templates/path_map.template.json)，准备自有workflow并记录Git commit与环境。内部连接信息在私下安全渠道填写。
 2. 在[方法与参数决策表](../03_execution/Jinlong_方法与参数决策表.md)中先确定当前步骤涉及的身份、输入、目录和量化规则；后续统计设计在联合分析前锁定，无需等待整张表填写完成才启动。常规工具选择由你决定，完整参数由配置和命令自动导出；改变科学问题、临床定义、开发/保留角色时与研究者共同决定。
 3. **两路并行。** 参考端按download_manifest下载或匹配已有FASTA，记录校验、QC、分类和身份。患者端核对九队列临床/供者/标本/runs，冻结合格清单后分批下载、QC、去人源、逐样本组装与病毒/prophage调用。保留集不参加开发发现。
 4. 复核参考预选中的CheckM警告、分类未定、同株别名；从备用/待查池补缺口时写理由，未通过的候选有排除记录。最终真实数量由序列QC决定，不强求当前预选数。

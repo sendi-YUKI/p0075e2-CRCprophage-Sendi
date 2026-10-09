@@ -117,4 +117,4 @@ PHROGs给出同源家族背景；DefenseFinder/PADLOC等区分完整系统与组
 
 Jinlong现在可并行启动候选参考下载/QC和九队列临床身份核对；规则、环境和首批正式输出的检查融入正式运行。临床来源齐备时整理约2–5工作日；参考下载/QC和调用可规划数天到约两周；患者全量下载/组装通常是主要工期，暂按数周级排程，具体以合格样本数、下载带宽、并发、I/O和前几个正式任务实测更新。联合量化/统计及候选复核再预留1–3周。时间是资源规划区间，不是已承诺完成日。
 
-接下来按[Jinlong执行说明](CRC-PHIRE_Jinlong执行说明.md)推进。已有方法结果见[pilot综合报告](../05_existing_results/CRC-PHIRE_pilot方法结果与正式研究启示.md)，关键选择通过[方法与参数决策表](../03_execution/Jinlong_方法与参数决策表.md)落实为配置与真实运行记录。
+接下来按[Jinlong执行说明](CRC-PHIRE_Jinlong执行说明.md)推进。已有方法结果见[Sendi试跑报告](../05_existing_results/CRC-PHIRE_Sendi试跑方法结果与正式研究参考.md)，关键选择通过[方法与参数决策表](../03_execution/Jinlong_方法与参数决策表.md)落实为配置与真实运行记录。

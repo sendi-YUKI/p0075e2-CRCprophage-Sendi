@@ -1,9 +1,9 @@
 {
-  "checked_utc": "2026-10-09T10:19:30.469513+00:00",
+  "checked_utc": "2026-10-09T10:40:01.751231+00:00",
   "status": "passed",
   "files_hashed": 721,
-  "markdown_links_checked": 267,
-  "html_links_checked": 387,
+  "markdown_links_checked": 275,
+  "html_links_checked": 395,
   "python_files_syntax_checked": 97,
   "reference_records": 21608,
   "preselected_genomes": 1931,
@@ -41,5 +41,12 @@
     "discovery": 7,
     "holdout": 2
   },
-  "current_markdown_documents": 18
+  "current_markdown_documents": 18,
+  "sendi_report_update": {
+    "figures_preserved": 11,
+    "all_scientific_tables_unchanged": true,
+    "detailed_parameters_preserved_in_methods_appendix": true,
+    "html_top_page_visually_reviewed": true,
+    "old_report_replaced_without_redirect_stub": true
+  }
 }
