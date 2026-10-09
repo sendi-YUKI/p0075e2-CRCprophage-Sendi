@@ -25,6 +25,8 @@
 
 ### 2.1 参考端：提供已知细菌背景中的病毒序列
 
+Sendi本次选择258份细菌genome开展试跑，具体编号和文件校验见[试跑参考清单](../01_reference/reference258_manifest.tsv)。
+
 | 参考分类标签 | genome数量 |
 |---|---:|
 | B. fragilis division I | 123 |
