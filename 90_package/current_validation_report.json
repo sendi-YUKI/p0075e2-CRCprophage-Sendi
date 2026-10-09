@@ -1,9 +1,9 @@
 {
-  "checked_utc": "2026-10-09T11:39:26.553319+00:00",
+  "checked_utc": "2026-10-09T12:11:50.614601+00:00",
   "status": "passed",
-  "files_hashed": 721,
-  "markdown_links_checked": 320,
-  "html_links_checked": 416,
+  "files_hashed": 722,
+  "markdown_links_checked": 321,
+  "html_links_checked": 425,
   "python_files_syntax_checked": 97,
   "reference_records": 21608,
   "preselected_genomes": 1931,
@@ -41,16 +41,5 @@
     "discovery": 7,
     "holdout": 2
   },
-  "current_markdown_documents": 18,
-  "document_language_revision": {
-    "decision_rows": 39,
-    "schema_columns": 21,
-    "unchanged_ids_parameter_keys_and_actual_decisions": true,
-    "markdown_tsv_question_match": true,
-    "old_report_links_remaining": 0,
-    "html_stage_navigation_anchors": 9,
-    "reference_explainer_has_no_legacy_258_narrative": true,
-    "scientific_thresholds_not_redesigned": true,
-    "delivery_parts_html_top_page_visual_review": "passed"
-  }
+  "current_markdown_documents": 18
 }

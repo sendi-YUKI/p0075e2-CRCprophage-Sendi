@@ -12,6 +12,7 @@
 
 | 需要了解什么 | 文档与数据入口 |
 |---|---|
+| 用9页快速讲清项目、Sendi试跑和Jinlong后续工作 | [HTML演示文稿（下载后浏览器打开，附逐页讲稿）](00_project/CRC-PHIRE_项目介绍与分工.html) |
 | 参考为什么这样选、当前数量是什么 | [参考集合选择说明](01_reference/expanded/参考集合选择说明.md) |
 | 参考如何下载和统一QC | [参考选择、下载与QC说明](01_reference/expanded/参考集合选择说明.md)、[下载清单](01_reference/expanded/download_manifest.tsv) |
 | 九队列的开发/保留角色及临床身份问题 | [九队列正式研究说明](02_cohorts/九队列正式研究说明.md) |

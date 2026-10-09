@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CRC-PHIRE｜项目设计、Sendi试跑与Jinlong后续工作</title>
+<style>
+:root{--navy:#173b4c;--teal:#087d7b;--ink:#203541;--muted:#60717b;--paper:#fafbf8;--line:#cedbdc;--gold:#bc773c}
+*{box-sizing:border-box}body{margin:0;background:#172932;color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif}button,a{touch-action:manipulation}#stage{position:fixed;left:50%;top:50%;width:1600px;height:900px;transform-origin:center center}.slide{display:none;width:1600px;height:900px;background:var(--paper);padding:68px 90px 62px;position:absolute;overflow:hidden}.slide.active{display:block}h1,h2,h3,p{margin:0}h1{font-size:78px;line-height:1.2;letter-spacing:-2px}h2{font-size:46px;line-height:1.35;color:var(--navy);font-weight:700;margin-bottom:22px}h3{font-size:29px;line-height:1.4;margin-bottom:14px}p,li,td,th{font-size:27px;line-height:1.65}strong{font-weight:700;color:var(--teal)}.intro{font-size:28px;line-height:1.6;color:var(--muted);margin-bottom:30px}.small{font-size:22px;line-height:1.6;color:var(--muted)}.source{position:absolute;bottom:24px;left:90px;right:90px;display:flex;justify-content:space-between;gap:24px;font-size:16px;color:var(--muted)}.source a{color:inherit;text-decoration:none}.source a:hover{text-decoration:underline}.split{display:grid;grid-template-columns:1fr 1fr;gap:65px}.rule{border-top:2px solid var(--line);padding-top:22px}.statement{font-size:38px;line-height:1.65;font-weight:600;max-width:1320px}.callout{border-left:6px solid var(--teal);padding:15px 25px;margin-top:30px;background:#eaf2ef;font-size:26px;line-height:1.6}.steps{margin-top:28px}.step{display:grid;grid-template-columns:58px 295px 1fr;gap:22px;padding:23px 0;border-top:1px solid var(--line);align-items:start}.step .num{font-size:35px;color:var(--teal);font-weight:700}.step h3{margin:2px 0}.step p{font-size:25px}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:42px;margin:42px 0}.metric{border-top:3px solid var(--teal);padding-top:16px}.metric b{font-size:68px;color:var(--teal);display:block;line-height:1.15;margin-bottom:12px}.metric span{font-size:26px;display:block;line-height:1.5}.metric small{font-size:20px;color:var(--muted);display:block;margin-top:10px;line-height:1.5}table{border-collapse:collapse;width:100%;margin-top:18px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:19px 20px;vertical-align:top}th{color:var(--navy);font-size:23px;font-weight:600;border-top:2px solid var(--line)}td{font-size:25px}ul{padding-left:30px;margin:12px 0}li{margin:13px 0}.flow-inputs{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:28px}.flow-input{padding:20px 0;border-top:3px solid var(--teal)}.flow-input h3{margin-bottom:9px}.flow-input p{font-size:25px}.flow-down{text-align:center;color:var(--teal);font-size:36px;line-height:1.15;margin:8px}.flow-row{text-align:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:15px 22px;font-size:27px;line-height:1.55}.flow-row b{color:var(--teal)}.cohorts{display:grid;grid-template-columns:1.07fr 1fr;gap:60px;margin-top:32px}.cohorts h3{border-top:3px solid var(--teal);padding-top:19px}.cohorts p{font-size:25px;line-height:1.75}.cohort-list{margin-top:15px;font-size:23px!important}.cover{background:var(--navy);color:#fff;padding:100px}.cover .brand{font-size:25px;color:#abd4cd;letter-spacing:3px;margin-bottom:65px}.cover h1{font-size:96px;margin-bottom:25px}.cover .subtitle{font-size:41px;line-height:1.6;max-width:1260px}.cover .english{font-size:22px;color:#b8cdd4;margin-top:28px;line-height:1.6}.cover .cover-line{width:140px;height:5px;background:#7bc3b2;margin:52px 0 28px}.cover .byline{font-size:27px;color:#dbe9ec}.cover .source{color:#bdd0d6}.deck-title{display:block;font-size:24px;color:var(--teal);margin-bottom:20px}.balance td:first-child{width:29%;font-weight:600}.balance td:nth-child(2){width:34%}.balance td:last-child{width:37%}.compact td{padding:16px 18px;font-size:24px}.notes{display:none}.closing{font-size:32px;line-height:1.6;margin-top:28px;color:var(--navy)}nav{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);display:flex;gap:8px;align-items:center;background:#0f2029e8;padding:7px 12px;border-radius:7px;z-index:5;color:#eaf4f6;font-size:13px}button{background:transparent;border:1px solid #66818d;border-radius:4px;color:#fff;font:inherit;padding:7px 11px;cursor:pointer}button:hover,button:focus-visible{background:#345261}button:disabled{opacity:.35;cursor:default}#position{min-width:47px;text-align:center}#notesPanel{display:none;position:fixed;z-index:8;bottom:68px;left:10%;right:10%;background:#fff;color:var(--ink);border:2px solid var(--teal);padding:22px 30px;font-size:20px;line-height:1.7;max-height:42vh;overflow:auto;box-shadow:0 8px 40px #0005}#notesPanel.open{display:block}#notesPanel strong{display:block;margin-bottom:8px}.progress{position:fixed;top:0;left:0;height:4px;background:#68b9a9;transition:width .15s;z-index:6}#qa{display:none}
+@media print{@page{size:1600px 900px;margin:0}body{background:white}#stage{position:static;width:1600px;height:auto;transform:none!important}.slide,.slide.active{display:block;position:relative;width:1600px;height:900px;break-after:page;page-break-after:always;print-color-adjust:exact;-webkit-print-color-adjust:exact}.slide:last-child{break-after:auto;page-break-after:auto}nav,#notesPanel,.progress{display:none!important}.source a{text-decoration:none}}
+</style>
+</head>
+<body>
+<main id="stage" aria-label="CRC-PHIRE 九页演示文稿">
+<section class="slide cover active" aria-label="1 项目介绍">
+  <p class="brand">项目设计 · 已有试跑 · 正式研究分工</p>
+  <h1>CRC-PHIRE</h1>
+  <p class="subtitle">从CRC粪便宏基因组出发，<br>研究前噬菌体、细菌宿主及其功能</p>
+  <p class="english">Colorectal Cancer Prophage–Host Interactions and Repertoire Exploration</p>
+  <div class="cover-line"></div>
+  <p class="byline">Sendi与Jinlong · 项目沟通</p>
+  <div class="source"><span>依据当前研究计划及已完成试跑整理 · 2026-10-09</span><span>01 / 09</span></div>
+  <aside class="notes">我想先讲清这个项目要回答什么，再介绍我已完成的试跑，最后说明希望Jinlong接下来开展的正式分析。试跑说明两条数据路线可以连接起来；正式研究会扩大参考覆盖和患者范围，工具与参数按Jinlong成熟的流程选择。</aside>
+</section>
+
+<section class="slide" aria-label="2 科学问题">
+  <h2>我们想回答什么问题？</h2>
+  <p class="statement">CRC患者与对照中，哪些<strong>前噬菌体相关信号</strong>存在可重复差异？<br>它们来自什么细菌，带有什么功能，值得进一步实验吗？</p>
+  <div class="split rule" style="margin-top:45px">
+    <div><h3>先看患者中的真实分布</h3><p>在多队列中比较检出与丰度，判断差异能否重复；再看差异是否主要随细菌宿主一起变化。</p></div>
+    <div><h3>再解释宿主、结构和功能</h3><p>结合细菌参考基因组，追踪整合位置、菌株谱系，以及防御、反防御和代谢相关功能。</p></div>
+  </div>
+  <div class="callout">最终目标：完整的计算研究＋<strong>1–2个宿主—前噬菌体候选</strong>的关键实验。</div>
+  <p class="small" style="margin-top:24px">前噬菌体（prophage）：整合在细菌基因组中，或以其他稳定形式存在于细菌内的噬菌体基因组。本项目重点关注有整合上下文的候选。</p>
+  <div class="source"><a href="CRC-PHIRE_全局研究计划.html">来源：全局研究计划，第1–3、9–10节</a><span>02 / 09</span></div>
+  <aside class="notes">这里不是只做一个病毒目录，也不是把CRC相关细菌中的所有噬菌体都当作CRC相关。疾病关联来自患者比较，参考细菌提供宿主和结构依据。DNA宏基因组测量的是检出、覆盖或丰度；功能注释提供后续实验线索。</aside>
+</section>
+
+<section class="slide" aria-label="3 总体流程">
+  <h2>两类数据共同支持，患者发现是主线</h2>
+  <div class="flow-inputs">
+    <div class="flow-input"><h3>细菌参考基因组 G</h3><p>下载与质控 → 分类核查 → 预测prophage<br>提供已知宿主、基因位置及菌株背景</p></div>
+    <div class="flow-input"><h3>开发队列患者宏基因组 M</h3><p>CRC＋对照 → 质控去人源 → 逐样本组装<br>发现患者实际携带的病毒与prophage候选</p></div>
+  </div>
+  <div class="flow-down">↓</div>
+  <div class="flow-row"><b>建立统一病毒目录</b>，保留每条序列的来源、宿主和整合证据</div>
+  <div class="flow-down">↓</div>
+  <div class="flow-row">统一定量与疾病比较 → 宿主、功能及合格位点的复制活动解释</div>
+  <div class="flow-down">↓</div>
+  <div class="flow-row"><b>独立队列验证</b> → 筛选1–2个可培养、可实验的对象</div>
+  <p class="small" style="margin-top:24px">两端交集帮助连接患者与参考菌株；患者独有和参考独有序列也保留。MAG分箱可按宿主证据需要补充。</p>
+  <div class="source"><a href="CRC-PHIRE_全局研究计划.html">来源：全局研究计划，第3、6–10节</a><span>03 / 09</span></div>
+  <aside class="notes">G和M只是两类来源的简称。先固定细菌参考清单，再将参考与开发患者发现的病毒共同建立目录。取交集有价值，但不是唯一筛选门槛。患者独有的对象也可能重要。两类病例状态都参与发现，默认逐样本组装。整合证据、宿主证据、病毒质量分别保存，便于按可信度解释。</aside>
+</section>
+
+<section class="slide" aria-label="4 正式研究数据">
+  <h2>正式研究：扩充宿主覆盖，保留独立验证</h2>
+  <div class="cohorts">
+    <div><h3><strong>1,931份</strong>候选细菌组装</h3><p>已完成公共元数据预选，待Jinlong下载、统一质控与分类核查。</p><ul><li>CRC富集相关宿主与重点谱系</li><li>CRC耗竭／对照相关宿主</li><li>其他生态背景及方向未明确的宿主</li></ul><p class="small">例如：Fusobacterium、P. micra、B. fragilis；Faecalibacterium、Roseburia等。</p></div>
+    <div><h3><strong>9个</strong>CRC病例—对照队列</h3><p><strong>7个开发队列：</strong>发现、建目录、筛选候选</p><p class="cohort-list">Zeller法国 · Feng奥地利 · Yu中国<br>Vogtmann美国 · Thomas意大利A/B<br>Yachida日本</p><p style="margin-top:25px"><strong>2个独立验证队列：</strong>检验固定候选</p><p class="cohort-list">Wirbel德国 · Yang中国</p></div>
+  </div>
+  <div class="callout">1,931是<strong>候选组装数</strong>，最终菌株、genome版本和数量由QC确定；九队列的合格人数由临床清单核定。</div>
+  <div class="source"><a href="CRC-PHIRE_全局研究计划.html">来源：全局研究计划，第4–5节；参考及九队列清单</a><span>04 / 09</span></div>
+  <aside class="notes">参考不要求都来自CRC患者，它们主要支持结构和宿主解释。病例对照关系来自临床定义明确的宏基因组队列。正式清单不会机械固定为258或1931。九队列都是CRC与合格对照的比较，绝不是七个CRC队列加两个对照队列。验证队列不用于开发目录和挑选候选。</aside>
+</section>
+
+<section class="slide" aria-label="5 Sendi试跑方法和产出">
+  <h2>Sendi已完成什么试跑？</h2>
+  <p class="intro"><strong>258份参考genome</strong>＋Feng队列<strong>10人：5例CRC、5名研究对照</strong></p>
+  <div class="flow-row" style="text-align:left">质控与组装 → 病毒／prophage预测 → 两端匹配与统一定量<br>→ 功能注释与探索性比较 → 宿主、测量规则及复制活动诊断</div>
+  <div class="metrics">
+    <div class="metric"><b>541</b><span>参考端预测provirus位点</span><small>位于试跑细菌参考基因组中</small></div>
+    <div class="metric"><b>382</b><span>患者端预测provirus位点</span><small>来自10人的组装与整合区段预测</small></div>
+    <div class="metric"><b>473</b><span>合格病毒定量vOTU</span><small>按序列相似度形成的病毒聚类</small></div>
+  </div>
+  <p class="small">主要方法：fastp、Bowtie2、MEGAHIT；geNomad、CheckV；PHROGs、DefenseFinder、KO；MetaPhlAn及PropagAtE。</p>
+  <div class="callout">已经贯通从输入数据到比较、功能和位点证据的流程。<strong>位点数与vOTU数是不同统计层级。</strong></div>
+  <div class="source"><a href="../05_existing_results/CRC-PHIRE_Sendi试跑方法结果与正式研究参考.html">来源：Sendi试跑报告，第2–4节；指标复核表</a><span>05 / 09</span></div>
+  <aside class="notes">258份是Sendi试跑的参考输入，涵盖B. fragilis division I、B. hominis／历史division II、F. animalis和P. micra四个分析标签。541和382是预测整合位点，并非已实验确认的完整可诱导噬菌体；473是合格病毒定量目录，不意味着每个成员都有同等整合证据。基因组序列、坐标、功能、结果表和实际代码均已整理。</aside>
+</section>
+
+<section class="slide" aria-label="6 Sendi试跑主要收获">
+  <h2>试跑得到的结果，怎样帮助正式研究？</h2>
+  <table class="balance compact">
+    <thead><tr><th>问题</th><th>已有结果</th><th>正式研究怎么接着做</th></tr></thead>
+    <tbody>
+      <tr><td>患者与参考能否连接？</td><td><strong>20条广泛匹配关系</strong><br>连接19条参考、7条患者病毒序列</td><td>扩大宿主与谱系覆盖，继续追踪患者上下文及培养参考。</td></tr>
+      <tr><td>有没有CRC差异？</td><td>比较已完成；5＋5中<br><strong>全局FDR显著结果为0</strong></td><td>多数检出稀疏；用正式多队列评价效应、信息量和重复性。</td></tr>
+      <tr><td>功能能否落到具体对象？</td><td>已连接PHROGs、防御／反防御及代谢同源基因</td><td>复核病毒边界和系统完整性，优先解释正式候选。</td></tr>
+      <tr><td>能否找到活动线索？</td><td>382个位点可评价；<strong>2个复制活动候选</strong>，均来自对照</td><td>较长候选约70.5 kb，病毒／宿主覆盖比约3.12；后续可实验追踪。</td></tr>
+    </tbody>
+  </table>
+  <div class="callout">正式研究重点补足：<strong>参考覆盖、跨队列重复、共享序列处理和宿主背景解释。</strong></div>
+  <div class="source"><a href="../05_existing_results/CRC-PHIRE_Sendi试跑方法结果与正式研究参考.html">来源：Sendi试跑报告，第4–8节；复制活动候选表</a><span>06 / 09</span></div>
+  <aside class="notes">20条指匹配关系，不是20种噬菌体或20个疾病阳性对象。试跑815项有效检验经全局BH校正均未显著，小样本为正式设计提供信息而非证明无关联。两个活动候选中，70.486 kb对象有双侧宿主marker，结果在不同覆盖条件下相近；另一个约3.709 kb，需要继续核查身份和边界。活动信号与CRC关联是两个问题，后续实验可支持切出、环化、颗粒形成或功能。试跑还表明共享序列和75%覆盖阈值会影响测量，正式参数由Jinlong有依据地选择。</aside>
+</section>
+
+<section class="slide" aria-label="7 Jinlong正式上游">
+  <h2>Jinlong下一步：先完成两路正式数据准备</h2>
+  <p class="intro">Part 1可以并行开展；直接进入正式研究，已有pilot供方法与结果参考。</p>
+  <div class="split rule">
+    <div><h3>参考端：从候选到正式清单</h3><ul><li>下载候选FASTA并校验文件</li><li>统一QC、分类与重复／身份核查</li><li>预测prophage，保留坐标和侧翼</li><li><strong>锁定accession版本、菌株与数量</strong></li></ul></div>
+    <div><h3>患者端：从公共runs到合格样本</h3><ul><li>核对临床分组、供者与重复样本</li><li>固定纳排标准及开发／验证角色</li><li>下载、质控、去人源及组装</li><li><strong>开发样本发现病毒，保留宿主上下文</strong></li></ul></div>
+  </div>
+  <div class="callout">进入联合分析前：先定稿<strong>正式细菌参考清单</strong>，再建立并固定<strong>G＋开发患者M的病毒目录</strong>。</div>
+  <p class="small" style="margin-top:23px">“固定／冻结”指记录清楚所用版本；后续调整保留变更记录，并重算受影响部分。</p>
+  <div class="source"><a href="CRC-PHIRE_Jinlong执行说明.html">来源：Jinlong执行说明；全局研究计划，第6–7节</a><span>07 / 09</span></div>
+  <aside class="notes">不用等所有参考下载完才开始患者准备，两路可以并行。验证队列可提前下载和做不依赖疾病效应的QC，但不能用来完善开发目录或挑选参数。Jinlong不需要另做一轮先导，运行检查可以放在正式批次中。已有pilot是否复用由Jinlong按自己的环境决定。</aside>
+</section>
+
+<section class="slide" aria-label="8 Jinlong联合分析">
+  <h2>随后：完成联合分析、独立验证和候选筛选</h2>
+  <p class="intro">Part 2在统一目录和记录清楚的测量规则下，逐步回答科学问题。</p>
+  <div class="steps">
+    <div class="step"><span class="num">1</span><h3>测量并比较</h3><p>所有开发样本向同一目录定量；先队列内比较，再汇总跨队列效应，报告效应量、区间及P／Q。</p></div>
+    <div class="step"><span class="num">2</span><h3>解释宿主和功能</h3><p>在宿主证据可信的子集中考虑宿主丰度；结合谱系、防御／反防御、AMG/cargo候选，以及合格位点的复制活动。</p></div>
+    <div class="step"><span class="num">3</span><h3>检验能否重复</h3><p>固定候选、方向和分析规则，再用两个独立队列验证；同时评价队列差异和可测人数。</p></div>
+    <div class="step"><span class="num">4</span><h3>落到实验对象</h3><p>综合人群结果、宿主与结构证据、功能线索和菌株可获得性，选择1–2个候选，形成关键实验方案。</p></div>
+  </div>
+  <div class="source"><a href="CRC-PHIRE_全局研究计划.html">来源：全局研究计划，第8–11节</a><span>08 / 09</span></div>
+  <aside class="notes">测量时重点处理近缘病毒共享序列，区分未检出、无法分辨和缺失。75%覆盖是Sendi试跑规则，不要求正式研究照搬。功能注释要落到实际序列和基因位置。复制活动是结构合格子集的支线，不强求所有候选都有覆盖升高。正式结果不预设显著对象数量，最终候选结合可重复性和实验可行性决定。</aside>
+</section>
+
+<section class="slide" aria-label="9 分工和交付">
+  <h2>怎样协作，最终交付什么？</h2>
+  <div class="split rule">
+    <div><h3>Jinlong：正式计算与方法记录</h3><p>采用成熟pipeline决定工具、数据库及参数，完成正式数据分析、图表与候选证据包。</p><p style="margin-top:20px">遇到影响研究范围或结论的问题，与Sendi共同确认，并记录实际选择。</p></div>
+    <div><h3>Sendi：研究问题与后续实验</h3><p>负责科学范围、临床原则及实验资源；结合结果讨论文章主线和优先候选。</p><p style="margin-top:20px">后续通过整合位置、切出／环化、活动和相关表型实验支持关键发现。</p></div>
+  </div>
+  <table class="compact" style="margin-top:26px"><tbody>
+    <tr><td style="width:24%"><strong>清单与科学结果</strong></td><td>最终菌株／genome编号与版本、样本清单、病毒目录、统计表、候选与图表。</td></tr>
+    <tr><td><strong>代码与方法记录</strong></td><td>实际脚本、命令、配置、软件／数据库版本、图源数据和运行索引交给Sendi。</td></tr>
+    <tr><td><strong>大文件与可追溯性</strong></td><td>FASTQ、FASTA、组装、BAM等留服务器并建索引；Sendi可从图找到数据、代码和参数。</td></tr>
+  </tbody></table>
+  <p class="closing">现在就可以开始：<strong>参考下载与QC ＋ 九队列临床清单核对。</strong></p>
+  <div class="source"><a href="../03_execution/代码参数与结果归档规范.html">详情：参数决策表、归档规范及正式交付清单</a><span>09 / 09</span></div>
+  <aside class="notes">我不要求Jinlong照搬我的试跑工具或阈值，但希望实际用了什么都能追踪到。小文件按输入清单、代码配置、日志索引、结果表和图源数据整理，大文件在服务器保存索引。这样我后续能查方法、改参数和重画图。完整资料见仓库README，以及方法与参数决策表和交付清单。</aside>
+</section>
+</main>
+<div class="progress" id="progress"></div>
+<nav aria-label="演示控制"><button id="prev" aria-label="上一页">←</button><span id="position" aria-live="polite">1 / 9</span><button id="next" aria-label="下一页">→</button><button id="notesButton" aria-pressed="false">讲稿 N</button><button id="full">全屏 F</button><button id="print">打印／PDF</button></nav>
+<aside id="notesPanel" aria-label="当前页讲稿"></aside><pre id="qa"></pre>
+<script>
+const slides=Array.from(document.querySelectorAll('.slide'));
+const qs=new URLSearchParams(location.search);let index=Math.max(0,Math.min(slides.length-1,(Number(qs.get('slide')||location.hash.slice(1))||1)-1));
+const stage=document.getElementById('stage'),panel=document.getElementById('notesPanel');
+function resize(){const scale=Math.min(innerWidth/1600,(innerHeight-72)/900);stage.style.transform=`translate(-50%,-50%) scale(${Math.max(.1,scale)})`;stage.style.marginTop='-20px'}
+function show(n){index=Math.max(0,Math.min(slides.length-1,n));slides.forEach((s,i)=>{s.classList.toggle('active',i===index);s.setAttribute('aria-hidden',String(i!==index))});document.getElementById('position').textContent=`${index+1} / ${slides.length}`;document.getElementById('progress').style.width=((index+1)/slides.length*100)+'%';document.getElementById('prev').disabled=index===0;document.getElementById('next').disabled=index===slides.length-1;panel.innerHTML='<strong>Sendi讲稿 · 第'+(index+1)+'页</strong>'+slides[index].querySelector('.notes').innerHTML;history.replaceState(null,'','#'+(index+1));}
+function toggleNotes(){panel.classList.toggle('open');document.getElementById('notesButton').setAttribute('aria-pressed',String(panel.classList.contains('open')))}
+async function fullscreen(){try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch(e){document.getElementById('full').textContent='请按F11全屏'}}
+document.getElementById('prev').onclick=()=>show(index-1);document.getElementById('next').onclick=()=>show(index+1);document.getElementById('notesButton').onclick=toggleNotes;document.getElementById('full').onclick=fullscreen;document.getElementById('print').onclick=()=>window.print();
+addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey)return;if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}else if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}else if(e.key==='Home')show(0);else if(e.key==='End')show(slides.length-1);else if(e.key.toLowerCase()==='n')toggleNotes();else if(e.key.toLowerCase()==='f')fullscreen();else if(e.key==='Escape'){panel.classList.remove('open');document.getElementById('notesButton').setAttribute('aria-pressed','false')}});
+let startX=0;stage.addEventListener('touchstart',e=>{startX=e.changedTouches[0].screenX},{passive:true});stage.addEventListener('touchend',e=>{const d=e.changedTouches[0].screenX-startX;if(Math.abs(d)>70)show(index+(d<0?1:-1))},{passive:true});
+addEventListener('resize',resize);resize();show(index);
+// Optional machine-readable layout audit, with normal slide content unchanged.
+if(qs.has('qa')){const old=index,results=[];slides.forEach((s,i)=>{show(i);const sr=s.getBoundingClientRect();const footer=s.querySelector('.source').getBoundingClientRect();const issues=[];s.querySelectorAll('h1,h2,h3,p,li,td,th,.callout,.flow-row,.metric,.closing').forEach(el=>{const r=el.getBoundingClientRect();if(r.right>sr.right+1||r.left<sr.left-1||r.bottom>footer.top-7&& !el.closest('.source'))issues.push(el.textContent.slice(0,65))});results.push({slide:i+1,issues})});show(old);document.getElementById('qa').textContent=JSON.stringify(results)}
+</script>
+</body></html>
