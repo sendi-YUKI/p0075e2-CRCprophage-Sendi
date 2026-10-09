@@ -1,0 +1,1975 @@
+{
+  "schema_version": 1,
+  "canonical_snapshot": "src_pilot6_measurement",
+  "content_policy": "Public path-sanitized representation; SHA256 verifies stored public bytes. Original-to-public hashes are in the package manifest.",
+  "restoration": "Use compact_pilot_sources.py restore --archive ARCHIVE --output EMPTY_DIRECTORY",
+  "snapshots": {
+    "src_pilot6_measurement": {
+      "directories": [
+        "assets",
+        "bin",
+        "bootstrap",
+        "bootstrap/spark",
+        "conf",
+        "modules",
+        "modules/local",
+        "modules/nf-core",
+        "modules/nf-core/checkv",
+        "modules/nf-core/checkv/endtoend",
+        "modules/nf-core/genomad",
+        "modules/nf-core/genomad/endtoend",
+        "workflows"
+      ],
+      "files": {
+        "analysis1_source_manifest.json": {
+          "stored_path": "src_pilot6_measurement/analysis1_source_manifest.json",
+          "bytes": 921,
+          "sha256": "ef16d7fa367cb5cce719ece05d0bc40262f7177e48fcb9ac986506a76f8877d5"
+        },
+        "assets/association_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/association_tools.json",
+          "bytes": 831,
+          "sha256": "94ce4b79a72da0bf8fbc68df5c73f8343142adf99e5f846896e0442208f11bbc"
+        },
+        "assets/containers.json": {
+          "stored_path": "src_pilot6_measurement/assets/containers.json",
+          "bytes": 404,
+          "sha256": "e3f9630ea0744dc0ed8d896858f61b06eefd506d7f5ae6bffa37f34faf316f98"
+        },
+        "assets/core_callers_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_callers_tools.json",
+          "bytes": 29896,
+          "sha256": "c79680fa0e5d8520294221343d59687b7777c021d065a1112b152ad4c966b5c3"
+        },
+        "assets/core_functions_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_functions_tools.json",
+          "bytes": 1692,
+          "sha256": "4686ad7b333f1fcf98c1fed7838359901405bc02d906afc493fa82cae840ba8a"
+        },
+        "assets/core_genomes_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_genomes_tools.json",
+          "bytes": 2261,
+          "sha256": "e84d9d730a35e47167e0cf1b70ef8ea0ec2917b397789a4a10459a511c0d7aed"
+        },
+        "assets/core_kofam_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_kofam_tools.json",
+          "bytes": 558,
+          "sha256": "e2073539a12e054bdbdf271a2aea0c5e472789c7e850d612dd5a484fab7e6dae"
+        },
+        "assets/core_votu_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_votu_tools.json",
+          "bytes": 2298,
+          "sha256": "4e03e8f6890ca227cc77ceb87028bb2065338536329661df21026aeb04c9f3e6"
+        },
+        "assets/host_phylogeny_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/host_phylogeny_tools.json",
+          "bytes": 389,
+          "sha256": "7f7f2fe7a09e67b77a8170473469b8aca1e6137a099af6b4938383ba7b006a3f"
+        },
+        "assets/reads_databases.json": {
+          "stored_path": "src_pilot6_measurement/assets/reads_databases.json",
+          "bytes": 8205,
+          "sha256": "86af26d0112b26325bf348c72c01d24e6bc775876d7272aef08de34f67031bfe"
+        },
+        "assets/reads_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/reads_tools.json",
+          "bytes": 1719,
+          "sha256": "f6a5cdacd12ad4c69a16ab5e5acd25bb2ded2858b7199717dfa7fba2f17d93ff"
+        },
+        "assets/viral_evidence_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_evidence_tools.json",
+          "bytes": 1495,
+          "sha256": "ac893ff7cd42f8ae4a5fc7048940ef8a2e14d741f25aa7113232d8c3f2640dd9"
+        },
+        "assets/viral_gene_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_gene_tools.json",
+          "bytes": 4711,
+          "sha256": "519daf70cc034df1139ad1fd63aae397c080a60321d505bf0628d8eb34507807"
+        },
+        "bin/association.py": {
+          "stored_path": "src_pilot6_measurement/bin/association.py",
+          "bytes": 12488,
+          "sha256": "a6ca56eb07c948d37093801b8ef8f08464736bd4072be6eea14e0668a4474e50"
+        },
+        "bin/association_adapt.py": {
+          "stored_path": "src_pilot6_measurement/bin/association_adapt.py",
+          "bytes": 11982,
+          "sha256": "64cdbf6eb2fd978a276aa268428806bc62e7e7cd6b5410f2e1530305b87dfb50"
+        },
+        "bin/catalog_policy.py": {
+          "stored_path": "src_pilot6_measurement/bin/catalog_policy.py",
+          "bytes": 15767,
+          "sha256": "e06dc3cc8208de8d4a560343a4eafcc5b6b9e6abb23a535fe56c4b2530b92e40"
+        },
+        "bin/cohort_cli.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_cli.py",
+          "bytes": 4333,
+          "sha256": "e9abaa2b163933cd91a5fe5ef0a8a513c0e2461ff64fd31208a85cb2d6eb9082"
+        },
+        "bin/cohort_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_common.py",
+          "bytes": 8649,
+          "sha256": "a261bdefe4a0af94f474ace3151576326bb5ec0103d5cd385eec4be3bb27d0df"
+        },
+        "bin/cohort_informative.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_informative.py",
+          "bytes": 6364,
+          "sha256": "8951cc5ea0340d67859b83cb90337c6f6e1ae124e5baa35627dc968465dc7c31"
+        },
+        "bin/cohort_measure.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_measure.py",
+          "bytes": 27523,
+          "sha256": "769b8183190f9a4feb2195ffff7d91d02e3e3e9fe7bde5e447d3309e2af8e346"
+        },
+        "bin/cohort_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_reference.py",
+          "bytes": 14599,
+          "sha256": "fd66cc6928bc88ad44ce8017667346b09bb78090ec0e70e44d6e5a2bf045737c"
+        },
+        "bin/cohort_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_report.py",
+          "bytes": 19903,
+          "sha256": "1e2e630fa9f79ae06562cb0a07727094443c2ec30cd0ea867bbcaad1ec57abc4"
+        },
+        "bin/cohort_research_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_reference.py",
+          "bytes": 6867,
+          "sha256": "4e5be512354deddcb5a0c1bd7483299365bd20dc1d258f3140783f01a4b38dfb"
+        },
+        "bin/cohort_research_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_report.py",
+          "bytes": 5450,
+          "sha256": "e36c0ab70e820f9d2ff5af71d50af3f963882b63ce1c4d4c4ce18c300c380453"
+        },
+        "bin/cohort_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_tools.py",
+          "bytes": 15016,
+          "sha256": "f2945e31f95210a643ed7d440069aefcfa1bdcccdfa5b1f27303cb173adfa377"
+        },
+        "bin/community_analysis.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_analysis.py",
+          "bytes": 14615,
+          "sha256": "5837036033978ca7a109c916e9c1d8e37187378590594f5fbec4b1e882e15faf"
+        },
+        "bin/community_modules.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_modules.py",
+          "bytes": 6317,
+          "sha256": "73f7bff6f2fc3ae81afb9625543837bf64196a1b7ea0d8d6896f7d89cba464a6"
+        },
+        "bin/core_callers.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_callers.py",
+          "bytes": 20679,
+          "sha256": "c38b1f3eb8dbb5b356afd4f932f6e1fdecc4c3b06b043cad1c798c1d4cba6b30"
+        },
+        "bin/core_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_functions.py",
+          "bytes": 58750,
+          "sha256": "34ef1d53b684fad5d69a0639e32170c77800d4e65fbaf2d5a27d0b5b9b41e001"
+        },
+        "bin/core_genomes.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_genomes.py",
+          "bytes": 25604,
+          "sha256": "bf8af7f7a26e6ac3476b7abdfec64d5d07770b0d0b88c755fe91601082268658"
+        },
+        "bin/core_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_kofam.py",
+          "bytes": 13935,
+          "sha256": "eb6c332f23635a4ea58fb8ccc009356334ecee4ea259b35cd27a5ca60f3237df"
+        },
+        "bin/core_locus.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_locus.py",
+          "bytes": 16134,
+          "sha256": "4b7444646db3737d029ecbba197a12d7a2f97de8d026ffa3b3caef4910a0d8c4"
+        },
+        "bin/core_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_preflight.py",
+          "bytes": 18193,
+          "sha256": "3c340b06751b1366ad06f253d1bd2ea9950bd05b14551fd546e04692486b80a9"
+        },
+        "bin/core_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_report.py",
+          "bytes": 19108,
+          "sha256": "ce4273b887cd75fe2c94403e3cb1e99d9b8595b45c63e027a09c1bf1e355bc54"
+        },
+        "bin/core_research_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_research_summary.py",
+          "bytes": 12341,
+          "sha256": "f04d47d4511f721148529c6839e0adcc881e9fd9f4b024b00a522faa0354aa12"
+        },
+        "bin/core_votu.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_votu.py",
+          "bytes": 18993,
+          "sha256": "a12e10ffe60dbacb74eba9e6d224fa56088a3a3b0f9739e78dc2a92f30e948b9"
+        },
+        "bin/detection_calibration.py": {
+          "stored_path": "src_pilot6_measurement/bin/detection_calibration.py",
+          "bytes": 3773,
+          "sha256": "b472493b7185a003f89e69ce7211de6e31f23148e9a5acad41a053b405a66ac5"
+        },
+        "bin/evidence_crosswalk.py": {
+          "stored_path": "src_pilot6_measurement/bin/evidence_crosswalk.py",
+          "bytes": 14350,
+          "sha256": "23f3ccd4da6f8b6a768677e5565d0469aaeb3906413c328b6c10fc3bc49ab015"
+        },
+        "bin/fetch_assets.py": {
+          "stored_path": "src_pilot6_measurement/bin/fetch_assets.py",
+          "bytes": 15046,
+          "sha256": "bc2bbd5b65444c875202a9585295945e2b5fbd1b01e4b15e5966fbec021f13f4"
+        },
+        "bin/genome_callability.py": {
+          "stored_path": "src_pilot6_measurement/bin/genome_callability.py",
+          "bytes": 9475,
+          "sha256": "9a1b970ba359907df846fc22df803640db6757de2e1ddf713b143e2296a1b266"
+        },
+        "bin/host_core_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_core_reference.py",
+          "bytes": 7641,
+          "sha256": "11cf953c65578d434f1dc6ed345ec8a6a47d4952a88a52c13be48bdc8c2a7cbc"
+        },
+        "bin/host_lineage.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_lineage.py",
+          "bytes": 3384,
+          "sha256": "54819b3d64ed361a0145d4de597ddc0c5f12571d091c336cd7ac4b5e45603758"
+        },
+        "bin/host_phylogeny.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_phylogeny.py",
+          "bytes": 25799,
+          "sha256": "948e17a7f9dbb3838ceb72be78ae0df5545c63a6870a5cdf0a4cef8d6c53d41b"
+        },
+        "bin/host_recombination.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_recombination.py",
+          "bytes": 14623,
+          "sha256": "0eb10167a927d2c63dac01ac07bbe2ef8eb9a8f1fff37978c5717956347a99fd"
+        },
+        "bin/host_source.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_source.py",
+          "bytes": 40416,
+          "sha256": "70ddcd174690dcc137b77f2381f70fb1e8d5af255c9c13fd02855b0ed1c42f26"
+        },
+        "bin/legacy_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/legacy_guard.py",
+          "bytes": 6613,
+          "sha256": "7864630b6e110e9f74de0508905e87a840d413e1e3cdee32d040027546516822"
+        },
+        "bin/mainline_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_common.py",
+          "bytes": 3986,
+          "sha256": "e9e9154ae3408d49cf98aba44862a7df8c6b8a3a7622a464703a2a0ff18f215f"
+        },
+        "bin/mainline_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_preflight.py",
+          "bytes": 6845,
+          "sha256": "9fbed7cc5094b7feb49153c018824c9d87b08d391f96f696bc22518a6e4a6c1a"
+        },
+        "bin/merge_clean_sample.py": {
+          "stored_path": "src_pilot6_measurement/bin/merge_clean_sample.py",
+          "bytes": 3699,
+          "sha256": "bec23f09a04867e42a6839f48f5846647a833ecb36ebc373a2f8c5a16e0e40d8"
+        },
+        "bin/nextflow_resume.py": {
+          "stored_path": "src_pilot6_measurement/bin/nextflow_resume.py",
+          "bytes": 4604,
+          "sha256": "d15a78f7ca0a49f45c72e38e30123220222ae46ca3f76be6fc896eae196aae71"
+        },
+        "bin/phageflow.py": {
+          "stored_path": "src_pilot6_measurement/bin/phageflow.py",
+          "bytes": 36475,
+          "sha256": "03c47c27dc4db315dddd852d676fa524c426e9e3220b8d8bdfd60ac903d8b4ea"
+        },
+        "bin/project_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/project_pipeline.py",
+          "bytes": 13688,
+          "sha256": "699613bcf2d03fd91bf04cded73762896dd0443aa452f90d4b3107c879c6dfa4"
+        },
+        "bin/reads_assembly.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_assembly.py",
+          "bytes": 18064,
+          "sha256": "c942df32a2c59b810a62b0482af133eebb22ef577d71cd4084f0f951d17b8193"
+        },
+        "bin/reads_core_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_core_bridge.py",
+          "bytes": 17015,
+          "sha256": "928b9790cb4f520bcc67c4254dc8b8aa4874ba909d600aeb7540dc763ca7f745"
+        },
+        "bin/reads_io.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_io.py",
+          "bytes": 23971,
+          "sha256": "184bb18e8c846428296fa136340564b904278468addd03020ae3cdceccda7b2f"
+        },
+        "bin/reads_process.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_process.py",
+          "bytes": 26060,
+          "sha256": "680b9b06482a7788a76bfce6111eb3b7bcac2c728ddccdaae7028365039f67ac"
+        },
+        "bin/reads_publish.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_publish.py",
+          "bytes": 2289,
+          "sha256": "bbbc44740194b5129ba1e064650a70629beb0589ae9b919d3bfae3ab9dd65406"
+        },
+        "bin/research_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/research_bridge.py",
+          "bytes": 11175,
+          "sha256": "f73978652c10716e8cc99b0f99d3f3e7a8e3bd5c3efd50bf09c23b3202283b25"
+        },
+        "bin/run_core.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_core.py",
+          "bytes": 19687,
+          "sha256": "e7abfaa3741344b9e0e3bb6549e8b592d0238392c4cb2a94bd56876a92a386e6"
+        },
+        "bin/run_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_pipeline.py",
+          "bytes": 27550,
+          "sha256": "03a1a099d2ff0a2a9dd6372b7429f8d38ce0a8d17306b2689dfb917ee90d74a3"
+        },
+        "bin/run_stage.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_stage.py",
+          "bytes": 37190,
+          "sha256": "b39451bcb35ee4ededbb0b58c71aeafd6b7e08a9de5359e18badc9409f721ec1"
+        },
+        "bin/spark-launch.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark-launch.py",
+          "bytes": 12927,
+          "sha256": "191f7d0c04aee90c492c86b0ea10aab32246b255c69a52fcd79ae9742279e90d"
+        },
+        "bin/spark_acquire.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_acquire.py",
+          "bytes": 12361,
+          "sha256": "9206dd9dd0da94e26ab326bc88fcac80f5fc18f15067e9483f1570c85dc6c8cd"
+        },
+        "bin/spark_cache_identity.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_cache_identity.py",
+          "bytes": 5735,
+          "sha256": "ce34f544a2b179049771073d552a380972729f3b2ddb44fd38e8785d95a1e0a3"
+        },
+        "bin/spark_fs_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_fs_guard.py",
+          "bytes": 5304,
+          "sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+        },
+        "bin/spark_runtime.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_runtime.py",
+          "bytes": 31605,
+          "sha256": "90fd24d4b2b12d3cdc02c4cd26009bb467f2c8381b86bb67265d13e831a5c03c"
+        },
+        "bin/study_contract.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_contract.py",
+          "bytes": 28105,
+          "sha256": "db7e2cd2bba4bf48ccbb9bf4402b21b486d961ac2f093a20f74d44f773650dbd"
+        },
+        "bin/study_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_preflight.py",
+          "bytes": 4794,
+          "sha256": "97604a14ffb5c941fd16c4c29f97d0d75dde11f067dd19ee1ba7b0236d6cff80"
+        },
+        "bin/viral_amrfinder_pinned.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_amrfinder_pinned.py",
+          "bytes": 4145,
+          "sha256": "d37252857ae6cb4b8b8040a60f36bddb6ccc0441446578467fbe499ff19335e6"
+        },
+        "bin/viral_catalog.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_catalog.py",
+          "bytes": 31640,
+          "sha256": "42ae737b70b404d2cbfaae68468126ca64028de6f34594982679a475e5d6764e"
+        },
+        "bin/viral_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence.py",
+          "bytes": 15213,
+          "sha256": "2f9954bd2c50c841108cb47d4fd7569067e9eeec727b34abc9e1cf150ea61874"
+        },
+        "bin/viral_evidence_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence_summary.py",
+          "bytes": 9677,
+          "sha256": "f6eb60552f1ee817bb420b2fc63085d1f49daa51997c3bad2a6f3d0274ae4242"
+        },
+        "bin/viral_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_functions.py",
+          "bytes": 9247,
+          "sha256": "de6fcab197faf4130bf178e176fe41d68ff73f65d222662e20e21803470c6d29"
+        },
+        "bin/viral_genes.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_genes.py",
+          "bytes": 12075,
+          "sha256": "390650ba9aa7375a6e64a3257abffcd8d4f149d78f3f1ed686bfa192b822830d"
+        },
+        "bin/viral_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_kofam.py",
+          "bytes": 2107,
+          "sha256": "0e82db41e88cfbf4dc0b6ee8c471ca05063cb1ff93e2f913e4dd5665cfd11af3"
+        },
+        "bin/viral_record_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_record_tools.py",
+          "bytes": 1981,
+          "sha256": "379c19c2f9a34a82a26bca212287822594ed70d7bb31ff28cf3ce3acf6156025"
+        },
+        "bin/whole_genome_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/whole_genome_evidence.py",
+          "bytes": 7817,
+          "sha256": "e124d9557f5014626273964d95479fa27359ce04918399897b8628adba28686c"
+        },
+        "bootstrap/environment.sh": {
+          "stored_path": "src_pilot6_measurement/bootstrap/environment.sh",
+          "bytes": 657,
+          "sha256": "5d8fd754f9004aa54e1f2754c6a468077bd5149b0561bc46c8e94cdf7eb99c92"
+        },
+        "bootstrap/spark/site_execution.json": {
+          "stored_path": "src_pilot6_measurement/bootstrap/spark/site_execution.json",
+          "bytes": 2383,
+          "sha256": "92c1f25898d7d844aba9ac3ea65b760e2f0416cd500e202c34cf634d7038d4f7"
+        },
+        "conf/association.config": {
+          "stored_path": "src_pilot6_measurement/conf/association.config",
+          "bytes": 1398,
+          "sha256": "75cc891d53d686f58820cddd0d5cfcd201b39bd714e0fe089ff700d6c4f12ef9"
+        },
+        "conf/base.config": {
+          "stored_path": "src_pilot6_measurement/conf/base.config",
+          "bytes": 947,
+          "sha256": "8f56ded49cc4615a17257221b0796a19ce177829cdacb5c814e686705f987b06"
+        },
+        "conf/cohort.config": {
+          "stored_path": "src_pilot6_measurement/conf/cohort.config",
+          "bytes": 902,
+          "sha256": "30860b16e8e74978d2adc7b25412fac29c469410431bdb156c5d1c11d9f00d9b"
+        },
+        "conf/containers.config": {
+          "stored_path": "src_pilot6_measurement/conf/containers.config",
+          "bytes": 506,
+          "sha256": "acdb3b5bd97b2c2ea8dca1333c9859c1d5f4d84b27513617df9dc58f1aa86c23"
+        },
+        "conf/core.config": {
+          "stored_path": "src_pilot6_measurement/conf/core.config",
+          "bytes": 1250,
+          "sha256": "671a565904e9a86a4df3c26a33205410b9a16e8d25952240bbd0cc527d737a50"
+        },
+        "conf/reads.config": {
+          "stored_path": "src_pilot6_measurement/conf/reads.config",
+          "bytes": 1470,
+          "sha256": "198fda23140db11a9807038492e582487c64e41a850167d95049b9e815958314"
+        },
+        "conf/spark_exclusive.config": {
+          "stored_path": "src_pilot6_measurement/conf/spark_exclusive.config",
+          "bytes": 3671,
+          "sha256": "77e436a984ccadbf87478b9351da89e3b12fdd306852179a0ecf4e8cde25fc96"
+        },
+        "conf/spark_native.config": {
+          "stored_path": "src_pilot6_measurement/conf/spark_native.config",
+          "bytes": 14845,
+          "sha256": "9600e847bef0367bc36b3613cb4f639e821fc52fc48990ad1f915ec971fbef76"
+        },
+        "conf/viral.config": {
+          "stored_path": "src_pilot6_measurement/conf/viral.config",
+          "bytes": 1920,
+          "sha256": "08746da8cb2067aa355b7d69e08b91647a5b4d40de6142845cde8e48a6cd5828"
+        },
+        "main.nf": {
+          "stored_path": "src_pilot6_measurement/main.nf",
+          "bytes": 3796,
+          "sha256": "897a06233e40c307616560c824aff1cd3d99fef3e3741289103a4a97d7dfdcea"
+        },
+        "main_assembly.nf": {
+          "stored_path": "src_pilot6_measurement/main_assembly.nf",
+          "bytes": 2400,
+          "sha256": "9148d3c247428d55745db4c0e59e558033ff0f37bc245ecee27c663ddc19101d"
+        },
+        "main_association.nf": {
+          "stored_path": "src_pilot6_measurement/main_association.nf",
+          "bytes": 1144,
+          "sha256": "f3eb856262ef3c4a71431ba75c6ecfd56cc1c73e84e9a08c918e64bd149cb931"
+        },
+        "main_cohort.nf": {
+          "stored_path": "src_pilot6_measurement/main_cohort.nf",
+          "bytes": 2945,
+          "sha256": "b0ddbc4f836b5ff8b05248cf27f91ed7fd5a70745fcc793c0056f58f2126b366"
+        },
+        "main_core.nf": {
+          "stored_path": "src_pilot6_measurement/main_core.nf",
+          "bytes": 2866,
+          "sha256": "08211c6373ad55ec97f21c7a050f0f64c0019195bd0eadfe7276c0ca8bda8218"
+        },
+        "main_engineering34.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering34.nf",
+          "bytes": 3584,
+          "sha256": "c20e2e80bc219fea5a17739e2905f1c21b0f04ff77914cde7b35409c81289a9c"
+        },
+        "main_engineering36.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36.nf",
+          "bytes": 3012,
+          "sha256": "3aae5e25241fa8a77561708ce5d91d49120e464a2d94a7c4d57d9fa4254fa26b"
+        },
+        "main_engineering36_summary.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36_summary.nf",
+          "bytes": 1623,
+          "sha256": "2b24eb9c421b0f6eb7a1fcd69ca73499d3b1fddc6e2e08325f6a707b2fe4202f"
+        },
+        "main_reads.nf": {
+          "stored_path": "src_pilot6_measurement/main_reads.nf",
+          "bytes": 1370,
+          "sha256": "ffb365d7cf62f229d00c83ee5667f48db1ac575b19c5230fd09fd5c988781256"
+        },
+        "main_spark_cachecheck.nf": {
+          "stored_path": "src_pilot6_measurement/main_spark_cachecheck.nf",
+          "bytes": 466,
+          "sha256": "47ccac968205bde596d933e0247b900ff755a7ca14d3af6fac6f1a6226c72c87"
+        },
+        "main_viral.nf": {
+          "stored_path": "src_pilot6_measurement/main_viral.nf",
+          "bytes": 4715,
+          "sha256": "e54471ab9df5bba33a649f362634c3b007cac500c39f95fc131f2446f18705ad"
+        },
+        "modules/local/a0_a1.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/a0_a1.nf",
+          "bytes": 2814,
+          "sha256": "e8aa5e61d881e1978b3cebc97a617e1e070e37feb508c5826c2f54d534e6f4fb"
+        },
+        "modules/local/association_models.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/association_models.nf",
+          "bytes": 722,
+          "sha256": "8749b88983f61feb4e0b5519c38f6b66da62eccf9ccdd3363afd7fefed43ea4e"
+        },
+        "modules/local/cohort.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/cohort.nf",
+          "bytes": 4400,
+          "sha256": "282127b467f89aca31da6926bea0c9c359e17ddb65bc4d57debe044d15c456c0"
+        },
+        "modules/local/core_callers.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_callers.nf",
+          "bytes": 2868,
+          "sha256": "55a9212feeb49268e095ef3cb044d8de156c967d45446fa378c74f1978613dff"
+        },
+        "modules/local/core_functions.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_functions.nf",
+          "bytes": 2146,
+          "sha256": "666bc1ea2b219fbe29f274daacf4bdaa3f8bd37e5d9c43787c0abfb1866126bd"
+        },
+        "modules/local/core_genomes.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_genomes.nf",
+          "bytes": 4937,
+          "sha256": "48942cdc4600252ba8466cc5ef6ed46d051e22f9345d838340e5bf7293954d70"
+        },
+        "modules/local/core_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_kofam.nf",
+          "bytes": 1910,
+          "sha256": "1c7e76f5686885227b117477532780870c9cca0ee94471644aad4997d0d0ed8d"
+        },
+        "modules/local/core_report.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_report.nf",
+          "bytes": 1932,
+          "sha256": "da633c013bffa4b58b5b6b4e61280f035761717e1bbb4075ab86559bfd2d6b5f"
+        },
+        "modules/local/core_research.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_research.nf",
+          "bytes": 3973,
+          "sha256": "911ae1e1e53ac282d0837456ac300c439797940dd704bbf48a89a89c270c588d"
+        },
+        "modules/local/core_votu.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_votu.nf",
+          "bytes": 2778,
+          "sha256": "5e12ca71efe71cd32e2000d04c4dfa0c54820a7d13e68c52ef9262d24037d3e3"
+        },
+        "modules/local/host_phylogeny.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_phylogeny.nf",
+          "bytes": 3374,
+          "sha256": "4af5c012107a680e87e34537d9bd5e43c8e9dc57fab687d8e56bed3f9f8b9bbc"
+        },
+        "modules/local/host_recombination.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_recombination.nf",
+          "bytes": 858,
+          "sha256": "47eb20b5398e3f245e1d63936e9fdf5704ed0f3e484133aaca18808813562e5e"
+        },
+        "modules/local/host_source.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_source.nf",
+          "bytes": 917,
+          "sha256": "80dd1e8068317de772817dc7ad5700f7914e442de14b1ec988f44055ef836f24"
+        },
+        "modules/local/reads.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/reads.nf",
+          "bytes": 3981,
+          "sha256": "10a48c67cb79dd4a80b24da8af0b7318a57a57583a6d260c10eae1cbfea8ed54"
+        },
+        "modules/local/research_bridge.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/research_bridge.nf",
+          "bytes": 840,
+          "sha256": "e7e61a8c038aaea5ccb035ebb4526fcf0e0d13c4228aece14131246dc9228d38"
+        },
+        "modules/local/viral.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral.nf",
+          "bytes": 5212,
+          "sha256": "5b4534476ee3f4bb8233880a1dbfab323c73cb5fd2230a0245385ee77fd51b17"
+        },
+        "modules/local/viral_evidence.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_evidence.nf",
+          "bytes": 2593,
+          "sha256": "1fbc60ad083d22727b8c9c7ede891c52cffe0ad1e453ceb75de242efada2ef5d"
+        },
+        "modules/local/viral_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_kofam.nf",
+          "bytes": 651,
+          "sha256": "c2f921eb29ed85a032161e3d41ab7ed9b5a6a47fae0e513cab120a5e0c7a623a"
+        },
+        "modules/nf-core/checkv/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/checkv/endtoend/main.nf",
+          "bytes": 2066,
+          "sha256": "24f2bb9fc09e90e551677fe63bfaabc047781d3faf284dd46e9031ee07c9bc8f"
+        },
+        "modules/nf-core/genomad/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/genomad/endtoend/main.nf",
+          "bytes": 5413,
+          "sha256": "a3a447d793b43e9ccf0c16d75281b537fd69de1136589ae3079dbd5733a04e49"
+        },
+        "modules/upstream_manifest.json": {
+          "stored_path": "src_pilot6_measurement/modules/upstream_manifest.json",
+          "bytes": 3636,
+          "sha256": "b013093d50a980a23187ae4608e48a5172bfdd1582542b0a288ea9112d9dcff3"
+        },
+        "nextflow.config": {
+          "stored_path": "src_pilot6_measurement/nextflow.config",
+          "bytes": 1406,
+          "sha256": "f811936946bbb4d949249f1bd5e39ca842ea74feff2f05b9b62f23d7fe07dacb"
+        },
+        "workflows/assembly.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/assembly.nf",
+          "bytes": 644,
+          "sha256": "4878cb763018bb59f6d0c82dce7c8b8904bcb6a8a2ab8971578b2a35e8e89548"
+        },
+        "workflows/association.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/association.nf",
+          "bytes": 434,
+          "sha256": "81e6d31a0416687e1523b1030cabbde5bf110bf7c9825a58509099d4b95430be"
+        },
+        "workflows/cohort.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/cohort.nf",
+          "bytes": 1318,
+          "sha256": "2edca28b2ea7526291e1f17ebba91a1d7b8a1cfa7f1e313d2f8a60251323c145"
+        },
+        "workflows/crc_phage.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage.nf",
+          "bytes": 2166,
+          "sha256": "5b404f9a359ded233a91e75da21a29eb078b16ce194fc31decb3ad8ef1d61033"
+        },
+        "workflows/crc_phage_core.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage_core.nf",
+          "bytes": 10990,
+          "sha256": "fd7e1d273b512752469280ffc067dc6bb404e9ef41a59b015696abbb5dbd19a6"
+        },
+        "workflows/reads.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/reads.nf",
+          "bytes": 375,
+          "sha256": "f6af00eb38676ccff3abc66ff6db98ef8f8fcbc5e7af6494b0185748637d3527"
+        },
+        "workflows/viral_discovery.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/viral_discovery.nf",
+          "bytes": 4642,
+          "sha256": "fb945a57aeb42d1ad0c61f0712ed539c4897218997b331a8f1a2130b66b3dd19"
+        }
+      }
+    },
+    "src_reads_v1": {
+      "directories": [
+        "assets",
+        "bin",
+        "conf",
+        "envs",
+        "envs/spark-r-sensitivity",
+        "modules",
+        "modules/local",
+        "modules/nf-core",
+        "modules/nf-core/checkv",
+        "modules/nf-core/checkv/endtoend",
+        "modules/nf-core/genomad",
+        "modules/nf-core/genomad/endtoend",
+        "workflows"
+      ],
+      "files": {
+        "analysis1_source_manifest.json": {
+          "stored_path": "source_overlays/src_reads_v1/analysis1_source_manifest.json",
+          "bytes": 31167,
+          "sha256": "02f76df370d2c52d7e4c63592343451a82fcaf3f56e4a5748993c8edf604f569"
+        },
+        "assets/association_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/association_tools.json",
+          "bytes": 831,
+          "sha256": "94ce4b79a72da0bf8fbc68df5c73f8343142adf99e5f846896e0442208f11bbc"
+        },
+        "assets/core_callers_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_callers_tools.json",
+          "bytes": 29896,
+          "sha256": "c79680fa0e5d8520294221343d59687b7777c021d065a1112b152ad4c966b5c3"
+        },
+        "assets/core_functions_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_functions_tools.json",
+          "bytes": 1692,
+          "sha256": "4686ad7b333f1fcf98c1fed7838359901405bc02d906afc493fa82cae840ba8a"
+        },
+        "assets/core_genomes_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_genomes_tools.json",
+          "bytes": 2261,
+          "sha256": "e84d9d730a35e47167e0cf1b70ef8ea0ec2917b397789a4a10459a511c0d7aed"
+        },
+        "assets/core_kofam_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_kofam_tools.json",
+          "bytes": 558,
+          "sha256": "e2073539a12e054bdbdf271a2aea0c5e472789c7e850d612dd5a484fab7e6dae"
+        },
+        "assets/core_votu_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_votu_tools.json",
+          "bytes": 2298,
+          "sha256": "4e03e8f6890ca227cc77ceb87028bb2065338536329661df21026aeb04c9f3e6"
+        },
+        "assets/host_phylogeny_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/host_phylogeny_tools.json",
+          "bytes": 389,
+          "sha256": "7f7f2fe7a09e67b77a8170473469b8aca1e6137a099af6b4938383ba7b006a3f"
+        },
+        "assets/reads_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/reads_tools.json",
+          "bytes": 1719,
+          "sha256": "f6a5cdacd12ad4c69a16ab5e5acd25bb2ded2858b7199717dfa7fba2f17d93ff"
+        },
+        "assets/viral_evidence_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_evidence_tools.json",
+          "bytes": 1495,
+          "sha256": "ac893ff7cd42f8ae4a5fc7048940ef8a2e14d741f25aa7113232d8c3f2640dd9"
+        },
+        "assets/viral_gene_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_gene_tools.json",
+          "bytes": 4711,
+          "sha256": "519daf70cc034df1139ad1fd63aae397c080a60321d505bf0628d8eb34507807"
+        },
+        "bin/association.py": {
+          "stored_path": "src_pilot6_measurement/bin/association.py",
+          "bytes": 12488,
+          "sha256": "a6ca56eb07c948d37093801b8ef8f08464736bd4072be6eea14e0668a4474e50"
+        },
+        "bin/association_adapt.py": {
+          "stored_path": "src_pilot6_measurement/bin/association_adapt.py",
+          "bytes": 11982,
+          "sha256": "64cdbf6eb2fd978a276aa268428806bc62e7e7cd6b5410f2e1530305b87dfb50"
+        },
+        "bin/catalog_policy.py": {
+          "stored_path": "src_pilot6_measurement/bin/catalog_policy.py",
+          "bytes": 15767,
+          "sha256": "e06dc3cc8208de8d4a560343a4eafcc5b6b9e6abb23a535fe56c4b2530b92e40"
+        },
+        "bin/cohort_cli.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_cli.py",
+          "bytes": 4333,
+          "sha256": "e9abaa2b163933cd91a5fe5ef0a8a513c0e2461ff64fd31208a85cb2d6eb9082"
+        },
+        "bin/cohort_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_common.py",
+          "bytes": 8649,
+          "sha256": "a261bdefe4a0af94f474ace3151576326bb5ec0103d5cd385eec4be3bb27d0df"
+        },
+        "bin/cohort_informative.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_informative.py",
+          "bytes": 6364,
+          "sha256": "8951cc5ea0340d67859b83cb90337c6f6e1ae124e5baa35627dc968465dc7c31"
+        },
+        "bin/cohort_measure.py": {
+          "stored_path": "source_overlays/src_reads_v1/bin/cohort_measure.py",
+          "bytes": 26557,
+          "sha256": "0053354879833695a91e997c03086aa7de063d42a2982ac6a6835592535a638b"
+        },
+        "bin/cohort_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_reference.py",
+          "bytes": 14599,
+          "sha256": "fd66cc6928bc88ad44ce8017667346b09bb78090ec0e70e44d6e5a2bf045737c"
+        },
+        "bin/cohort_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_report.py",
+          "bytes": 19903,
+          "sha256": "1e2e630fa9f79ae06562cb0a07727094443c2ec30cd0ea867bbcaad1ec57abc4"
+        },
+        "bin/cohort_research_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_reference.py",
+          "bytes": 6867,
+          "sha256": "4e5be512354deddcb5a0c1bd7483299365bd20dc1d258f3140783f01a4b38dfb"
+        },
+        "bin/cohort_research_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_report.py",
+          "bytes": 5450,
+          "sha256": "e36c0ab70e820f9d2ff5af71d50af3f963882b63ce1c4d4c4ce18c300c380453"
+        },
+        "bin/cohort_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_tools.py",
+          "bytes": 15016,
+          "sha256": "f2945e31f95210a643ed7d440069aefcfa1bdcccdfa5b1f27303cb173adfa377"
+        },
+        "bin/community_analysis.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_analysis.py",
+          "bytes": 14615,
+          "sha256": "5837036033978ca7a109c916e9c1d8e37187378590594f5fbec4b1e882e15faf"
+        },
+        "bin/community_modules.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_modules.py",
+          "bytes": 6317,
+          "sha256": "73f7bff6f2fc3ae81afb9625543837bf64196a1b7ea0d8d6896f7d89cba464a6"
+        },
+        "bin/core_callers.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_callers.py",
+          "bytes": 20679,
+          "sha256": "c38b1f3eb8dbb5b356afd4f932f6e1fdecc4c3b06b043cad1c798c1d4cba6b30"
+        },
+        "bin/core_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_functions.py",
+          "bytes": 58750,
+          "sha256": "34ef1d53b684fad5d69a0639e32170c77800d4e65fbaf2d5a27d0b5b9b41e001"
+        },
+        "bin/core_genomes.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_genomes.py",
+          "bytes": 25604,
+          "sha256": "bf8af7f7a26e6ac3476b7abdfec64d5d07770b0d0b88c755fe91601082268658"
+        },
+        "bin/core_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_kofam.py",
+          "bytes": 13935,
+          "sha256": "eb6c332f23635a4ea58fb8ccc009356334ecee4ea259b35cd27a5ca60f3237df"
+        },
+        "bin/core_locus.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_locus.py",
+          "bytes": 16134,
+          "sha256": "4b7444646db3737d029ecbba197a12d7a2f97de8d026ffa3b3caef4910a0d8c4"
+        },
+        "bin/core_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_preflight.py",
+          "bytes": 18193,
+          "sha256": "3c340b06751b1366ad06f253d1bd2ea9950bd05b14551fd546e04692486b80a9"
+        },
+        "bin/core_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_report.py",
+          "bytes": 19108,
+          "sha256": "ce4273b887cd75fe2c94403e3cb1e99d9b8595b45c63e027a09c1bf1e355bc54"
+        },
+        "bin/core_research_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_research_summary.py",
+          "bytes": 12341,
+          "sha256": "f04d47d4511f721148529c6839e0adcc881e9fd9f4b024b00a522faa0354aa12"
+        },
+        "bin/core_votu.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_votu.py",
+          "bytes": 18993,
+          "sha256": "a12e10ffe60dbacb74eba9e6d224fa56088a3a3b0f9739e78dc2a92f30e948b9"
+        },
+        "bin/detection_calibration.py": {
+          "stored_path": "src_pilot6_measurement/bin/detection_calibration.py",
+          "bytes": 3773,
+          "sha256": "b472493b7185a003f89e69ce7211de6e31f23148e9a5acad41a053b405a66ac5"
+        },
+        "bin/evidence_crosswalk.py": {
+          "stored_path": "src_pilot6_measurement/bin/evidence_crosswalk.py",
+          "bytes": 14350,
+          "sha256": "23f3ccd4da6f8b6a768677e5565d0469aaeb3906413c328b6c10fc3bc49ab015"
+        },
+        "bin/fetch_assets.py": {
+          "stored_path": "src_pilot6_measurement/bin/fetch_assets.py",
+          "bytes": 15046,
+          "sha256": "bc2bbd5b65444c875202a9585295945e2b5fbd1b01e4b15e5966fbec021f13f4"
+        },
+        "bin/genome_callability.py": {
+          "stored_path": "src_pilot6_measurement/bin/genome_callability.py",
+          "bytes": 9475,
+          "sha256": "9a1b970ba359907df846fc22df803640db6757de2e1ddf713b143e2296a1b266"
+        },
+        "bin/host_core_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_core_reference.py",
+          "bytes": 7641,
+          "sha256": "11cf953c65578d434f1dc6ed345ec8a6a47d4952a88a52c13be48bdc8c2a7cbc"
+        },
+        "bin/host_lineage.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_lineage.py",
+          "bytes": 3384,
+          "sha256": "54819b3d64ed361a0145d4de597ddc0c5f12571d091c336cd7ac4b5e45603758"
+        },
+        "bin/host_phylogeny.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_phylogeny.py",
+          "bytes": 25799,
+          "sha256": "948e17a7f9dbb3838ceb72be78ae0df5545c63a6870a5cdf0a4cef8d6c53d41b"
+        },
+        "bin/host_recombination.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_recombination.py",
+          "bytes": 14623,
+          "sha256": "0eb10167a927d2c63dac01ac07bbe2ef8eb9a8f1fff37978c5717956347a99fd"
+        },
+        "bin/host_source.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_source.py",
+          "bytes": 40416,
+          "sha256": "70ddcd174690dcc137b77f2381f70fb1e8d5af255c9c13fd02855b0ed1c42f26"
+        },
+        "bin/legacy_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/legacy_guard.py",
+          "bytes": 6613,
+          "sha256": "7864630b6e110e9f74de0508905e87a840d413e1e3cdee32d040027546516822"
+        },
+        "bin/mainline_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_common.py",
+          "bytes": 3986,
+          "sha256": "e9e9154ae3408d49cf98aba44862a7df8c6b8a3a7622a464703a2a0ff18f215f"
+        },
+        "bin/mainline_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_preflight.py",
+          "bytes": 6845,
+          "sha256": "9fbed7cc5094b7feb49153c018824c9d87b08d391f96f696bc22518a6e4a6c1a"
+        },
+        "bin/merge_clean_sample.py": {
+          "stored_path": "src_pilot6_measurement/bin/merge_clean_sample.py",
+          "bytes": 3699,
+          "sha256": "bec23f09a04867e42a6839f48f5846647a833ecb36ebc373a2f8c5a16e0e40d8"
+        },
+        "bin/nextflow_resume.py": {
+          "stored_path": "src_pilot6_measurement/bin/nextflow_resume.py",
+          "bytes": 4604,
+          "sha256": "d15a78f7ca0a49f45c72e38e30123220222ae46ca3f76be6fc896eae196aae71"
+        },
+        "bin/phageflow.py": {
+          "stored_path": "src_pilot6_measurement/bin/phageflow.py",
+          "bytes": 36475,
+          "sha256": "03c47c27dc4db315dddd852d676fa524c426e9e3220b8d8bdfd60ac903d8b4ea"
+        },
+        "bin/project_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/project_pipeline.py",
+          "bytes": 13688,
+          "sha256": "699613bcf2d03fd91bf04cded73762896dd0443aa452f90d4b3107c879c6dfa4"
+        },
+        "bin/reads_assembly.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_assembly.py",
+          "bytes": 18064,
+          "sha256": "c942df32a2c59b810a62b0482af133eebb22ef577d71cd4084f0f951d17b8193"
+        },
+        "bin/reads_core_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_core_bridge.py",
+          "bytes": 17015,
+          "sha256": "928b9790cb4f520bcc67c4254dc8b8aa4874ba909d600aeb7540dc763ca7f745"
+        },
+        "bin/reads_io.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_io.py",
+          "bytes": 23971,
+          "sha256": "184bb18e8c846428296fa136340564b904278468addd03020ae3cdceccda7b2f"
+        },
+        "bin/reads_process.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_process.py",
+          "bytes": 26060,
+          "sha256": "680b9b06482a7788a76bfce6111eb3b7bcac2c728ddccdaae7028365039f67ac"
+        },
+        "bin/reads_publish.py": {
+          "stored_path": "source_overlays/src_reads_v1/bin/reads_publish.py",
+          "bytes": 2243,
+          "sha256": "07001d9d44e609cd07c3d2be8f630ba9ddf4bfb388281038bc182d930db34270"
+        },
+        "bin/research_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/research_bridge.py",
+          "bytes": 11175,
+          "sha256": "f73978652c10716e8cc99b0f99d3f3e7a8e3bd5c3efd50bf09c23b3202283b25"
+        },
+        "bin/run_core.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_core.py",
+          "bytes": 19687,
+          "sha256": "e7abfaa3741344b9e0e3bb6549e8b592d0238392c4cb2a94bd56876a92a386e6"
+        },
+        "bin/run_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_pipeline.py",
+          "bytes": 27550,
+          "sha256": "03a1a099d2ff0a2a9dd6372b7429f8d38ce0a8d17306b2689dfb917ee90d74a3"
+        },
+        "bin/run_stage.py": {
+          "stored_path": "source_overlays/src_reads_v1/bin/run_stage.py",
+          "bytes": 37672,
+          "sha256": "8ebabb072fbf23905c619d473e44e9ad604557a8f5de31a940c6fdbe4a8d121d"
+        },
+        "bin/spark-launch.py": {
+          "stored_path": "source_overlays/src_reads_v1/bin/spark-launch.py",
+          "bytes": 12885,
+          "sha256": "1ee0c1276b070b35aa2b86eb23c2be32731256dfc5214bb4080f3a5ad88cadf5"
+        },
+        "bin/spark_acquire.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_acquire.py",
+          "bytes": 12361,
+          "sha256": "9206dd9dd0da94e26ab326bc88fcac80f5fc18f15067e9483f1570c85dc6c8cd"
+        },
+        "bin/spark_cache_identity.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_cache_identity.py",
+          "bytes": 5735,
+          "sha256": "ce34f544a2b179049771073d552a380972729f3b2ddb44fd38e8785d95a1e0a3"
+        },
+        "bin/spark_fs_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_fs_guard.py",
+          "bytes": 5304,
+          "sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+        },
+        "bin/spark_runtime.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_runtime.py",
+          "bytes": 31605,
+          "sha256": "90fd24d4b2b12d3cdc02c4cd26009bb467f2c8381b86bb67265d13e831a5c03c"
+        },
+        "bin/study_contract.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_contract.py",
+          "bytes": 28105,
+          "sha256": "db7e2cd2bba4bf48ccbb9bf4402b21b486d961ac2f093a20f74d44f773650dbd"
+        },
+        "bin/study_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_preflight.py",
+          "bytes": 4794,
+          "sha256": "97604a14ffb5c941fd16c4c29f97d0d75dde11f067dd19ee1ba7b0236d6cff80"
+        },
+        "bin/viral_amrfinder_pinned.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_amrfinder_pinned.py",
+          "bytes": 4145,
+          "sha256": "d37252857ae6cb4b8b8040a60f36bddb6ccc0441446578467fbe499ff19335e6"
+        },
+        "bin/viral_catalog.py": {
+          "stored_path": "source_overlays/src_reads_v1/bin/viral_catalog.py",
+          "bytes": 30317,
+          "sha256": "d79e413a93831eee8d3257723bd9cfc10f1048dff1dfa018355658c986401afa"
+        },
+        "bin/viral_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence.py",
+          "bytes": 15213,
+          "sha256": "2f9954bd2c50c841108cb47d4fd7569067e9eeec727b34abc9e1cf150ea61874"
+        },
+        "bin/viral_evidence_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence_summary.py",
+          "bytes": 9677,
+          "sha256": "f6eb60552f1ee817bb420b2fc63085d1f49daa51997c3bad2a6f3d0274ae4242"
+        },
+        "bin/viral_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_functions.py",
+          "bytes": 9247,
+          "sha256": "de6fcab197faf4130bf178e176fe41d68ff73f65d222662e20e21803470c6d29"
+        },
+        "bin/viral_genes.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_genes.py",
+          "bytes": 12075,
+          "sha256": "390650ba9aa7375a6e64a3257abffcd8d4f149d78f3f1ed686bfa192b822830d"
+        },
+        "bin/viral_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_kofam.py",
+          "bytes": 2107,
+          "sha256": "0e82db41e88cfbf4dc0b6ee8c471ca05063cb1ff93e2f913e4dd5665cfd11af3"
+        },
+        "bin/viral_record_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_record_tools.py",
+          "bytes": 1981,
+          "sha256": "379c19c2f9a34a82a26bca212287822594ed70d7bb31ff28cf3ce3acf6156025"
+        },
+        "bin/whole_genome_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/whole_genome_evidence.py",
+          "bytes": 7817,
+          "sha256": "e124d9557f5014626273964d95479fa27359ce04918399897b8628adba28686c"
+        },
+        "conf/association.config": {
+          "stored_path": "src_pilot6_measurement/conf/association.config",
+          "bytes": 1398,
+          "sha256": "75cc891d53d686f58820cddd0d5cfcd201b39bd714e0fe089ff700d6c4f12ef9"
+        },
+        "conf/base.config": {
+          "stored_path": "src_pilot6_measurement/conf/base.config",
+          "bytes": 947,
+          "sha256": "8f56ded49cc4615a17257221b0796a19ce177829cdacb5c814e686705f987b06"
+        },
+        "conf/cohort.config": {
+          "stored_path": "src_pilot6_measurement/conf/cohort.config",
+          "bytes": 902,
+          "sha256": "30860b16e8e74978d2adc7b25412fac29c469410431bdb156c5d1c11d9f00d9b"
+        },
+        "conf/containers.config": {
+          "stored_path": "src_pilot6_measurement/conf/containers.config",
+          "bytes": 506,
+          "sha256": "acdb3b5bd97b2c2ea8dca1333c9859c1d5f4d84b27513617df9dc58f1aa86c23"
+        },
+        "conf/core.config": {
+          "stored_path": "src_pilot6_measurement/conf/core.config",
+          "bytes": 1250,
+          "sha256": "671a565904e9a86a4df3c26a33205410b9a16e8d25952240bbd0cc527d737a50"
+        },
+        "conf/reads.config": {
+          "stored_path": "src_pilot6_measurement/conf/reads.config",
+          "bytes": 1470,
+          "sha256": "198fda23140db11a9807038492e582487c64e41a850167d95049b9e815958314"
+        },
+        "conf/spark_exclusive.config": {
+          "stored_path": "source_overlays/src_reads_v1/conf/spark_exclusive.config",
+          "bytes": 1065,
+          "sha256": "d16ee777ac462be5754d20093d94bb9c7619e90d2c6a987a17c227cad9492cc2"
+        },
+        "conf/spark_native.config": {
+          "stored_path": "src_pilot6_measurement/conf/spark_native.config",
+          "bytes": 14845,
+          "sha256": "9600e847bef0367bc36b3613cb4f639e821fc52fc48990ad1f915ec971fbef76"
+        },
+        "conf/viral.config": {
+          "stored_path": "src_pilot6_measurement/conf/viral.config",
+          "bytes": 1920,
+          "sha256": "08746da8cb2067aa355b7d69e08b91647a5b4d40de6142845cde8e48a6cd5828"
+        },
+        "envs/spark-r-sensitivity/source_package_inventory.json": {
+          "stored_path": "source_overlays/src_reads_v1/envs/spark-r-sensitivity/source_package_inventory.json",
+          "bytes": 29411,
+          "sha256": "0ab54fa463058b8a08bc80773e4bc2e55b588e896aa35bd8c8218a0dd8d85c2c"
+        },
+        "envs/spark-r-sensitivity/source_packages.lock.json": {
+          "stored_path": "source_overlays/src_reads_v1/envs/spark-r-sensitivity/source_packages.lock.json",
+          "bytes": 1069,
+          "sha256": "1caaa7a98cbce25fa92fc7026e2c8186b4fca62c9fdda0478a861f34579e3b7f"
+        },
+        "main.nf": {
+          "stored_path": "src_pilot6_measurement/main.nf",
+          "bytes": 3796,
+          "sha256": "897a06233e40c307616560c824aff1cd3d99fef3e3741289103a4a97d7dfdcea"
+        },
+        "main_assembly.nf": {
+          "stored_path": "src_pilot6_measurement/main_assembly.nf",
+          "bytes": 2400,
+          "sha256": "9148d3c247428d55745db4c0e59e558033ff0f37bc245ecee27c663ddc19101d"
+        },
+        "main_association.nf": {
+          "stored_path": "src_pilot6_measurement/main_association.nf",
+          "bytes": 1144,
+          "sha256": "f3eb856262ef3c4a71431ba75c6ecfd56cc1c73e84e9a08c918e64bd149cb931"
+        },
+        "main_cohort.nf": {
+          "stored_path": "src_pilot6_measurement/main_cohort.nf",
+          "bytes": 2945,
+          "sha256": "b0ddbc4f836b5ff8b05248cf27f91ed7fd5a70745fcc793c0056f58f2126b366"
+        },
+        "main_core.nf": {
+          "stored_path": "src_pilot6_measurement/main_core.nf",
+          "bytes": 2866,
+          "sha256": "08211c6373ad55ec97f21c7a050f0f64c0019195bd0eadfe7276c0ca8bda8218"
+        },
+        "main_engineering34.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering34.nf",
+          "bytes": 3584,
+          "sha256": "c20e2e80bc219fea5a17739e2905f1c21b0f04ff77914cde7b35409c81289a9c"
+        },
+        "main_engineering36.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36.nf",
+          "bytes": 3012,
+          "sha256": "3aae5e25241fa8a77561708ce5d91d49120e464a2d94a7c4d57d9fa4254fa26b"
+        },
+        "main_engineering36_summary.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36_summary.nf",
+          "bytes": 1623,
+          "sha256": "2b24eb9c421b0f6eb7a1fcd69ca73499d3b1fddc6e2e08325f6a707b2fe4202f"
+        },
+        "main_reads.nf": {
+          "stored_path": "src_pilot6_measurement/main_reads.nf",
+          "bytes": 1370,
+          "sha256": "ffb365d7cf62f229d00c83ee5667f48db1ac575b19c5230fd09fd5c988781256"
+        },
+        "main_spark_cachecheck.nf": {
+          "stored_path": "src_pilot6_measurement/main_spark_cachecheck.nf",
+          "bytes": 466,
+          "sha256": "47ccac968205bde596d933e0247b900ff755a7ca14d3af6fac6f1a6226c72c87"
+        },
+        "main_viral.nf": {
+          "stored_path": "source_overlays/src_reads_v1/main_viral.nf",
+          "bytes": 4436,
+          "sha256": "626755baad57eff32aca8e42ca9abd8242530add762c614780d6c12949f90790"
+        },
+        "modules/local/a0_a1.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/a0_a1.nf",
+          "bytes": 2814,
+          "sha256": "e8aa5e61d881e1978b3cebc97a617e1e070e37feb508c5826c2f54d534e6f4fb"
+        },
+        "modules/local/association_models.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/association_models.nf",
+          "bytes": 722,
+          "sha256": "8749b88983f61feb4e0b5519c38f6b66da62eccf9ccdd3363afd7fefed43ea4e"
+        },
+        "modules/local/cohort.nf": {
+          "stored_path": "source_overlays/src_reads_v1/modules/local/cohort.nf",
+          "bytes": 4391,
+          "sha256": "0250fe6b3ec0f794d6041a0b48d43fa1dafa26942320a9a83774e5feaf3a5f62"
+        },
+        "modules/local/core_callers.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_callers.nf",
+          "bytes": 2868,
+          "sha256": "55a9212feeb49268e095ef3cb044d8de156c967d45446fa378c74f1978613dff"
+        },
+        "modules/local/core_functions.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_functions.nf",
+          "bytes": 2146,
+          "sha256": "666bc1ea2b219fbe29f274daacf4bdaa3f8bd37e5d9c43787c0abfb1866126bd"
+        },
+        "modules/local/core_genomes.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_genomes.nf",
+          "bytes": 4937,
+          "sha256": "48942cdc4600252ba8466cc5ef6ed46d051e22f9345d838340e5bf7293954d70"
+        },
+        "modules/local/core_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_kofam.nf",
+          "bytes": 1910,
+          "sha256": "1c7e76f5686885227b117477532780870c9cca0ee94471644aad4997d0d0ed8d"
+        },
+        "modules/local/core_report.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_report.nf",
+          "bytes": 1932,
+          "sha256": "da633c013bffa4b58b5b6b4e61280f035761717e1bbb4075ab86559bfd2d6b5f"
+        },
+        "modules/local/core_research.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_research.nf",
+          "bytes": 3973,
+          "sha256": "911ae1e1e53ac282d0837456ac300c439797940dd704bbf48a89a89c270c588d"
+        },
+        "modules/local/core_votu.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_votu.nf",
+          "bytes": 2778,
+          "sha256": "5e12ca71efe71cd32e2000d04c4dfa0c54820a7d13e68c52ef9262d24037d3e3"
+        },
+        "modules/local/host_phylogeny.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_phylogeny.nf",
+          "bytes": 3374,
+          "sha256": "4af5c012107a680e87e34537d9bd5e43c8e9dc57fab687d8e56bed3f9f8b9bbc"
+        },
+        "modules/local/host_recombination.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_recombination.nf",
+          "bytes": 858,
+          "sha256": "47eb20b5398e3f245e1d63936e9fdf5704ed0f3e484133aaca18808813562e5e"
+        },
+        "modules/local/host_source.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_source.nf",
+          "bytes": 917,
+          "sha256": "80dd1e8068317de772817dc7ad5700f7914e442de14b1ec988f44055ef836f24"
+        },
+        "modules/local/reads.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/reads.nf",
+          "bytes": 3981,
+          "sha256": "10a48c67cb79dd4a80b24da8af0b7318a57a57583a6d260c10eae1cbfea8ed54"
+        },
+        "modules/local/research_bridge.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/research_bridge.nf",
+          "bytes": 840,
+          "sha256": "e7e61a8c038aaea5ccb035ebb4526fcf0e0d13c4228aece14131246dc9228d38"
+        },
+        "modules/local/viral.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral.nf",
+          "bytes": 5212,
+          "sha256": "5b4534476ee3f4bb8233880a1dbfab323c73cb5fd2230a0245385ee77fd51b17"
+        },
+        "modules/local/viral_evidence.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_evidence.nf",
+          "bytes": 2593,
+          "sha256": "1fbc60ad083d22727b8c9c7ede891c52cffe0ad1e453ceb75de242efada2ef5d"
+        },
+        "modules/local/viral_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_kofam.nf",
+          "bytes": 651,
+          "sha256": "c2f921eb29ed85a032161e3d41ab7ed9b5a6a47fae0e513cab120a5e0c7a623a"
+        },
+        "modules/nf-core/checkv/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/checkv/endtoend/main.nf",
+          "bytes": 2066,
+          "sha256": "24f2bb9fc09e90e551677fe63bfaabc047781d3faf284dd46e9031ee07c9bc8f"
+        },
+        "modules/nf-core/genomad/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/genomad/endtoend/main.nf",
+          "bytes": 5413,
+          "sha256": "a3a447d793b43e9ccf0c16d75281b537fd69de1136589ae3079dbd5733a04e49"
+        },
+        "modules/upstream_manifest.json": {
+          "stored_path": "src_pilot6_measurement/modules/upstream_manifest.json",
+          "bytes": 3636,
+          "sha256": "b013093d50a980a23187ae4608e48a5172bfdd1582542b0a288ea9112d9dcff3"
+        },
+        "nextflow.config": {
+          "stored_path": "src_pilot6_measurement/nextflow.config",
+          "bytes": 1406,
+          "sha256": "f811936946bbb4d949249f1bd5e39ca842ea74feff2f05b9b62f23d7fe07dacb"
+        },
+        "workflows/assembly.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/assembly.nf",
+          "bytes": 644,
+          "sha256": "4878cb763018bb59f6d0c82dce7c8b8904bcb6a8a2ab8971578b2a35e8e89548"
+        },
+        "workflows/association.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/association.nf",
+          "bytes": 434,
+          "sha256": "81e6d31a0416687e1523b1030cabbde5bf110bf7c9825a58509099d4b95430be"
+        },
+        "workflows/cohort.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/cohort.nf",
+          "bytes": 1318,
+          "sha256": "2edca28b2ea7526291e1f17ebba91a1d7b8a1cfa7f1e313d2f8a60251323c145"
+        },
+        "workflows/crc_phage.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage.nf",
+          "bytes": 2166,
+          "sha256": "5b404f9a359ded233a91e75da21a29eb078b16ce194fc31decb3ad8ef1d61033"
+        },
+        "workflows/crc_phage_core.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage_core.nf",
+          "bytes": 10990,
+          "sha256": "fd7e1d273b512752469280ffc067dc6bb404e9ef41a59b015696abbb5dbd19a6"
+        },
+        "workflows/reads.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/reads.nf",
+          "bytes": 375,
+          "sha256": "f6af00eb38676ccff3abc66ff6db98ef8f8fcbc5e7af6494b0185748637d3527"
+        },
+        "workflows/viral_discovery.nf": {
+          "stored_path": "source_overlays/src_reads_v1/workflows/viral_discovery.nf",
+          "bytes": 5821,
+          "sha256": "4b4ae4cfaae3a588512554317a444edaa0881ce9b7bbeb0e63d9420fa0030f19"
+        }
+      }
+    },
+    "src_campaign_v2": {
+      "directories": [
+        "assets",
+        "bin",
+        "conf",
+        "envs",
+        "envs/spark-r-sensitivity",
+        "modules",
+        "modules/local",
+        "modules/nf-core",
+        "modules/nf-core/checkv",
+        "modules/nf-core/checkv/endtoend",
+        "modules/nf-core/genomad",
+        "modules/nf-core/genomad/endtoend",
+        "workflows"
+      ],
+      "files": {
+        "analysis1_source_manifest.json": {
+          "stored_path": "source_overlays/src_campaign_v2/analysis1_source_manifest.json",
+          "bytes": 35774,
+          "sha256": "9236a5623aab464391251980c1bd2b3d77ffb23a4597ae3b36182dcdda3b69e0"
+        },
+        "assets/association_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/association_tools.json",
+          "bytes": 831,
+          "sha256": "94ce4b79a72da0bf8fbc68df5c73f8343142adf99e5f846896e0442208f11bbc"
+        },
+        "assets/containers.json": {
+          "stored_path": "src_pilot6_measurement/assets/containers.json",
+          "bytes": 404,
+          "sha256": "e3f9630ea0744dc0ed8d896858f61b06eefd506d7f5ae6bffa37f34faf316f98"
+        },
+        "assets/core_callers_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_callers_tools.json",
+          "bytes": 29896,
+          "sha256": "c79680fa0e5d8520294221343d59687b7777c021d065a1112b152ad4c966b5c3"
+        },
+        "assets/core_functions_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_functions_tools.json",
+          "bytes": 1692,
+          "sha256": "4686ad7b333f1fcf98c1fed7838359901405bc02d906afc493fa82cae840ba8a"
+        },
+        "assets/core_genomes_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_genomes_tools.json",
+          "bytes": 2261,
+          "sha256": "e84d9d730a35e47167e0cf1b70ef8ea0ec2917b397789a4a10459a511c0d7aed"
+        },
+        "assets/core_kofam_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_kofam_tools.json",
+          "bytes": 558,
+          "sha256": "e2073539a12e054bdbdf271a2aea0c5e472789c7e850d612dd5a484fab7e6dae"
+        },
+        "assets/core_votu_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/core_votu_tools.json",
+          "bytes": 2298,
+          "sha256": "4e03e8f6890ca227cc77ceb87028bb2065338536329661df21026aeb04c9f3e6"
+        },
+        "assets/host_phylogeny_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/host_phylogeny_tools.json",
+          "bytes": 389,
+          "sha256": "7f7f2fe7a09e67b77a8170473469b8aca1e6137a099af6b4938383ba7b006a3f"
+        },
+        "assets/reads_databases.json": {
+          "stored_path": "src_pilot6_measurement/assets/reads_databases.json",
+          "bytes": 8205,
+          "sha256": "86af26d0112b26325bf348c72c01d24e6bc775876d7272aef08de34f67031bfe"
+        },
+        "assets/reads_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/reads_tools.json",
+          "bytes": 1719,
+          "sha256": "f6a5cdacd12ad4c69a16ab5e5acd25bb2ded2858b7199717dfa7fba2f17d93ff"
+        },
+        "assets/viral_evidence_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_evidence_tools.json",
+          "bytes": 1495,
+          "sha256": "ac893ff7cd42f8ae4a5fc7048940ef8a2e14d741f25aa7113232d8c3f2640dd9"
+        },
+        "assets/viral_gene_tools.json": {
+          "stored_path": "src_pilot6_measurement/assets/viral_gene_tools.json",
+          "bytes": 4711,
+          "sha256": "519daf70cc034df1139ad1fd63aae397c080a60321d505bf0628d8eb34507807"
+        },
+        "bin/association.py": {
+          "stored_path": "src_pilot6_measurement/bin/association.py",
+          "bytes": 12488,
+          "sha256": "a6ca56eb07c948d37093801b8ef8f08464736bd4072be6eea14e0668a4474e50"
+        },
+        "bin/association_adapt.py": {
+          "stored_path": "src_pilot6_measurement/bin/association_adapt.py",
+          "bytes": 11982,
+          "sha256": "64cdbf6eb2fd978a276aa268428806bc62e7e7cd6b5410f2e1530305b87dfb50"
+        },
+        "bin/catalog_policy.py": {
+          "stored_path": "src_pilot6_measurement/bin/catalog_policy.py",
+          "bytes": 15767,
+          "sha256": "e06dc3cc8208de8d4a560343a4eafcc5b6b9e6abb23a535fe56c4b2530b92e40"
+        },
+        "bin/cohort_cli.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_cli.py",
+          "bytes": 4333,
+          "sha256": "e9abaa2b163933cd91a5fe5ef0a8a513c0e2461ff64fd31208a85cb2d6eb9082"
+        },
+        "bin/cohort_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_common.py",
+          "bytes": 8649,
+          "sha256": "a261bdefe4a0af94f474ace3151576326bb5ec0103d5cd385eec4be3bb27d0df"
+        },
+        "bin/cohort_informative.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_informative.py",
+          "bytes": 6364,
+          "sha256": "8951cc5ea0340d67859b83cb90337c6f6e1ae124e5baa35627dc968465dc7c31"
+        },
+        "bin/cohort_measure.py": {
+          "stored_path": "source_overlays/src_campaign_v2/bin/cohort_measure.py",
+          "bytes": 26557,
+          "sha256": "0053354879833695a91e997c03086aa7de063d42a2982ac6a6835592535a638b"
+        },
+        "bin/cohort_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_reference.py",
+          "bytes": 14599,
+          "sha256": "fd66cc6928bc88ad44ce8017667346b09bb78090ec0e70e44d6e5a2bf045737c"
+        },
+        "bin/cohort_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_report.py",
+          "bytes": 19903,
+          "sha256": "1e2e630fa9f79ae06562cb0a07727094443c2ec30cd0ea867bbcaad1ec57abc4"
+        },
+        "bin/cohort_research_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_reference.py",
+          "bytes": 6867,
+          "sha256": "4e5be512354deddcb5a0c1bd7483299365bd20dc1d258f3140783f01a4b38dfb"
+        },
+        "bin/cohort_research_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_research_report.py",
+          "bytes": 5450,
+          "sha256": "e36c0ab70e820f9d2ff5af71d50af3f963882b63ce1c4d4c4ce18c300c380453"
+        },
+        "bin/cohort_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/cohort_tools.py",
+          "bytes": 15016,
+          "sha256": "f2945e31f95210a643ed7d440069aefcfa1bdcccdfa5b1f27303cb173adfa377"
+        },
+        "bin/community_analysis.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_analysis.py",
+          "bytes": 14615,
+          "sha256": "5837036033978ca7a109c916e9c1d8e37187378590594f5fbec4b1e882e15faf"
+        },
+        "bin/community_modules.py": {
+          "stored_path": "src_pilot6_measurement/bin/community_modules.py",
+          "bytes": 6317,
+          "sha256": "73f7bff6f2fc3ae81afb9625543837bf64196a1b7ea0d8d6896f7d89cba464a6"
+        },
+        "bin/core_callers.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_callers.py",
+          "bytes": 20679,
+          "sha256": "c38b1f3eb8dbb5b356afd4f932f6e1fdecc4c3b06b043cad1c798c1d4cba6b30"
+        },
+        "bin/core_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_functions.py",
+          "bytes": 58750,
+          "sha256": "34ef1d53b684fad5d69a0639e32170c77800d4e65fbaf2d5a27d0b5b9b41e001"
+        },
+        "bin/core_genomes.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_genomes.py",
+          "bytes": 25604,
+          "sha256": "bf8af7f7a26e6ac3476b7abdfec64d5d07770b0d0b88c755fe91601082268658"
+        },
+        "bin/core_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_kofam.py",
+          "bytes": 13935,
+          "sha256": "eb6c332f23635a4ea58fb8ccc009356334ecee4ea259b35cd27a5ca60f3237df"
+        },
+        "bin/core_locus.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_locus.py",
+          "bytes": 16134,
+          "sha256": "4b7444646db3737d029ecbba197a12d7a2f97de8d026ffa3b3caef4910a0d8c4"
+        },
+        "bin/core_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_preflight.py",
+          "bytes": 18193,
+          "sha256": "3c340b06751b1366ad06f253d1bd2ea9950bd05b14551fd546e04692486b80a9"
+        },
+        "bin/core_report.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_report.py",
+          "bytes": 19108,
+          "sha256": "ce4273b887cd75fe2c94403e3cb1e99d9b8595b45c63e027a09c1bf1e355bc54"
+        },
+        "bin/core_research_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_research_summary.py",
+          "bytes": 12341,
+          "sha256": "f04d47d4511f721148529c6839e0adcc881e9fd9f4b024b00a522faa0354aa12"
+        },
+        "bin/core_votu.py": {
+          "stored_path": "src_pilot6_measurement/bin/core_votu.py",
+          "bytes": 18993,
+          "sha256": "a12e10ffe60dbacb74eba9e6d224fa56088a3a3b0f9739e78dc2a92f30e948b9"
+        },
+        "bin/detection_calibration.py": {
+          "stored_path": "src_pilot6_measurement/bin/detection_calibration.py",
+          "bytes": 3773,
+          "sha256": "b472493b7185a003f89e69ce7211de6e31f23148e9a5acad41a053b405a66ac5"
+        },
+        "bin/evidence_crosswalk.py": {
+          "stored_path": "src_pilot6_measurement/bin/evidence_crosswalk.py",
+          "bytes": 14350,
+          "sha256": "23f3ccd4da6f8b6a768677e5565d0469aaeb3906413c328b6c10fc3bc49ab015"
+        },
+        "bin/fetch_assets.py": {
+          "stored_path": "src_pilot6_measurement/bin/fetch_assets.py",
+          "bytes": 15046,
+          "sha256": "bc2bbd5b65444c875202a9585295945e2b5fbd1b01e4b15e5966fbec021f13f4"
+        },
+        "bin/genome_callability.py": {
+          "stored_path": "src_pilot6_measurement/bin/genome_callability.py",
+          "bytes": 9475,
+          "sha256": "9a1b970ba359907df846fc22df803640db6757de2e1ddf713b143e2296a1b266"
+        },
+        "bin/host_core_reference.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_core_reference.py",
+          "bytes": 7641,
+          "sha256": "11cf953c65578d434f1dc6ed345ec8a6a47d4952a88a52c13be48bdc8c2a7cbc"
+        },
+        "bin/host_lineage.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_lineage.py",
+          "bytes": 3384,
+          "sha256": "54819b3d64ed361a0145d4de597ddc0c5f12571d091c336cd7ac4b5e45603758"
+        },
+        "bin/host_phylogeny.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_phylogeny.py",
+          "bytes": 25799,
+          "sha256": "948e17a7f9dbb3838ceb72be78ae0df5545c63a6870a5cdf0a4cef8d6c53d41b"
+        },
+        "bin/host_recombination.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_recombination.py",
+          "bytes": 14623,
+          "sha256": "0eb10167a927d2c63dac01ac07bbe2ef8eb9a8f1fff37978c5717956347a99fd"
+        },
+        "bin/host_source.py": {
+          "stored_path": "src_pilot6_measurement/bin/host_source.py",
+          "bytes": 40416,
+          "sha256": "70ddcd174690dcc137b77f2381f70fb1e8d5af255c9c13fd02855b0ed1c42f26"
+        },
+        "bin/legacy_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/legacy_guard.py",
+          "bytes": 6613,
+          "sha256": "7864630b6e110e9f74de0508905e87a840d413e1e3cdee32d040027546516822"
+        },
+        "bin/mainline_common.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_common.py",
+          "bytes": 3986,
+          "sha256": "e9e9154ae3408d49cf98aba44862a7df8c6b8a3a7622a464703a2a0ff18f215f"
+        },
+        "bin/mainline_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/mainline_preflight.py",
+          "bytes": 6845,
+          "sha256": "9fbed7cc5094b7feb49153c018824c9d87b08d391f96f696bc22518a6e4a6c1a"
+        },
+        "bin/merge_clean_sample.py": {
+          "stored_path": "src_pilot6_measurement/bin/merge_clean_sample.py",
+          "bytes": 3699,
+          "sha256": "bec23f09a04867e42a6839f48f5846647a833ecb36ebc373a2f8c5a16e0e40d8"
+        },
+        "bin/nextflow_resume.py": {
+          "stored_path": "src_pilot6_measurement/bin/nextflow_resume.py",
+          "bytes": 4604,
+          "sha256": "d15a78f7ca0a49f45c72e38e30123220222ae46ca3f76be6fc896eae196aae71"
+        },
+        "bin/phageflow.py": {
+          "stored_path": "src_pilot6_measurement/bin/phageflow.py",
+          "bytes": 36475,
+          "sha256": "03c47c27dc4db315dddd852d676fa524c426e9e3220b8d8bdfd60ac903d8b4ea"
+        },
+        "bin/project_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/project_pipeline.py",
+          "bytes": 13688,
+          "sha256": "699613bcf2d03fd91bf04cded73762896dd0443aa452f90d4b3107c879c6dfa4"
+        },
+        "bin/reads_assembly.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_assembly.py",
+          "bytes": 18064,
+          "sha256": "c942df32a2c59b810a62b0482af133eebb22ef577d71cd4084f0f951d17b8193"
+        },
+        "bin/reads_core_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_core_bridge.py",
+          "bytes": 17015,
+          "sha256": "928b9790cb4f520bcc67c4254dc8b8aa4874ba909d600aeb7540dc763ca7f745"
+        },
+        "bin/reads_io.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_io.py",
+          "bytes": 23971,
+          "sha256": "184bb18e8c846428296fa136340564b904278468addd03020ae3cdceccda7b2f"
+        },
+        "bin/reads_process.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_process.py",
+          "bytes": 26060,
+          "sha256": "680b9b06482a7788a76bfce6111eb3b7bcac2c728ddccdaae7028365039f67ac"
+        },
+        "bin/reads_publish.py": {
+          "stored_path": "src_pilot6_measurement/bin/reads_publish.py",
+          "bytes": 2289,
+          "sha256": "bbbc44740194b5129ba1e064650a70629beb0589ae9b919d3bfae3ab9dd65406"
+        },
+        "bin/research_bridge.py": {
+          "stored_path": "src_pilot6_measurement/bin/research_bridge.py",
+          "bytes": 11175,
+          "sha256": "f73978652c10716e8cc99b0f99d3f3e7a8e3bd5c3efd50bf09c23b3202283b25"
+        },
+        "bin/run_core.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_core.py",
+          "bytes": 19687,
+          "sha256": "e7abfaa3741344b9e0e3bb6549e8b592d0238392c4cb2a94bd56876a92a386e6"
+        },
+        "bin/run_pipeline.py": {
+          "stored_path": "src_pilot6_measurement/bin/run_pipeline.py",
+          "bytes": 27550,
+          "sha256": "03a1a099d2ff0a2a9dd6372b7429f8d38ce0a8d17306b2689dfb917ee90d74a3"
+        },
+        "bin/run_stage.py": {
+          "stored_path": "source_overlays/src_campaign_v2/bin/run_stage.py",
+          "bytes": 37183,
+          "sha256": "8b1ef8faa3547a712e48359373f47a7d5f21d77292e0ba581d2c23e37f45d8aa"
+        },
+        "bin/spark-launch.py": {
+          "stored_path": "source_overlays/src_campaign_v2/bin/spark-launch.py",
+          "bytes": 12885,
+          "sha256": "1ee0c1276b070b35aa2b86eb23c2be32731256dfc5214bb4080f3a5ad88cadf5"
+        },
+        "bin/spark_acquire.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_acquire.py",
+          "bytes": 12361,
+          "sha256": "9206dd9dd0da94e26ab326bc88fcac80f5fc18f15067e9483f1570c85dc6c8cd"
+        },
+        "bin/spark_cache_identity.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_cache_identity.py",
+          "bytes": 5735,
+          "sha256": "ce34f544a2b179049771073d552a380972729f3b2ddb44fd38e8785d95a1e0a3"
+        },
+        "bin/spark_fs_guard.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_fs_guard.py",
+          "bytes": 5304,
+          "sha256": "a8aa54c00fffe0813b123b14cfb5bda7d57ff37cd0066727d118c89d273f36ce"
+        },
+        "bin/spark_runtime.py": {
+          "stored_path": "src_pilot6_measurement/bin/spark_runtime.py",
+          "bytes": 31605,
+          "sha256": "90fd24d4b2b12d3cdc02c4cd26009bb467f2c8381b86bb67265d13e831a5c03c"
+        },
+        "bin/study_contract.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_contract.py",
+          "bytes": 28105,
+          "sha256": "db7e2cd2bba4bf48ccbb9bf4402b21b486d961ac2f093a20f74d44f773650dbd"
+        },
+        "bin/study_preflight.py": {
+          "stored_path": "src_pilot6_measurement/bin/study_preflight.py",
+          "bytes": 4794,
+          "sha256": "97604a14ffb5c941fd16c4c29f97d0d75dde11f067dd19ee1ba7b0236d6cff80"
+        },
+        "bin/viral_amrfinder_pinned.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_amrfinder_pinned.py",
+          "bytes": 4145,
+          "sha256": "d37252857ae6cb4b8b8040a60f36bddb6ccc0441446578467fbe499ff19335e6"
+        },
+        "bin/viral_catalog.py": {
+          "stored_path": "source_overlays/src_campaign_v2/bin/viral_catalog.py",
+          "bytes": 30359,
+          "sha256": "5cb5b462e1c7e143dbbfd87743f4a965db1392dbf001a0e8d3b3850c994d2f4f"
+        },
+        "bin/viral_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence.py",
+          "bytes": 15213,
+          "sha256": "2f9954bd2c50c841108cb47d4fd7569067e9eeec727b34abc9e1cf150ea61874"
+        },
+        "bin/viral_evidence_summary.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_evidence_summary.py",
+          "bytes": 9677,
+          "sha256": "f6eb60552f1ee817bb420b2fc63085d1f49daa51997c3bad2a6f3d0274ae4242"
+        },
+        "bin/viral_functions.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_functions.py",
+          "bytes": 9247,
+          "sha256": "de6fcab197faf4130bf178e176fe41d68ff73f65d222662e20e21803470c6d29"
+        },
+        "bin/viral_genes.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_genes.py",
+          "bytes": 12075,
+          "sha256": "390650ba9aa7375a6e64a3257abffcd8d4f149d78f3f1ed686bfa192b822830d"
+        },
+        "bin/viral_kofam.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_kofam.py",
+          "bytes": 2107,
+          "sha256": "0e82db41e88cfbf4dc0b6ee8c471ca05063cb1ff93e2f913e4dd5665cfd11af3"
+        },
+        "bin/viral_record_tools.py": {
+          "stored_path": "src_pilot6_measurement/bin/viral_record_tools.py",
+          "bytes": 1981,
+          "sha256": "379c19c2f9a34a82a26bca212287822594ed70d7bb31ff28cf3ce3acf6156025"
+        },
+        "bin/whole_genome_evidence.py": {
+          "stored_path": "src_pilot6_measurement/bin/whole_genome_evidence.py",
+          "bytes": 7817,
+          "sha256": "e124d9557f5014626273964d95479fa27359ce04918399897b8628adba28686c"
+        },
+        "conf/association.config": {
+          "stored_path": "src_pilot6_measurement/conf/association.config",
+          "bytes": 1398,
+          "sha256": "75cc891d53d686f58820cddd0d5cfcd201b39bd714e0fe089ff700d6c4f12ef9"
+        },
+        "conf/base.config": {
+          "stored_path": "src_pilot6_measurement/conf/base.config",
+          "bytes": 947,
+          "sha256": "8f56ded49cc4615a17257221b0796a19ce177829cdacb5c814e686705f987b06"
+        },
+        "conf/cohort.config": {
+          "stored_path": "src_pilot6_measurement/conf/cohort.config",
+          "bytes": 902,
+          "sha256": "30860b16e8e74978d2adc7b25412fac29c469410431bdb156c5d1c11d9f00d9b"
+        },
+        "conf/containers.config": {
+          "stored_path": "src_pilot6_measurement/conf/containers.config",
+          "bytes": 506,
+          "sha256": "acdb3b5bd97b2c2ea8dca1333c9859c1d5f4d84b27513617df9dc58f1aa86c23"
+        },
+        "conf/core.config": {
+          "stored_path": "src_pilot6_measurement/conf/core.config",
+          "bytes": 1250,
+          "sha256": "671a565904e9a86a4df3c26a33205410b9a16e8d25952240bbd0cc527d737a50"
+        },
+        "conf/reads.config": {
+          "stored_path": "src_pilot6_measurement/conf/reads.config",
+          "bytes": 1470,
+          "sha256": "198fda23140db11a9807038492e582487c64e41a850167d95049b9e815958314"
+        },
+        "conf/spark_exclusive.config": {
+          "stored_path": "source_overlays/src_campaign_v2/conf/spark_exclusive.config",
+          "bytes": 1330,
+          "sha256": "124a5b0285cf044cb710956ca8788b39d166e032936fc7c00845084fe6463bd4"
+        },
+        "conf/spark_native.config": {
+          "stored_path": "src_pilot6_measurement/conf/spark_native.config",
+          "bytes": 14845,
+          "sha256": "9600e847bef0367bc36b3613cb4f639e821fc52fc48990ad1f915ec971fbef76"
+        },
+        "conf/viral.config": {
+          "stored_path": "src_pilot6_measurement/conf/viral.config",
+          "bytes": 1920,
+          "sha256": "08746da8cb2067aa355b7d69e08b91647a5b4d40de6142845cde8e48a6cd5828"
+        },
+        "envs/spark-r-sensitivity/source_package_inventory.json": {
+          "stored_path": "source_overlays/src_campaign_v2/envs/spark-r-sensitivity/source_package_inventory.json",
+          "bytes": 29411,
+          "sha256": "0ab54fa463058b8a08bc80773e4bc2e55b588e896aa35bd8c8218a0dd8d85c2c"
+        },
+        "envs/spark-r-sensitivity/source_packages.lock.json": {
+          "stored_path": "source_overlays/src_campaign_v2/envs/spark-r-sensitivity/source_packages.lock.json",
+          "bytes": 1069,
+          "sha256": "1caaa7a98cbce25fa92fc7026e2c8186b4fca62c9fdda0478a861f34579e3b7f"
+        },
+        "main.nf": {
+          "stored_path": "src_pilot6_measurement/main.nf",
+          "bytes": 3796,
+          "sha256": "897a06233e40c307616560c824aff1cd3d99fef3e3741289103a4a97d7dfdcea"
+        },
+        "main_assembly.nf": {
+          "stored_path": "src_pilot6_measurement/main_assembly.nf",
+          "bytes": 2400,
+          "sha256": "9148d3c247428d55745db4c0e59e558033ff0f37bc245ecee27c663ddc19101d"
+        },
+        "main_association.nf": {
+          "stored_path": "src_pilot6_measurement/main_association.nf",
+          "bytes": 1144,
+          "sha256": "f3eb856262ef3c4a71431ba75c6ecfd56cc1c73e84e9a08c918e64bd149cb931"
+        },
+        "main_cohort.nf": {
+          "stored_path": "src_pilot6_measurement/main_cohort.nf",
+          "bytes": 2945,
+          "sha256": "b0ddbc4f836b5ff8b05248cf27f91ed7fd5a70745fcc793c0056f58f2126b366"
+        },
+        "main_core.nf": {
+          "stored_path": "src_pilot6_measurement/main_core.nf",
+          "bytes": 2866,
+          "sha256": "08211c6373ad55ec97f21c7a050f0f64c0019195bd0eadfe7276c0ca8bda8218"
+        },
+        "main_engineering34.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering34.nf",
+          "bytes": 3584,
+          "sha256": "c20e2e80bc219fea5a17739e2905f1c21b0f04ff77914cde7b35409c81289a9c"
+        },
+        "main_engineering36.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36.nf",
+          "bytes": 3012,
+          "sha256": "3aae5e25241fa8a77561708ce5d91d49120e464a2d94a7c4d57d9fa4254fa26b"
+        },
+        "main_engineering36_summary.nf": {
+          "stored_path": "src_pilot6_measurement/main_engineering36_summary.nf",
+          "bytes": 1623,
+          "sha256": "2b24eb9c421b0f6eb7a1fcd69ca73499d3b1fddc6e2e08325f6a707b2fe4202f"
+        },
+        "main_reads.nf": {
+          "stored_path": "src_pilot6_measurement/main_reads.nf",
+          "bytes": 1370,
+          "sha256": "ffb365d7cf62f229d00c83ee5667f48db1ac575b19c5230fd09fd5c988781256"
+        },
+        "main_spark_cachecheck.nf": {
+          "stored_path": "src_pilot6_measurement/main_spark_cachecheck.nf",
+          "bytes": 466,
+          "sha256": "47ccac968205bde596d933e0247b900ff755a7ca14d3af6fac6f1a6226c72c87"
+        },
+        "main_viral.nf": {
+          "stored_path": "source_overlays/src_campaign_v2/main_viral.nf",
+          "bytes": 4436,
+          "sha256": "626755baad57eff32aca8e42ca9abd8242530add762c614780d6c12949f90790"
+        },
+        "modules/local/a0_a1.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/a0_a1.nf",
+          "bytes": 2814,
+          "sha256": "e8aa5e61d881e1978b3cebc97a617e1e070e37feb508c5826c2f54d534e6f4fb"
+        },
+        "modules/local/association_models.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/association_models.nf",
+          "bytes": 722,
+          "sha256": "8749b88983f61feb4e0b5519c38f6b66da62eccf9ccdd3363afd7fefed43ea4e"
+        },
+        "modules/local/cohort.nf": {
+          "stored_path": "source_overlays/src_campaign_v2/modules/local/cohort.nf",
+          "bytes": 4391,
+          "sha256": "0250fe6b3ec0f794d6041a0b48d43fa1dafa26942320a9a83774e5feaf3a5f62"
+        },
+        "modules/local/core_callers.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_callers.nf",
+          "bytes": 2868,
+          "sha256": "55a9212feeb49268e095ef3cb044d8de156c967d45446fa378c74f1978613dff"
+        },
+        "modules/local/core_functions.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_functions.nf",
+          "bytes": 2146,
+          "sha256": "666bc1ea2b219fbe29f274daacf4bdaa3f8bd37e5d9c43787c0abfb1866126bd"
+        },
+        "modules/local/core_genomes.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_genomes.nf",
+          "bytes": 4937,
+          "sha256": "48942cdc4600252ba8466cc5ef6ed46d051e22f9345d838340e5bf7293954d70"
+        },
+        "modules/local/core_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_kofam.nf",
+          "bytes": 1910,
+          "sha256": "1c7e76f5686885227b117477532780870c9cca0ee94471644aad4997d0d0ed8d"
+        },
+        "modules/local/core_report.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_report.nf",
+          "bytes": 1932,
+          "sha256": "da633c013bffa4b58b5b6b4e61280f035761717e1bbb4075ab86559bfd2d6b5f"
+        },
+        "modules/local/core_research.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_research.nf",
+          "bytes": 3973,
+          "sha256": "911ae1e1e53ac282d0837456ac300c439797940dd704bbf48a89a89c270c588d"
+        },
+        "modules/local/core_votu.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/core_votu.nf",
+          "bytes": 2778,
+          "sha256": "5e12ca71efe71cd32e2000d04c4dfa0c54820a7d13e68c52ef9262d24037d3e3"
+        },
+        "modules/local/host_phylogeny.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_phylogeny.nf",
+          "bytes": 3374,
+          "sha256": "4af5c012107a680e87e34537d9bd5e43c8e9dc57fab687d8e56bed3f9f8b9bbc"
+        },
+        "modules/local/host_recombination.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_recombination.nf",
+          "bytes": 858,
+          "sha256": "47eb20b5398e3f245e1d63936e9fdf5704ed0f3e484133aaca18808813562e5e"
+        },
+        "modules/local/host_source.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/host_source.nf",
+          "bytes": 917,
+          "sha256": "80dd1e8068317de772817dc7ad5700f7914e442de14b1ec988f44055ef836f24"
+        },
+        "modules/local/reads.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/reads.nf",
+          "bytes": 3981,
+          "sha256": "10a48c67cb79dd4a80b24da8af0b7318a57a57583a6d260c10eae1cbfea8ed54"
+        },
+        "modules/local/research_bridge.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/research_bridge.nf",
+          "bytes": 840,
+          "sha256": "e7e61a8c038aaea5ccb035ebb4526fcf0e0d13c4228aece14131246dc9228d38"
+        },
+        "modules/local/viral.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral.nf",
+          "bytes": 5212,
+          "sha256": "5b4534476ee3f4bb8233880a1dbfab323c73cb5fd2230a0245385ee77fd51b17"
+        },
+        "modules/local/viral_evidence.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_evidence.nf",
+          "bytes": 2593,
+          "sha256": "1fbc60ad083d22727b8c9c7ede891c52cffe0ad1e453ceb75de242efada2ef5d"
+        },
+        "modules/local/viral_kofam.nf": {
+          "stored_path": "src_pilot6_measurement/modules/local/viral_kofam.nf",
+          "bytes": 651,
+          "sha256": "c2f921eb29ed85a032161e3d41ab7ed9b5a6a47fae0e513cab120a5e0c7a623a"
+        },
+        "modules/nf-core/checkv/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/checkv/endtoend/main.nf",
+          "bytes": 2066,
+          "sha256": "24f2bb9fc09e90e551677fe63bfaabc047781d3faf284dd46e9031ee07c9bc8f"
+        },
+        "modules/nf-core/genomad/endtoend/main.nf": {
+          "stored_path": "src_pilot6_measurement/modules/nf-core/genomad/endtoend/main.nf",
+          "bytes": 5413,
+          "sha256": "a3a447d793b43e9ccf0c16d75281b537fd69de1136589ae3079dbd5733a04e49"
+        },
+        "modules/upstream_manifest.json": {
+          "stored_path": "src_pilot6_measurement/modules/upstream_manifest.json",
+          "bytes": 3636,
+          "sha256": "b013093d50a980a23187ae4608e48a5172bfdd1582542b0a288ea9112d9dcff3"
+        },
+        "nextflow.config": {
+          "stored_path": "src_pilot6_measurement/nextflow.config",
+          "bytes": 1406,
+          "sha256": "f811936946bbb4d949249f1bd5e39ca842ea74feff2f05b9b62f23d7fe07dacb"
+        },
+        "workflows/assembly.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/assembly.nf",
+          "bytes": 644,
+          "sha256": "4878cb763018bb59f6d0c82dce7c8b8904bcb6a8a2ab8971578b2a35e8e89548"
+        },
+        "workflows/association.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/association.nf",
+          "bytes": 434,
+          "sha256": "81e6d31a0416687e1523b1030cabbde5bf110bf7c9825a58509099d4b95430be"
+        },
+        "workflows/cohort.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/cohort.nf",
+          "bytes": 1318,
+          "sha256": "2edca28b2ea7526291e1f17ebba91a1d7b8a1cfa7f1e313d2f8a60251323c145"
+        },
+        "workflows/crc_phage.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage.nf",
+          "bytes": 2166,
+          "sha256": "5b404f9a359ded233a91e75da21a29eb078b16ce194fc31decb3ad8ef1d61033"
+        },
+        "workflows/crc_phage_core.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/crc_phage_core.nf",
+          "bytes": 10990,
+          "sha256": "fd7e1d273b512752469280ffc067dc6bb404e9ef41a59b015696abbb5dbd19a6"
+        },
+        "workflows/reads.nf": {
+          "stored_path": "src_pilot6_measurement/workflows/reads.nf",
+          "bytes": 375,
+          "sha256": "f6af00eb38676ccff3abc66ff6db98ef8f8fcbc5e7af6494b0185748637d3527"
+        },
+        "workflows/viral_discovery.nf": {
+          "stored_path": "source_overlays/src_campaign_v2/workflows/viral_discovery.nf",
+          "bytes": 5821,
+          "sha256": "4b4ae4cfaae3a588512554317a444edaa0881ce9b7bbeb0e63d9420fa0030f19"
+        }
+      }
+    }
+  }
+}

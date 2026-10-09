@@ -1,12 +1,40 @@
 {
-  "date": "2026-10-09T09:30:51.972780+00:00",
-  "candidate_count_checks": "passed",
-  "old258_reconciliation": "passed",
-  "pilot_key_table_assertions": "passed",
-  "current_markdown_links_checked": 100,
-  "broken_current_links": [],
-  "HTML_rendering": "18 current documents generated; structural checks pass",
-  "visual_QA": "isolated headless document rendering: global plan and pilot report screenshots visually inspected; new PNG redraw visually inspected; source snapshots in local html_qa",
-  "sequence_QC": "not_performed_here",
-  "new_pilot_required": false
+  "checked_utc": "2026-10-09T09:57:17.696961+00:00",
+  "status": "passed",
+  "files_hashed": 729,
+  "markdown_links_checked": 269,
+  "html_links_checked": 389,
+  "python_files_syntax_checked": 97,
+  "reference_records": 21608,
+  "preselected_genomes": 1931,
+  "old_reference_records": 258,
+  "pending_method_questions": 39,
+  "source_snapshots": {
+    "verified_original_files": 382,
+    "stored_files": 151,
+    "deduplicated_file_copies": 231,
+    "original_bytes": 3569035,
+    "stored_bytes": 1531257,
+    "source_comparison": false
+  },
+  "duplicate_figure_sources_verified": 9,
+  "analysis1_modified": false,
+  "new_scientific_analysis_performed": false,
+  "errors": [],
+  "scientific_preservation": {
+    "retained_scientific_tables_byte_compared_to_previous_commit": 180,
+    "unexpected_changes": [],
+    "public_source_reconstruction": {
+      "verified_original_files": 382,
+      "stored_files": 151,
+      "deduplicated_file_copies": 231,
+      "original_bytes": 3569035,
+      "stored_bytes": 1531257,
+      "source_comparison": true
+    },
+    "original_tracked_files": 1025,
+    "old_markdown_count": 38,
+    "new_markdown_count": 19,
+    "home_html_visual_review": "passed_top_page_screenshot"
+  }
 }

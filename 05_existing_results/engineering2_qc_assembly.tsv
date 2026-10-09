@@ -1,0 +1,3 @@
+sample_id	group	raw_PE_pairs	clean_PE_pairs	PE_pair_retention_percent	raw_SE_reads	clean_SE_reads	retained_fastp_orphans	total_reads_used_for_readback	assembly_bp	contigs	N50	longest_contig	qc	assembly	viral_discovery
+SID531469	CRC	24786392	24090529	97.19256033713982	765051	704146	649373	49534577	202268598	84338	6629	391969	completed	completed	not_yet_completed
+SID31160	control	24050022	23432640	97.43292542518256	841486	785815	580765	48231860	212841816	97778	4949	414277	completed	completed	not_yet_completed

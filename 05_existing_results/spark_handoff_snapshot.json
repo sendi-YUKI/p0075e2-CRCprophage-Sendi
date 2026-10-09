@@ -1,0 +1,145 @@
+{
+  "captured_utc": "2026-10-06T12:03:33.805387+00:00",
+  "scope": "reference_only_old_server_not_new_analysis_completion",
+  "squeue": {
+    "returncode": 0,
+    "stdout": "       JOBID                                 NAME      STATE         TIME NODELIST(REASON)\n        1090        aimbeta-analysis1-remaining14    RUNNING      5:04:05 spark-d3de\n",
+    "stderr": ""
+  },
+  "sacct": {
+    "returncode": 0,
+    "stdout": "JobID|State|ExitCode|Elapsed\n1084|COMPLETED|0:0|04:55:21\n1084.batch|COMPLETED|0:0|04:55:21\n1086|COMPLETED|0:0|03:25:53\n1086.batch|COMPLETED|0:0|03:25:53\n1087|COMPLETED|0:0|02:28:16\n1087.batch|COMPLETED|0:0|02:28:16\n1088|COMPLETED|0:0|00:26:37\n1088.batch|COMPLETED|0:0|00:26:37\n1089|FAILED|1:0|00:44:11\n1089.batch|FAILED|1:0|00:44:11\n1090|RUNNING|0:0|05:04:05\n1090.batch|RUNNING|0:0|05:04:05\n",
+    "stderr": ""
+  },
+  "remaining14": {
+    "job_id": "1090",
+    "started_utc": "2026-10-06T06:59:28.981129+00:00",
+    "status": "running",
+    "samples": [
+      {
+        "sample_id": "SID530373",
+        "group": "CRC",
+        "status": "completed_qc_assembly_archived",
+        "started_utc": "2026-10-06T06:59:28.981351+00:00",
+        "finished_utc": "2026-10-06T08:25:20.724003+00:00"
+      },
+      {
+        "sample_id": "SID31866",
+        "group": "CRC",
+        "status": "completed_qc_assembly_archived",
+        "started_utc": "2026-10-06T08:25:20.724314+00:00",
+        "finished_utc": "2026-10-06T10:09:02.104195+00:00"
+      },
+      {
+        "sample_id": "SID531361",
+        "group": "CRC",
+        "status": "completed_qc_assembly_archived",
+        "started_utc": "2026-10-06T10:09:02.104630+00:00",
+        "finished_utc": "2026-10-06T11:25:45.774607+00:00"
+      },
+      {
+        "sample_id": "SID531248",
+        "group": "CRC",
+        "status": "qc",
+        "started_utc": "2026-10-06T11:25:45.774864+00:00"
+      }
+    ],
+    "processing_order": [
+      "SID530373",
+      "SID31866",
+      "SID531361",
+      "SID531248",
+      "SID31285",
+      "SID531382",
+      "SID531277",
+      "SID530368",
+      "SID532796",
+      "SID530295",
+      "SID31512",
+      "SID530052",
+      "SID31416",
+      "SID31360"
+    ],
+    "source": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2"
+  },
+  "viral2_state": {
+    "args": {
+      "assembly_manifest": "/srv/CRC-PHIRE/analysis1/01_manifests/engineering2_viral_assemblies.json",
+      "assembly_memory_gib": 40,
+      "assembly_threads": 16,
+      "association_long": null,
+      "association_metadata": null,
+      "association_spec": null,
+      "canonical_gene_tables": null,
+      "catalog_dir": null,
+      "catalog_scope": "virome_discovery",
+      "clean_reads_manifest": null,
+      "decoy_fasta": null,
+      "detection_profiles": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/assets/profiles/cohort_detection_dev_v1.json",
+      "enable_metaphlan": false,
+      "enable_phispy": false,
+      "enable_viral_kofam": true,
+      "host_references": null,
+      "legacy_catalog": null,
+      "legacy_source_manifest": null,
+      "measurement_profile": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/assets/profiles/cohort_measurement_dev_v1.json",
+      "merge_map": null,
+      "outdir": "/srv/CRC-PHIRE/analysis1/06_viral_catalog/discovery/engineering2_v2",
+      "preprocessing_profile": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/assets/profiles/reads_preprocessing_dev_v1.json",
+      "preview": false,
+      "research_catalog": null,
+      "research_reference_config": null,
+      "research_run": false,
+      "research_source_manifest": null,
+      "resume": false,
+      "samplesheet": null,
+      "viral_evidence_tools": "",
+      "workflow": "viral"
+    },
+    "command": [
+      "nextflow",
+      "run",
+      "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/main_viral.nf",
+      "-c",
+      "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/conf/viral.config",
+      "-c",
+      "/srv/CRC-PHIRE/analysis1/06_viral_catalog/discovery/engineering2_v2/pipeline_info/mounts.config",
+      "-params-file",
+      "/srv/CRC-PHIRE/analysis1/06_viral_catalog/discovery/engineering2_v2/pipeline_info/parameters.json",
+      "-name",
+      "readsbuild_viral_20261006T061518_a9e9f9",
+      "-work-dir",
+      "/srv/CRC-PHIRE/analysis1/work/campaign_v2/viral",
+      "-c",
+      "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/conf/spark_native.config",
+      "-c",
+      "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2/conf/spark_exclusive.config"
+    ],
+    "error": "Nextflow failed exit 1; see /srv/CRC-PHIRE/analysis1/06_viral_catalog/discovery/engineering2_v2/pipeline_info/readsbuild_viral_20261006T061518_a9e9f9.log",
+    "exit_code": 1,
+    "nextflow_run_name": "readsbuild_viral_20261006T061518_a9e9f9",
+    "nextflow_session_id": "9d697d37-11c3-4431-8e4f-72be8c066166",
+    "nextflow_started": true,
+    "real_data_validated": false,
+    "resource_limits": {
+      "allocation": {
+        "account": "lab",
+        "alloc_tres": "cpu=20,mem=110G,node=1,billing=20",
+        "cgroup": "0::/system.slice/spark-d3de_slurmstepd.scope/job_1089/step_batch/user/task_0",
+        "cpus": 20,
+        "job_id": "1089",
+        "memory_mib": 112640,
+        "partition": "main"
+      },
+      "assembly_memory_gib": 40,
+      "assembly_threads": 16,
+      "profile": "exclusive20"
+    },
+    "resume_session_id": null,
+    "schema_version": 1,
+    "scientifically_calibrated": false,
+    "status": "failed",
+    "target": "READS_B1_B2_BUILD",
+    "workflow": "viral"
+  }
+}

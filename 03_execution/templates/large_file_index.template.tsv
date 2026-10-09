@@ -1,1 +1,1 @@
-logical_id	kind	owner	path_alias	bytes	sha256	retained	rebuild_command	access_instructions_private_channel
+logical_id	kind	owner	path_alias	bytes	sha256	retained	rebuild_command	access_instructions_private_channel	stage	cohort_or_sample	producer_run_id	retention_policy	checksum_status	local_sync_status	local_relative_path	updated_at

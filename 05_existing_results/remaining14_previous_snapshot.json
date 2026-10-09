@@ -1,0 +1,44 @@
+{
+  "job_id": "1090",
+  "started_utc": "2026-10-06T06:59:28.981129+00:00",
+  "status": "running",
+  "samples": [
+    {
+      "sample_id": "SID530373",
+      "group": "CRC",
+      "status": "completed_qc_assembly_archived",
+      "started_utc": "2026-10-06T06:59:28.981351+00:00",
+      "finished_utc": "2026-10-06T08:25:20.724003+00:00"
+    },
+    {
+      "sample_id": "SID31866",
+      "group": "CRC",
+      "status": "completed_qc_assembly_archived",
+      "started_utc": "2026-10-06T08:25:20.724314+00:00",
+      "finished_utc": "2026-10-06T10:09:02.104195+00:00"
+    },
+    {
+      "sample_id": "SID531361",
+      "group": "CRC",
+      "status": "assembly",
+      "started_utc": "2026-10-06T10:09:02.104630+00:00"
+    }
+  ],
+  "processing_order": [
+    "SID530373",
+    "SID31866",
+    "SID531361",
+    "SID531248",
+    "SID31285",
+    "SID531382",
+    "SID531277",
+    "SID530368",
+    "SID532796",
+    "SID530295",
+    "SID31512",
+    "SID530052",
+    "SID31416",
+    "SID31360"
+  ],
+  "source": "/srv/CRC-PHIRE/analysis1/02_pipeline/src_campaign_v2"
+}

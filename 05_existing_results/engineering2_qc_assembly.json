@@ -1,0 +1,38 @@
+[
+  {
+    "sample_id": "SID531469",
+    "group": "CRC",
+    "raw_PE_pairs": 24786392,
+    "clean_PE_pairs": 24090529,
+    "PE_pair_retention_percent": 97.19256033713982,
+    "raw_SE_reads": 765051,
+    "clean_SE_reads": 704146,
+    "retained_fastp_orphans": 649373,
+    "total_reads_used_for_readback": 49534577,
+    "assembly_bp": 202268598,
+    "contigs": 84338,
+    "N50": 6629,
+    "longest_contig": 391969,
+    "qc": "completed",
+    "assembly": "completed",
+    "viral_discovery": "not_yet_completed"
+  },
+  {
+    "sample_id": "SID31160",
+    "group": "control",
+    "raw_PE_pairs": 24050022,
+    "clean_PE_pairs": 23432640,
+    "PE_pair_retention_percent": 97.43292542518256,
+    "raw_SE_reads": 841486,
+    "clean_SE_reads": 785815,
+    "retained_fastp_orphans": 580765,
+    "total_reads_used_for_readback": 48231860,
+    "assembly_bp": 212841816,
+    "contigs": 97778,
+    "N50": 4949,
+    "longest_contig": 414277,
+    "qc": "completed",
+    "assembly": "completed",
+    "viral_discovery": "not_yet_completed"
+  }
+]

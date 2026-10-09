@@ -1,1 +1,1 @@
-change_id	date	who	decision_id	old_value	new_value	reason	affected_stages	rerun_run_ids
+change_id	date	who	decision_id	old_value	new_value	reason	affected_stages	rerun_run_ids	scientific_impact	affected_results	rerun_required	config_or_code_diff	rerun_from_stage	verification_evidence

@@ -1,6 +1,6 @@
 # 已有pilot：做了什么，得到什么，正式研究怎样使用
 
-这是2026-10-08完成结果的交接展示，**不要求Jinlong复现或另跑先导**。历史报告和源表原样保存；其后续“少量新队列试跑”等旧执行建议已由当前全局计划替代。所有本报告数量已与底表对账，见[复核指标](pilot_verified_metrics.tsv)。
+这是2026-10-08已完成的258份参考＋Feng十人分析及后续诊断。**Jinlong直接推进正式研究，可使用自己的pipeline，自行选择并记录正式参数；不要求复现旧结果或另跑pilot。** 本文展示结果和11张图，逐图选择规则、完整图注、测量状态和统计方法集中在[图注与测量统计方法](图注与测量统计方法.md)。所有本报告数量已与底表对账，见[复核指标](pilot_verified_metrics.tsv)。
 
 ## 1. 输入与具体供者
 
@@ -8,13 +8,15 @@
 
 Feng队列10名供者：CRC为SID31866、SID530373、SID531248、SID531361、SID531469；研究对照为SID31160、SID31512、SID530295、SID530368、SID532796。对照按研究定义，不全称健康人。40 readsets、50个clean FASTQ在供者层合并测量。九队列并未全量完成。
 
+十人中的四名新增对照在本轮病毒结果产生前按既有清单固定；十人共同建立联合目录，并向同一目录重新定量。病例和对照各4女1男，但没有完成年龄、共病等临床匹配或宿主丰度调整。258份参考均不满足现有来源病例对照资格，其中196份临床标签unknown；公开序列具有培养分离株来源记录也不表示实验室已持有实物菌株。
+
 ## 2. 实际方法和参数
 
 | 环节 | 已使用的方法及关键数值 | 证据入口 |
 |---|---|---|
 | reads QC | fastp0.24.0；最短50bp、qualified Phred20、unqualified百分比上限40；PE/SE与singleton按记录保留 | reads_preprocessing_dev_v1.json、逐人run_records |
 | 去人源 | Bowtie2 2.5.4 very-sensitive-local；GRCh38-GENCODE-v47；identity≥.95、aligned-query≥.90、MAPQ门槛0、最多10比对；任一mate可信人源则去除该对 | 同一预处理profile及逐人parameters |
-| 组装 | MEGAHIT1.2.9，最短contig500bp；QUAST5.3.0；Bowtie2原组装回贴；线程/内存曾按批次调整，不能从最后配置推断每人值 | method_sources/src_reads_v1、input_manifests及run_records |
+| 组装 | MEGAHIT1.2.9，最短contig500bp；QUAST5.3.0；Bowtie2原组装回贴；线程/内存曾按批次调整，不能从最后配置推断每人值 | method_sources版本映射、input_manifests及run_records |
 | 病毒/prophage | geNomad与CheckV；原contig、区段坐标、侧翼和来源ID保留 | occurrence_evidence.tsv、run_records/06_viral_catalog |
 | 联合目录 | 参考G＋10人M；95% ANI、85%较短序列覆盖聚类；主定量目录长度起点5kb，质量按成员原记录 | 源码viral_catalog.py与run_records |
 | 直接G—M匹配 | ANI≥95%；双向双方覆盖≥85%为广泛匹配，只有短序列覆盖合格为片段匹配 | G_M_sequence_matches.tsv |
@@ -27,7 +29,7 @@ Feng队列10名供者：CRC为SID31866、SID530373、SID531248、SID531361、SID
 | 复制活动 | PropagAtE1.1.0固定commit d67f6f74de2b20290339ad7fc7721e6bf02c8f1a；identity0.97、比2、Cohen d0.7、病毒均深≥1/广度≥0.5、末端mask150bp | replication_activity.py、completed.json |
 | 项目额外复制资格 | 宿主可用长度≥1000bp、均深≥1、广度≥0.5；严格比对与邻近±5kb分母敏感性 | locus_diagnostics.tsv |
 
-软件工具版本与数据库版本分开记录。例如geNomad工具/数据库不是同一个数字；以实际runtime manifest/数据库哈希为准。相关源码和历史配置在[方法源码目录](method_sources/)，它们是证据快照，不是给新服务器直接提交的脚本。
+软件工具版本与数据库版本分开记录。例如geNomad工具/数据库不是同一个数字；以实际runtime manifest/数据库哈希为准。相关源码和配置见[方法源码说明](method_sources/README.md)。上表是已运行方法的记录，正式研究的方法选择以当前[全局研究计划](../00_project/CRC-PHIRE_全局研究计划.md)及Jinlong的实际实现为准。
 
 ## 3. 两端能连起来吗
 
@@ -49,7 +51,7 @@ Feng队列10名供者：CRC为SID31866、SID530373、SID531248、SID531361、SID
 
 统计单位为10名供者。473个vOTU中342项检出比较可做双侧Fisher检验，473项丰度可做精确秩置换检验，合计815项。原始P<0.05分别1项和19项；联合BH校正后的Q全部为1。131项检出比较因有效信息不足为NA。丰度效应给出Cliff's delta及组内中位数，未假设两组没有生物学差异。
 
-397/473个vOTU只在0或1人达到广泛检出，提示正式研究应增加独立患者和队列并预先做信息过滤。后续扩量有利于估计和重复验证，结果方向及显著对象数量由数据决定。
+161个vOTU零检出，236个只在1人达到广泛检出，合计397/473；这反映信息稀疏。分别在端点内做BH时，最小Q仍为1和约0.93849，不能靠改校正范围宣称发现。5＋5也并非数学上绝对不能通过BH；精确检验、功效复算及该区别见[统计方法](图注与测量统计方法.md#3-探索性统计与功效纠错)。后续扩量有利于估计和重复验证，结果方向及显著对象数量由数据决定。
 
 ![逐人测量](pilot10/figures/Fig03_donor_heatmap_and_points.png)
 
@@ -80,7 +82,7 @@ PHROGs、防御/反防御系统及KO同源的具体序列—基因连接已完�
 
 ## 6. 试跑后诊断的新收获
 
-宿主profile显示B. fragilis在3/5 CRC与3/5对照有信号；F. animalis 1/5与0/5；P. micra 4/5与0/5；F. prausnitzii 5/5与5/5；R. intestinalis 4/5与5/5。B. hominis标签缺口为NA，不是没有该菌。profile信号和患者内prophage宿主归属分开。
+宿主profile显示B. fragilis在3/5 CRC与3/5对照有信号；F. animalis 1/5与0/5；P. micra 4/5与0/5；F. prausnitzii 5/5与5/5；R. intestinalis 4/5与5/5。B. hominis标签缺口为NA；B. fragilis物种标签也未单独验证division I／II辨别能力。profile信号和患者内prophage宿主归属分开。P. micra的4个参考相关vOTU均未广泛检出，但8个供者×vOTU单元有歧义片段，因此不能概括为该宿主或相关病毒完全没有reads。完整物种范围与对应关系见[宿主测量解释](图注与测量统计方法.md#5-宿主profile与分类分辨率)。
 
 涉及病毒的歧义片段主要来自病毒—病毒共享（254062），其次病毒—宿主背景（44038），另有932个同目标/搜索饱和；host-only1851498不能都当丢失病毒reads。75%规则有457个供者×vOTU检出单元，30%为695个，增加238个单元而不是238种病毒。
 
@@ -92,9 +94,9 @@ PHROGs、防御/反防御系统及KO同源的具体序列—基因连接已完�
 
 ## 7. 已经找到可追踪的复制活动对象
 
-382个位点均可评价覆盖，其中153个位点进入原合格目录。2个位点显示与活跃复制相容的覆盖特征，均来自对照。优先实例为SID532796、约70.486kb、votu_460353d4d5133754bc17、occ_6490c24bbc8d472e47dbd3aa62bd61f3：主覆盖比3.121，严格比对3.114，局部分母2.896，有双侧宿主marker。另一个SID31160约3.709kb短候选未进合格目录，先复核身份和结构。
+382个位点均可评价覆盖，其中153个位点进入原合格目录（139代表、14成员）。自身组装回贴带有覆盖选择，382/382不能外推为所有患者prophage的检出率。2个位点显示与活跃复制相容的覆盖特征，均来自对照。优先实例为SID532796、约70.486kb、votu_460353d4d5133754bc17、occ_6490c24bbc8d472e47dbd3aa62bd61f3：病毒均深约64.66×、宿主约20.72×，主覆盖比3.121，严格比对3.114，局部分母2.896，有双侧宿主marker。另一个SID31160约3.709kb短候选未进合格目录，先复核身份和结构。
 
-后续可用更多样本、可培养参考和关键实验继续支持其活动与生物学解释。这两条提供具体对象；疾病方向由正式跨队列分析决定。
+另380个位点在本次采样中未达到复制升高判定，不据此排除其他条件下的诱导潜力。后续可用更多样本、可培养参考和关键实验继续支持候选的活动与生物学解释；覆盖比本身不证明切出、胞外颗粒或感染性。疾病方向由正式跨队列分析决定。
 
 ![复制曲线](postpilot_diagnostics/07_figures/Fig03_locus_coverage.png)
 
@@ -108,6 +110,6 @@ Jinlong可以采用自己的流程、不复用任何计算；只需记录新旧�
 
 ## 9. 如何追溯一个真实对象或一张图
 
-以occ_6490c24bbc8d472e47dbd3aa62bd61f3为例：在[位点表](postpilot_diagnostics/05_replication_activity/locus_diagnostics.tsv)查覆盖和vOTU；在[pilot实例表](pilot10/prophage_evidence/occurrence_evidence.tsv)查原contig、start0/end0、序列/侧翼哈希；在[图源数据](postpilot_diagnostics/07_figures/source_data/)查绘图输入；对应[绘图代码](postpilot_diagnostics/02_pipeline/make_figures.py)。宿主最终物种仍需后续归属，不能由实例编号猜测。
+以occ_6490c24bbc8d472e47dbd3aa62bd61f3为例：在[位点表](postpilot_diagnostics/05_replication_activity/locus_diagnostics.tsv)查覆盖和vOTU；在[pilot实例表](pilot10/prophage_evidence/occurrence_evidence.tsv)查原contig、start0/end0、序列/侧翼哈希；在[覆盖窗口底表](postpilot_diagnostics/05_replication_activity/coverage_bins.tsv)和[图的显示设置](postpilot_diagnostics/07_figures/source_data/)查曲线与展示对象；对应[绘图代码](postpilot_diagnostics/02_pipeline/make_figures.py)。宿主最终物种仍需后续归属，不能由实例编号猜测。
 
-原始代码含历史路径，公开副本用逻辑别名替换；本地保留原文和哈希。新服务器重画可使用[独立重画脚本](../03_execution/tools/redraw_replication.py)，输入当前打包的位点底表，不依赖旧服务器。原图完整重画代码也已保留，其路径入口需配置。图/表中的真实数据不随公开路径脱敏改变。
+代码以可读主快照、两个版本差异目录和逐文件哈希映射保存，三个历史源码版本均可恢复，见[方法源码说明](method_sources/README.md)。公开副本的内部路径使用逻辑别名，图表真实数据保持不变。新服务器可使用[独立重画脚本](../03_execution/tools/redraw_replication.py)读取当前位点底表；原图完整绘图代码、选择规则和显示数据也已保留，相关数据根及原始输入需按实际环境配置。
