@@ -13,7 +13,8 @@
 ## 在 HMGU HPC 上
 
 1. `git pull`,读 [hpc/README.md](hpc/README.md),再读「bundle 索引」中未收尾的 bundle README,按其中「做什么」执行。两个 bundle 互不依赖,可并行。
-2. 工具调用以 vpipe 为准:vpipe 仓库 `docs/RUNBOOK.md` 的「env: hpc」节,计算一律 `sbatch`。
+2. 工具调用以 vpipe 为准:vpipe 仓库 `docs/RUNBOOK.md` 的「env: hpc」节;调度按 [hpc/README.md](hpc/README.md) 的「调度与动态迭代」,
+   默认显式 `--nice=0`,计算通过 Slurm allocation 执行,batch 用 `sbatch`,interactive 用 `salloc` / `srun`。
 3. 每推进一步,更新 bundle README 的状态、计算目录、提交命令与 job ID,commit 并 push 到 `dev-ru`。
 
 ## 规矩

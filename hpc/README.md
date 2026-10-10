@@ -97,6 +97,23 @@ cd <repo>/hpc/rawdata && gcln dl d0xxx
 - **HMGU 的环境事实**(分区、vpipe、conda、资源档位、踩过的坑)写进
   [vpipe RUNBOOK](file:///home/allen/vpipe/docs/RUNBOOK.md) 的 `env: hpc` 节,各项目共用。
 
+## 调度与动态迭代
+
+- 目标是在账号权限、有效站点要求与授权预算内,缩短排队、计算及传输总时间,提高成功任务吞吐量。
+- 默认显式 `--nice=0`,partition 与 QoS 按实时资源和任务需求选择;正数 nice 只在用户明确指定或有效站点强制规定要求时使用。
+  核对 wrapper、模板及 Nextflow 最终生成的提交参数。
+- walltime 按预计运行时间加合理余量,CPU、内存与 GPU 按程序需求申请;并发、分块和小任务合并按容量与预算调整。
+  站点快照中的资源数字和示例参数在使用前核对。终端迭代、notebook 用 interactive;独立短测试可用站点允许的 batch 队列。
+- 排队接近预计运行时间时查 PENDING 原因与有效请求;在已有授权内按证据调整队列或资源,重投前核对原 job 状态。
+  preemptible 按中断概率、重跑成本与恢复能力评估。
+- **HPC AI 已获授权根据实际 Slurm jobs 动态迭代调度策略。** 在现有 REPORT(使用 bundle README 或 HANDOFF 的项目写状态节)记录
+  job ID、输入规模、硬件、有效参数、Submit/Eligible/Start/End、CPU/GPU 利用、峰值内存、I/O/传输与失败重跑证据;
+  缺失指标记 unknown。策略注明适用范围,单次观察先作为候选,后续真实任务或已授权的小测试验证;比较总完成时间、
+  成功吞吐量与重跑成本,出现退化时恢复已验证参数。当前验收完成即交付。
+- 任务特有参数留 bundle;可复用规则更新本文件或当前可写的共享 hpc skill,commit + push 并在报告引用 commit。
+  spark 接收后回写 canonical skill 与模板、同步副本并录入 pm;私有站点材料留在内部。
+  迭代沿用用户优先级偏好、有效站点要求、账号权限与预算;扩大授权或改动受保护数据时由用户决定。
+
 ## bundle 索引
 
 每建一个 bundle 加一行;收尾后删去该行,记录留在 git 历史与 pm。
